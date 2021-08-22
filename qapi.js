@@ -6,7 +6,6 @@ export default {
 			"name": "root",
 			"children": [
 				"611e3e5f17f5d1001e31a366",
-				"611fb89d7f2b1f001fa0659e",
 				"611e3e5f17f5d1001e31a368"
 			]
 		},
@@ -20,11 +19,6 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"styles": {}
-		},
-		"611fb89d7f2b1f001fa0659e": {
-			"id": "611fb89d7f2b1f001fa0659e",
-			"pageUrl": "dlp",
-			"name": "dlp"
 		}
 	},
 	"mode": "production",

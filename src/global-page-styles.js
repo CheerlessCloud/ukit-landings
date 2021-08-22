@@ -10,13 +10,6 @@ const pageStyles = {
         "min-height": "",
         "width": ""
     },
-    "dlp": {
-        "overflow-x": "",
-        "overflow-y": "hidden",
-        "height": "",
-        "min-height": "",
-        "width": ""
-    },
     "index": {
         "overflow-x": "",
         "overflow-y": "hidden",
