@@ -67,7 +67,7 @@ export default (() => {
 					Войти
 				</Link>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://ukit.com/ru/signUp"
 					color="--secondary"
 					text-decoration-line="initial"
 					font="--menu"
