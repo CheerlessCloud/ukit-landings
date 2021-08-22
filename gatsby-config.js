@@ -22,4 +22,5 @@ module.exports = {
         // To learn more, visit: https://gatsby.dev/offline
         // "gatsby-plugin-offline",
     ],
+    assetPrefix: 'https://ukit-landings-by-quarkly.website.yandexcloud.net',
 };

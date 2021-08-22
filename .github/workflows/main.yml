@@ -18,7 +18,7 @@ jobs:
         npm install
     - name: Production Build
       run: |
-        npm run build
+        PREFIX_PATHS=true npm run build
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       env:
