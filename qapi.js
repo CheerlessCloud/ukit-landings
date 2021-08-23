@@ -25,8 +25,8 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {
-			"overflow-x": "",
-			"overflow-y": "hidden",
+			"overflow-x": "hidden",
+			"overflow-y": "visible",
 			"height": "",
 			"min-height": "",
 			"width": ""
