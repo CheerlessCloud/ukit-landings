@@ -26,7 +26,6 @@
         "babel-plugin-styled-components": "1.10.7",
         "react-helmet": "^6.1.0",
         "@quarkly/community-kit": "0.0.53",
-        "gatsby-plugin-sitemap": "^4.1.0",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
         "@quarkly/widgets": "0.2.53",

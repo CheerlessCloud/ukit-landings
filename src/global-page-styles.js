@@ -8,14 +8,16 @@ const pageStyles = {
         "overflow-y": "visible",
         "height": "",
         "min-height": "",
-        "width": ""
+        "width": "",
+        "font": "--headline1"
     },
     "index": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
         "min-height": "",
-        "width": ""
+        "width": "",
+        "font": "--headline1"
     }
 };
 

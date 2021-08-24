@@ -48,17 +48,16 @@ export default {
 		"mono": "Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace",
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
-		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
-		"googleInter": "\"Inter\", sans-serif"
+		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif"
 	},
 	"font": {
-		"headline1": "normal 700 42px/50px --fontFamily-googleInter",
-		"headline2": "normal 900 42px/1.2 --fontFamily-sans",
-		"headline3": "normal 500 28px/33px --fontFamily-googleInter",
-		"base": "normal 300 18px/28px --fontFamily-googleInter",
-		"lead": "normal 500 18px/28px --fontFamily-googleInter",
-		"menu": "500 16px/28px --fontFamily-googleInter",
-		"footer": "600 13px/28px --fontFamily-googleInter"
+		"headline1": "normal 700 42px/50px Inter",
+		"headline2": "normal 900 42px/1.2 Inter",
+		"headline3": "normal 500 28px/33px Inter",
+		"base": "normal 300 18px/28px Inter",
+		"lead": "normal 500 18px/28px Inter",
+		"menu": "500 16px/28px Inter",
+		"footer": "600 13px/28px Inter"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
@@ -155,25 +154,6 @@ export default {
 			}
 		}
 	},
-	"fonts": {
-		"Inter": {
-			"family": "Inter",
-			"type": "google-fonts",
-			"meta": {
-				"category": "sans-serif",
-				"variants": [
-					"100",
-					"200",
-					"300",
-					"regular",
-					"500",
-					"600",
-					"700",
-					"800",
-					"900"
-				]
-			}
-		}
-	},
-	"version": 24
+	"fonts": {},
+	"version": 59
 }

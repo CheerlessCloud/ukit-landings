@@ -16,7 +16,7 @@ export default {
 		},
 		"611e3e5f17f5d1001e31a368": {
 			"id": "611e3e5f17f5d1001e31a368",
-			"name": "index",
+			"name": "Создание сайта-визитки для бизнеса",
 			"pageUrl": "index",
 			"styles": {}
 		}
@@ -29,7 +29,8 @@ export default {
 			"overflow-y": "visible",
 			"height": "",
 			"min-height": "",
-			"width": ""
+			"width": "",
+			"font": "--headline1"
 		},
 		"seo": {
 			"title": "Создание сайта-визитки для бизнеса | uKit",
@@ -39,7 +40,9 @@ export default {
 			"favicon_32px": "https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z",
 			"background_win10": "#4773FF",
 			"favicon_win10_270px": "",
-			"hide_for_se": true
+			"hide_for_se": true,
+			"sitemapFileType": "custom",
+			"robotsFileType": "custom"
 		}
 	}
 }
