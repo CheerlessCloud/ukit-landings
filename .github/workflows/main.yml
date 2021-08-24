@@ -19,7 +19,7 @@ jobs:
     - name: Production Build
       run: |
         # Because quarkly may override changes in gatsby-config.js when commit from editor, we should patch dynamically.
-        sed -i '/module.exports = {/a assetPrefix: "https:\/\/ukit-landings-by-quarkly.website.yandexcloud.net",' gatsby-config.js
+        sed -i '/module.exports = {/a assetPrefix: "https:\/\/seo-microlandings-cdn.ukit.com",' gatsby-config.js
         PREFIX_PATHS=true npm run build
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
