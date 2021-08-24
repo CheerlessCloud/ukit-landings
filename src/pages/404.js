@@ -43,13 +43,6 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"611e3e5f17f5d1001e31a361"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<link
-				rel={"preload"}
-				as={"image"}
-				href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/gogolev.png?v=2021-08-19T12:22:27.154Z"}
-				place={"endOfHead"}
-				rawKey={"611fabe81861f6a03a5eddc9"}
-			/>
 		</RawHtml>
 	</Theme>;
 });
