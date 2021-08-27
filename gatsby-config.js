@@ -2,8 +2,8 @@ module.exports = {
     siteMetadata: {
         title: "Quarkly gatsby project",
         description: "",
-        author: "@Dmitry",
-        siteUrl: "https://suspicious-jackson-d7ecc3.netlify.app"
+        author: "@Gleb",
+        siteUrl: "https://example.com"
     },
     plugins: [
         "gatsby-plugin-react-helmet",

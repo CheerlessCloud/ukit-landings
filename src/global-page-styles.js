@@ -18,6 +18,22 @@ const pageStyles = {
         "min-height": "",
         "width": "",
         "font": "--headline1"
+    },
+    "subpath-test": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "index1": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
     }
 };
 
