@@ -27,7 +27,7 @@ export default {
 		},
 		"6125999a466b8c001e9adda4": {
 			"id": "6125999a466b8c001e9adda4",
-			"pageUrl": "subpath-test",
+			"pageUrl": "lp/ru/subpath-test",
 			"name": "test"
 		},
 		"6127a82b7514e1001f258acd": {

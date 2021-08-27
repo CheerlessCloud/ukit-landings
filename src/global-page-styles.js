@@ -19,7 +19,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "subpath-test": {
+    "lp/ru/subpath-test": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
