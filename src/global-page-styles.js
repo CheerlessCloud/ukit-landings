@@ -27,7 +27,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "ru/lp/sozdat-sait-vizitku-online": {
+    "lp/ru/sozdat-sait-vizitku-online": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",

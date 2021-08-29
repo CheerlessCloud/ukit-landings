@@ -38,7 +38,7 @@ export default {
 		},
 		"612ba49117f5d1001e31b05d": {
 			"id": "612ba49117f5d1001e31b05d",
-			"pageUrl": "ru/lp/sozdat-sait-vizitku-online",
+			"pageUrl": "lp/ru/sozdat-sait-vizitku-online",
 			"name": "RU Создание сайта-визитки для бизнеса"
 		}
 	},
