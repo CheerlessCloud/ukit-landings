@@ -7,8 +7,8 @@ export default {
 			"children": [
 				"611e3e5f17f5d1001e31a366",
 				"611e3e5f17f5d1001e31a368",
-				"6125999a466b8c001e9adda4",
-				"6127a82b7514e1001f258acd"
+				"6127a82b7514e1001f258acd",
+				"612ba49117f5d1001e31b05d"
 			]
 		},
 		"611e3e5f17f5d1001e31a366": {
@@ -25,14 +25,9 @@ export default {
 				"hide": true
 			}
 		},
-		"6125999a466b8c001e9adda4": {
-			"id": "6125999a466b8c001e9adda4",
-			"pageUrl": "lp/ru/subpath-test",
-			"name": "test"
-		},
 		"6127a82b7514e1001f258acd": {
 			"id": "6127a82b7514e1001f258acd",
-			"pageUrl": "index1",
+			"pageUrl": "lp/ru/",
 			"name": "RU Создание одностраничного сайта — лендинга",
 			"seo": {
 				"title": "Создание одностраничного сайта — лендинга",
@@ -40,6 +35,11 @@ export default {
 				"hide": true,
 				"description": "Готовые шаблоны, огромный выбор тематических секций и элементов дизайна, уведомления из форм, интеграции, хостинг без ограничений.\nЛендинг своими руками всего за пару часов"
 			}
+		},
+		"612ba49117f5d1001e31b05d": {
+			"id": "612ba49117f5d1001e31b05d",
+			"pageUrl": "ru/lp/sozdat-sait-vizitku-online",
+			"name": "RU Создание сайта-визитки для бизнеса"
 		}
 	},
 	"mode": "production",

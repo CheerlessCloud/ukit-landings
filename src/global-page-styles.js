@@ -19,7 +19,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/subpath-test": {
+    "lp/ru/": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
@@ -27,7 +27,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "index1": {
+    "ru/lp/sozdat-sait-vizitku-online": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
