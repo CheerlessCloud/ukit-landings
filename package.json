@@ -25,6 +25,8 @@
         "gatsby-plugin-styled-components": "4.12.0",
         "babel-plugin-styled-components": "1.10.7",
         "react-helmet": "^6.1.0",
+        "@gatsbyjs/reach-router": "1.3.6",
+        "gatsby-react-router-scroll": "4.12.0",
         "@quarkly/community-kit": "0.0.53",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
