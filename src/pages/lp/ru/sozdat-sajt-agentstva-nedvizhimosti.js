@@ -6,10 +6,10 @@ import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sait-vizitku-online"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-agentstva-nedvizhimosti"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Создать сайт агентства недвижимости
 			</title>
 			<meta name={"description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
 			<meta property={"og:title"} content={"Создание сайта-визитки для бизнеса | uKit"} />
@@ -115,7 +115,7 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создание сайта-визитки для бизнеса
+					Создать сайт агентства недвижимости
 					<br />
 					{"\n\n"}
 				</Text>

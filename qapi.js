@@ -8,7 +8,7 @@ export default {
 				"611e3e5f17f5d1001e31a366",
 				"611e3e5f17f5d1001e31a368",
 				"6127a82b7514e1001f258acd",
-				"612ba49117f5d1001e31b05d"
+				"6130a3ad52477d001f6301c0"
 			]
 		},
 		"611e3e5f17f5d1001e31a366": {
@@ -38,8 +38,38 @@ export default {
 		},
 		"612ba49117f5d1001e31b05d": {
 			"id": "612ba49117f5d1001e31b05d",
-			"pageUrl": "lp/ru/sozdat-sait-vizitku-online",
-			"name": "RU Создание сайта-визитки для бизнеса"
+			"pageUrl": "sozdat-sait-vizitku-online",
+			"name": "Создание сайта-визитки для бизнеса",
+			"seo": {
+				"title": "",
+				"hide": true
+			}
+		},
+		"6130a3ad52477d001f6301c0": {
+			"id": "6130a3ad52477d001f6301c0",
+			"pageUrl": "lp",
+			"name": "lp",
+			"children": [
+				"6130a3c652477d001f6301c4"
+			]
+		},
+		"6130a3c652477d001f6301c4": {
+			"id": "6130a3c652477d001f6301c4",
+			"pageUrl": "ru",
+			"name": "ru",
+			"children": [
+				"612ba49117f5d1001e31b05d",
+				"6130a3eb466b8c001e9aebda"
+			]
+		},
+		"6130a3eb466b8c001e9aebda": {
+			"id": "6130a3eb466b8c001e9aebda",
+			"pageUrl": "sozdat-sajt-agentstva-nedvizhimosti",
+			"name": "Создать сайт агентства недвижимости",
+			"seo": {
+				"title": "Создать сайт агентства недвижимости",
+				"hide": true
+			}
 		}
 	},
 	"mode": "production",

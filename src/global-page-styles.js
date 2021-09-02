@@ -27,7 +27,31 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/ru/sozdat-sait-vizitku-online": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-agentstva-nedvizhimosti": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
