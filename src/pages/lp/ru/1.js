@@ -1,22 +1,23 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Hr } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Strong, Span, Text, Icon, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import { MdFace } from "react-icons/md";
+import { BsChat, BsStopwatch } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sait-vizitku-online"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ru/1"} />
 		<Helmet>
 			<title>
-				Создание сайта-визитки для бизнеса — uKit. Конструктор сайтов для бизнеса
+				Создание сайта-визитки для бизнеса | uKit
 			</title>
 			<meta name={"description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
 			<meta property={"og:title"} content={"Создание сайта-визитки для бизнеса | uKit"} />
 			<meta property={"og:description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
-			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Section padding="34px 0 24px 0">
 			<Override
@@ -115,12 +116,36 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создание сайта-визитки для бизнеса
+					<Span
+						display="inline"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						font="--headline1"
+						font-weight="normal"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Создание одностраничного сайта — лендинга{" "}
+						</Strong>
+					</Span>
+					{"\n\n"}
 					<br />
 					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер
+					Готовые шаблоны, огромный выбор тематических секций и элементов дизайна, уведомления из форм, интеграции, хостинг без ограничений.
+					<br />
+					Лендинг своими руками всего за пару часов
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -137,7 +162,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать лендинг
 				</Link>
 			</Box>
 			<Box
@@ -201,6 +226,9 @@ export default (() => {
 				lg-flex-wrap="wrap"
 				lg-align-items="center"
 				lg-justify-content="flex-start"
+				display="flex"
+				align-self="auto"
+				flex="0 1 auto"
 			/>
 			<Box
 				width="20%"
@@ -212,10 +240,14 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				order="0"
+				align-self="flex-start"
 			>
 				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/shablon.svg?v=2021-08-19T13:00:42.491Z" />
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Современные шаблоны
+					Стильные
+					<br />
+					шаблоны
 				</Text>
 			</Box>
 			<Box
@@ -228,6 +260,8 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				order="0"
+				align-self="flex-start"
 			>
 				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/vozmozhnosti.svg?v=2021-08-19T13:03:04.070Z" />
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
@@ -244,10 +278,14 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				order="0"
+				align-self="flex-start"
 			>
 				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/konsturktor.svg?v=2021-08-19T13:03:12.272Z" />
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Удобный конструктор
+					Простой
+					<br />
+					интерфейс
 				</Text>
 			</Box>
 			<Box
@@ -260,10 +298,14 @@ export default (() => {
 				lg-flex-direction="column"
 				md-width="100%"
 				md-margin="0px 0px 30px 0px"
+				order="0"
+				align-self="flex-start"
 			>
 				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/magazin.svg?v=2021-08-19T13:03:21.738Z" />
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Понятный интернет-магазин
+					Приём
+					<br />
+					онлайн-оплаты
 				</Text>
 			</Box>
 			<Box
@@ -275,8 +317,11 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				md-width="100%"
+				order="0"
+				align-self="flex-start"
 			>
 				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/analitika.svg?v=2021-08-19T13:03:30.897Z" />
+				<Icon category="md" icon={MdFace} />
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Расширенная аналитика
 					<br />
@@ -309,12 +354,12 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Примеры шаблонов сайтов-визиток
+					Примеры шаблонов лендингов
 					<br />
 					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Нужен только свой домен, простейший хостинг и качественный конструктор, чтобы собрать свой вариант. У нас всё это можно получить в одном месте
+					Выбирайте любой вариант из предложенных. Его можно переделать или заменить на другой уже после наполнения. Безлимитный хостинг и бесплатные SSL-сертификаты в каждом тарифе
 					<br />
 					{"\n\n"}
 				</Text>
@@ -523,10 +568,31 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Что вы получите от сайта
+					<Span
+						font="--headline1"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						font-weight="normal"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Что вы получаете для эффективных лендингов
+						</Strong>
+					</Span>
+					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Любой желающий может сделать свой сайт — никаких правок кода, только готовые виджеты и секции. Подробные инструкции с примерами, масса готовых шаблонов. Не нужно быть программистом или дизайнером, чтобы создать свою первую визитку
+					Не нужно быть профессионалом, чтобы сделать в uKit качественные, красивые и действительно работающие посадочные страницы. Никакой работы с исходным кодом — только готовые блоки и виджеты. Достаточная свобода в дизайне и готовые интеграции
 					<br />
 					{"\n\n"}
 				</Text>
@@ -552,7 +618,7 @@ export default (() => {
 				>
 					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/shablonu.svg?v=2021-08-19T23:26:28.208Z" />
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые шаблоны, блоки и формы
+						Готовые одностраничные шаблоны
 					</Text>
 				</Box>
 				<Box
@@ -566,7 +632,7 @@ export default (() => {
 				>
 					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/divece.svg?v=2021-08-19T23:27:46.728Z" />
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Умная адаптация для мобильных устройств
+						Автоматическая адаптация под мобильные устройства
 					</Text>
 				</Box>
 				<Box
@@ -580,7 +646,7 @@ export default (() => {
 				>
 					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/analitics.svg?v=2021-08-19T23:28:18.170Z" />
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Система статистики и аналитики
+						Качественная аналитика
 						<br />
 						{"\n\n"}
 					</Text>
@@ -594,9 +660,23 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 				>
-					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/pochta.svg?v=2021-08-19T23:28:38.419Z" />
+					<Icon category="bs" icon={BsChat} size="64px" color="--lightD1" />
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Бесплатная почта на домене
+						Чаты и кнопки обратного звонка
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon category="bs" icon={BsStopwatch} size="64px" color="--lightD1" />
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Таймеры, прайсы, таймлайны
 					</Text>
 				</Box>
 			</Box>
@@ -636,10 +716,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Как создать сайт-визитку самому в uKit
+					Как создать лендинг самому в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
+					Даже если у вас нет профильных знаний, и вы впервые познакомились с конструктором uKit, вы сможете сделать свой первый лендинг уже через пару часов
 					<br />
 					{"\n\n"}
 				</Text>
@@ -656,7 +736,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/one.svg?v=2021-08-19T23:41:55.506Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Начните с дизайна
+						Выберите готовый дизайн
 						<br />
 						{"\n\n"}
 					</Text>
@@ -667,7 +747,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Вы занимаетесь фотографией, оказываете юридические услуги или организуете свадьбы? У нас есть готовые варианты для практически для любого типа малого бизнеса
+						Мы подготовили сотни тематических шаблонов для любых бизнес-задач. Просто выберите подходящий и адаптируйте его под себя. Добавьте или уберите лишние виджеты. Настройте цвет и шрифт
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -733,7 +813,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Наполните свой сайт контентом
+						Наполните лендинг контентом
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -742,7 +822,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						В uKit это просто. Можно оставить дизайн из шаблона, заменив демо-контент на собственный. А можно добавить блоки в конструкторе или полностью переделать всё содержимое страницы
+						Шаблоны уже содержат осмысленные тексты. Но если вы хотите оригинальный и эффективный сайт — напишите свои. Загрузите изображения и добавьте видео там, где они нужны. В uKit есть встроенный редактор картинок
 						<br />
 						{"\n\n"}
 					</Text>
@@ -766,7 +846,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/three.svg?v=2021-08-19T23:48:35.499Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Настройте мобильную и планшетную версии
+						Проверьте отображение на смартфонах и планшетах
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -775,7 +855,9 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Наш конструктор почти все сделает за вас, вам останется только проверить и внести небольшие корректировки
+						При желании можно скрыть отдельные элементы или целые секции, можно реализовать альтернативный стиль оформления.
+						<br />
+						А можно просто убедиться, что всё работает как надо и оставить «как есть»
 						<br />
 						{"\n\n"}
 					</Text>
@@ -820,7 +902,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Привяжите свой домен
+						Добавьте свой домен и опубликуйте лендинг
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -829,7 +911,10 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Вы можете получить новый домен в панели управления uKit или привязать уже имеющийся. SSL-сертификаты для HTTPS-версии сайта предоставляются бесплатно и настраиваются автоматически. Ничего не придётся редактировать вручную
+						Домен можно приобрести в личном кабинете конструктора. Настройка DNS-записей в этом случае будет автоматической. SSL-сертификаты предоставляются бесплатно, ничего отдельно настраивать не нужно
+						<br />
+						<br />
+						uKit хранит до 10 резервных копий вашего сайта. Не бойтесь что-то менять и ошибаться, всегда можно вернуть версию лендинга из бэкапов
 						<br />
 						{"\n\n"}
 					</Text>
@@ -853,7 +938,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Опубликуйте свой сайт
+						Настройте аналитику
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -862,7 +947,9 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Не бойтесь сделать что-то не так. В истории будет храниться до 10 версий, создаваемых автоматически или вручную. В любой момент вы сможете откатить изменения
+						Вы можете подключить Яндекс.Метрику, Google Analytics,  а также пиксели Facebook и ВКонтакте. Все настройки выполняются в пару кликов.
+						<br />
+						Отслеживайте показатели посадочной страницы в реальном времени или в разрезе нужного периода, не покидая панели управления uKit
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -897,10 +984,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Почти готово!
+					Вы почти у цели!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Осталось только добавить сайт в поисковые системы и позаботиться о SEO. Ничего сложного. uKit позволяет задать мета-теги для каждой страницы вашего сайта. Также вы можете затустить рекламу в сети. Рекламный модуль уже встроен в uKit!
+					Осталось запустить рекламную кампанию и не забыть про SEO-продвижение. Все необходимые теги можно прописать в настройках страниц. А рекламную кампанию вам поможет организовать наш фирменный рекламный модуль. Оценить готовность сайта можно с помощью специального визарда
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -917,7 +1004,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать свой лендинг
 				</Link>
 			</Box>
 		</Section>
@@ -946,7 +1033,7 @@ export default (() => {
 					Что еще можно сделать в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Создайте любой сайт самостоятельно. Даже если вы никогда не делали этого раньше
+					Любой бизнес-сайт можно собрать в нашем конструкторе своими руками, даже если вы никогда этого не делали раньше
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1130,12 +1217,21 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					sm-text-align="center"
 					as="h2"
+					text-align="center"
 				>
-					Создать сайт в uKit
+					Уже готовы сделать свой лендинг в uKit?
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
-					<Link href="https://ukit.com/ru/signup">
+					Соберите свой лендинг из блоков или запустите готовый вариант на базе шаблона без программирования и профильных знаний прямо сейчас
+					<Link
+						href="https://ukit.com/ru/signup"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
 						<br />
 						{"\n\n"}
 					</Link>

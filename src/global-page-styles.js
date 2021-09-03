@@ -19,7 +19,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/": {
+    "lp/ru/1": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
@@ -51,7 +51,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sajt-agentstva-nedvizhimosti": {
+    "lp/ru/sozdat-odnostranichnyj-sajt-lending": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
