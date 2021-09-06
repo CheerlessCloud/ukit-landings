@@ -9,11 +9,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp"} />
 		<Helmet>
 			<title>
-				Создание сайта-визитки для бизнеса | uKit
+				Quarkly export
 			</title>
-			<meta name={"description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
-			<meta property={"og:title"} content={"Создание сайта-визитки для бизнеса | uKit"} />
-			<meta property={"og:description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
+			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>

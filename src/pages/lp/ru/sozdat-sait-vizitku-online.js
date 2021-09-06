@@ -9,11 +9,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sait-vizitku-online"} />
 		<Helmet>
 			<title>
-				Создание сайта-визитки для бизнеса — uKit. Конструктор сайтов для бизнеса
+				Создайте сайт-визитку для бизнеса — uKit. Конструктор сайтов для бизнеса
 			</title>
-			<meta name={"description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
-			<meta property={"og:title"} content={"Создание сайта-визитки для бизнеса | uKit"} />
-			<meta property={"og:description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
+			<meta name={"description"} content={"Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер"} />
+			<meta property={"og:title"} content={"Создайте сайт-визитку для бизнеса — uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:description"} content={"Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
@@ -115,7 +115,7 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создание сайта-визитки для бизнеса
+					Создайте сайт-визитку для бизнеса
 					<br />
 					{"\n\n"}
 				</Text>

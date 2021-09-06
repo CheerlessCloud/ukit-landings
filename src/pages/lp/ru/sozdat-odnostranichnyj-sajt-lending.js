@@ -10,11 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-odnostranichnyj-sajt-lending"} />
 		<Helmet>
 			<title>
-				Создание одностраничного сайта – лендинга — uKit. Конструктор сайтов для бизнеса
+				Создайте одностраничный сайт — лендинга — uKit. Конструктор сайтов для бизнеса
 			</title>
 			<meta name={"description"} content={"Готовые шаблоны, огромный выбор тематических секций и элементов дизайна, уведомления из форм, интеграции, хостинг без ограничений.\nЛендинг своими руками всего за пару часов"} />
-			<meta property={"og:title"} content={"Создание сайта-визитки для бизнеса | uKit"} />
-			<meta property={"og:description"} content={"Простое и быстрое создание сайта-визитки для вашего бизнеса. Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер."} />
+			<meta property={"og:title"} content={"Создайте одностраничный сайт — лендинга — uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:description"} content={"Готовые шаблоны, огромный выбор тематических секций и элементов дизайна, уведомления из форм, интеграции, хостинг без ограничений.\nЛендинг своими руками всего за пару часов"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
@@ -135,10 +135,11 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							Создание одностраничного сайта — лендинга{" "}
+							Создайте одностраничный
+							<br />
+							сайт — лендинг
 						</Strong>
 					</Span>
-					{"\n\n"}
 					<br />
 					{"\n\n"}
 				</Text>

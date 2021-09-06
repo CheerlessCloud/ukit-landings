@@ -19,14 +19,6 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/1": {
-        "overflow-x": "hidden",
-        "overflow-y": "visible",
-        "height": "",
-        "min-height": "",
-        "width": "",
-        "font": "--headline1"
-    },
     "lp": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -52,6 +44,30 @@ const pageStyles = {
         "font": "--headline1"
     },
     "lp/ru/sozdat-odnostranichnyj-sajt-lending": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-agentstva-nedvizhimosti": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-stomatologii": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-stroitelnoj-kompanii": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
