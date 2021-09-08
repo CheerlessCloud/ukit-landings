@@ -116,19 +116,6 @@ export default (() => {
 				>
 					Сайт юриста
 				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт образовательного учреждения
-				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />

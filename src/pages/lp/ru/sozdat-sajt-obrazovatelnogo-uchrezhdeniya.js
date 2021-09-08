@@ -1132,19 +1132,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nmCUxieGGsl3krtz3us5.webp?v=2021-08-23T21:32:38.620Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт медицинского учреждения
-					</Text>
+					<Components.Perelink href="/lp/ru">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nmCUxieGGsl3krtz3us5.webp?v=2021-08-23T21:32:38.620Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт медицинского учреждения
+						</Text>
+					</Components.Perelink>
 				</Box>
 				<Box
 					width="50%"

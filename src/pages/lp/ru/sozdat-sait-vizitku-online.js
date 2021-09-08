@@ -1004,7 +1004,7 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti">
+					<Components.Perelink href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii">
 						<Image
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
 							width="100%"
@@ -1088,17 +1088,17 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
 					<Components.Perelink href="/lp/ru/sozdat-odnostranichnyj-sajt-lending">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
 							Одностраничный сайт
 						</Text>

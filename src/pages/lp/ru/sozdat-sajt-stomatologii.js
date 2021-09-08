@@ -1169,20 +1169,22 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_ru.webp?v=2021-09-07T07:36:51.835Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт-портфолио дизайнера интерьеров
-						<br />
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-sajt-dezajnera-interjerov">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_ru.webp?v=2021-09-07T07:36:51.835Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт-портфолио дизайнера интерьеров
+							<br />
+						</Text>
+					</Components.Perelink>
 				</Box>
 				<Box
 					width="50%"
@@ -1193,19 +1195,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт строительной компании
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Сайт строительной компании
+						</Text>
+					</Components.Perelink>
 				</Box>
 			</Box>
 		</Section>
