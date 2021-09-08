@@ -71,7 +71,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-портфолио{"\n\n"}
+					Создать сайт-портфолио
 				</Link>
 			</Box>
 			<Box
@@ -158,7 +158,7 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Красивые шаблоны{"\n\n"}
+					Красивые шаблоны
 				</Text>
 			</Box>
 			<Box
@@ -206,7 +206,7 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Бесплатные SMS-уведомления{"\n\n"}
+					Бесплатные SMS-уведомления
 				</Text>
 			</Box>
 			<Box
@@ -253,7 +253,7 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Встроенный рекламный модуль{"\n\n"}
+					Встроенный рекламный модуль
 				</Text>
 			</Box>
 		</Section>
@@ -299,10 +299,10 @@ export default (() => {
 			>
 				<Box display="flex" flex-direction="column" margin="0px 60px 0px 0px">
 					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
-						350+{"\n\n"}
+						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Шаблонов{"\n\n"}
+						Шаблонов
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
@@ -310,7 +310,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Тематик{"\n\n"}
+						Тематик
 					</Text>
 				</Box>
 			</Box>
@@ -500,7 +500,6 @@ export default (() => {
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
 					Максимальная простота конструктора, готовая структура и наполнение. Все нужные функции в одном месте, настраиваются без специальных навыков — в пару кликов. Вы сможете воплотить любую задумку своими руками
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -552,7 +551,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Стильные современные шаблоны{"\n\n"}
+						Стильные современные шаблоны
 					</Text>
 				</Box>
 				<Box
@@ -573,7 +572,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Бесплатные SMS-уведомления с сайта{"\n\n"}
+						Бесплатные SMS-уведомления с сайта
 					</Text>
 				</Box>
 				<Box
@@ -594,7 +593,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Поддержка мобильных{"\n\n"}
+						Поддержка мобильных
 					</Text>
 				</Box>
 				<Box
@@ -615,7 +614,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые блоки для портфолио{"\n\n"}
+						Готовые блоки для портфолио
 					</Text>
 				</Box>
 				<Box
@@ -636,7 +635,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Безлимитный хостинг{"\n\n"}
+						Безлимитный хостинг
 					</Text>
 				</Box>
 				<Box
@@ -657,7 +656,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Рекламный модуль{"\n\n"}
+						Рекламный модуль
 					</Text>
 				</Box>
 				<Box
@@ -699,7 +698,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Оплату можно принимать онлайн{"\n\n"}
+						Оплату можно принимать онлайн
 					</Text>
 				</Box>
 				<Box
@@ -853,7 +852,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Добавьте свой контент{"\n"}
+						Добавьте свой контент
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -936,7 +935,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Привяжите свой домен{"\n"}
+						Привяжите свой домен
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -967,7 +966,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Опубликуйте сайт{"\n"}
+						Опубликуйте сайт
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -1011,7 +1010,7 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Последние штрихи!{"\n"}
+					Последние штрихи!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
 					Чтобы сайт начал индексироваться, добавьте его в поисковые системы. Хотите максимум подробностей о поведении ваших пользователей? Настройте интеграцию с системой аналитики. Нужно запустить рекламные кампании? Воспользуйтесь рекламным модулем. Сомневаетесь в готовности сайта к продвижению? Запустите проверку в SEO-визарде. Все эти возможности уже встроены в панель управления сайтом
@@ -1031,7 +1030,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-портфолио{"\n\n"}
+					Создать сайт-портфолио
 				</Link>
 			</Box>
 		</Section>
@@ -1073,19 +1072,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nmCUxieGGsl3krtz3us5.webp?v=2021-08-23T21:32:38.620Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт медицинского учреждения
-					</Text>
+					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт строительной компании
+						</Text>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -1096,19 +1097,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/62rwRRgQ1V2w6j9QWMZ7.webp?v=2021-08-23T21:27:54.007Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт ресторана{"\n\n"}
-					</Text>
+					<Link href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_hotel_ru.webp?v=2021-09-08T11:14:49.235Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Сайт агентства недвижимости
+						</Text>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -1127,19 +1130,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/kpBQuHCwUXOxAFMZ9668.webp?v=2021-08-23T21:27:54.069Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт ведущего
-					</Text>
+					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт юриста
+						</Text>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -1150,19 +1155,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EaElHJMX5pO9hFfboobP.webp?v=2021-08-23T21:27:54.035Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Интернет-магазин
-					</Text>
+					<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Одностраничный сайт
+						</Text>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -1181,21 +1188,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/HJJys9EgxkzTkr9b7zCR.webp?v=2021-08-23T21:27:54.029Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт турагентства
-						<br />
-						{"\n\n"}
-					</Text>
+					<Link href="/lp/ru/sozdat-sait-vizitku-online" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_ru.webp?v=2021-09-08T10:54:09.171Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт-визитка для бизнеса
+						</Text>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -1206,21 +1213,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/lsxY55E55GPUk7AuFKmJ.webp?v=2021-08-23T21:27:54.062Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт для питомника животных
-						<br />
-						{"\n\n"}
-					</Text>
+					<Link href="/lp/ru/sozdat-sajt-stomatologii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_ru%201.webp?v=2021-09-05T12:18:24.069Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Сайт стоматологической клиники
+						</Text>
+					</Link>
 				</Box>
 			</Box>
 		</Section>
@@ -1260,7 +1267,6 @@ export default (() => {
 						hyphens="manual"
 					>
 						<br />
-						{"\n\n"}
 					</Link>
 				</Text>
 				<Link
@@ -1278,7 +1284,7 @@ export default (() => {
 					background="--color-white"
 					hover-background="--color-lightD1"
 				>
-					Попробовать бесплатно{"\n\n"}
+					Попробовать бесплатно
 				</Link>
 			</Box>
 		</Section>

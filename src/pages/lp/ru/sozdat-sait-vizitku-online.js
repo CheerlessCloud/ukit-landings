@@ -1,10 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Image, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Section, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
+import { BsWindow, BsStar, BsColumns, BsBucket, BsBarChart, BsGrid, BsTablet, BsGraphUp, BsAt } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sait-vizitku-online"} />
@@ -52,7 +53,6 @@ export default (() => {
 				>
 					Создайте сайт-визитку для бизнеса
 					<br />
-					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
 					Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер
@@ -72,7 +72,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать сайт-визитку
 				</Link>
 			</Box>
 			<Box
@@ -116,7 +116,7 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/bZGE1tHTkrxhpKK8gEss.webp?v=2021-08-23T21:38:43.245Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_ru.webp?v=2021-09-08T10:54:09.171Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
@@ -148,7 +148,13 @@ export default (() => {
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
 			>
-				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/shablon.svg?v=2021-08-19T13:00:42.491Z" />
+				<Icon
+					category="bs"
+					icon={BsWindow}
+					size="63px"
+					color="--secondary"
+					margin="0 0 18px 0"
+				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Современные шаблоны
 				</Text>
@@ -164,7 +170,13 @@ export default (() => {
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
 			>
-				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/vozmozhnosti.svg?v=2021-08-19T13:03:04.070Z" />
+				<Icon
+					category="bs"
+					icon={BsStar}
+					size="63px"
+					color="--secondary"
+					margin="0 0 18px 0"
+				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Широкие возможности
 				</Text>
@@ -180,7 +192,13 @@ export default (() => {
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
 			>
-				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/konsturktor.svg?v=2021-08-19T13:03:12.272Z" />
+				<Icon
+					category="bs"
+					icon={BsColumns}
+					size="63px"
+					color="--secondary"
+					margin="0 0 18px 0"
+				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Удобный конструктор
 				</Text>
@@ -196,7 +214,13 @@ export default (() => {
 				md-width="100%"
 				md-margin="0px 0px 30px 0px"
 			>
-				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/magazin.svg?v=2021-08-19T13:03:21.738Z" />
+				<Icon
+					category="bs"
+					icon={BsBucket}
+					size="63px"
+					color="--secondary"
+					margin="0 0 18px 0"
+				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
 					Понятный интернет-магазин
 				</Text>
@@ -211,11 +235,16 @@ export default (() => {
 				lg-flex-direction="column"
 				md-width="100%"
 			>
-				<Image width="60px" height="63px" margin="0px 0px 18px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/analitika.svg?v=2021-08-19T13:03:30.897Z" />
+				<Icon
+					category="bs"
+					icon={BsBarChart}
+					size="63px"
+					color="--secondary"
+					margin="0 0 18px 0"
+				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Расширенная аналитика
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 		</Section>
@@ -246,12 +275,10 @@ export default (() => {
 				>
 					Примеры шаблонов сайтов-визиток
 					<br />
-					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
 					Нужен только свой домен, простейший хостинг и качественный конструктор, чтобы собрать свой вариант. У нас всё это можно получить в одном месте
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -265,10 +292,10 @@ export default (() => {
 			>
 				<Box display="flex" flex-direction="column" margin="0px 60px 0px 0px">
 					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
-						350{"\n\n"}
+						350
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Шаблонов{"\n\n"}
+						Шаблонов
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
@@ -276,7 +303,7 @@ export default (() => {
 						40
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Тематик{"\n\n"}
+						Тематик
 					</Text>
 				</Box>
 			</Box>
@@ -332,7 +359,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nmCUxieGGsl3krtz3us5.webp?v=2021-08-23T21:27:54.082Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
 					border-radius="18px"
 					position="absolute"
 					width="287px"
@@ -349,7 +376,7 @@ export default (() => {
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/uPbEN4SxGj7zOJOWZjNi.webp?v=2021-08-23T21:27:54.088Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -364,12 +391,12 @@ export default (() => {
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/KbUkkIuDvuVPHkeN6OGL.webp?v=2021-08-23T21:27:54.039Z"
 					border-radius="18px"
-					width="300px"
+					width="253.33333333333334px"
 					position="absolute"
 					top="-100px"
 					right="-90px"
-					bottom="auto"
-					left="auto"
+					bottom="316.3888888888889px"
+					left="188.64966666666666px"
 					lg-bottom="auto"
 					lg-height="187.5px"
 					lg-left="auto"
@@ -383,15 +410,16 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="158.61111111111111px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/62rwRRgQ1V2w6j9QWMZ7.webp?v=2021-08-23T21:27:54.007Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/lsxY55E55GPUk7AuFKmJ.webp?v=2021-08-23T21:27:54.062Z"
 					border-radius="18px"
 					width="247px"
 					position="absolute"
 					top="auto"
-					right="-50px"
-					bottom="-70px"
+					right="-54px"
+					bottom="-88px"
 					left="auto"
 					lg-bottom="-67px"
 					lg-height="154.625px"
@@ -406,6 +434,7 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="161.317px"
 				/>
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/kM1sffZzF1TxYmTUbCXG.webp?v=2021-08-23T21:27:54.045Z"
@@ -430,7 +459,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_band_ru.webp?v=2021-09-08T11:06:05.150Z"
 					border-radius="18px"
 					lg-width="100%"
 					sm-border-radius="6px"
@@ -463,7 +492,6 @@ export default (() => {
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
 					Любой желающий может сделать свой сайт — никаких правок кода, только готовые виджеты и секции. Подробные инструкции с примерами, масса готовых шаблонов. Не нужно быть программистом или дизайнером, чтобы создать свою первую визитку
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -485,7 +513,13 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 				>
-					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/shablonu.svg?v=2021-08-19T23:26:28.208Z" />
+					<Icon
+						category="bs"
+						icon={BsGrid}
+						size="63px"
+						color="--white"
+						margin="0 0 18px 0"
+					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Готовые шаблоны, блоки и формы
 					</Text>
@@ -499,7 +533,13 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 				>
-					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/divece.svg?v=2021-08-19T23:27:46.728Z" />
+					<Icon
+						category="bs"
+						icon={BsTablet}
+						size="63px"
+						color="--white"
+						margin="0 0 18px 0"
+					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Умная адаптация для мобильных устройств
 					</Text>
@@ -513,11 +553,16 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 				>
-					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/analitics.svg?v=2021-08-19T23:28:18.170Z" />
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						size="63px"
+						color="--white"
+						margin="0 0 18px 0"
+					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Система статистики и аналитики
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -529,7 +574,13 @@ export default (() => {
 					lg-width="50%"
 					md-width="100%"
 				>
-					<Image width="64px" height="64px" margin="0px 0px 12px 0px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/pochta.svg?v=2021-08-19T23:28:38.419Z" />
+					<Icon
+						category="bs"
+						icon={BsAt}
+						size="63px"
+						color="--white"
+						margin="0 0 18px 0"
+					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Бесплатная почта на домене
 					</Text>
@@ -576,7 +627,6 @@ export default (() => {
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
 					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -593,7 +643,6 @@ export default (() => {
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Начните с дизайна
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -679,7 +728,6 @@ export default (() => {
 					>
 						В uKit это просто. Можно оставить дизайн из шаблона, заменив демо-контент на собственный. А можно добавить блоки в конструкторе или полностью переделать всё содержимое страницы
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 			</Box>
@@ -712,7 +760,6 @@ export default (() => {
 					>
 						Наш конструктор почти все сделает за вас, вам останется только проверить и внести небольшие корректировки
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -766,7 +813,6 @@ export default (() => {
 					>
 						Вы можете получить новый домен в панели управления uKit или привязать уже имеющийся. SSL-сертификаты для HTTPS-версии сайта предоставляются бесплатно и настраиваются автоматически. Ничего не придётся редактировать вручную
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 			</Box>
@@ -852,7 +898,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать сайт-визитку
 				</Link>
 			</Box>
 		</Section>
@@ -894,19 +940,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nmCUxieGGsl3krtz3us5.webp?v=2021-08-23T21:32:38.620Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт медицинского учреждения
-					</Text>
+					<Link href="/lp/ru/sozdat-sajt-stomatologii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_ru%201.webp?v=2021-09-05T12:18:24.069Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px" color="--darkL1">
+							Сайт стоматологической клиники
+						</Text>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -918,7 +966,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/62rwRRgQ1V2w6j9QWMZ7.webp?v=2021-08-23T21:27:54.007Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -928,7 +976,7 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт ресторана{"\n\n"}
+						Сайт агентства недвижимости
 					</Text>
 				</Box>
 			</Box>
@@ -949,7 +997,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/kpBQuHCwUXOxAFMZ9668.webp?v=2021-08-23T21:27:54.069Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -959,7 +1007,7 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт ведущего
+						Сайт строительной компании
 					</Text>
 				</Box>
 				<Box
@@ -972,7 +1020,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EaElHJMX5pO9hFfboobP.webp?v=2021-08-23T21:27:54.035Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_ru.webp?v=2021-09-07T07:37:52.592Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -982,7 +1030,7 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						Интернет-магазин
+						Сайт-портфолио дизайна интерьеров
 					</Text>
 				</Box>
 			</Box>
@@ -1003,7 +1051,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/HJJys9EgxkzTkr9b7zCR.webp?v=2021-08-23T21:27:54.029Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -1013,9 +1061,8 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт турагентства
+						Сайт юриста
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -1028,7 +1075,7 @@ export default (() => {
 					md-padding="0px 0px 0px 0px"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/lsxY55E55GPUk7AuFKmJ.webp?v=2021-08-23T21:27:54.062Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -1038,9 +1085,7 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт для питомника животных
-						<br />
-						{"\n\n"}
+						Одностраничный сайт
 					</Text>
 				</Box>
 			</Box>
@@ -1072,7 +1117,6 @@ export default (() => {
 					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
 					<Link href="https://ukit.com/ru/signup">
 						<br />
-						{"\n\n"}
 					</Link>
 				</Text>
 				<Link
@@ -1090,7 +1134,7 @@ export default (() => {
 					background="--color-white"
 					hover-background="--color-lightD1"
 				>
-					Попробовать бесплатно{"\n\n"}
+					Попробовать бесплатно
 				</Link>
 			</Box>
 		</Section>

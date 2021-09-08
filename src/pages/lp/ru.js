@@ -32,84 +32,92 @@ export default (() => {
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт-визитка для бизнеса
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Одностраничный
 сайт — лендинг
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт для агентства недвижимости
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-stomatologii"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт стоматологической клиники
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт строительной компании
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-dezajnera-interjerov"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт-портфолио дизайнера интерьеров
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-yurista"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт юриста
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
+					href="/lp/ru/sozdat-sait-vizitku-online"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
 					display="flex"
 					flex-direction="row"
 					width="50%"
+					hover-color="--primary"
 				>
 					Сайт образовательного учрежден
 				</Link>
