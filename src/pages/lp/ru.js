@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, List, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru"} />
@@ -15,6 +16,41 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
+		<Components.RuHeader />
+		<Section>
+			<Override slot="SectionContent" width="1056px" />
+			<Text font="--headline3">
+				Готовые решения
+			</Text>
+			<List list-style-type="none" font="--base" padding="0px 0px 0px 10px">
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" font="--base" color="--dark" text-decoration-line="initial">
+					Одностраничный
+сайт — лендинг
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+					Сайт-визитка для бизнеса
+				</Link>
+			</List>
+		</Section>
+		<Components.RuFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

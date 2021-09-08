@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sait-vizitku-online"} />
@@ -18,73 +19,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Section padding="34px 0 24px 0">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="0px 0px 0px 0px">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -1159,141 +1094,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="18px 0 24px 0" background="linear-gradient(to right,#f3f5f8,#f3f5f8)">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-				flex-wrap="wrap"
-				md-flex-direction="column"
-				md-align-items="center"
-				md-justify-content="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="18px 0px 18px 0px" md-flex-direction="column">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-			<Hr
-				width="100%"
-				margin="16px 0px 16px 0px"
-				padding="0px 0px 0px 0px"
-				background="linear-gradient(to right,#f3f5f8,#f3f5f8)"
-				border-width="0px 0px 2px 0px"
-				border-color="#6c757d29"
-			/>
-			<Box
-				width="100%"
-				md-display="flex"
-				md-align-items="center"
-				md-flex-direction="column"
-				md-justify-content="center"
-			>
-				<Link
-					href="https://ukit.com/ru/agreement"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Соглашение
-				</Link>
-				<Link
-					href="https://ukit.com/ru/storage"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Договор с держателем карты{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/privacy"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Конфиденциальность
-				</Link>
-				<Link
-					href="https://ukit.com/ru/details"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Юридическая информация{" \n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

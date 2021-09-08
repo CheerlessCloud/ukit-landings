@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsPhone, BsChat, BsCreditCard, BsGrid, BsDiamond, BsBucket, BsDocumentSpreadsheet, BsVolumeUp, BsStar } from "react-icons/bs";
+import { BsColumnsGutters, BsWindow, BsListUl, BsBell, BsCheckBox, BsGraphUp, BsPhone, BsBarChart, BsAt } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-agentstva-nedvizhimosti"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"} />
 		<Helmet>
 			<title>
-				Создайте сайт для агентства недвижимости— uKit. Конструктор сайтов для бизнеса
+				Создайте сайт образовательного учреждения— uKit. Конструктор сайтов для бизнеса
 			</title>
-			<meta name={"description"} content={"Безлимитный хостинг и неограниченное количество страниц, готовые шаблоны, удобный визуальный редактор, интеграции с CRM, SMS-уведомления о заявках. И всё без программирования или профильных навыков. Сайт можно сделать своими руками.\n"} />
-			<meta property={"og:title"} content={"Создайте сайт для агентства недвижимости— uKit. Конструктор сайтов для бизнеса"} />
-			<meta property={"og:description"} content={"Безлимитный хостинг и неограниченное количество страниц, готовые шаблоны, удобный визуальный редактор, интеграции с CRM, SMS-уведомления о заявках. И всё без программирования или профильных навыков. Сайт можно сделать своими руками."} />
+			<meta name={"description"} content={"Конструктор сайтов uKit подходит для любых задач, в том числе для создания сайтов образовательных учреждений: детских садов, школ, лицеев, гимназий, профтехучилищ, центров юношеского творчества, школ искусств, подготовительных курсов и онлайн-обучения. Это могут быть как коммерческие, так и некоммерческие учреждения."} />
+			<meta property={"og:title"} content={"Создайте сайт образовательного учреждения— uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:description"} content={"Конструктор сайтов uKit подходит для любых задач, в том числе для создания сайтов образовательных учреждений: детских садов, школ, лицеев, гимназий, профтехучилищ, центров юношеского творчества, школ искусств, подготовительных курсов и онлайн-обучения. Это могут быть как коммерческие, так и некоммерческие учреждения."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
@@ -51,12 +51,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создайте сайт для агентства недвижимости{"\n"}
-					<br />
-					{"\n\n"}
+					Создайте сайт образовательного учреждения{"\n"}
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Безлимитный хостинг и неограниченное количество страниц, готовые шаблоны, удобный визуальный редактор, интеграции с CRM, SMS-уведомления о заявках. И всё без программирования или профильных навыков. Сайт можно сделать своими руками
+				<Text margin="0px 0px 50px 0px" font="--base" color="--dark">
+					Конструктор сайтов uKit подходит для любых задач, в том числе для создания сайтов образовательных учреждений: детских садов, школ, лицеев, гимназий, профтехучилищ, центров юношеского творчества, школ искусств, подготовительных курсов и онлайн-обучения. Это могут быть как коммерческие, так и некоммерческие учреждения
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -73,7 +71,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт агентства недвижимости{"\n\n"}
+					Создать сайт{"\n\n"}
 				</Link>
 			</Box>
 			<Box
@@ -149,17 +147,24 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsPhone}
+					icon={BsColumnsGutters}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
 					color="#4773ff"
 				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Работа на мобильных
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--darkL1"
+					font="--lead"
+					align-self="auto"
+					position="static"
+				>
+					Интуитивный интерфейс{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -172,17 +177,18 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsChat}
+					icon={BsWindow}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Онлайн-чаты и формы
+					Готовые шаблоны{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -195,17 +201,18 @@ export default (() => {
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
 				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsCreditCard}
+					icon={BsListUl}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Приём онлайн-оплаты
+					Соответствие законодательству{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -218,17 +225,18 @@ export default (() => {
 				lg-flex-direction="column"
 				md-width="100%"
 				md-margin="0px 0px 30px 0px"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsGrid}
+					icon={BsBell}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Тематические шаблоны
+					Версия для слабовидящих{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -240,19 +248,18 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsDiamond}
+					icon={BsCheckBox}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Широкие возможности
-					<br />
-					{"\n\n"}
+					Отсутствие рекламы{"\n\n"}
 				</Text>
 			</Box>
 		</Section>
@@ -281,14 +288,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Примеры шаблонов сайтов агентств недвижимости
-					<br />
-					{"\n\n"}
+					Примеры шаблонов сайтов образовательных учреждений{"\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Всё, что нужно, уже есть в uKit: покупка своего домена, интеграции с CRM и онлайн-чатами, почта для домена, бесплатные SSL, безлимитный хостинг и т.п. Вам остаётся только выбрать один из вариантов оформления или создать свой с нуля
-					<br />
-					{"\n\n"}
+					Строгий стиль и полное попадание в тематику. Шаблоны строятся из готовых блоков, которые можно перемещать, добавлять и редактировать. Вам понадобится только свой домен и немного времени на наполнение
 				</Text>
 			</Box>
 			<Box
@@ -302,7 +305,7 @@ export default (() => {
 			>
 				<Box display="flex" flex-direction="column" margin="0px 60px 0px 0px">
 					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
-						350+{"\n\n"}
+						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
 						Шаблонов{"\n\n"}
@@ -328,7 +331,7 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/qoFFuATt1iqLQChVlShu.webp?v=2021-09-04T17:37:16.724Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nyIDiz9WgPslUePZ7nXM.webp?v=2021-09-04T17:37:32.140Z"
 					border-radius="18px"
 					position="absolute"
 					width="198px"
@@ -351,7 +354,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nyIDiz9WgPslUePZ7nXM.webp?v=2021-09-04T17:37:32.140Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/77gjPoI5JvTq1FAMquGm.webp?v=2021-09-04T17:37:55.466Z"
 					border-radius="18px"
 					position="absolute"
 					width="321px"
@@ -369,14 +372,14 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EQ5NUJ2vJkflcZOEukUa.webp?v=2021-09-04T17:36:05.180Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
 					border-radius="18px"
 					position="absolute"
-					width="287px"
-					left="230px"
-					right="auto"
-					top="-50px"
-					bottom="auto"
+					width="322.717px"
+					left="304px"
+					right="77.2861px"
+					top="-82px"
+					bottom="243.048px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -385,8 +388,9 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="213.95px"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/RTS1kyhE6814GQuucWfh.webp?v=2021-09-04T14:20:09.784Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -399,12 +403,19 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/3lu7fTCmHUSFyU1s137T%20%281%29%201.webp?v=2021-09-05T12:39:49.289Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/f3yCqvj8B7pPrPwF2SU4.webp?v=2021-09-04T17:36:56.052Z"
+					border-radius="18px"
+					lg-width="100%"
+					sm-border-radius="6px"
+					loading="lazy"
+				/>
+				<Image
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_exhibition_ru.webp?v=2021-09-05T17:13:31.340Z"
 					border-radius="18px"
 					width="300px"
 					position="absolute"
-					top="-100px"
-					right="-90px"
+					top="-127px"
+					right="-76px"
 					bottom="auto"
 					left="auto"
 					lg-bottom="auto"
@@ -420,16 +431,17 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="199.95px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/bk4sHrCcpmFWrSmDXlEC%201.webp?v=2021-09-04T17:41:52.612Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EQ5NUJ2vJkflcZOEukUa.webp?v=2021-09-04T17:36:05.180Z"
 					border-radius="18px"
-					width="247px"
+					width="254.14285714285714px"
 					position="absolute"
-					top="auto"
-					right="-50px"
-					bottom="-70px"
-					left="auto"
+					top="344.417px"
+					right="-39px"
+					bottom="-85px"
+					left="136.84014285714287px"
 					lg-bottom="-67px"
 					lg-height="154.625px"
 					lg-left="auto"
@@ -443,9 +455,10 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="166.583px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/f3yCqvj8B7pPrPwF2SU4.webp?v=2021-09-04T17:36:56.052Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_ru%201.webp?v=2021-09-05T12:16:59.810Z"
 					border-radius="18px"
 					width="192px"
 					position="absolute"
@@ -466,103 +479,140 @@ export default (() => {
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
-				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/77gjPoI5JvTq1FAMquGm.webp?v=2021-09-04T17:37:55.466Z"
-					border-radius="18px"
-					lg-width="100%"
-					sm-border-radius="6px"
-					loading="lazy"
-				/>
 			</Box>
 		</Section>
 		<Section background="--color-secondary" padding="130px 0 130px 0" lg-padding="100px 0 100px 0">
-			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
+			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" max-width="1056px" />
 			<Box
-				width="75%"
 				display="flex"
 				flex-direction="column"
-				align-items="flex-start"
+				align-items="center"
 				padding="0px 0px 0px 0px"
-				margin="0px 25% 40px 0px"
+				margin="0px 15% 40px 15%"
 				lg-width="100%"
 				lg-margin="0px 0px 40px 0px"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 15px 0px"
 					font="--headline1"
 					letter-spacing="-1px"
 					color="--white"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
+					width="100%"
+					text-align="center"
 				>
-					Что вы получаете для запуска сайтов риелторских агентств
+					Основные возможности uKit для создания эффективных сайтов образовательных учреждений
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Не нужно нанимать программистов или изучать основы web-дизайна, чтобы сделать в uKit качественные сайты для риелторов и агентств недвижимости. Всё можно собрать своими руками в специальном онлайн-конструкторе из готовых виджетов и блоков
-					<br />
-					{"\n\n"}
+				<Text margin="0px 0px 30px 0px" font="--base" color="--white" text-align="center">
+					Вы сможете сделать как многостраничный сайт со сложной структурой, так и одностраничные посадочные страницы. Конструктором легко пользоваться без профильного опыта и предметных знаний. Вы справитесь с задачей, даже если впервые знакомитесь с платформой
 				</Text>
 			</Box>
 			<Box
-				width="33.333%"
 				padding="0px 15px 0px 15px"
 				display="flex"
-				flex-direction="column"
+				flex-direction="row"
 				justify-content="center"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
+				width="100%"
+				flex="0 1 auto"
+				align-self="auto"
+				flex-wrap="wrap"
 			>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsBucket}
+						icon={BsWindow}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Модуль магазина для приёма онлайн-оплаты за услуги
+						Полное соответствие требованиям законодательства (273-ФЗ)
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsGrid}
+						icon={BsBell}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые тематические шаблоны для агентств
+						Готовая мобильная версия{"\n\n"}
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
+				>
+					<Icon
+						category="bs"
+						icon={BsCheckBox}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Загрузка и размещение сертификатов или других документов
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="50%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Рекламный модуль{"\n\n"}
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
@@ -573,108 +623,156 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Поддержка мобильных устройств
+						Безлимитный хостинг{"\n\n"}
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsDocumentSpreadsheet}
+						icon={BsBarChart}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Простая интеграция CRM и конструктора форм uCalc
+						Версия для слабовидящих{"\n\n"}
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsChat}
+						icon={BsGraphUp}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Онлайн-чаты и сбор заявок с сайта
+						Никакой сторонней рекламы{"\n\n"}
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsVolumeUp}
+						icon={BsGraphUp}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						SMS-уведомления о важных событиях
+						Готовые тематические блоки: галереи, отзывы и карточки сотрудников
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="50%"
 				>
 					<Icon
 						category="bs"
-						icon={BsStar}
+						icon={BsAt}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Этапы, таймлайны, отзывы и другие готовые элементы страниц
+						Готовые шаблоны для образовательных сайтов{"\n\n"}
 					</Text>
 				</Box>
-			</Box>
-			<Box
-				width="58.333%"
-				margin="0px 0px 0px 8.333999999999996%"
-				display="flex"
-				lg-margin="30px 0px 0px 0px"
-				lg-width="100%"
-			>
-				<Image
-					border-radius="18px"
-					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20375%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20edrdevre.ukit%201%281%29.webp?v=2021-09-05T07:47:01.608Z"
-					width="100%"
-					loading="lazy"
-				/>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="50%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Защищённая HTTPS-версия без настроек
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="50%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Автоматическое продвижение в поисковиках
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="50%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Безналичный расчёт для юрлиц и закрывающие документы
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="130px 0 40px 0" color="--darkL1" md-padding="100px 0 20px 0">
@@ -697,10 +795,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Как создать сайт агентства недвижимости в uKit своими руками
+					Как самостоятельно создать сайт образовательного учреждения в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Даже если вы познакомились с платформой всего пару минут назад и не имеете никаких профильных навыков для работы со своими сайтами, у вас обязательно всё получится. Уже в течение нескольких часов у вас в распоряжении будет функциональная онлайн-платформа, на которой можно будет разместить описания объектов, прайсы на свои услуги, формы для сбора заявок и другие элементы
+					От вас потребуется минимум действий, которые легко описываются шагами ниже. Многие процессы автоматизированы и не требуют специальных знаний. Вы сможете сделать качественный сайт без опыта и навыков программирования — простым перетягиванием элементов в редакторе
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -715,7 +813,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/one.svg?v=2021-08-19T23:41:55.506Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Выберите шаблон
+						Выберите дизайн
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -724,7 +822,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Вы можете начать с тематического или любого другого шаблона в каталоге, их несколько сотен. В пару кликов можно сменить шрифт или цветовую гамму. Удалите лишние или наоборот добавьте нужные элементы и виджеты. В любой момент шаблон можно поменять, написанный и загруженный контент останется на месте
+						Мы уже подготовили множество тематических вариантов оформления с типовым наполнением. Вам остаётся только подобрать наиболее подходящий. Любой шаблон легко редактируется и дополняется нужной информацией, блоками, элементами. Версия для слабовидящих активируется в один клик
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -790,7 +888,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Наполните сайт информацией
+						Позаботьтесь о наполнении
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -799,7 +897,31 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Можно оставить текстовое наполнение и изображения, поставляемые вместе с шаблоном. Но если вы хотите сделать качественный сайт — наполните сайт оригинальным контентом: текстами, своими картинками и видео. Прямо в конструкторе можно редактировать изображения: маски, фильтры, кадрирование, наложение фигур и произвольное рисование
+						Любой текст, изображения, видео, файлы и другой тип контента легко заменить, добавить или изменить. Вы сможете загрузить свои сертификаты, договоры, прайс-листы и иные документы, создать и наполнить карточки преподавателей (педагогического состава), добавить объявления, отзывы и новости. И всё это своими руками в удобном онлайн-конструкторе
+					</Text>
+				</Box>
+				<Box
+					width="50%"
+					padding="0px 15px 0px 60px"
+					display="flex"
+					flex-direction="column"
+					justify-content="center"
+					align-items="flex-start"
+					md-width="100%"
+					md-padding="0px 15px 0px 15px"
+				>
+					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
+					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
+						Позаботьтесь о наполнении
+					</Text>
+					<Text
+						margin="0px 0px 24px 0px"
+						color="--dark"
+						font="--base"
+						width="84%"
+						lg-width="100%"
+					>
+						Любой текст, изображения, видео, файлы и другой тип контента легко заменить, добавить или изменить. Вы сможете загрузить свои сертификаты, договоры, прайс-листы и иные документы, создать и наполнить карточки преподавателей (педагогического состава), добавить объявления, отзывы и новости. И всё это своими руками в удобном онлайн-конструкторе
 					</Text>
 				</Box>
 			</Box>
@@ -821,7 +943,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/three.svg?v=2021-08-19T23:48:35.499Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Проверьте отображение на мобильных устройствах
+						Проверьте мобильную версию
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -830,7 +952,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Все элементы интерфейса автоматически подстраиваются под экран любого устройства: персональные компьютеры, планшеты или смартфоны. Если вам не нравится, как выглядит тот или иной элемент, его можно скрыть на определённых типах устройств или настроить альтернативный внешний вид: сменить фон и предусмотреть деление на колонки
+						Все созданные вами страницы уже адаптированы под экраны мобильных устройств. Ничего отдельно редактировать и править не нужно. Вы можете переключить режим отображения и убедиться в этом лично. При желании вы можете скрыть отдельные блоки или детально настроить внешний вид сайта для планшетов и смартфонов
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -873,7 +995,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Настройте свой домен
+						Подключите свой домен{"\n"}
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -882,7 +1004,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Придумайте своё доменное имя и зарегистрируйте его, не покидая панели управления uKit. Вам даже не придётся вручную редактировать DNS-записи для перенаправления на хостинг. При наличии можно привязать уже имеющиеся доменные имена. Бесплатные SSL-сертификаты для поддержки HTTPS-версии сайта генерируются и настраиваются автоматически
+						Чтобы зарегистрировать новое доменное имя или продлить его не нужно даже покидать админ-панели uKit. Настройки вашего домена задаются автоматически, ничего править вручную не придётся. Аналогично добавляется защищённая HTTPS-версия сайта — SSL-сертификаты добавляются и настраиваются автоматически
 					</Text>
 				</Box>
 			</Box>
@@ -904,7 +1026,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Опубликуйте сайт агентства
+						Опубликуйте сайт{"\n"}
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -913,7 +1035,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Нажмите кнопку «Опубликовать» — ваш сайт теперь полностью готов к своим первым посетителям. Не бойтесь менять содержимое страниц и экспериментировать. Платформа uKit может хранить до 10 резервных копий, созданных вручную и автоматически. Что-то пошло не так? Просто верните более удачную версию из бэкапа
+						Не нужно бояться показать свой сайт посетителям. В любой момент времени внешний вид можно изменить или адаптировать под новые задачи. Ваши пользователи будут видеть страницы точно так же, как видите его вы в окне конструктора. Неудачные эксперименты или другие ошибки легко устранить, откатившись до ранних версий сайта, которые хранятся в разделе с резервными копиями
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -948,10 +1070,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Осталось ещё немного!
+					Осталось совсем чуть-чуть!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Чтобы посетителям было проще найти ваш сайт, уделите внимание SEO-тегам на каждой странице. Чтобы ничего не пропустить и не забыть, проверьте готовность сайта в специальном визарде. Запустите свою первую рекламную кампанию — в этом вам поможет наш встроенный рекламный модуль
+					Позаботьтесь о продвижении и индексировании сайта. Добавить сайт в поисковые системы можно буквально в пару кликов из админ-панели, аналогично можно проверить готовность к SEO — в специальном визарде. Сайт полностью готов? Не нужно ждать, когда пользователи найдут вас сами — запустите рекламную кампанию с помощью нашего фирменного рекламного модуля
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -968,7 +1090,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт агентства{"\n\n"}
+					Создать сайт{"\n\n"}
 				</Link>
 			</Box>
 		</Section>
@@ -994,10 +1116,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Какие ещё проекты можно сделать в uKit
+					Какие ещё сайты можно сделать в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					uKit — это простой и по-настоящему эффективный онлайн-конструктор для любых бизнес-сайтов. Не имея профильных знаний и опыта, вы сможете сделать здесь практически любой проект своими руками
+					Это очень гибкий конструктор. Любые проекты можно запускать без опыта, полностью своими руками. Даже если вы никогда не делали этого раньше
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1183,10 +1305,10 @@ export default (() => {
 					as="h2"
 					text-align="center"
 				>
-					Уже готовы сделать сайт агентства недвижимости в uKit?
+					Создать сайт образовательного учреждения в uKit
 				</Text>
-				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1">
-					Ознакомьтесь с готовыми шаблонами и возможностями конструктора прямо сейчас — без каких-либо обязательств. Вам точно понравится!
+				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
+					Все возможности платформы можно изучить и испытать в деле совершенно бесплатно, без каких-либо обязательств. Начните прямо сейчас и убедитесь в эффективности uKit лично
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"

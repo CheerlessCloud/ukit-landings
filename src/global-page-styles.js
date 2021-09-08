@@ -74,6 +74,30 @@ const pageStyles = {
         "min-height": "",
         "width": "",
         "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-dezajnera-interjerov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-yurista": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
     }
 };
 

@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Icon, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Section, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 import { BsColumnsGutters, BsWindow, BsGraphUp, BsDocuments, BsCheckBox, BsPhone, BsAt, BsBell, BsBarChart, BsBucket } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
@@ -19,73 +20,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Section padding="34px 0 24px 0">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="0px 0px 0px 0px">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -121,7 +56,7 @@ export default (() => {
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
 					Своими руками и без программистов, никакого кода. Быстро и качественно, с готовыми шаблонами. Безлимитный хостинг и уведомления с сайта.{"\n"}
 					<br />
-					Вы точно разберётесь со всеми функциями самостоятельно.
+					Вы точно разберётесь со всеми функциями самостоятельно
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -358,7 +293,7 @@ export default (() => {
 					Примеры шаблонов сайтов для стоматологических клиник
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Точное попадание в тематику, гибкие возможности редактирования. Все шаблоны легко дополняются нужными блоками и функциями. Своя библиотека стоковых изображений и иконок. Масса других функций для комфортной работы.
+					Точное попадание в тематику, гибкие возможности редактирования. Все шаблоны легко дополняются нужными блоками и функциями. Своя библиотека стоковых изображений и иконок. Масса других функций для комфортной работы
 					<br />
 					{"\n\n"}
 				</Text>
@@ -576,7 +511,7 @@ export default (() => {
 					для создания эффектных сайтов стоматологических клиник{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Полный набор всех необходимых функций в одном месте: от готовых тематических дизайнов с наполнением до автоматических рекламных кампаний и продвижения. И всё это без какого-либо кода и найма сторонних специалистов. Вы можете создать сайт клиники своими руками.
+					Полный набор всех необходимых функций в одном месте: от готовых тематических дизайнов с наполнением до автоматических рекламных кампаний и продвижения. И всё это без какого-либо кода и найма сторонних специалистов. Вы можете создать сайт клиники своими руками
 					<br />
 					{"\n\n"}
 				</Text>
@@ -766,15 +701,13 @@ export default (() => {
 				display="flex"
 				lg-margin="30px 0px 0px 0px"
 				lg-width="100%"
-				height="1280px"
 			>
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20376%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20rdtgulp.ukit%201.webp?v=2021-09-05T16:08:06.657Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20377%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20rdtgulp.ukit%201.webp?v=2021-09-06T13:45:48.450Z"
 					width="100%"
 					loading="lazy"
-					height="1276px"
 				/>
 			</Box>
 		</Section>
@@ -801,7 +734,7 @@ export default (() => {
 					Как самостоятельно создать сайт стоматологии в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Чтобы разобраться с конструктором uKit, потребуется совсем немного времени. У вас получится сделать свой собственный сайт даже без каких-либо профильных знаний и навыков. А чтобы процесс работы был ещё проще, просто пройдите эти шаги.
+					Чтобы разобраться с конструктором uKit, потребуется совсем немного времени. У вас получится сделать свой собственный сайт даже без каких-либо профильных знаний и навыков. А чтобы процесс работы был ещё проще, просто пройдите эти шаги
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -825,7 +758,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Посмотрите каталог готовых шаблонов в разрезе тематики или не привязываясь к ней, есть одностраничные и многостраничные варианты. Вы можете использовать любой дизайн, который вам понравится. Наполнение или порядок блоков в любой момент можно изменить, точно так же как шрифты или цветовые схемы.
+						Посмотрите каталог готовых шаблонов в разрезе тематики или не привязываясь к ней, есть одностраничные и многостраничные варианты. Вы можете использовать любой дизайн, который вам понравится. Наполнение или порядок блоков в любой момент можно изменить, точно так же как шрифты или цветовые схемы
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -900,7 +833,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Опишите услуги вашей клиники понятным языком, предоставьте контактные данные, организуйте обратную связь, обозначьте цены и другие особенности вашей работы. Загрузите изображения, видео и другие материалы, добавьте отзывы. Многие из этих функций реализованы в готовых секциях. Для проверки готовности сайта воспользуйтесь SEO-визардом.
+						Опишите услуги вашей клиники понятным языком, предоставьте контактные данные, организуйте обратную связь, обозначьте цены и другие особенности вашей работы. Загрузите изображения, видео и другие материалы, добавьте отзывы. Многие из этих функций реализованы в готовых секциях. Для проверки готовности сайта воспользуйтесь SEO-визардом
 					</Text>
 				</Box>
 			</Box>
@@ -931,7 +864,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Все шаблоны, секции и отдельные элементы дизайна в uKit автоматически адаптируются под экраны мобильных устройств. Контент сайта оптимизируется под загрузку на медленных соединениях. При желании вы можете настроить мобильную версию по-своему: скрыть отдельные блоки, поменять цвета и т.п.
+						Все шаблоны, секции и отдельные элементы дизайна в uKit автоматически адаптируются под экраны мобильных устройств. Контент сайта оптимизируется под загрузку на медленных соединениях. При желании вы можете настроить мобильную версию по-своему: скрыть отдельные блоки и поменять цвета
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -983,7 +916,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Если вы регистрируете домен внутри uKit, то его даже не придётся настраивать. Трафик ваших клиентов автоматически шифруется и перенаправляется на HTTPS-протокол. Приобретать отдельные SSL-сертификаты не нужно.
+						Если вы регистрируете домен внутри uKit, то его даже не придётся настраивать. Трафик ваших клиентов автоматически шифруется и перенаправляется на HTTPS-протокол. Приобретать отдельные SSL-сертификаты не нужно
 					</Text>
 				</Box>
 			</Box>
@@ -1014,7 +947,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Когда ваш сайт будет готов к своим первым посетителям, просто нажмите кнопку «Опубликовать». Вы можете и дальше редактировать страницы, не боясь за то, как их видят ваши клиенты. До тех пор, пока вы не нажали кнопку публикации, изменения видны только вам. Боитесь ошибиться или уже ошиблись? Просто вернитесь к предыдущей версии, нажав кнопку «Назад», или откатитесь до версии из бэкапов.
+						Когда ваш сайт будет готов к своим первым посетителям, просто нажмите кнопку «Опубликовать». Вы можете и дальше редактировать страницы, не боясь за то, как их видят ваши клиенты. До тех пор, пока вы не нажали кнопку публикации, изменения видны только вам. Боитесь ошибиться или уже ошиблись? Просто вернитесь к предыдущей версии, нажав кнопку «Назад», или откатитесь до версии из бэкапов
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -1052,7 +985,7 @@ export default (() => {
 					Последние штрихи{"\n"}
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Добавьте сайт клиники в поисковые системы, настройте рекламные кампании и продвижение, проверьте качество сайта, добавьте аналитику и другие внешние сервисы. Каждую из этих задач можно реализовать, не покидая панели управления uKit. У нас всё продумано до мелочей.
+					Добавьте сайт клиники в поисковые системы, настройте рекламные кампании и продвижение, проверьте качество сайта, добавьте аналитику и другие внешние сервисы. Каждую из этих задач можно реализовать, не покидая панели управления uKit. У нас всё продумано до мелочей
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -1098,7 +1031,7 @@ export default (() => {
 					Что ещё можно сделать в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Любой бизнес-сайт: визитки, портфолио, лендинги, каталоги, онлайн-магазины и многое другое. Всё своими руками, даже если вы делаете это впервые.
+					Любой бизнес-сайт: визитки, портфолио, лендинги, каталоги, онлайн-магазины и многое другое. Всё своими руками, даже если вы делаете это впервые
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1283,18 +1216,11 @@ export default (() => {
 					sm-text-align="center"
 					as="h2"
 					text-align="center"
-					width="700px"
 				>
-					Создать сайт стоматологической клиники в uKit
+					Создать сайт стоматологической клиники в uKit{"\n"}
 				</Text>
-				<Text
-					margin="0px 0px 36px 0px"
-					font="--lead"
-					color="--lightD1"
-					text-align="center"
-					width="700px"
-				>
-					Вы можете попробовать конструктор в действии без каких-либо обязательств. Всё что нужно — пара часов времени и желание.
+				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
+					Вы можете попробовать конструктор в действии без каких-либо обязательств. Всё что нужно — пара часов времени и желание
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
@@ -1327,141 +1253,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="18px 0 24px 0" background="linear-gradient(to right,#f3f5f8,#f3f5f8)">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-				flex-wrap="wrap"
-				md-flex-direction="column"
-				md-align-items="center"
-				md-justify-content="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="18px 0px 18px 0px" md-flex-direction="column">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-			<Hr
-				width="100%"
-				margin="16px 0px 16px 0px"
-				padding="0px 0px 0px 0px"
-				background="linear-gradient(to right,#f3f5f8,#f3f5f8)"
-				border-width="0px 0px 2px 0px"
-				border-color="#6c757d29"
-			/>
-			<Box
-				width="100%"
-				md-display="flex"
-				md-align-items="center"
-				md-flex-direction="column"
-				md-justify-content="center"
-			>
-				<Link
-					href="https://ukit.com/ru/agreement"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Соглашение
-				</Link>
-				<Link
-					href="https://ukit.com/ru/storage"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Договор с держателем карты{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/privacy"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Конфиденциальность
-				</Link>
-				<Link
-					href="https://ukit.com/ru/details"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Юридическая информация{" \n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

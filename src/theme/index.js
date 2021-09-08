@@ -10,7 +10,7 @@ export default {
 		"md": [
 			{
 				"type": "max-width",
-				"value": "620"
+				"value": 768
 			}
 		],
 		"lg": [
@@ -155,5 +155,5 @@ export default {
 		}
 	},
 	"fonts": {},
-	"version": 59
+	"version": 70
 }

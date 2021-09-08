@@ -1,91 +1,26 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Icon, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Section, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 import { BsColumnsGutters, BsWindow, BsListUl, BsBell, BsCheckBox, BsPhone, BsAt, BsBarChart, BsGraphUp } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-stroitelnoj-kompanii"} />
 		<Helmet>
 			<title>
-				Создайте сайт строительной компании — uKit. Конструктор сайтов для бизнеса
+				Создайте сайт строительной компании— uKit. Конструктор сайтов для бизнеса
 			</title>
-			<meta name={"description"} content={"Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программирования.\nСайт легко сделать своими руками без всяких профильных знаний.\n"} />
-			<meta property={"og:title"} content={"Создайте сайт строительной компании — uKit. Конструктор сайтов для бизнеса"} />
-			<meta property={"og:description"} content={"Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программирования.\nСайт легко сделать своими руками без всяких профильных знаний.\n"} />
+			<meta name={"description"} content={"Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программированияСайт легко сделать своими руками без всяких профильных знаний\nСайт легко сделать своими руками без всяких профильных знаний.\n"} />
+			<meta property={"og:title"} content={"Создайте сайт строительной компании— uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:description"} content={"Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программированияСайт легко сделать своими руками без всяких профильных знаний\nСайт легко сделать своими руками без всяких профильных знаний.\n"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Section padding="34px 0 24px 0">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="0px 0px 0px 0px">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -118,10 +53,11 @@ export default (() => {
 				>
 					Создайте сайт строительной компании
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программирования.{"\n"}
+				<Text margin="0px 0px 50px 0px" font="--base" color="--dark">
+					Качественные блоки для портфолио, готовые шаблоны, секции с прайс-листами, формы обратной связи и другие тематические элементы дизайна. Оповещения о заявках и никакого программирования
 					<br />
-					Сайт легко сделать своими руками без всяких профильных знаний.
+					<br />
+					Сайт легко сделать своими руками без всяких профильных знаний
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -193,7 +129,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="40px 0 80px 0">
+		<Section padding="40px 0 80px 0" lg-flex-wrap="wrap-reverse">
 			<Override
 				slot="SectionContent"
 				max-width="1056px"
@@ -204,130 +140,132 @@ export default (() => {
 				lg-align-items="center"
 				lg-justify-content="flex-start"
 			/>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsColumnsGutters}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text
-					margin="0px 0px 0px 0px"
-					color="--darkL1"
-					font="--lead"
-					align-self="auto"
-					position="static"
+			<Box lg-display="flex" lg-flex-wrap="wrap" lg-justify-content="center">
+				<Box
+					width="20%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
 				>
-					Понятный онлайн-конструктор{"\n\n"}
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsWindow}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Тематические шаблоны{"\n\n"}
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsListUl}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Готовые формы для заявок{"\n\n"}
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				md-width="100%"
-				md-margin="0px 0px 30px 0px"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsBell}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Автоматические оповещения{"\n\n"}
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsCheckBox}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Встроенный рекламный модуль{"\n\n"}
-				</Text>
+					<Icon
+						category="bs"
+						icon={BsColumnsGutters}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--darkL1"
+						font="--lead"
+						align-self="auto"
+						position="static"
+					>
+						Понятный онлайн-конструктор{"\n\n"}
+					</Text>
+				</Box>
+				<Box
+					width="20%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsWindow}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+						Тематические шаблоны{"\n\n"}
+					</Text>
+				</Box>
+				<Box
+					width="20%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsListUl}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+						Готовые формы для заявок{"\n\n"}
+					</Text>
+				</Box>
+				<Box
+					width="20%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					md-width="100%"
+					md-margin="0px 0px 30px 0px"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsBell}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
+						Автоматические оповещения{"\n\n"}
+					</Text>
+				</Box>
+				<Box
+					width="20%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsCheckBox}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+						Встроенный рекламный модуль{"\n\n"}
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0">
@@ -358,7 +296,7 @@ export default (() => {
 					Примеры шаблонов сайтов строительной тематики
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Вам потребуется только приобрести или привязать свой домен. Всё остальное уже есть внутри uKit. Не нужно быть программистом или дизайнером. Легко начать и просто отредактировать.
+					Вам потребуется только приобрести или привязать свой домен. Всё остальное уже есть внутри uKit. Не нужно быть программистом или дизайнером. Легко начать и просто отредактировать
 				</Text>
 			</Box>
 			<Box
@@ -442,11 +380,11 @@ export default (() => {
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
 					border-radius="18px"
 					position="absolute"
-					width="322.717px"
-					left="304px"
+					width="324.2516153846154px"
+					left="302.46138461538465px"
 					right="77.2861px"
 					top="-82px"
-					bottom="243.048px"
+					bottom="252.27876923076923px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -455,7 +393,7 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="213.95px"
+					height="204.71923076923076px"
 				/>
 				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
@@ -571,7 +509,7 @@ export default (() => {
 					Какие функции есть у uKit для создания эффективных сайтов строительных компаний
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Вам не придётся нанимать специалистов, чтобы сделать свой собственный сайт для рекламы услуг и сбора заявок. Любую страницу можно собрать из готовых блоков и виджетов. Интеграция с внешними сервисами настраивается в пару кликов.
+					Вам не придётся нанимать специалистов, чтобы сделать свой собственный сайт для рекламы услуг и сбора заявок. Любую страницу можно собрать из готовых блоков и виджетов. Интеграция с внешними сервисами настраивается в пару кликов
 				</Text>
 			</Box>
 			<Box
@@ -770,12 +708,11 @@ export default (() => {
 					color="--darkL1"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
-					width="700px"
 				>
 					Как самостоятельно создать сайт строительной компании в uKit
 				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" width="700px">
-					У вас точно получится запустить свой собственный сайт, даже если у вас нет навыков программирования или других профильных знаний. Процесс отнимет всего пару часов вашего времени. Достаточно пройти алгоритм по шагам.
+				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
+					У вас точно получится запустить свой собственный сайт, даже если у вас нет навыков программирования или других профильных знаний. Процесс отнимет всего пару часов вашего времени. Достаточно пройти алгоритм по шагам
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -799,7 +736,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Вам будут доступны сотни готовых тематических дизайнов для разных типов бизнес-сайтов, одностраничных и многостраничных. Вместе с шаблоном вы получаете осмысленное текстовое наполнение, которое наглядно демонстрирует, где и какой должен располагаться контент. При желании его можно оставить «как есть», а можно переделать. Цветовая палитра и шрифты меняются в пару кликов.
+						Вам будут доступны сотни готовых тематических дизайнов для разных типов бизнес-сайтов, одностраничных и многостраничных. Вместе с шаблоном вы получаете осмысленное текстовое наполнение, которое наглядно демонстрирует, где и какой должен располагаться контент. При желании его можно оставить «как есть», а можно переделать. Цветовая палитра и шрифты меняются в пару кликов
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -874,7 +811,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Добавьте или отредактируйте текстовое содержимое, загрузите свои фото и видео с объектов, продемонстрируйте качество своей работы с помощью других элементов сайта. На выбор предоставляются слайдеры, галереи, таймлайны, блоки с этапами работ, прайс-листы и т.п. Картинки можно отредактировать прямо в конструкторе.
+						Добавьте или отредактируйте текстовое содержимое, загрузите свои фото и видео с объектов, продемонстрируйте качество своей работы с помощью других элементов сайта. На выбор предоставляются слайдеры, галереи, таймлайны, блоки с этапами работ и прайс-листы. Картинки можно отредактировать прямо в конструкторе
 					</Text>
 				</Box>
 			</Box>
@@ -905,7 +842,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Трафик с мобильных устройств очень важен. uKit адаптирует сайты под любые экраны без участия пользователей. Но при желании можно скрыть отдельные элементы или целые виджеты, по-другому настроить фон и оформление отдельно для планшетов или смартфонов.
+						Трафик с мобильных устройств очень важен. uKit адаптирует сайты под любые экраны без участия пользователей. Но при желании можно скрыть отдельные элементы или целые виджеты, по-другому настроить фон и оформление отдельно для планшетов или смартфонов
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -957,7 +894,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Зарегистрировать новое доменное имя, можно не покидая панели управления uKit, привязка к хостингу будет настроена автоматически. Сайт будет поддерживать защищённый протокол HTTPS, никаких дополнительных действий для получения SSL-сертификатов не требуется.
+						Зарегистрировать новое доменное имя, можно не покидая панели управления uKit, привязка к хостингу будет настроена автоматически. Сайт будет поддерживать защищённый протокол HTTPS, никаких дополнительных действий для получения SSL-сертификатов не требуется
 					</Text>
 				</Box>
 			</Box>
@@ -988,7 +925,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Как только вы нажмёте кнопку «Опубликовать», сайт станет доступен для посещения. Не бойтесь редактировать его содержимое в процессе работы, uKit позволяет хранить до 10 резервных копий. Если вы сделаете что-то не так, просто откатитесь до нужной версии или отмените действие в редакторе кнопкой «Назад».
+						Как только вы нажмёте кнопку «Опубликовать», сайт станет доступен для посещения. Не бойтесь редактировать его содержимое в процессе работы, uKit позволяет хранить до 10 резервных копий. Если вы сделаете что-то не так, просто откатитесь до нужной версии или отмените действие в редакторе кнопкой «Назад»
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -1026,7 +963,7 @@ export default (() => {
 					Почти готово!{"\n"}
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Не забудьте добавить сайт в поисковые системы и позаботиться о SEO-продвижении. Проверить готовность можно в специальном визарде. Пока сайт индексируется, вы можете привлечь своих первых клиентов с помощью онлайн-рекламы. Запустить эффективные рекламные кампании можно в специальном рекламном модуле.
+					Не забудьте добавить сайт в поисковые системы и позаботиться о SEO-продвижении. Проверить готовность можно в специальном визарде. Пока сайт индексируется, вы можете привлечь своих первых клиентов с помощью онлайн-рекламы. Запустить эффективные рекламные кампании можно в специальном рекламном модуле
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -1068,18 +1005,11 @@ export default (() => {
 					text-align="center"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
-					width="676px"
 				>
 					Какие ещё сайты можно сделать в uKit
 				</Text>
-				<Text
-					margin="0px 0px 0px 0px"
-					font="--base"
-					color="--darkL1"
-					text-align="center"
-					width="676px"
-				>
-					Конструктор uKit позволяет запускать любые тематические проекты для бизнеса буквально за несколько часов без специальных знаний и навыков. Любой сайт можно сделать своими руками.
+				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
+					Конструктор uKit позволяет запускать любые тематические проекты для бизнеса буквально за несколько часов без специальных знаний и навыков. Любой сайт можно сделать своими руками
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1264,18 +1194,11 @@ export default (() => {
 					sm-text-align="center"
 					as="h2"
 					text-align="center"
-					width="700px"
 				>
 					Создать сайт строительной компании в uKit
 				</Text>
-				<Text
-					margin="0px 0px 36px 0px"
-					font="--lead"
-					color="--lightD1"
-					text-align="center"
-					width="700px"
-				>
-					Начните использовать платформу без каких-либо обязательств и предоплаты. Ознакомьтесь с шаблонами и функциональными возможностями конструктора прямо сейчас.
+				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
+					Начните использовать платформу без каких-либо обязательств и предоплаты. Ознакомьтесь с шаблонами и функциональными возможностями конструктора прямо сейчас
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
@@ -1308,141 +1231,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="18px 0 24px 0" background="linear-gradient(to right,#f3f5f8,#f3f5f8)">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-				flex-wrap="wrap"
-				md-flex-direction="column"
-				md-align-items="center"
-				md-justify-content="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="18px 0px 18px 0px" md-flex-direction="column">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-			<Hr
-				width="100%"
-				margin="16px 0px 16px 0px"
-				padding="0px 0px 0px 0px"
-				background="linear-gradient(to right,#f3f5f8,#f3f5f8)"
-				border-width="0px 0px 2px 0px"
-				border-color="#6c757d29"
-			/>
-			<Box
-				width="100%"
-				md-display="flex"
-				md-align-items="center"
-				md-flex-direction="column"
-				md-justify-content="center"
-			>
-				<Link
-					href="https://ukit.com/ru/agreement"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Соглашение
-				</Link>
-				<Link
-					href="https://ukit.com/ru/storage"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Договор с держателем карты{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/privacy"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Конфиденциальность
-				</Link>
-				<Link
-					href="https://ukit.com/ru/details"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Юридическая информация{" \n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

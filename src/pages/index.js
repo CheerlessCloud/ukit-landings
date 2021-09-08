@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Image, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -16,73 +17,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Section padding="34px 0 24px 0">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="0px 0px 0px 0px">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-display="none"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuHeader lazy-load />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -115,7 +50,6 @@ export default (() => {
 				>
 					Создание сайта-визитки для бизнеса
 					<br />
-					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
 					Никакого кода, масса готовых шаблонов, бесплатные SMS-уведомления и заявки, безлимитный хостинг. Готовый сайт за один вечер
@@ -135,7 +69,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать сайт-визитку
 				</Link>
 			</Box>
 			<Box
@@ -278,7 +212,6 @@ export default (() => {
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Расширенная аналитика
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 		</Section>
@@ -309,12 +242,10 @@ export default (() => {
 				>
 					Примеры шаблонов сайтов-визиток
 					<br />
-					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
 					Нужен только свой домен, простейший хостинг и качественный конструктор, чтобы собрать свой вариант. У нас всё это можно получить в одном месте
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -328,10 +259,10 @@ export default (() => {
 			>
 				<Box display="flex" flex-direction="column" margin="0px 60px 0px 0px">
 					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
-						350{"\n\n"}
+						350
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Шаблонов{"\n\n"}
+						Шаблонов
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
@@ -339,7 +270,7 @@ export default (() => {
 						40
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Тематик{"\n\n"}
+						Тематик
 					</Text>
 				</Box>
 			</Box>
@@ -526,7 +457,6 @@ export default (() => {
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
 					Любой желающий может сделать свой сайт — никаких правок кода, только готовые виджеты и секции. Подробные инструкции с примерами, масса готовых шаблонов. Не нужно быть программистом или дизайнером, чтобы создать свою первую визитку
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box
@@ -580,7 +510,6 @@ export default (() => {
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Система статистики и аналитики
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -639,7 +568,6 @@ export default (() => {
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
 					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
 					<br />
-					{"\n\n"}
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -656,7 +584,6 @@ export default (() => {
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Начните с дизайна
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -742,7 +669,6 @@ export default (() => {
 					>
 						В uKit это просто. Можно оставить дизайн из шаблона, заменив демо-контент на собственный. А можно добавить блоки в конструкторе или полностью переделать всё содержимое страницы
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 			</Box>
@@ -775,7 +701,6 @@ export default (() => {
 					>
 						Наш конструктор почти все сделает за вас, вам останется только проверить и внести небольшие корректировки
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -829,7 +754,6 @@ export default (() => {
 					>
 						Вы можете получить новый домен в панели управления uKit или привязать уже имеющийся. SSL-сертификаты для HTTPS-версии сайта предоставляются бесплатно и настраиваются автоматически. Ничего не придётся редактировать вручную
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 			</Box>
@@ -915,7 +839,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-визитку{"\n\n"}
+					Создать сайт-визитку
 				</Link>
 			</Box>
 		</Section>
@@ -991,7 +915,7 @@ export default (() => {
 						loading="lazy"
 					/>
 					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт ресторана{"\n\n"}
+						Сайт ресторана
 					</Text>
 				</Box>
 			</Box>
@@ -1078,7 +1002,6 @@ export default (() => {
 					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
 						Сайт турагентства
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -1103,7 +1026,6 @@ export default (() => {
 					<Text margin="0px 0px 0px 0px" font="--lead">
 						Сайт для питомника животных
 						<br />
-						{"\n\n"}
 					</Text>
 				</Box>
 			</Box>
@@ -1135,7 +1057,6 @@ export default (() => {
 					Создайте сайт-визитку самостоятельно за несколько часов, даже если вы никогда не делали этого раньше
 					<Link href="https://ukit.com/ru/signup">
 						<br />
-						{"\n\n"}
 					</Link>
 				</Text>
 				<Link
@@ -1153,145 +1074,11 @@ export default (() => {
 					background="--color-white"
 					hover-background="--color-lightD1"
 				>
-					Попробовать бесплатно{"\n\n"}
+					Попробовать бесплатно
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="18px 0 24px 0" background="linear-gradient(to right,#f3f5f8,#f3f5f8)">
-			<Override
-				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
-				align-items="center"
-				flex-wrap="wrap"
-				md-flex-direction="column"
-				md-align-items="center"
-				md-justify-content="center"
-			/>
-			<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/logo.svg?v=2021-08-19T11:29:12.664Z" width="80px" height="34px" />
-			<Box display="flex" align-items="center" padding="18px 0px 18px 0px" md-flex-direction="column">
-				<Link
-					href="https://ukit.com/ru/whyus"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Почему мы{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/pricing"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Цены
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signin"
-					color="--dark"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 7px 5px 7px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					md-margin="0px 7px 5PX 7px"
-				>
-					Войти
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signUp"
-					color="--secondary"
-					text-decoration-line="initial"
-					font="--menu"
-					hover-color="--primary"
-					padding="5px 18px 5px 18px"
-					transition="color 0.3s --transitionTimingFunction-easeInOut 0s"
-					margin="0px 7px 0px 7px"
-					border-width="2px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="50px"
-				>
-					Создать сайт{"\n\n"}
-				</Link>
-			</Box>
-			<Hr
-				width="100%"
-				margin="16px 0px 16px 0px"
-				padding="0px 0px 0px 0px"
-				background="linear-gradient(to right,#f3f5f8,#f3f5f8)"
-				border-width="0px 0px 2px 0px"
-				border-color="#6c757d29"
-			/>
-			<Box
-				width="100%"
-				md-display="flex"
-				md-align-items="center"
-				md-flex-direction="column"
-				md-justify-content="center"
-			>
-				<Link
-					href="https://ukit.com/ru/agreement"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Соглашение
-				</Link>
-				<Link
-					href="https://ukit.com/ru/storage"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Договор с держателем карты{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/privacy"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Конфиденциальность
-				</Link>
-				<Link
-					href="https://ukit.com/ru/details"
-					text-decoration-line="initial"
-					font="--footer"
-					color="--grey"
-					hover-color="--primary"
-					margin="0px 24px 0px -1px"
-					padding="5px 0px 5px 0px"
-					md-margin="0px 0px 0px 0px"
-				>
-					Юридическая информация{" \n\n"}
-				</Link>
-			</Box>
-		</Section>
+		<Components.RuFooter lazy-load />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
