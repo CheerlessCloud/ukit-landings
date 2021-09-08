@@ -33,11 +33,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт-визитка для бизнеса
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -45,12 +46,13 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Одностраничный
 сайт — лендинг
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -58,11 +60,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт для агентства недвижимости
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-stomatologii"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -70,11 +73,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт стоматологической клиники
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -82,11 +86,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт строительной компании
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-dezajnera-interjerov"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -94,11 +99,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт-портфолио дизайнера интерьеров
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-yurista"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -106,11 +112,12 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
 					Сайт юриста
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -118,8 +125,9 @@ export default (() => {
 					flex-direction="row"
 					width="50%"
 					hover-color="--primary"
+					md-width="100%"
 				>
-					Сайт образовательного учрежден
+					Сайт образовательного учреждения
 				</Link>
 			</Box>
 		</Section>

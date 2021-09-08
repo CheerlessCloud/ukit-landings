@@ -1079,6 +1079,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Components.RuFooter lazy-load />
+		<Components.Perelink />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

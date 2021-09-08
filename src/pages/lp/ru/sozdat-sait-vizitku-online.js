@@ -131,11 +131,10 @@ export default (() => {
 				slot="SectionContent"
 				max-width="1056px"
 				flex-direction="row"
-				justify-content="space-between"
+				justify-content="flex-start"
 				align-items="center"
-				lg-flex-wrap="wrap"
 				lg-align-items="center"
-				lg-justify-content="flex-start"
+				flex-wrap="wrap"
 			/>
 			<Box
 				width="20%"
@@ -146,7 +145,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -168,7 +168,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -190,7 +191,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -211,8 +213,9 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="100%"
+				md-width="50%"
 				md-margin="0px 0px 30px 0px"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -233,7 +236,8 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -499,10 +503,11 @@ export default (() => {
 				padding="0px 15px 0px 15px"
 				display="flex"
 				flex-direction="column"
-				justify-content="center"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
+				lg-justify-content="flex-start"
+				flex-wrap="wrap"
 			>
 				<Box
 					display="flex"
@@ -798,7 +803,7 @@ export default (() => {
 					justify-content="center"
 					align-items="flex-start"
 					md-width="100%"
-					md-padding="0px 15px 0px 0px"
+					md-padding="0px 15px 0px 15px"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
@@ -810,6 +815,7 @@ export default (() => {
 						font="--base"
 						width="84%"
 						lg-width="100%"
+						sm-color="#3c3f4f"
 					>
 						Вы можете получить новый домен в панели управления uKit или привязать уже имеющийся. SSL-сертификаты для HTTPS-версии сайта предоставляются бесплатно и настраиваются автоматически. Ничего не придётся редактировать вручную
 						<br />
@@ -940,7 +946,7 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-stomatologii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Components.Perelink href="/lp/ru/sozdat-sajt-stomatologii">
 						<Image
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_ru%201.webp?v=2021-09-05T12:18:24.069Z"
 							width="100%"
@@ -954,7 +960,7 @@ export default (() => {
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px" color="--darkL1">
 							Сайт стоматологической клиники
 						</Text>
-					</Link>
+					</Components.Perelink>
 				</Box>
 				<Box
 					width="50%"
@@ -965,19 +971,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт агентства недвижимости
-					</Text>
+					<Components.Perelink>
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Сайт агентства недвижимости
+						</Text>
+					</Components.Perelink>
 				</Box>
 			</Box>
 			<Box
@@ -996,19 +1004,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт строительной компании
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт строительной компании
+						</Text>
+					</Components.Perelink>
 				</Box>
 				<Box
 					width="50%"
@@ -1019,19 +1029,21 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_ru.webp?v=2021-09-07T07:37:52.592Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Сайт-портфолио дизайна интерьеров
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-sajt-dezajnera-interjerov">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_ru.webp?v=2021-09-07T07:37:52.592Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Сайт-портфолио дизайна интерьеров
+						</Text>
+					</Components.Perelink>
 				</Box>
 			</Box>
 			<Box
@@ -1050,20 +1062,22 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
-						width="100%"
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						border-radius="18px"
-						margin="0px 0px 18px 0px"
-						loading="lazy"
-					/>
-					<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-						Сайт юриста
-						<br />
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-sajt-yurista">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Сайт юриста
+							<br />
+						</Text>
+					</Components.Perelink>
 				</Box>
 				<Box
 					width="50%"
@@ -1084,9 +1098,11 @@ export default (() => {
 						margin="0px 0px 18px 0px"
 						loading="lazy"
 					/>
-					<Text margin="0px 0px 0px 0px" font="--lead">
-						Одностраничный сайт
-					</Text>
+					<Components.Perelink href="/lp/ru/sozdat-odnostranichnyj-sajt-lending">
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Одностраничный сайт
+						</Text>
+					</Components.Perelink>
 				</Box>
 			</Box>
 		</Section>

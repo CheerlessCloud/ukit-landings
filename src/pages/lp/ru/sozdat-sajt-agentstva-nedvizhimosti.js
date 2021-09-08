@@ -137,6 +137,7 @@ export default (() => {
 				lg-flex-wrap="wrap"
 				lg-align-items="center"
 				lg-justify-content="flex-start"
+				md-justify-content="center"
 			/>
 			<Box
 				width="20%"
@@ -147,7 +148,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -170,7 +172,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -193,7 +196,8 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -215,8 +219,9 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="100%"
+				md-width="50%"
 				md-margin="0px 0px 30px 0px"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -238,7 +243,8 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="100%"
+				md-width="50%"
+				sm-width="100%"
 			>
 				<Icon
 					category="bs"
@@ -864,7 +870,7 @@ export default (() => {
 					justify-content="center"
 					align-items="flex-start"
 					md-width="100%"
-					md-padding="0px 15px 0px 0px"
+					md-padding="0px 15px 0px 15px"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
