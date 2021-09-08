@@ -155,7 +155,7 @@ export default (() => {
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="#4773ff"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Простой конструктор
@@ -179,7 +179,7 @@ export default (() => {
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="#4773ff"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Шаблоны для юристов
@@ -203,7 +203,7 @@ export default (() => {
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="#4773ff"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Готовые формы заявок
@@ -227,7 +227,7 @@ export default (() => {
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="#4773ff"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
 					Уведомления на телефон
@@ -250,7 +250,7 @@ export default (() => {
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="#4773ff"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 					Адаптивный сайт

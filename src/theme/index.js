@@ -155,5 +155,5 @@ export default {
 		}
 	},
 	"fonts": {},
-	"version": 70
+	"version": 73
 }
