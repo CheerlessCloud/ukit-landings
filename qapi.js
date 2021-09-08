@@ -42,7 +42,14 @@ export default {
 			"name": "lp",
 			"children": [
 				"6130a3c652477d001f6301c4"
-			]
+			],
+			"seo": {
+				"title": "uKit",
+				"description": "uKit",
+				"og:title": "uKit",
+				"og:description": "uKit",
+				"hide": true
+			}
 		},
 		"6130a3c652477d001f6301c4": {
 			"id": "6130a3c652477d001f6301c4",
@@ -59,7 +66,9 @@ export default {
 				"61367b6c29a0a1001e6c6c64"
 			],
 			"seo": {
-				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса"
+				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
+				"hide": true,
+				"og:title": "Готовые решения — uKit. Конструктор сайтов для бизнеса"
 			}
 		},
 		"613213857514e1001f259a1d": {

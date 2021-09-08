@@ -13,8 +13,10 @@ export default (() => {
 				Готовые решения — uKit. Конструктор сайтов для бизнеса
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta property={"og:title"} content={"Готовые решения — uKit. Конструктор сайтов для бизнеса"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
+			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Components.RuHeader />
 		<Section>
