@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, List, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Готовые решения — uKit. Конструктор сайтов для бизнеса
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
@@ -18,37 +18,102 @@ export default (() => {
 		</Helmet>
 		<Components.RuHeader />
 		<Section>
-			<Override slot="SectionContent" width="1056px" />
+			<Override slot="SectionContent" max-width="1056px" />
 			<Text font="--headline3">
 				Готовые решения
 			</Text>
-			<List list-style-type="none" font="--base" padding="0px 0px 0px 10px">
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
+			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
+			<Box display="flex" flex-wrap="wrap" sm-flex-direction="column">
+				<Link
+					href="/lp/ru/sozdat-sait-vizitku-online"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
 					Сайт-визитка для бизнеса
 				</Link>
-				<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" font="--base" color="--dark" text-decoration-line="initial">
+				<Link
+					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
 					Одностраничный
 сайт — лендинг
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт для агентства недвижимости
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-stomatologii"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт стоматологической клиники
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт строительной компании
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-dezajnera-interjerov"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт-портфолио дизайнера интерьеров
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-yurista"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт юриста
 				</Link>
-				<Link href="/lp/ru/sozdat-sait-vizitku-online" font="--base" color="--dark" text-decoration-line="initial">
-					Сайт-визитка для бизнеса
+				<Link
+					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+				>
+					Сайт образовательного учрежден
 				</Link>
-			</List>
+			</Box>
 		</Section>
 		<Components.RuFooter />
 		<Link
