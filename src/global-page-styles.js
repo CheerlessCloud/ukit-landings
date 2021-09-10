@@ -91,6 +91,14 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/sozdat-sajt-yurista1": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
