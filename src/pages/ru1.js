@@ -1,22 +1,20 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Hr, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru"} />
+		<GlobalQuarklyPageStyles pageUrl={"ru1"} />
 		<Helmet>
 			<title>
-				Готовые решения — uKit. Конструктор сайтов для бизнеса
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<meta property={"og:title"} content={"Готовые решения — uKit. Конструктор сайтов для бизнеса"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
-			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Components.RuHeader />
 		<Section>
@@ -25,126 +23,8 @@ export default (() => {
 				Готовые решения
 			</Text>
 			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
-			<Box display="flex" flex-wrap="wrap" sm-flex-direction="column">
-				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт-визитка для бизнеса
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Одностраничный
-сайт — лендинг
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт для агентства недвижимости
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-stomatologii"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт стоматологической клиники
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт строительной компании
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-dezajnera-interjerov"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт-портфолио дизайнера интерьеров
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-yurista"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт юриста
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт образовательного учреждения
-				</Link>
-				<Link
-					href="/lp/ru/sozdat-sajt-uchitelja"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Сайт учителя, педагога или преподавателя{"\n\n"}
-				</Link>
-			</Box>
+			<Components.SitemapLink />
+			<Components.SitemapLinkBox />
 		</Section>
 		<Components.RuFooter />
 		<Link
