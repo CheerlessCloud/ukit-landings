@@ -106,14 +106,6 @@ const pageStyles = {
         "min-height": "",
         "width": "",
         "font": "--headline1"
-    },
-    "ru1": {
-        "overflow-x": "hidden",
-        "overflow-y": "visible",
-        "height": "",
-        "min-height": "",
-        "width": "",
-        "font": "--headline1"
     }
 };
 
