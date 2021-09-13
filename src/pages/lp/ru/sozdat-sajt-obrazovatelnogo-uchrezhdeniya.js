@@ -18,7 +18,6 @@ export default (() => {
 			<meta property={"og:description"} content={"Конструктор сайтов uKit подходит для любых задач, в том числе для создания сайтов образовательных учреждений: детских садов, школ, лицеев, гимназий, профтехучилищ, центров юношеского творчества, школ искусств, подготовительных курсов и онлайн-обучения. Это могут быть как коммерческие, так и некоммерческие учреждения."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
-			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Components.RuHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
@@ -887,30 +886,6 @@ export default (() => {
 						justify-content="center"
 						loading="lazy"
 					/>
-				</Box>
-				<Box
-					width="50%"
-					padding="0px 15px 0px 60px"
-					display="flex"
-					flex-direction="column"
-					justify-content="center"
-					align-items="flex-start"
-					md-width="100%"
-					md-padding="0px 15px 0px 15px"
-				>
-					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
-					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Позаботьтесь о наполнении
-					</Text>
-					<Text
-						margin="0px 0px 24px 0px"
-						color="--dark"
-						font="--base"
-						width="84%"
-						lg-width="100%"
-					>
-						Любой текст, изображения, видео, файлы и другой тип контента легко заменить, добавить или изменить. Вы сможете загрузить свои сертификаты, договоры, прайс-листы и иные документы, создать и наполнить карточки преподавателей (педагогического состава), добавить объявления, отзывы и новости. И всё это своими руками в удобном онлайн-конструкторе
-					</Text>
 				</Box>
 				<Box
 					width="50%"

@@ -1080,7 +1080,9 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Components.RuFooter lazy-load />
+		<Components.RuFooter>
+			<Override slot="link8" />
+		</Components.RuFooter>
 		<Components.Perelink />
 		<Link
 			font={"--capture"}

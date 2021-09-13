@@ -3,7 +3,8 @@ import { useOverrides, Override } from "@quarkly/components";
 import { Image, Link, Box, Hr, Section } from "@quarkly/widgets";
 const defaultProps = {
 	"padding": "18px 0 24px 0",
-	"background": "linear-gradient(to right,#f3f5f8,#f3f5f8)"
+	"background": "linear-gradient(to right,#f3f5f8,#f3f5f8)",
+	"lazy-load": true
 };
 const overrides = {
 	"image": {
@@ -182,7 +183,7 @@ const overrides = {
 			"margin": "0px 24px 0px -1px",
 			"padding": "5px 0px 5px 0px",
 			"md-margin": "0px 0px 0px 0px",
-			"children": "Карта сайта"
+			"children": "Готовые решения"
 		}
 	}
 };

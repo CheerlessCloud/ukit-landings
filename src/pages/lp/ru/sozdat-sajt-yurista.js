@@ -18,7 +18,6 @@ export default (() => {
 			<meta property={"og:description"} content={"Никаких брифов, утомительных согласований и ожидания — в uKit вы сможете сделать сайт сами, своими руками, без каких-либо посредников. Готовые тематические шаблоны, безлимитный хостинг и SMS-уведомления о заявках в любом тарифе"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
-			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Components.RuHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
