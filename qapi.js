@@ -83,7 +83,7 @@ export default {
 					"data": {
 						"type": "",
 						"rel": "canonical",
-						"href": "/lp/ru"
+						"href": "/lp/ru/"
 					}
 				}
 			}

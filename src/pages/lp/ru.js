@@ -182,7 +182,7 @@ export default (() => {
 			<link
 				type={""}
 				rel={"canonical"}
-				href={"/lp/ru"}
+				href={"/lp/ru/"}
 				place={"endOfHead"}
 				rawKey={"613f7f38a7aa2ea61704f04c"}
 			/>
