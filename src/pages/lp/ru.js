@@ -27,7 +27,7 @@ export default (() => {
 			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
 			<Box display="flex" flex-wrap="wrap" sm-flex-direction="column">
 				<Link
-					href="/lp/ru/sozdat-sait-vizitku-online"
+					href="/lp/ru/sozdat-sait-vizitku-online/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -40,7 +40,7 @@ export default (() => {
 					Сайт-визитка для бизнеса
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending"
+					href="/lp/ru/sozdat-odnostranichnyj-sajt-lending/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -54,7 +54,7 @@ export default (() => {
 сайт — лендинг
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti"
+					href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -67,7 +67,7 @@ export default (() => {
 					Сайт для агентства недвижимости
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-stomatologii"
+					href="/lp/ru/sozdat-sajt-stomatologii/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -80,7 +80,7 @@ export default (() => {
 					Сайт стоматологической клиники
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii"
+					href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -93,7 +93,7 @@ export default (() => {
 					Сайт строительной компании
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-dezajnera-interjerov"
+					href="/lp/ru/sozdat-sajt-dezajnera-interjerov/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -106,7 +106,7 @@ export default (() => {
 					Сайт-портфолио дизайнера интерьеров
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-yurista"
+					href="/lp/ru/sozdat-sajt-yurista/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -119,7 +119,7 @@ export default (() => {
 					Сайт юриста
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya"
+					href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"
@@ -132,7 +132,7 @@ export default (() => {
 					Сайт образовательного учреждения
 				</Link>
 				<Link
-					href="/lp/ru/sozdat-sajt-uchitelja"
+					href="/lp/ru/sozdat-sajt-uchitelja/"
 					font="--base"
 					color="--dark"
 					text-decoration-line="initial"

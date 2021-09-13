@@ -22,7 +22,7 @@ export default {
 			"pageUrl": "index",
 			"styles": {},
 			"seo": {
-				"hide": true
+				"hide": false
 			}
 		},
 		"612ba49117f5d1001e31b05d": {
@@ -60,7 +60,7 @@ export default {
 				"description": "uKit",
 				"og:title": "uKit",
 				"og:description": "uKit",
-				"hide": true
+				"hide": false
 			}
 		},
 		"6130a3c652477d001f6301c4": {
