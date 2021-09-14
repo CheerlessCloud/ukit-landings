@@ -1,5 +1,5 @@
+export { default as RuHeader } from "./RuHeader"
+export { default as RuFooter } from "./RuFooter"
+export { default as Perelink } from "./Perelink"
 export { default as SitemapLink } from "./SitemapLink"
 export { default as SitemapLinkBox } from "./SitemapLinkBox"
-export { default as RuHeader } from "./RuHeader"
-export { default as Perelink } from "./Perelink"
-export { default as RuFooter } from "./RuFooter"
