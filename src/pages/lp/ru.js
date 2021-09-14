@@ -144,6 +144,19 @@ export default (() => {
 				>
 					Сайт учителя, педагога или преподавателя{"\n\n"}
 				</Link>
+				<Link
+					href="/lp/ru/sozdat-sajt-repetitora/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сайт репетитора
+				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />
