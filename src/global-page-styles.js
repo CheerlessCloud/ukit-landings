@@ -115,7 +115,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sajt-uchitelja1": {
+    "lp/ru/sozdat-sajt-advokata": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",

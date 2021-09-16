@@ -314,8 +314,26 @@ export default {
 		},
 		"6140529929a0a1001e6c7f0e": {
 			"id": "6140529929a0a1001e6c7f0e",
-			"pageUrl": "sozdat-sajt-uchitelja1",
-			"name": "Создайте сайт адваката"
+			"pageUrl": "sozdat-sajt-advokata",
+			"name": "Создайте сайт адвоката",
+			"seo": {
+				"title": "Создайте сайт адвоката — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт адвоката — uKit. Конструктор сайтов для бизнеса",
+				"description": "Красивый, адаптивный и действительно функциональный сайт можно сделать своими руками. Достаточно выбрать платформу uKit. Не нужно быть программистом или иметь любые другие профильные навыки: есть готовые шаблоны, виджеты и другие элементы, удобный онлайн-конструктор, масса дополнительных сервисов",
+				"og:description": "Красивый, адаптивный и действительно функциональный сайт можно сделать своими руками. Достаточно выбрать платформу uKit. Не нужно быть программистом или иметь любые другие профильные навыки: есть готовые шаблоны, виджеты и другие элементы, удобный онлайн-конструктор, масса дополнительных сервисов",
+				"og:image": ""
+			},
+			"customCode": {
+				"61430c81c48fb6f984550af1": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/ru/sozdat-sajt-advokata/",
+						"rel": "canonical"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -341,7 +359,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n<changefreq>weekly</changefreq>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n<changefreq>weekly</changefreq>\n</url>\n</urlset>"
 		}
 	}
 }
