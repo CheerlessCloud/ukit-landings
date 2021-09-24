@@ -80,7 +80,8 @@ export default {
 				"613f156a466b8c001e9b0043",
 				"6140529929a0a1001e6c7f0e",
 				"614c554c17f5d1001e31dbd3",
-				"614d882c7514e1001f25bb50"
+				"614d882c7514e1001f25bb50",
+				"614daea17f2b1f001fa09e00"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -361,8 +362,47 @@ export default {
 		},
 		"614d882c7514e1001f25bb50": {
 			"id": "614d882c7514e1001f25bb50",
-			"pageUrl": "sozdat-sajt-dlya-prodazhi-onlajn-kursov1",
-			"name": "Создайте сайт-портфолио разработчика"
+			"pageUrl": "sozdat-sajt-portfolio-razrabotchika",
+			"name": "Создайте сайт-портфолио разработчика",
+			"seo": {
+				"title": "Создайте сайт-портфолио разработчика— uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт-портфолио разработчика— uKit. Конструктор сайтов для бизнеса",
+				"description": "Нет времени на сложную ручную вёрстку? Нет идей по оформлению? Не проблема — своё портфолио можно быстро собрать в конструкторе uKit: большая база готовых шаблонов, простой и удобный редактор и полностью безлимитный хостинг",
+				"og:description": "Нет времени на сложную ручную вёрстку? Нет идей по оформлению? Не проблема — своё портфолио можно быстро собрать в конструкторе uKit: большая база готовых шаблонов, простой и удобный редактор и полностью безлимитный хостинг"
+			},
+			"customCode": {
+				"614da8d174fad1334cf350ca": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/ru/sozdat-sajt-portfolio-razrabotchika/",
+						"rel": "canonical"
+					}
+				}
+			}
+		},
+		"614daea17f2b1f001fa09e00": {
+			"id": "614daea17f2b1f001fa09e00",
+			"pageUrl": "sozdat-sajt-portfolio-hudozhnika",
+			"name": "Создайте сайт-портфолио художника",
+			"seo": {
+				"title": "Создайте сайт-портфолио художника— uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт-портфолио художника— uKit. Конструктор сайтов для бизнеса",
+				"description": "В uKit можно сделать функциональный сайт-портфолио с современным дизайном и мобильной версией без программирования — своими руками, буквально за один вечер",
+				"og:description": "В uKit можно сделать функциональный сайт-портфолио с современным дизайном и мобильной версией без программирования — своими руками, буквально за один вечер"
+			},
+			"customCode": {
+				"614dbe9319ad667c13967be2": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sajt-portfolio-hudozhnika/"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -388,7 +428,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

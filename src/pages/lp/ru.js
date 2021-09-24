@@ -183,6 +183,32 @@ export default (() => {
 				>
 					Сайт для продажи онлайн-курсов{"\n\n"}
 				</Link>
+				<Link
+					href="/lp/ru/sozdat-sajt-portfolio-razrabotchika/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сайт-портфолио разработчика{"\n\n"}
+				</Link>
+				<Link
+					href="/lp/ru/sozdat-sajt-portfolio-hudozhnika/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сайт-портфолио художника{"\n\n"}
+				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />

@@ -131,7 +131,15 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov1": {
+    "lp/ru/sozdat-sajt-portfolio-razrabotchika": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-portfolio-hudozhnika": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
