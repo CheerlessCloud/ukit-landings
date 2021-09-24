@@ -123,6 +123,22 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov1": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "experiments": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

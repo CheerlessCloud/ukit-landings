@@ -78,7 +78,9 @@ export default {
 				"613b166217f5d1001e31ca8b",
 				"61367b6c29a0a1001e6c6c64",
 				"613f156a466b8c001e9b0043",
-				"6140529929a0a1001e6c7f0e"
+				"6140529929a0a1001e6c7f0e",
+				"614c554c17f5d1001e31dbd3",
+				"614d882c7514e1001f25bb50"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -334,6 +336,33 @@ export default {
 					}
 				}
 			}
+		},
+		"614c554c17f5d1001e31dbd3": {
+			"id": "614c554c17f5d1001e31dbd3",
+			"pageUrl": "sozdat-sajt-dlya-prodazhi-onlajn-kursov",
+			"name": "Создайте сайт для продажи онлайн-курсов",
+			"seo": {
+				"title": "Создайте сайт для продажи онлайн-курсов— uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт для продажи онлайн-курсов— uKit. Конструктор сайтов для бизнеса",
+				"description": "Никаких комиссий с оборота, всё максимально просто и понятно, сделать сайт и подключить приём оплаты можно без технических специалистов — только своими силами. Неограниченный хостинг и любое количество страниц, SMS-уведомления о заявках",
+				"og:description": "Никаких комиссий с оборота, всё максимально просто и понятно, сделать сайт и подключить приём оплаты можно без технических специалистов — только своими силами. Неограниченный хостинг и любое количество страниц, SMS-уведомления о заявках"
+			},
+			"customCode": {
+				"614cede783a9e30226db7a0d": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/",
+						"rel": "canonical"
+					}
+				}
+			}
+		},
+		"614d882c7514e1001f25bb50": {
+			"id": "614d882c7514e1001f25bb50",
+			"pageUrl": "sozdat-sajt-dlya-prodazhi-onlajn-kursov1",
+			"name": "Создайте сайт-портфолио разработчика"
 		}
 	},
 	"mode": "production",
@@ -359,7 +388,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n<changefreq>weekly</changefreq>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n<changefreq>weekly</changefreq>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

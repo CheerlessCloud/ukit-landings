@@ -170,6 +170,19 @@ export default (() => {
 				>
 					Cайт адвоката{"\n\n"}
 				</Link>
+				<Link
+					href="/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сайт для продажи онлайн-курсов{"\n\n"}
+				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />
