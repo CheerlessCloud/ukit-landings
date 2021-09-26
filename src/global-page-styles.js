@@ -147,6 +147,30 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/skolko-stoit-sdelat-sayt": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sayt-pod-klyuch": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya1": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "experiments": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

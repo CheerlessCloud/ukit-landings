@@ -11,10 +11,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-dezajnera-interjerov"} />
 		<Helmet>
 			<title>
-				Создайте сайт-портфолио дизайнера интерьеров— uKit. Конструктор сайтов для бизнеса
+				Создайте сайт-портфолио дизайнера интерьеров — uKit. Конструктор сайтов для бизнеса
 			</title>
 			<meta name={"description"} content={"Нет ничего проще, если выбрать конструктор uKit. Безлимитный хостинг, готовые шаблоны и максимально простой редактор. Со всем можно справиться без сторонних специалистов"} />
-			<meta property={"og:title"} content={"Создайте сайт-портфолио дизайнера интерьеров— uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:title"} content={"Создайте сайт-портфолио дизайнера интерьеров — uKit. Конструктор сайтов для бизнеса"} />
 			<meta property={"og:description"} content={"Нет ничего проще, если выбрать конструктор uKit. Безлимитный хостинг, готовые шаблоны и максимально простой редактор. Со всем можно справиться без сторонних специалистов"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />

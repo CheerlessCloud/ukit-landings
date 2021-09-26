@@ -209,6 +209,32 @@ export default (() => {
 				>
 					Сайт-портфолио художника{"\n\n"}
 				</Link>
+				<Link
+					href="/lp/ru/skolko-stoit-sdelat-sayt/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сколько стоит сделать сайт
+				</Link>
+				<Link
+					href="/lp/ru/sayt-pod-klyuch/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Сайт под ключ
+				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />
