@@ -53,7 +53,8 @@ export default {
 			"pageUrl": "lp",
 			"name": "lp",
 			"children": [
-				"6130a3c652477d001f6301c4"
+				"6130a3c652477d001f6301c4",
+				"6151ac9c29a0a1001e6c8fb1"
 			],
 			"seo": {
 				"title": "uKit",
@@ -84,7 +85,8 @@ export default {
 				"614daea17f2b1f001fa09e00",
 				"614f23cf90c15f001ede3197",
 				"614f4aba7f2b1f001fa0a026",
-				"6150c8e27514e1001f25bd4c"
+				"6150c8e27514e1001f25bd4c",
+				"615181c729a0a1001e6c8f75"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -453,8 +455,77 @@ export default {
 		},
 		"6150c8e27514e1001f25bd4c": {
 			"id": "6150c8e27514e1001f25bd4c",
-			"pageUrl": "sozdat-sajt-obrazovatelnogo-uchrezhdeniya1",
-			"name": "Хостинг с конструктором сайтов"
+			"pageUrl": "hosting-s-konstruktorom-saytov",
+			"name": "Хостинг с конструктором сайтов",
+			"seo": {
+				"title": "Хостинг с конструктором сайтов — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Хостинг с конструктором сайтов — uKit. Конструктор сайтов для бизнеса",
+				"description": "Многие сервисы онлайн-конструктов, а тем более классические хостинги, ограничивают потребляемые ресурсы сервера. Но не uKit. У нас вы получаете безлимитный хостинг (дисковое пространство), неограниченный сетевой трафик и бесконечное количество страниц в любом тарифе",
+				"og:description": "Многие сервисы онлайн-конструктов, а тем более классические хостинги, ограничивают потребляемые ресурсы сервера. Но не uKit. У нас вы получаете безлимитный хостинг (дисковое пространство), неограниченный сетевой трафик и бесконечное количество страниц в любом тарифе"
+			},
+			"customCode": {
+				"61518110fee992346bb0c188": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/hosting-s-konstruktorom-saytov/"
+					}
+				}
+			}
+		},
+		"615181c729a0a1001e6c8f75": {
+			"id": "615181c729a0a1001e6c8f75",
+			"pageUrl": "programma-dlya-sozdaniya-saytov",
+			"name": "Программа для создания сайтов",
+			"seo": {
+				"title": "Программа для создания сайтов — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Программа для создания сайтов — uKit. Конструктор сайтов для бизнеса",
+				"description": "Конструктор uKit намного удобнее и проще классических программ для создания сайтов. Его не нужно устанавливать на ПК и следить за обновлениями. Редактор работает в любом современном браузере. Страницы создаются из типовых блоков простым перетаскиванием, предоставляется безлимитный хостинг и масса дополнительных инструментов для продвижения и рекламы. Есть интеграции с внешними сервисами и собственная система email и SMS-уведомлений из форм",
+				"og:description": "Конструктор uKit намного удобнее и проще классических программ для создания сайтов. Его не нужно устанавливать на ПК и следить за обновлениями. Редактор работает в любом современном браузере. Страницы создаются из типовых блоков простым перетаскиванием, предоставляется безлимитный хостинг и масса дополнительных инструментов для продвижения и рекламы. Есть интеграции с внешними сервисами и собственная система email и SMS-уведомлений из форм"
+			},
+			"customCode": {
+				"61518a70baec95138df90f2b": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/programma-dlya-sozdaniya-saytov/"
+					}
+				}
+			}
+		},
+		"6151ac9c29a0a1001e6c8fb1": {
+			"id": "6151ac9c29a0a1001e6c8fb1",
+			"pageUrl": "en",
+			"name": "en",
+			"children": [
+				"6151aceb7514e1001f25bdde"
+			]
+		},
+		"6151aceb7514e1001f25bdde": {
+			"id": "6151aceb7514e1001f25bdde",
+			"pageUrl": "create-a-promo-website-for-your-business",
+			"name": "Create a Promo Website for Your Business",
+			"seo": {
+				"title": "Create a Promo Website for Your Business — uKit. Website builder for business",
+				"og:title": "Create a Promo Website for Your Business — uKit. Website builder for business",
+				"description": "No code, lots of ready-made templates, free SMS notifications and applications, unlimited hosting. Create a site in one night",
+				"og:description": "No code, lots of ready-made templates, free SMS notifications and applications, unlimited hosting. Create a site in one night"
+			},
+			"customCode": {
+				"6151b0f4ee4b201a3694f548": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/create-a-promo-website-for-your-business/"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -480,7 +551,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n\n</urlset>"
 		}
 	}
 }

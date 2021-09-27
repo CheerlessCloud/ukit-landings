@@ -163,7 +163,31 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya1": {
+    "lp/ru/hosting-s-konstruktorom-saytov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/programma-dlya-sozdaniya-saytov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-promo-website-for-your-business": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",

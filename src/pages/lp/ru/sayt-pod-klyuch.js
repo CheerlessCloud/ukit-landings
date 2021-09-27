@@ -1120,16 +1120,7 @@ export default (() => {
 		</Section>
 		<Section padding="40px 0 130px 0" color="--darkL1" lg-padding="40px 0 100px 0" md-padding="40px 0 60px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
-			<Box
-				width="100%"
-				display="flex"
-				flex-direction="column"
-				align-items="center"
-				padding="0px 190px 0px 190px"
-				margin="0px 0px 22px 0px"
-				justify-content="center"
-				lg-padding="0px 0px 0px 0px"
-			>
+			<Box display="flex" width="100%" align-items="center" justify-content="center">
 				<Text
 					margin="0px 0px 24px 0px"
 					font="--headline1"
@@ -1141,40 +1132,57 @@ export default (() => {
 				>
 					Осталось сделать выбор:
 				</Text>
-				<Link
-					href="https://ukit.com/ru/signup"
-					color="--white"
-					text-decoration-line="initial"
-					font="--lead"
-					padding="15px 25px 16px 25px"
-					margin="0px 0px 15px 0px"
-					border-width="1px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="100px"
-					background="--color-secondary"
-					display="inline-block"
-					hover-background="linear-gradient(to right,#537cff,#537cff)"
-				>
-					Могу/хочу всё сам{"\n\n"}
-				</Link>
-				<Link
-					href="https://ukit.com/ru/signup"
-					color="--white"
-					text-decoration-line="initial"
-					font="--lead"
-					padding="15px 25px 16px 25px"
-					margin="0px 0px 0px 0px"
-					border-width="1px"
-					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="100px"
-					background="--color-secondary"
-					display="inline"
-					hover-background="linear-gradient(to right,#537cff,#537cff)"
-				>
-					Заказать сайт под ключ в Divly{"\n\n"}
-				</Link>
+			</Box>
+			<Box
+				width="100%"
+				flex-direction="row"
+				padding="0px 190px 0px 190px"
+				margin="0px 0px 22px 0px"
+				justify-content="center"
+				lg-padding="0px 0px 0px 0px"
+				align-items="flex-start"
+				flex-wrap="no-wrap"
+				lg-flex-direction="column"
+				display="flex"
+			>
+				<Box display="flex" width="50%" align-items="center" justify-content="center">
+					<Link
+						href="https://ukit.com/ru/signup"
+						color="--white"
+						text-decoration-line="initial"
+						font="--lead"
+						padding="15px 25px 16px 25px"
+						margin="0px 0px 15px 0px"
+						border-width="1px"
+						border-style="solid"
+						border-color="--color-secondary"
+						border-radius="100px"
+						background="--color-secondary"
+						display="block"
+						hover-background="linear-gradient(to right,#537cff,#537cff)"
+					>
+						Хочу всё сам{"\n\n"}
+					</Link>
+				</Box>
+				<Box width="50%" display="flex" align-items="center" justify-content="center">
+					<Link
+						href="https://ukit.com/ru/signup"
+						color="--white"
+						text-decoration-line="initial"
+						font="--lead"
+						padding="15px 25px 16px 25px"
+						margin="0px 0px 0px 0px"
+						border-width="1px"
+						border-style="solid"
+						border-color="--color-secondary"
+						border-radius="100px"
+						background="--color-secondary"
+						display="block"
+						hover-background="linear-gradient(to right,#537cff,#537cff)"
+					>
+						Заказать сайт под ключ в Divly{"\n\n"}
+					</Link>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="130px 0 100px 0" background="--color-lightD1" lg-padding="100px 0 100px 0" md-padding="80px 0 100px 0">

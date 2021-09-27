@@ -179,7 +179,7 @@ const overrides = {
 			"margin": "0px 24px 0px -1px",
 			"padding": "5px 0px 5px 0px",
 			"md-margin": "0px 0px 0px 0px",
-			"children": "Solutions"
+			"children": "Ready Solutions"
 		}
 	}
 };
