@@ -857,40 +857,6 @@ export default (() => {
 					>
 						Шаблоны uKit{"\n\n"}
 					</Link>
-					<Link
-						href="https://ukit.com/neowizard#templates/all"
-						color="--white"
-						text-decoration-line="initial"
-						font="--lead"
-						padding="15px 25px 16px 25px"
-						margin="0px 0px 10px 0px"
-						border-width="1px"
-						border-style="solid"
-						border-color="--color-secondary"
-						border-radius="100px"
-						background="--color-secondary"
-						display="inline"
-						hover-background="linear-gradient(to right,#537cff,#537cff)"
-					>
-						Магазин Divly{"\n\n"}
-					</Link>
-					<Link
-						href="https://ukit.com/neowizard#templates/all"
-						color="--white"
-						text-decoration-line="initial"
-						font="--lead"
-						padding="15px 25px 16px 25px"
-						margin="0px 0px 0px 0px"
-						border-width="1px"
-						border-style="solid"
-						border-color="--color-secondary"
-						border-radius="100px"
-						background="--color-secondary"
-						display="inline"
-						hover-background="linear-gradient(to right,#537cff,#537cff)"
-					>
-						Заказать под ключ{"\n\n"}
-					</Link>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
 					<Image
@@ -1102,7 +1068,7 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 15px 0px 15px"
 				>
-					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
+					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/6.svg?v=2021-09-28T20:17:25.803Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Ведение рекламы и профессиональное продвижение
 					</Text>
@@ -1118,71 +1084,68 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="40px 0 130px 0" color="--darkL1" lg-padding="40px 0 100px 0" md-padding="40px 0 60px 0">
+		<Section
+			padding="40px 0 130px 0"
+			color="--darkL1"
+			lg-padding="40px 0 100px 0"
+			md-padding="40px 0 60px 0"
+			flex-wrap="wrap"
+			flex-direction="row"
+		>
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
-			<Box display="flex" width="100%" align-items="center" justify-content="center">
-				<Text
-					margin="0px 0px 24px 0px"
-					font="--headline1"
-					letter-spacing="-1px"
-					color="--darkL1"
-					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
-					as="h2"
-					text-align="center"
-				>
-					Осталось сделать выбор:
-				</Text>
-			</Box>
-			<Box
+			<Text
+				margin="0px 0px 24px 0px"
+				font="--headline1"
+				letter-spacing="-1px"
+				color="--darkL1"
+				md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
+				as="h2"
+				text-align="center"
 				width="100%"
-				flex-direction="row"
-				padding="0px 190px 0px 190px"
-				margin="0px 0px 22px 0px"
-				justify-content="center"
-				lg-padding="0px 0px 0px 0px"
-				align-items="flex-start"
-				flex-wrap="no-wrap"
-				lg-flex-direction="column"
 				display="flex"
+				justify-content="center"
 			>
-				<Box display="flex" width="50%" align-items="center" justify-content="center">
-					<Link
-						href="https://ukit.com/ru/signup"
-						color="--white"
-						text-decoration-line="initial"
-						font="--lead"
-						padding="15px 25px 16px 25px"
-						margin="0px 0px 15px 0px"
-						border-width="1px"
-						border-style="solid"
-						border-color="--color-secondary"
-						border-radius="100px"
-						background="--color-secondary"
-						display="block"
-						hover-background="linear-gradient(to right,#537cff,#537cff)"
-					>
-						Хочу всё сам{"\n\n"}
-					</Link>
-				</Box>
-				<Box width="50%" display="flex" align-items="center" justify-content="center">
-					<Link
-						href="https://ukit.com/ru/signup"
-						color="--white"
-						text-decoration-line="initial"
-						font="--lead"
-						padding="15px 25px 16px 25px"
-						margin="0px 0px 0px 0px"
-						border-width="1px"
-						border-style="solid"
-						border-color="--color-secondary"
-						border-radius="100px"
-						background="--color-secondary"
-						display="block"
-						hover-background="linear-gradient(to right,#537cff,#537cff)"
-					>
-						Заказать сайт под ключ в Divly{"\n\n"}
-					</Link>
-				</Box>
+				Осталось сделать выбор:
+			</Text>
+			<Box display="flex" width="50%" justify-content="center" md-width="100%">
+				<Link
+					href="https://ukit.com/ru/signup"
+					color="--white"
+					text-decoration-line="initial"
+					font="--lead"
+					padding="15px 25px 16px 25px"
+					margin="0px 0px 15px 0px"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-secondary"
+					border-radius="100px"
+					background="--color-secondary"
+					display="block"
+					hover-background="linear-gradient(to right,#537cff,#537cff)"
+					align-self="flex-start"
+				>
+					Хочу всё сам{"\n\n"}
+				</Link>
+			</Box>
+			<Box width="50%" display="flex" justify-content="center" md-width="100%">
+				<Link
+					href="https://divly.ru/?utm_source=ukit&utm_medium=landing&utm_campaign=sayt-pod-klyuch"
+					color="--white"
+					text-decoration-line="initial"
+					font="--lead"
+					padding="15px 25px 16px 25px"
+					margin="0px 0px 0px 0px"
+					border-width="1px"
+					border-style="solid"
+					border-color="--color-secondary"
+					border-radius="100px"
+					background="--color-secondary"
+					display="block"
+					hover-background="linear-gradient(to right,#537cff,#537cff)"
+					align-self="flex-start"
+				>
+					Заказать сайт под ключ в Divly{"\n\n"}
+				</Link>
 			</Box>
 		</Section>
 		<Section padding="130px 0 100px 0" background="--color-lightD1" lg-padding="100px 0 100px 0" md-padding="80px 0 100px 0">
@@ -1429,7 +1392,7 @@ export default (() => {
 					Бесплатный тест uKit на 14 дней{"\n\n"}
 				</Link>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://divly.ru/?utm_source=ukit&utm_medium=landing&utm_campaign=sayt-pod-klyuch"
 					color="--secondary"
 					text-decoration-line="initial"
 					font="--lead"
