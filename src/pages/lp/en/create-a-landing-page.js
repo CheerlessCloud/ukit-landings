@@ -1237,8 +1237,16 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 				{"(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N7L44LR');"}
 			</script>
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
-				{"<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>"}
+				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
+			<script
+				nomodule={false}
+				integrity={""}
+				crossorigin={""}
+				type={""}
+				place={"endOfBody"}
+				rawKey={"6154764991dc46bf66521a06"}
+			/>
 			<link rel={"canonical"} href={"/lp/ru/create-a-landing-page/"} place={"endOfHead"} rawKey={"6153428713a22cefa64c1f19"} />
 		</RawHtml>
 	</Theme>;

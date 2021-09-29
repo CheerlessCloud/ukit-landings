@@ -594,7 +594,7 @@ export default {
 		"615470cc29a0a1001e6c93c9": {
 			"id": "615470cc29a0a1001e6c93c9",
 			"pageUrl": "sozdat-sajt-dezajnera-interjerov1",
-			"name": "Создайте сайт-портфолио дизайнера интерьеров"
+			"name": "Create an Interior Design Portfolio"
 		}
 	},
 	"mode": "production",
