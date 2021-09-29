@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsColumns, BsGrid, BsBarChart, BsDocumentText, BsCheckBox, BsTablet, BsAt, BsBell, BsGraphUp, BsCreditCard } from "react-icons/bs";
+import { BsColumns, BsGrid, BsDocumentText, BsCheckBox, BsTablet, BsAt, BsBell, BsBarChart, BsCreditCard } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-stomatologii"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/en/create-a-dental-clinic-website"} />
 		<Helmet>
 			<title>
-				Создайте сайт стоматологической клиники — uKit. Конструктор сайтов для бизнеса
+				Create a Dental Clinic Website — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"Своими руками и без программистов, никакого кода. Быстро и качественно, с готовыми шаблонами. Безлимитный хостинг и уведомления с сайта.\nВы точно разберётесь со всеми функциями самостоятельно.\n"} />
-			<meta property={"og:title"} content={"Создайте сайт стоматологической клиники — uKit. Конструктор сайтов для бизнеса"} />
-			<meta property={"og:description"} content={"Своими руками и без программистов, никакого кода. Быстро и качественно, с готовыми шаблонами. Безлимитный хостинг и уведомления с сайта.\nВы точно разберётесь со всеми функциями самостоятельно.\n"} />
+			<meta name={"description"} content={"No programmers, no codes. Create a good-looking website in no time using our templates. Unlimited hosting and site notifications.You are sure to figure out how to work with all the functionality by yourself"} />
+			<meta property={"og:title"} content={"Create a Dental Clinic Website — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"No programmers, no codes. Create a good-looking website in no time using our templates. Unlimited hosting and site notifications.You are sure to figure out how to work with all the functionality by yourself"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
@@ -50,15 +50,15 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создайте сайт стоматологической клиники
+					Create a Dental Clinic Website
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Своими руками и без программистов, никакого кода. Быстро и качественно, с готовыми шаблонами. Безлимитный хостинг и уведомления с сайта.
+					No programmers, no codes. Create a good-looking website in no time using our templates. Unlimited hosting and site notifications.
 					<br />
-					Вы точно разберётесь со всеми функциями самостоятельно
+					You are sure to figure out how to work with all the functionality by yourself
 				</Text>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://ukit.com/signup"
 					color="--white"
 					text-decoration-line="initial"
 					font="--lead"
@@ -72,7 +72,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт клиники
+					Create a Dental Clinic Website
 				</Link>
 			</Box>
 			<Box
@@ -116,7 +116,7 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_ru%201.webp?v=2021-09-05T12:18:24.069Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_en.webp?v=2021-09-28T16:07:31.224Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
@@ -139,7 +139,7 @@ export default (() => {
 				lg-justify-content="flex-start"
 			/>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -164,11 +164,11 @@ export default (() => {
 					align-self="auto"
 					position="static"
 				>
-					Понятный редактор
+					User-friendly editor
 				</Text>
 			</Box>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -187,34 +187,11 @@ export default (() => {
 					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Готовые шаблоны
+					Modern templates
 				</Text>
 			</Box>
 			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsBarChart}
-					size="63px"
-					color="--secondary"
-					margin="0 0 18px 0"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Рекламный модуль
-				</Text>
-			</Box>
-			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -233,11 +210,11 @@ export default (() => {
 					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Сбор заявок и уведомления
+					Collection of applications from the website
 				</Text>
 			</Box>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -255,7 +232,7 @@ export default (() => {
 					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Бесплатный тест
+					Free trial period
 				</Text>
 			</Box>
 		</Section>
@@ -284,11 +261,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Примеры шаблонов сайтов для стоматологических клиник
+					Examples of Dental Clinic Website Designs
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Точное попадание в тематику, гибкие возможности редактирования. Все шаблоны легко дополняются нужными блоками и функциями. Своя библиотека стоковых изображений и иконок. Масса других функций для комфортной работы
-					<br />
+					Perfect template match, flexible editing capabilities. All templates are customizable, you can easily add necessary blocks and functionality. Built-in library of stock images and icons. Plenty of other features for better work
 				</Text>
 			</Box>
 			<Box
@@ -305,7 +281,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Шаблонов
+						Designs
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
@@ -313,7 +289,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Тематик
+						Categories
 					</Text>
 				</Box>
 			</Box>
@@ -351,7 +327,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/KbUkkIuDvuVPHkeN6OGL.webp?v=2021-08-23T21:27:54.039Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 					border-radius="18px"
 					position="absolute"
 					width="321px"
@@ -387,7 +363,7 @@ export default (() => {
 					loading="lazy"
 					height="213.95px"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/4.png?v=2021-08-20T04:30:34.014Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -400,14 +376,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/3lu7fTCmHUSFyU1s137T%20%281%29%201.webp?v=2021-09-05T12:39:49.289Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z"
 					border-radius="18px"
 					lg-width="100%"
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_ru%201.webp?v=2021-09-05T12:16:59.810Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
 					border-radius="18px"
 					width="300px"
 					position="absolute"
@@ -498,14 +474,13 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Ключевые функции uKit
+					uKit Key Features
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--lead" color="--white">
-					для создания эффектных сайтов стоматологических клиник
+					for creating splendid sites of dental clinics
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Полный набор всех необходимых функций в одном месте: от готовых тематических дизайнов с наполнением до автоматических рекламных кампаний и продвижения. И всё это без какого-либо кода и найма сторонних специалистов. Вы можете создать сайт клиники своими руками
-					<br />
+					A full set of all the features you may need in one place: from ready-to-use themed designs with default content to a built-in SEO wizard and adding your site to search engines in a snap. No coding or hiring third-party web pros. You can create your own clinic website in one go
 				</Text>
 			</Box>
 			<Box
@@ -535,7 +510,7 @@ export default (() => {
 						margin="0 0 18px 0"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые шаблоны и сборка страниц в конструкторе
+						Ready-made templates and page connections in the builder
 					</Text>
 				</Box>
 				<Icon
@@ -555,7 +530,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Быстрая загрузка на мобильных
+						Fast loading on cell phones
 					</Text>
 				</Box>
 				<Icon
@@ -575,7 +550,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Бесплатная почта на своём домене
+						Free domain based on your email
 					</Text>
 				</Box>
 				<Icon
@@ -595,7 +570,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Сбор заявок из форм и оперативные уведомления
+						Collection of applications from forms and prompt notifications
 					</Text>
 				</Box>
 				<Icon
@@ -615,7 +590,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Система аналитики
+						Analytics system
 					</Text>
 				</Box>
 				<Icon
@@ -635,27 +610,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						SEO-визард
-					</Text>
-				</Box>
-				<Icon
-					category="bs"
-					icon={BsGraphUp}
-					size="63px"
-					color="--white"
-					margin="0 0 18px 0"
-				/>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Рекламный модуль
+						SEO wizard
 					</Text>
 				</Box>
 				<Icon
@@ -675,7 +630,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Возможность онлайн-оплаты
+						Online payment options
 					</Text>
 				</Box>
 			</Box>
@@ -689,7 +644,7 @@ export default (() => {
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20377%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20rdtgulp.ukit%201.webp?v=2021-09-06T13:45:48.450Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/index%201%281%29.webp?v=2021-09-29T12:07:07.209Z"
 					width="100%"
 					loading="lazy"
 				/>
@@ -715,10 +670,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Как самостоятельно создать сайт стоматологии в uKit
+					How to Create a Dental Clinic Website with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Чтобы разобраться с конструктором uKit, потребуется совсем немного времени. У вас получится сделать свой собственный сайт даже без каких-либо профильных знаний и навыков. А чтобы процесс работы был ещё проще, просто пройдите эти шаги
+					It won’t take you long to get to grips with uKit. You’ll be able to make your own site even without any technical knowledge and skills. To make this process even easier, just follow the steps below
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -733,7 +688,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/one.svg?v=2021-08-19T23:41:55.506Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Определитесь с шаблоном
+						Select a Template
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -742,7 +697,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Посмотрите каталог готовых шаблонов в разрезе тематики или не привязываясь к ней, есть одностраничные и многостраничные варианты. Вы можете использовать любой дизайн, который вам понравится. Наполнение или порядок блоков в любой момент можно изменить, точно так же как шрифты или цветовые схемы
+						Check our rich template library and select a thematic or any other design, a one-page or multi-page template. Block content or order of blocks can be changed at any time, just like fonts and color schemes
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -759,7 +714,7 @@ export default (() => {
 						display="inline"
 						hover-background="linear-gradient(to right,#537cff,#537cff)"
 					>
-						Посмотреть шаблоны
+						See Templates
 					</Link>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -808,7 +763,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Позаботьтесь о контенте
+						Add Custom Content
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -817,7 +772,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Опишите услуги вашей клиники понятным языком, предоставьте контактные данные, организуйте обратную связь, обозначьте цены и другие особенности вашей работы. Загрузите изображения, видео и другие материалы, добавьте отзывы. Многие из этих функций реализованы в готовых секциях. Для проверки готовности сайта воспользуйтесь SEO-визардом
+						Describe your clinic services in plain language, provide contact information, add a feedback form, price list, and other details you want. Upload images, videos, and other materials, and add testimonials. Many of these features are implemented in ready-made blocks. To check if your site is ready for publishing, use our SEO-wizard
 					</Text>
 				</Box>
 			</Box>
@@ -839,7 +794,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/three.svg?v=2021-08-19T23:48:35.499Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Проверьте мобильную версию сайтa
+						Set Up Mobile and Tablet Versions
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -848,7 +803,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Все шаблоны, секции и отдельные элементы дизайна в uKit автоматически адаптируются под экраны мобильных устройств. Контент сайта оптимизируется под загрузку на медленных соединениях. При желании вы можете настроить мобильную версию по-своему: скрыть отдельные блоки и поменять цвета
+						All templates, blocks, and individual design elements in uKit are automatically adapted to all devices. Site content is optimized for loading on slow connections. If needed, you can customize the mobile site version, for example, hide some blocks and change colors
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -891,7 +846,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Подключите свой домен
+						Connect Your Domain
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -900,7 +855,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Если вы регистрируете домен внутри uKit, то его даже не придётся настраивать. Трафик ваших клиентов автоматически шифруется и перенаправляется на HTTPS-протокол. Приобретать отдельные SSL-сертификаты не нужно
+						If you connect a custom domain via uKit, you won’t even have to configure it. Your customers’ traffic is automatically encrypted and redirected to the HTTPS protocol. No need to buy SSL certificates on your own
 					</Text>
 				</Box>
 			</Box>
@@ -922,7 +877,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Опубликуйте сайт клиники
+						Publish Your Site
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -931,12 +886,12 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Когда ваш сайт будет готов к своим первым посетителям, просто нажмите кнопку «Опубликовать». Вы можете и дальше редактировать страницы, не боясь за то, как их видят ваши клиенты. До тех пор, пока вы не нажали кнопку публикации, изменения видны только вам. Боитесь ошибиться или уже ошиблись? Просто вернитесь к предыдущей версии, нажав кнопку «Назад», или откатитесь до версии из бэкапов
+						When your site is ready for its first visitors, just click «Publish». You can go on editing the pages, and your customers won’t see them until you republish your site. Afraid of making mistakes or have you already made a mistake? Just go back to a previous version by clicking the «Back» button, or roll back to a backed up version
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/IkVK6AHJ5ffoEWmHhfxR.webp?v=2021-08-23T21:27:54.049Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%2076.webp?v=2021-09-28T16:38:49.156Z"
 						width="100%"
 						align-items="center"
 						display="flex"
@@ -966,13 +921,13 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Последние штрихи
+					Final Touches
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Добавьте сайт клиники в поисковые системы, настройте рекламные кампании и продвижение, проверьте качество сайта, добавьте аналитику и другие внешние сервисы. Каждую из этих задач можно реализовать, не покидая панели управления uKit. У нас всё продумано до мелочей
+					Add the clinic’s website to search engines, check the site quality, add analytics and other external services. Each of these tasks can be accomplished on the uKit dashboard. We created uKit with you in mind
 				</Text>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://ukit.com/signUp"
 					color="--white"
 					text-decoration-line="initial"
 					font="--lead"
@@ -986,7 +941,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт клиники
+					Create a Website
 				</Link>
 			</Box>
 		</Section>
@@ -1012,10 +967,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Что ещё можно сделать в uKit
+					What Else You Can Create with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Любой бизнес-сайт: визитки, портфолио, лендинги, каталоги, онлайн-магазины и многое другое. Всё своими руками, даже если вы делаете это впервые
+					Create any type of website (promo website, portfolio, landing page, catalog, online store, and more) yourself even if you’ve never done it before
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1030,7 +985,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1040,7 +995,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Сайт юриста
+							Lawer site
 						</Text>
 					</Link>
 				</Box>
@@ -1055,7 +1010,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_mortgage_en.webp?v=2021-09-28T16:08:40.999Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1065,7 +1020,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Сайт агентства недвижимости
+							Real estate site
 						</Text>
 					</Link>
 				</Box>
@@ -1088,7 +1043,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1098,7 +1053,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Сайт строительной компании
+							Real estate development company site
 						</Text>
 					</Link>
 				</Box>
@@ -1113,7 +1068,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_icecream_ru.webp?v=2021-09-08T11:26:04.851Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1123,7 +1078,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Одностраничный сайт
+							Landing page
 						</Text>
 					</Link>
 				</Box>
@@ -1146,7 +1101,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-sajt-dezajnera-interjerov" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_ru.webp?v=2021-09-07T07:36:51.835Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1156,7 +1111,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Сайт-портфолио дизайнера интерьеров
+							Interior design portfolio
 						</Text>
 					</Link>
 				</Box>
@@ -1171,7 +1126,7 @@ export default (() => {
 				>
 					<Link href="/lp/ru/sozdat-sait-vizitku-online" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1181,7 +1136,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Сайт-визитка для бизнеса
+							Promo site for business
 						</Text>
 					</Link>
 				</Box>
@@ -1209,10 +1164,10 @@ export default (() => {
 					as="h2"
 					text-align="center"
 				>
-					Создать сайт стоматологической клиники в uKit
+					Create a Dental Clinic Website with uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Вы можете попробовать конструктор в действии без каких-либо обязательств. Всё что нужно — пара часов времени и желание
+					Build your website without programming skills and special knowledge right now. All you need is a couple of hours and the desire
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
@@ -1226,7 +1181,7 @@ export default (() => {
 					</Link>
 				</Text>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://ukit.com/signUp"
 					color="--secondary"
 					text-decoration-line="initial"
 					font="--lead"
@@ -1240,7 +1195,7 @@ export default (() => {
 					background="--color-white"
 					hover-background="--color-lightD1"
 				>
-					Начать бесплатно
+					Try for Free
 				</Link>
 			</Box>
 		</Section>
@@ -1292,7 +1247,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>"}
 			</script>
-			<link href={"/lp/ru/sozdat-sajt-stomatologii/"} rel={"canonical"} place={"endOfHead"} rawKey={"613fa1daab9264ddaf24410f"} />
+			<link rel={"canonical"} href={"/lp/ru/create-a-dental-clinic-website/"} place={"endOfHead"} rawKey={"61545a1ed6362bfde9364ffe"} />
 		</RawHtml>
 	</Theme>;
 });
