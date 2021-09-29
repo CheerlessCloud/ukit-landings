@@ -211,6 +211,14 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/en/sozdat-sajt-dezajnera-interjerov1": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "experiments": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

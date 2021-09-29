@@ -504,8 +504,26 @@ export default {
 			"children": [
 				"6151aceb7514e1001f25bdde",
 				"61533efd17f5d1001e31e33b",
-				"6154532e790876002294cf6b"
-			]
+				"6154532e790876002294cf6b",
+				"615470cc29a0a1001e6c93c9"
+			],
+			"seo": {
+				"title": "Ready-Made Solutions — uKit. Website builder for business",
+				"og:title": "Ready-Made Solutions — uKit. Website builder for business",
+				"description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.",
+				"og:description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."
+			},
+			"customCode": {
+				"61546f3aca10a484b1004a13": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/"
+					}
+				}
+			}
 		},
 		"6151aceb7514e1001f25bdde": {
 			"id": "6151aceb7514e1001f25bdde",
@@ -572,6 +590,11 @@ export default {
 					}
 				}
 			}
+		},
+		"615470cc29a0a1001e6c93c9": {
+			"id": "615470cc29a0a1001e6c93c9",
+			"pageUrl": "sozdat-sajt-dezajnera-interjerov1",
+			"name": "Создайте сайт-портфолио дизайнера интерьеров"
 		}
 	},
 	"mode": "production",
