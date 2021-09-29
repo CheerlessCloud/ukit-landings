@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/en"} />
@@ -15,6 +16,39 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
+		<Components.EnHeader />
+		<Section>
+			<Override slot="SectionContent" max-width="1056px" />
+			<Text font="--headline3">
+				Ready-Made Solutions
+			</Text>
+			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
+			<Components.QuarklycommunityKitMenu
+				exact-active-match
+				rootId="6151ac9c29a0a1001e6c8fb1"
+				font="--base"
+				color="--dark"
+				display="flex"
+				flex-wrap="wrap"
+				padding="0 0 0 0"
+			>
+				<Override
+					slot="link"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					hover-color="--primary"
+				/>
+				<Override
+					slot="item"
+					display="flex"
+					width="50%"
+					padding="0 0 0 0"
+					md-width="100%"
+				/>
+			</Components.QuarklycommunityKitMenu>
+		</Section>
+		<Components.EnFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
