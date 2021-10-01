@@ -261,6 +261,84 @@ export default (() => {
 				>
 					Программа для создания сайтов
 				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/alt-vk"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					uKit Alt: сделать сайт из страницы ВКонтакте
+				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/convert"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					uKit Alt: сделать сайт из Facebook
+				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/infosite/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Создать сайт-визитку за час
+				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/logistics/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Как создать сайт для транспортной компании
+				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/self/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Создать сайт самостоятельно
+				</Link>
+				<Link
+					href="https://ukit.com/ru/lp/photo/"
+					font="--base"
+					color="--dark"
+					text-decoration-line="initial"
+					display="flex"
+					flex-direction="row"
+					width="50%"
+					hover-color="--primary"
+					md-width="100%"
+				>
+					Создать сайт фотографа за вечер
+				</Link>
 			</Box>
 		</Section>
 		<Components.RuFooter />

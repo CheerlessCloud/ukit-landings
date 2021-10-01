@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsGrid, BsDocumentText, BsBell, BsGraphUp, BsCheckBox, BsChat, BsPhone, BsColumnsGutters, BsCursor, BsCreditCard, BsImages } from "react-icons/bs";
+import { BsGrid, BsDocumentText, BsBell, BsGraphUp, BsChat, BsPhone, BsColumnsGutters, BsCheckBox, BsCursor, BsCreditCard, BsImages } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"lp/en/sozdat-sajt-dezajnera-interjerov1"} />
@@ -48,13 +48,13 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создайте сайт-портфолио дизайнера интерьеров
+					Create an Interior Design Portfolio
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Нет ничего проще, если выбрать конструктор uKit. Безлимитный хостинг, готовые шаблоны и максимально простой редактор. Со всем можно справиться без сторонних специалистов
+					It’s never been easier, just use uKit. Unlimited hosting, ready-made templates, and a user-friendly editor. You can handle everything without hiring any third-party web specialists
 				</Text>
 				<Link
-					href="https://ukit.com/ru/signup"
+					href="https://ukit.com/signup"
 					color="--white"
 					text-decoration-line="initial"
 					font="--lead"
@@ -68,7 +68,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-портфолио
+					Create an Interior Design Portfolio
 				</Link>
 			</Box>
 			<Box
@@ -112,7 +112,7 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_ru.webp?v=2021-09-07T07:37:52.592Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
@@ -135,7 +135,7 @@ export default (() => {
 				lg-justify-content="flex-start"
 			/>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -155,11 +155,11 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Красивые шаблоны
+					Beautiful templates
 				</Text>
 			</Box>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -179,11 +179,11 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Сбор заявок с сайта
+					Collection of applications from the website
 				</Text>
 			</Box>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -203,11 +203,11 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Бесплатные SMS-уведомления
+					Free SMS notifications
 				</Text>
 			</Box>
 			<Box
-				width="20%"
+				width="25%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
@@ -227,30 +227,7 @@ export default (() => {
 					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Готовность к продвижению
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				md-width="100%"
-				align-self="flex-start"
-			>
-				<Icon
-					category="bs"
-					icon={BsCheckBox}
-					margin="0 0 18px 0"
-					align-items="center"
-					size="63px"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Встроенный рекламный модуль
+					Promotion tools
 				</Text>
 			</Box>
 		</Section>
@@ -279,10 +256,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Примеры шаблонов сайтов для дизайнеров интерьера
+					Examples of Interior Designer Website Templates
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Готовый макет портфолио требует минимальных действий для переделки под себя. Платформа uKit обеспечивает все востребованные сопутствующие функции. С процессом редактирования справится любой желающий
+					A ready-to-use portfolio template requires minimal effort to redesign. The uKit platform provides all the functionality you need. Even a newbie can handle the editing process
 				</Text>
 			</Box>
 			<Box
@@ -299,7 +276,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Шаблонов
+						Designs
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
@@ -307,7 +284,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						Тематик
+						Categories
 					</Text>
 				</Box>
 			</Box>
@@ -345,7 +322,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/nyIDiz9WgPslUePZ7nXM.webp?v=2021-09-04T17:37:32.140Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_foods_en.webp?v=2021-09-28T16:00:54.401Z"
 					border-radius="18px"
 					position="absolute"
 					width="321px"
@@ -382,7 +359,7 @@ export default (() => {
 					height="200.82530769230772px"
 					border-color="#000000"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-09-28T15:59:35.774Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -418,7 +395,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 					border-radius="18px"
 					width="247px"
 					position="absolute"
@@ -442,7 +419,7 @@ export default (() => {
 					height="154.383px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EQ5NUJ2vJkflcZOEukUa.webp?v=2021-09-04T17:36:05.180Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
 					border-radius="18px"
 					width="192px"
 					position="absolute"
@@ -492,11 +469,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Ключевой функционал uKit для сайтов дизайнеров интерьера
+					Key Features for Interior Design Websites
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Максимальная простота конструктора, готовая структура и наполнение. Все нужные функции в одном месте, настраиваются без специальных навыков — в пару кликов. Вы сможете воплотить любую задумку своими руками
-					<br />
+					The builder is easy to navigate, has ready-made blocks, and default content. All functionality is in one place and can be set up without any coding skills — in just a few clicks. You can implement any idea on your own
 				</Text>
 			</Box>
 			<Box
@@ -527,7 +503,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые виджеты сбора заявок и чаты
+						Chats and widgets to collect applications
 					</Text>
 				</Box>
 				<Box
@@ -548,7 +524,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Стильные современные шаблоны
+						Stylish, modern templates
 					</Text>
 				</Box>
 				<Box
@@ -569,7 +545,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Бесплатные SMS-уведомления с сайта
+						Free SMS notifications from the site
 					</Text>
 				</Box>
 				<Box
@@ -590,7 +566,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Поддержка мобильных
+						Adaptive design
 					</Text>
 				</Box>
 				<Box
@@ -611,7 +587,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Готовые блоки для портфолио
+						Ready-made blocks for the portfolio
 					</Text>
 				</Box>
 				<Box
@@ -632,28 +608,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Безлимитный хостинг
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsGraphUp}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Рекламный модуль
+						Unlimited hosting
 					</Text>
 				</Box>
 				<Box
@@ -674,7 +629,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Полная готовность к SEO
+						SEO setups
 					</Text>
 				</Box>
 				<Box
@@ -695,7 +650,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Оплату можно принимать онлайн
+						Online payment options
 					</Text>
 				</Box>
 				<Box
@@ -716,7 +671,7 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Встроенный редактор фото с набором фильтров
+						Built-in photo editor with various filters
 					</Text>
 				</Box>
 			</Box>
@@ -730,7 +685,7 @@ export default (() => {
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20378%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20ewfevgfrv.ukit%201%282%29.webp?v=2021-09-07T08:41:07.702Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20390%20-%20Home%20-%20hnythtr.ukit%201%281%29.webp?v=2021-09-30T15:13:00.730Z"
 					width="100%"
 					loading="lazy"
 				/>
@@ -756,7 +711,7 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Как самостоятельно создать сайт дизайнера интерьеров в uKit
+					How to Create an Interior Design Portfolio with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
 					Не нужно переживать о том, что вы не справитесь. Конструктор uKit максимально прост и подходит для пользователей разного уровня, в том числе для тех, у кого вообще нет опыта создания сайтов
