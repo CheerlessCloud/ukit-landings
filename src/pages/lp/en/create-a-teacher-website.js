@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsWindow, BsStar, BsColumns, BsBucket, BsBarChart, BsGrid, BsTablet, BsGraphUp, BsAt } from "react-icons/bs";
+import { BsColumns, BsGrid, BsEye, BsCheckBox, BsTablet, BsWindow, BsLock, BsColumnsGutters, BsBookmark, BsPhone, BsXSquare } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/en/create-a-promo-website-for-your-business"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/en/create-a-teacher-website"} />
 		<Helmet>
 			<title>
-				Create a Promo Website for Your Business — uKit. Website builder for business
+				Create a Teacher Website — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"No code, lots of ready-made templates, free SMS notifications and applications, unlimited hosting. Create a site in one night"} />
-			<meta property={"og:title"} content={"Create a Promo Website for Your Business — uKit. Website builder for business"} />
-			<meta property={"og:description"} content={"No code, lots of ready-made templates, free SMS notifications and applications, unlimited hosting. Create a site in one night"} />
+			<meta name={"description"} content={"You can create a portfolio site yourself in just one night. No coding, full compliance with legal requirements, ready-to-use thematic templates, intuitive interface, and unlimited hosting. All the features you need at your fingertips"} />
+			<meta property={"og:title"} content={"Create a Teacher Website — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"You can create a portfolio site yourself in just one night. No coding, full compliance with legal requirements, ready-to-use thematic templates, intuitive interface, and unlimited hosting. All the features you need at your fingertips"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
@@ -50,13 +50,13 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Create a Promo Website for Your Business
+					Create a Teacher Website
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					No code, lots of ready-made templates, free SMS notifications and orders, unlimited hosting. Create a site in one night!
+					You can create a portfolio site yourself in just one night. No coding, full compliance with legal requirements, ready-to-use thematic templates, intuitive interface, and unlimited hosting. All the features you need at your fingertips
 				</Text>
 				<Link
-					href="https://ukit.com/signUp"
+					href="https://ukit.com/signup"
 					color="--white"
 					text-decoration-line="initial"
 					font="--lead"
@@ -66,11 +66,11 @@ export default (() => {
 					border-style="solid"
 					border-color="--color-secondary"
 					border-radius="100px"
-					background="--color-secondary"
+					background="#4773ff"
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Create a Promo Website
+					Create Website
 				</Link>
 			</Box>
 			<Box
@@ -114,13 +114,14 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
 					border-color="#6c757d2f"
 					border-radius="18px"
 					lg-width="100%"
+					loading="lazy"
 				/>
 			</Box>
 		</Section>
@@ -129,10 +130,11 @@ export default (() => {
 				slot="SectionContent"
 				max-width="1056px"
 				flex-direction="row"
-				justify-content="flex-start"
+				justify-content="space-between"
 				align-items="center"
+				lg-flex-wrap="wrap"
 				lg-align-items="center"
-				flex-wrap="wrap"
+				lg-justify-content="flex-start"
 			/>
 			<Box
 				width="20%"
@@ -143,64 +145,19 @@ export default (() => {
 				lg-width="33.33333%"
 				lg-flex-direction="column"
 				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsWindow}
-					size="63px"
-					color="--secondary"
-					margin="0 0 18px 0"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Modern templates
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsStar}
-					size="63px"
-					color="--secondary"
-					margin="0 0 18px 0"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Great opportunities
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				sm-width="100%"
+				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
 					icon={BsColumns}
+					margin="0 0 18px 0"
+					align-items="center"
 					size="63px"
 					color="--secondary"
-					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Easy-to-use builder
+					Online builder
 				</Text>
 			</Box>
 			<Box
@@ -211,19 +168,68 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="50%"
-				md-margin="0px 0px 30px 0px"
-				sm-width="100%"
+				lg-margin="0px 0px 30px 0px"
+				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsBucket}
+					icon={BsGrid}
+					margin="0 0 18px 0"
+					align-items="center"
 					size="63px"
 					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Templates and ready-made blocks
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				lg-margin="0px 0px 30px 0px"
+				md-width="100%"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsEye}
 					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Version for the visually impaired
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				md-width="100%"
+				md-margin="0px 0px 30px 0px"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsCheckBox}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Intuitive online store
+					Compliance with legal requirements
 				</Text>
 			</Box>
 			<Box
@@ -234,18 +240,19 @@ export default (() => {
 				padding="0px 20px 0px 0px"
 				lg-width="33.33333%"
 				lg-flex-direction="column"
-				md-width="50%"
-				sm-width="100%"
+				md-width="100%"
+				align-self="flex-start"
 			>
 				<Icon
 					category="bs"
-					icon={BsBarChart}
+					icon={BsTablet}
+					margin="0 0 18px 0"
+					align-items="center"
 					size="63px"
 					color="--secondary"
-					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Advanced analytics
+					Adaptive design
 				</Text>
 			</Box>
 		</Section>
@@ -262,7 +269,7 @@ export default (() => {
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
-				padding="0px 20px 0px 0px"
+				padding="0px 20px 50px 0px"
 				lg-width="100%"
 				lg-padding="0px 0px 0px 0px"
 			>
@@ -274,10 +281,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Examples of Promo Website Designs
+					Examples of Teacher Website Templates
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					All you need to create a site is a custom domain, hosting, and a good site builder. With uKit, you get it all in one place
+					A ready-made structure and default content that require minimum edits. And yet, you can change everything you want: the design, content, and structure
 				</Text>
 			</Box>
 			<Box
@@ -317,14 +324,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_foods_en.webp?v=2021-09-28T16:00:54.401Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
 					border-radius="18px"
 					position="absolute"
 					width="198px"
-					left="-200px"
+					left="-184px"
 					right="auto"
-					bottom="auto"
-					top="175px"
+					bottom="75px"
+					top="auto"
 					lg-bottom="30px"
 					lg-height="123.547px"
 					lg-left="-43px"
@@ -338,16 +345,17 @@ export default (() => {
 					sm-top="auto"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="124.75px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dance_en.webp?v=2021-09-28T16:01:28.155Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
 					border-radius="18px"
 					position="absolute"
-					width="321px"
-					left="-355px"
-					right="auto"
-					bottom="-110px"
-					top="auto"
+					width="315.7663333333333px"
+					left="-339px"
+					right="727.2376666666667px"
+					bottom="-93.49177777777777px"
+					top="270.567px"
 					lg-bottom="-137px"
 					lg-height="231.375px"
 					lg-left="-92px"
@@ -356,16 +364,17 @@ export default (() => {
 					lg-width="213px"
 					lg-display="none"
 					loading="lazy"
+					height="197.92777777777778px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 					border-radius="18px"
 					position="absolute"
-					width="287px"
-					left="230px"
-					right="auto"
-					top="-50px"
-					bottom="auto"
+					width="297.5218888888889px"
+					left="291.4831111111111px"
+					right="115px"
+					top="-79px"
+					bottom="267.6111111111111px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -374,8 +383,10 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="186.38888888888889px"
+					border-color="#000000"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-09-28T15:59:35.774Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -388,14 +399,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/KbUkkIuDvuVPHkeN6OGL.webp?v=2021-08-23T21:27:54.039Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/teamwork-over-the-teacher-s-laptop.webp?v=2021-09-10T08:40:27.803Z"
 					border-radius="18px"
-					width="253.33333333333334px"
+					width="229.51666666666665px"
 					position="absolute"
-					top="-100px"
-					right="-90px"
-					bottom="316.3888888888889px"
-					left="188.64966666666666px"
+					top="-111px"
+					right="-74px"
+					bottom="333.3277777777778px"
+					left="196.46633333333335px"
 					lg-bottom="auto"
 					lg-height="187.5px"
 					lg-left="auto"
@@ -409,16 +420,16 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="158.61111111111111px"
+					height="152.67222222222222px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 					border-radius="18px"
 					width="247px"
 					position="absolute"
 					top="auto"
-					right="-54px"
-					bottom="-88px"
+					right="-53px"
+					bottom="-93px"
 					left="auto"
 					lg-bottom="-67px"
 					lg-height="154.625px"
@@ -433,10 +444,10 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="161.317px"
+					height="154.383px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 					border-radius="18px"
 					width="192px"
 					position="absolute"
@@ -458,7 +469,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cat_en.webp?v=2021-09-28T16:00:01.205Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z"
 					border-radius="18px"
 					lg-width="100%"
 					sm-border-radius="6px"
@@ -486,10 +497,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					What You Get For Your Site
+					Key Features for Effective Teacher Websites
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Anyone can create their own site — no code editing, just widgets and ready-made blocks. Detailed visual guides and tutorials, plus lots of templates. No programming or design skills are required to create your first promo website
+					You can start with a theme or any other template. There are also multi-page and one-page options. A domain name is provided for free, but you can also buy a second-level domain or connect an existing one. You can configure and edit all elements in a few clicks without any coding experience
 				</Text>
 			</Box>
 			<Box
@@ -497,11 +508,10 @@ export default (() => {
 				padding="0px 15px 0px 15px"
 				display="flex"
 				flex-direction="column"
+				justify-content="center"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
-				lg-justify-content="flex-start"
-				flex-wrap="wrap"
 			>
 				<Box
 					display="flex"
@@ -514,13 +524,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsGrid}
-						size="63px"
-						color="--white"
+						icon={BsWindow}
 						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Ready-made templates, blocks, and forms
+						Templates for educational websites
 					</Text>
 				</Box>
 				<Box
@@ -534,10 +545,95 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsTablet}
-						size="63px"
-						color="--white"
+						icon={BsLock}
 						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Full legal compliance
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsCheckBox}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Simple and easy-to-use editor
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsColumnsGutters}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Ready-made blocks
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsBookmark}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Free HTTPS protocol
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsPhone}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Adaptive design
@@ -554,13 +650,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsGraphUp}
-						size="63px"
-						color="--white"
+						icon={BsEye}
 						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Statistics and analytics system
+						Version for the visually impaired
 					</Text>
 				</Box>
 				<Box
@@ -574,13 +671,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsAt}
-						size="63px"
-						color="--white"
+						icon={BsXSquare}
 						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Free domain-based email
+						No third-party ads
 					</Text>
 				</Box>
 			</Box>
@@ -594,7 +692,7 @@ export default (() => {
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20387%20-%20Home%20-%20yhvyvu.ukit%201%281%29.webp?v=2021-09-28T16:06:26.434Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20393%20-%20Home%20-%20gcvhojo.ukit%201.webp?v=2021-10-03T17:15:24.391Z"
 					width="100%"
 					loading="lazy"
 				/>
@@ -620,10 +718,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					How to Create a Promo Website with uKit
+					How to Create a Teacher Website with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Create a promo website yourself in a few hours, even if you’ve never done it before
+					You can create a site easily using drag ’n drop technology — no need for any web pro help. But if you get stuck and can’t figure something out, you can use the knowledge base, FAQs, and technical support
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -647,7 +745,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Are you a photographer, lawyer, or wedding planner? We have ready-to-use design options for many industries or types of small business
+						You can use ready-made designs to look up the implementation of the functions and thematic sections you need. In most cases, the content can be left as is, or you can adapt it as you prefer. Everything is easy-to-handle and hassle-free. Plus, you can activate a version for the visually impaired for any template
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -722,7 +820,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						You can keep the template design and replace its default content. Or you can add blocks in the builder. Or completely redesign the entire content of the page. The builder allows you to add, remove, move, and duplicate all the elements. Add custom text and images to make sure your site ranks high in search results
+						Add your own images, text, videos, reviews, galleries, certificates, document files, and any other content. Images can be edited directly in the builder. uKit imposes no limitations on hosting or number of pages. The structure is easy to bring in line with current legislation
 					</Text>
 				</Box>
 			</Box>
@@ -753,7 +851,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Our builder will do almost everything for you. You just need to review mobile and tablet views and make any minor adjustments to these versions
+						Since uKit automatically creates a mobile version of the site, you just need to make sure the site pages display correctly on all devices. You can change individual settings if required: display/hide selected blocks, color scheme, and mobile menu
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -804,9 +902,8 @@ export default (() => {
 						font="--base"
 						width="84%"
 						lg-width="100%"
-						sm-color="#3c3f4f"
 					>
-						You can get a new domain on the uKit Dashboard, or connect an existing one. SSL certificates for the HTTPS site version are free and are configured automatically. You don’t have to edit anything manually
+						You can use a free domain name provided by uKit, or register/connect your own domain. If you buy a domain from uKit, you won’t have to configure it: all the necessary DNS records are made automatically. In any case, the HTTPS site version is automatically created for free
 					</Text>
 				</Box>
 			</Box>
@@ -837,7 +934,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Don’t be afraid to do something wrong. Up to 10 backups will be created automatically or manually. You can roll back the changes at any time
+						You can edit the site content the way you like, but all changes will take effect only when you publish your site. Experiment as much as you need. No worries, uKit provides automatic and manual backups in case of any problems, so you can go back to the previous site versions in one click
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -872,10 +969,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					It’s Almost Done!
+					Final Touches
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Now you need to add the site to search engines and configure your SEO settings. uKit allows you to set meta tags for each page of your site. You can also add your site to search engines and to Google Maps
+					To start indexing the site, add it to search engines. You can do this on the uKit Dashboard. In addition, you can check if the site is ready for promotion with a special SEO wizard
 				</Text>
 				<Link
 					href="https://ukit.com/signUp"
@@ -892,7 +989,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Create a Promo Website
+					Create a Website
 				</Link>
 			</Box>
 		</Section>
@@ -918,10 +1015,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					What Else Can You Create with uKit
+					What Else Can You Create with uKit?
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Create any type of website yourself, even if you’ve never done it before
+					Our website builder is ready for any task: using ready-made blocks and designs you can create different types of projects without any programming knowledge or skills
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -934,9 +1031,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-a-dental-clinic-website">
+					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dental_en.webp?v=2021-09-28T16:07:31.224Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -945,10 +1042,10 @@ export default (() => {
 							margin="0px 0px 18px 0px"
 							loading="lazy"
 						/>
-						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px" color="--darkL1">
-							Dental Clinic Website
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Promo Website for Your Business
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -959,9 +1056,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-a-tutor-website">
+					<Link href="/lp/en/create-a-landing-page" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -971,9 +1068,9 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Tutor Website
+							Landing Page
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -992,9 +1089,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-a-teacher-website">
+					<Link href="/lp/en/create-a-tutor-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_mortgage_en.webp?v=2021-09-28T16:08:40.999Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1004,9 +1101,9 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Teacher Website
+							Create a Tutor Website
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -1017,9 +1114,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-an-interior-design-portfolio">
+					<Link href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1029,9 +1126,9 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Interior Design Portfolio
+							Dental Clinic Website
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -1050,9 +1147,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-an-educational-facility-website">
+					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1062,10 +1159,9 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Educational Facility Website
-							<br />
+							Interior Design Portfolio
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 				<Box
 					width="50%"
@@ -1076,9 +1172,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Components.Perelink href="/lp/en/create-a-landing-page">
+					<Link href="/lp/en/create-an-educational-facility-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1088,9 +1184,9 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Landing Page
+							Educational Facility Website
 						</Text>
-					</Components.Perelink>
+					</Link>
 				</Box>
 			</Box>
 		</Section>
@@ -1114,11 +1210,23 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					sm-text-align="center"
 					as="h2"
+					text-align="center"
 				>
-					Create a Website with uKit
+					Create a Teacher Website with uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Create a promo website yourself for free during a 14-day trial period and experience all the uKit builder features now
+					You can start using the uKit platform for free. Trial period — 14 days
+					<Link
+						href="https://ukit.com/ru/signup"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						<br />
+					</Link>
 				</Text>
 				<Link
 					href="https://ukit.com/signUp"
@@ -1195,7 +1303,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/en/create-a-promo-website-for-your-business/"} place={"endOfHead"} rawKey={"6151b0f4ee4b201a3694f548"} />
+			<link rel={"canonical"} href={"/lp/ru/create-a-teacher-website/"} place={"endOfHead"} rawKey={"6159e77568a321c9b0ac57c1"} />
 		</RawHtml>
 	</Theme>;
 });

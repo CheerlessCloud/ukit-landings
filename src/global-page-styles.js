@@ -211,7 +211,31 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/en/sozdat-sajt-dezajnera-interjerov1": {
+    "lp/en/create-an-interior-design-portfolio": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-an-educational-facility-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-teacher-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/sozdat-sajt-repetitora1": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",

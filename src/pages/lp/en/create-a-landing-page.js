@@ -293,7 +293,7 @@ export default (() => {
 					Examples of Landing Page Designs
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Choose any of the templates from the library. Customize its content or replace the template with another one after that if needed. Unlimited hosting and free SSL certificates on all plans
+					Choose any of the templates from the library. Customize its content or replace the template with another one later on if needed. Unlimited hosting and free SSL certificates on all plans
 				</Text>
 			</Box>
 			<Box
@@ -503,7 +503,7 @@ export default (() => {
 					What You Get for Your Landing Page
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					No need to be a web pro to create high-quality, beautiful, and really working landing pages with uKit. No work with source code — only ready-made blocks and widgets. Ample design freedom and third-party integrations
+					With uKit there’s no need to be a web pro to create high-quality, beautiful landing pages that work like a dream. You don’t need to work with source code either — just ready-made blocks and widgets. Ample design freedom and third-party integrations
 				</Text>
 			</Box>
 			<Box
@@ -657,7 +657,7 @@ export default (() => {
 					How to Create a Landing Page with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Even if you are not a web pro and first meet the uKit builder, you can craft your first landing page in a few hours
+					Even if you’re not a web pro and you’re using the uKit builder for the first time, you can craft your first landing page in just a few hours
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -681,7 +681,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						We have a lot of themed design options for many industries. Just select the one that suits you best and customize it. Add or remove widgets, set the desired text font and color
+						We have a lot of themed design options for many industries. Just select the one that suits you best and customize it. Add or remove widgets, then set the desired text font and color
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -727,7 +727,7 @@ export default (() => {
 					md-order="1"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/T8x4FOdlRwXqxz1XfpHV.webp?v=2021-08-23T21:27:54.084Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%2059.webp?v=2021-10-03T18:56:02.706Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -756,7 +756,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						The templates already contain meaningful default texts. But if you want a unique and effective site, you should add custom text. Upload images and add videos where you need them. uKit has a built-in image editor
+						The templates already contain meaningful default texts. But if you want a unique and effective site, you should add custom text. Upload images and add videos where you need them too: uKit has a built-in image editor
 					</Text>
 				</Box>
 			</Box>
@@ -787,9 +787,9 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						If needed, you can hide the desired elements or entire blocks and implement an alternative design style for mobiles and tablets.
+						You can hide any elements or entire blocks and implement an alternative design style for mobile and tablet.
 						<br />
-						Or you can just make sure that everything works as it should in the preview mode and leave the site as is
+						Or you can just make sure everything works as it should in the preview mode and leave the site as is
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -841,10 +841,10 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						You can get a new domain on the uKit Dashboard. In this case, the DNS records will be set automatically. SSL certificates are free and are also set up automatically.{" "}
+						You can get a new domain on the uKit Dashboard. In this case, the DNS records will be set automatically. SSL certificates are free and also set up automatically.{" "}
 						<br />
-						You don’t have to edit anything manually
-uKit stores up to 10 backups of your site. Don’t be afraid to edit your site or make mistakes, you can always get the backed up version of your website at any time
+						You don’t have to edit anything manually.
+uKit stores up to 10 backups of your site. Don’t be afraid to edit your site or make mistakes. You can get the backed-up version of your website at any time
 					</Text>
 				</Box>
 			</Box>
@@ -875,9 +875,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 						width="84%"
 						lg-width="100%"
 					>
-						You can connect Google Analytics and Facebook Pixel. It will take a few minutes.
+						You can connect Google Analytics and Facebook Pixel. It’ll only take a few minutes.
 						<br />
-						Track landing page performance in real time or over a specific period of time without leaving the uKit dashboard
+						Track landing page performance in real time or over a specific period of time without leaving the uKit Dashboard
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -915,7 +915,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					It’s Almost Done!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Now you need to add the site to the search engines and configure SEO settings. uKit allows you to set meta tags for each page of your site. You can use a special built-in SEO wizard to check if your site is ready for publishing
+					Now you need to add the site to search engines and configure your SEO settings. uKit allows you to set meta tags for each page of your site. You can use a special built-in SEO wizard to check if your site is ready for publishing
 				</Text>
 				<Link
 					href="https://ukit.com/signUp"
@@ -961,7 +961,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					What Else You Can Create with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Create any type of website yourself with our builder even if you’ve never done it before
+					Create any type of website yourself with our builder, even if you’ve never done it before
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -974,7 +974,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sait-vizitku-online" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 							width="100%"
@@ -986,7 +986,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Dental clinic site
+							Dental Clinic Website
 						</Text>
 					</Link>
 				</Box>
@@ -999,9 +999,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-an-educational-facility-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_mortgage_en.webp?v=2021-09-28T16:08:40.999Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1011,7 +1011,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Real estate site
+							Educational Facility Website
 						</Text>
 					</Link>
 				</Box>
@@ -1032,9 +1032,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-stomatologii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-teacher-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1044,7 +1044,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Real estate development company site
+							Teacher Website
 						</Text>
 					</Link>
 				</Box>
@@ -1057,9 +1057,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1069,7 +1069,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Interior design portfolio
+							Interior Design Portfolio
 						</Text>
 					</Link>
 				</Box>
@@ -1090,9 +1090,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-dezajnera-interjerov" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-tutor-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1102,7 +1102,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Lawer site
+							Tutor Website
 							<br />
 						</Text>
 					</Link>
@@ -1116,7 +1116,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
 							width="100%"
@@ -1128,7 +1128,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Promo Website
+							Promo Website for Your Business
 						</Text>
 					</Link>
 				</Box>
@@ -1159,7 +1159,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					Are You Ready to Create Your Landing Page on uKit?
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Build your own landing page from scratch using blocks or a ready-made template without programming skills and special knowledge right now
+					Build your own landing page right now from scratch using blocks or a ready-made template. No programming skills or special knowledge required
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"

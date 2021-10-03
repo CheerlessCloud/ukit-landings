@@ -53,9 +53,9 @@ export default (() => {
 					Create a Dental Clinic Website
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					No programmers, no codes. Create a good-looking website in no time using our templates. Unlimited hosting and site notifications.
+					No programmers, no code. Create a good-looking website in no time using our templates. Unlimited hosting and site notifications.
 					<br />
-					You are sure to figure out how to work with all the functionality by yourself
+					With its intuitive functionality, it won’t take you long to figure it all out
 				</Text>
 				<Link
 					href="https://ukit.com/signup"
@@ -210,7 +210,7 @@ export default (() => {
 					margin="0 0 18px 0"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Collection of applications from the website
+					Collection of submitted forms from the website
 				</Text>
 			</Box>
 			<Box
@@ -264,7 +264,7 @@ export default (() => {
 					Examples of Dental Clinic Website Designs
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Perfect template match, flexible editing capabilities. All templates are customizable, you can easily add necessary blocks and functionality. Built-in library of stock images and icons. Plenty of other features for better work
+					Perfect template match, flexible editing capabilities. All templates are customizable: you can easily add all the blocks and functionality you need. Built-in library of stock images and icons. Plenty of other features to make your life easier
 				</Text>
 			</Box>
 			<Box
@@ -477,7 +477,7 @@ export default (() => {
 					uKit Key Features
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--lead" color="--white">
-					for creating splendid sites of dental clinics
+					for creating a dazzling dental clinic site
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
 					A full set of all the features you may need in one place: from ready-to-use themed designs with default content to a built-in SEO wizard and adding your site to search engines in a snap. No coding or hiring third-party web pros. You can create your own clinic website in one go
@@ -570,7 +570,7 @@ export default (() => {
 					md-width="100%"
 				>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Collection of applications from forms and prompt notifications
+						Collection of submitted forms and notifications to email
 					</Text>
 				</Box>
 				<Icon
@@ -673,7 +673,7 @@ export default (() => {
 					How to Create a Dental Clinic Website with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					It won’t take you long to get to grips with uKit. You’ll be able to make your own site even without any technical knowledge and skills. To make this process even easier, just follow the steps below
+					It won’t take you long to get to grips with uKit. You’ll be able to make your own site even without any technical knowledge or skills. To make this process even easier, just follow the steps below:
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -697,7 +697,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Check our rich template library and select a thematic or any other design, a one-page or multi-page template. Block content or order of blocks can be changed at any time, just like fonts and color schemes
+						Check out our rich template library and select a thematic or any other design, and a one-page or multi-page template. Block content or the order of blocks can be changed at any time, just like fonts and color schemes
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -743,7 +743,7 @@ export default (() => {
 					md-order="1"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/T8x4FOdlRwXqxz1XfpHV.webp?v=2021-08-23T21:27:54.084Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%2059.webp?v=2021-10-03T18:56:02.706Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -772,7 +772,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Describe your clinic services in plain language, provide contact information, add a feedback form, price list, and other details you want. Upload images, videos, and other materials, and add testimonials. Many of these features are implemented in ready-made blocks. To check if your site is ready for publishing, use our SEO-wizard
+						Describe your clinic’s services in plain language, provide contact information, add a feedback form, price list, and any other details you want. Upload images, videos, and other materials, and add testimonials. Many of these features are implemented in ready-made blocks. To check if your site is ready for publishing, use our SEO wizard
 					</Text>
 				</Box>
 			</Box>
@@ -803,7 +803,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						All templates, blocks, and individual design elements in uKit are automatically adapted to all devices. Site content is optimized for loading on slow connections. If needed, you can customize the mobile site version, for example, hide some blocks and change colors
+						All templates, blocks, and individual design elements in uKit are automatically adapted to all devices. Site content is optimized for loading on slow connections. If needed, you can customize the mobile site version. For example, hide some blocks or change the colors
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -855,7 +855,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						If you connect a custom domain via uKit, you won’t even have to configure it. Your customers’ traffic is automatically encrypted and redirected to the HTTPS protocol. No need to buy SSL certificates on your own
+						If you connect a custom domain via uKit, you won’t even have to configure it. Your customers’ traffic is automatically encrypted and redirected to the HTTPS protocol. No need to buy your own SSL certificates
 					</Text>
 				</Box>
 			</Box>
@@ -886,7 +886,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						When your site is ready for its first visitors, just click «Publish». You can go on editing the pages, and your customers won’t see them until you republish your site. Afraid of making mistakes or have you already made a mistake? Just go back to a previous version by clicking the «Back» button, or roll back to a backed up version
+						When your site is ready for its first visitors, just click «Publish». You can continue editing the pages, and your customers won’t see the updates until you republish your site. Afraid of making mistakes? You can easily go back to a previous version by clicking the «Back» button, or by rolling back to a backed-up version
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -924,7 +924,7 @@ export default (() => {
 					Final Touches
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Add the clinic’s website to search engines, check the site quality, add analytics and other external services. Each of these tasks can be accomplished on the uKit dashboard. We created uKit with you in mind
+					Add the clinic’s website to search engines, check the site quality, and add analytics and other external services. You can do all of these tasks from the uKit Dashboard. We created uKit with you in mind
 				</Text>
 				<Link
 					href="https://ukit.com/signUp"
@@ -967,10 +967,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					What Else You Can Create with uKit
+					What Else Can You Create with uKit?
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Create any type of website (promo website, portfolio, landing page, catalog, online store, and more) yourself even if you’ve never done it before
+					Create any type of website (promo website, portfolio, landing page, catalog, online store, and more) yourself, even if you’ve never done it before
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -983,9 +983,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-tutor-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -995,7 +995,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Lawer site
+							Tutor Website
 						</Text>
 					</Link>
 				</Box>
@@ -1008,9 +1008,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-teacher-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_mortgage_en.webp?v=2021-09-28T16:08:40.999Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_teacher_en.webp?v=2021-10-03T17:48:38.199Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1020,7 +1020,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Real estate site
+							Teacher Website
 						</Text>
 					</Link>
 				</Box>
@@ -1041,9 +1041,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-an-educational-facility-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1053,7 +1053,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Real estate development company site
+							Educational Facility Website
 						</Text>
 					</Link>
 				</Box>
@@ -1066,9 +1066,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-landing-page" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1078,7 +1078,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Landing page
+							Landing Page
 						</Text>
 					</Link>
 				</Box>
@@ -1099,9 +1099,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-dezajnera-interjerov" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1111,7 +1111,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Interior design portfolio
+							Interior Design Portfolio
 						</Text>
 					</Link>
 				</Box>
@@ -1124,7 +1124,7 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sait-vizitku-online" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
 							width="100%"
@@ -1136,7 +1136,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Promo site for business
+							Promo Website for Your Business
 						</Text>
 					</Link>
 				</Box>
@@ -1167,7 +1167,7 @@ export default (() => {
 					Create a Dental Clinic Website with uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Build your website without programming skills and special knowledge right now. All you need is a couple of hours and the desire
+					Build the website you’ve been wanting in just a few hours. No programming skills or special knowledge needed
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"

@@ -505,7 +505,10 @@ export default {
 				"6151aceb7514e1001f25bdde",
 				"61533efd17f5d1001e31e33b",
 				"6154532e790876002294cf6b",
-				"615470cc29a0a1001e6c93c9"
+				"615470cc29a0a1001e6c93c9",
+				"6159ddc035c5c8001f77522a",
+				"6159e2557f2b1f001fa0a76e",
+				"6159e7fb7514e1001f25c483"
 			],
 			"seo": {
 				"title": "Ready-Made Solutions — uKit. Website builder for business",
@@ -593,8 +596,74 @@ export default {
 		},
 		"615470cc29a0a1001e6c93c9": {
 			"id": "615470cc29a0a1001e6c93c9",
-			"pageUrl": "sozdat-sajt-dezajnera-interjerov1",
-			"name": "Create an Interior Design Portfolio"
+			"pageUrl": "create-an-interior-design-portfolio",
+			"name": "Create an Interior Design Portfolio",
+			"seo": {
+				"title": "Create an Interior Design Portfolio — uKit. Website builder for business",
+				"og:title": "Create an Interior Design Portfolio — uKit. Website builder for business",
+				"description": "It’s never been easier, just use uKit. Unlimited hosting, ready-made templates, and a user-friendly editor. You can handle everything without hiring any third-party web specialists",
+				"og:description": "It’s never been easier, just use uKit. Unlimited hosting, ready-made templates, and a user-friendly editor. You can handle everything without hiring any third-party web specialists"
+			},
+			"customCode": {
+				"6159dd49eca9df435759a9f6": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/create-an-interior-design-portfolio/"
+					}
+				}
+			}
+		},
+		"6159ddc035c5c8001f77522a": {
+			"id": "6159ddc035c5c8001f77522a",
+			"pageUrl": "create-an-educational-facility-website",
+			"name": "Create an Educational Facility Website",
+			"seo": {
+				"title": "Create an Educational Facility Website — uKit. Website builder for business",
+				"og:title": "Create an Educational Facility Website — uKit. Website builder for business",
+				"description": "The uKit website builder is perfect for many tasks, including building websites for educational facilities: kindergartens, schools, preparatory schools, vocational schools, colleges, online schools, etc. They can be both commercial and non-commercial institutions",
+				"og:description": "The uKit website builder is perfect for many tasks, including building websites for educational facilities: kindergartens, schools, preparatory schools, vocational schools, colleges, online schools, etc. They can be both commercial and non-commercial institutions"
+			},
+			"customCode": {
+				"6159e1df2c3a9db666910452": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/create-an-educational-facility-website/"
+					}
+				}
+			}
+		},
+		"6159e2557f2b1f001fa0a76e": {
+			"id": "6159e2557f2b1f001fa0a76e",
+			"pageUrl": "create-a-teacher-website",
+			"name": "Create a Teacher Website",
+			"seo": {
+				"title": "Create a Teacher Website — uKit. Website builder for business",
+				"og:title": "Create a Teacher Website — uKit. Website builder for business",
+				"description": "You can create a portfolio site yourself in just one night. No coding, full compliance with legal requirements, ready-to-use thematic templates, intuitive interface, and unlimited hosting. All the features you need at your fingertips",
+				"og:description": "You can create a portfolio site yourself in just one night. No coding, full compliance with legal requirements, ready-to-use thematic templates, intuitive interface, and unlimited hosting. All the features you need at your fingertips"
+			},
+			"customCode": {
+				"6159e77568a321c9b0ac57c1": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/create-a-teacher-website/"
+					}
+				}
+			}
+		},
+		"6159e7fb7514e1001f25c483": {
+			"id": "6159e7fb7514e1001f25c483",
+			"pageUrl": "sozdat-sajt-repetitora1",
+			"name": "Create a Tutor Website"
 		}
 	},
 	"mode": "production",
@@ -620,7 +689,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-dental-clinic-website/</loc>\n</url>\n\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-teacher-website/</loc>\n</url>\n\n</urlset>"
 		}
 	}
 }
