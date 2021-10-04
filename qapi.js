@@ -662,8 +662,25 @@ export default {
 		},
 		"6159e7fb7514e1001f25c483": {
 			"id": "6159e7fb7514e1001f25c483",
-			"pageUrl": "sozdat-sajt-repetitora1",
-			"name": "Create a Tutor Website"
+			"pageUrl": "create-a-tutor-website",
+			"name": "Create a Tutor Website",
+			"customCode": {
+				"615b1bf9e0da58b40567450a": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/create-a-tutor-website/"
+					}
+				}
+			},
+			"seo": {
+				"title": "Create a Tutor Website — uKit. Website builder for business",
+				"description": "Ready-to use thematic designs, free HTTPS protocols, full set of SEO attributes, unlimited hosting, SMS notifications about requests from your site, and an easy-to-navigate visual interface",
+				"og:title": "Create a Tutor Website — uKit. Website builder for business",
+				"og:description": "Ready-to use thematic designs, free HTTPS protocols, full set of SEO attributes, unlimited hosting, SMS notifications about requests from your site, and an easy-to-navigate visual interface"
+			}
 		}
 	},
 	"mode": "production",
@@ -689,7 +706,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/create-a-teacher-website/</loc>\n</url>\n\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

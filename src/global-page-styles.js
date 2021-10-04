@@ -235,7 +235,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/en/sozdat-sajt-repetitora1": {
+    "lp/en/create-a-tutor-website": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
