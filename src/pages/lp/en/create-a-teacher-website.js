@@ -19,7 +19,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
-		<Components.RuHeader />
+		<Components.EnHeader />
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -874,7 +874,7 @@ export default (() => {
 					md-order="1"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/CsTt7bKyG2eVypJO3i4v.webp?v=2021-08-23T21:27:54.009Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%202651.webp?v=2021-10-04T11:47:55.108Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -1247,7 +1247,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Components.RuFooter />
+		<Components.EnFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
