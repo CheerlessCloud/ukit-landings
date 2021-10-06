@@ -1303,7 +1303,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/ru/create-a-teacher-website/"} place={"endOfHead"} rawKey={"6159e77568a321c9b0ac57c1"} />
+			<link rel={"canonical"} href={"/lp/en/create-a-teacher-website/"} place={"endOfHead"} rawKey={"6159e77568a321c9b0ac57c1"} />
 		</RawHtml>
 	</Theme>;
 });

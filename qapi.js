@@ -508,7 +508,11 @@ export default {
 				"615470cc29a0a1001e6c93c9",
 				"6159ddc035c5c8001f77522a",
 				"6159e2557f2b1f001fa0a76e",
-				"6159e7fb7514e1001f25c483"
+				"6159e7fb7514e1001f25c483",
+				"615b3b4c7514e1001f25c593",
+				"615b53e917f5d1001e31e8fa",
+				"615c6adb17f5d1001e31e9de",
+				"615d4fac35c5c8001f77562d"
 			],
 			"seo": {
 				"title": "Ready-Made Solutions — uKit. Website builder for business",
@@ -567,7 +571,7 @@ export default {
 					"tag": "link",
 					"data": {
 						"rel": "canonical",
-						"href": "/lp/ru/create-a-landing-page/"
+						"href": "/lp/en/create-a-landing-page/"
 					}
 				}
 			}
@@ -589,7 +593,7 @@ export default {
 					"tag": "link",
 					"data": {
 						"rel": "canonical",
-						"href": "/lp/ru/create-a-dental-clinic-website/"
+						"href": "/lp/en/create-a-dental-clinic-website/"
 					}
 				}
 			}
@@ -611,7 +615,7 @@ export default {
 					"tag": "link",
 					"data": {
 						"rel": "canonical",
-						"href": "/lp/ru/create-an-interior-design-portfolio/"
+						"href": "/lp/en/create-an-interior-design-portfolio/"
 					}
 				}
 			}
@@ -633,7 +637,7 @@ export default {
 					"tag": "link",
 					"data": {
 						"rel": "canonical",
-						"href": "/lp/ru/create-an-educational-facility-website/"
+						"href": "/lp/en/create-an-educational-facility-website/"
 					}
 				}
 			}
@@ -655,7 +659,7 @@ export default {
 					"tag": "link",
 					"data": {
 						"rel": "canonical",
-						"href": "/lp/ru/create-a-teacher-website/"
+						"href": "/lp/en/create-a-teacher-website/"
 					}
 				}
 			}
@@ -680,6 +684,94 @@ export default {
 				"description": "Ready-to use thematic designs, free HTTPS protocols, full set of SEO attributes, unlimited hosting, SMS notifications about requests from your site, and an easy-to-navigate visual interface",
 				"og:title": "Create a Tutor Website — uKit. Website builder for business",
 				"og:description": "Ready-to use thematic designs, free HTTPS protocols, full set of SEO attributes, unlimited hosting, SMS notifications about requests from your site, and an easy-to-navigate visual interface"
+			}
+		},
+		"615b3b4c7514e1001f25c593": {
+			"id": "615b3b4c7514e1001f25c593",
+			"pageUrl": "create-a-lawyer-website",
+			"name": "Create a Lawyer Website",
+			"seo": {
+				"title": "Create a Lawyer Website — uKit. Website builder for business",
+				"og:title": "Create a Lawyer Website — uKit. Website builder for business",
+				"description": "No briefs, no tedious approvals, no waiting — with uKit, you can make a website yourself without any intermediaries. Ready-to-use thematic templates, unlimited hosting, and SMS notifications",
+				"og:description": "No briefs, no tedious approvals, no waiting — with uKit, you can make a website yourself without any intermediaries. Ready-to-use thematic templates, unlimited hosting, and SMS notifications"
+			},
+			"customCode": {
+				"615b3f42fb549cd81aefa1fc": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/create-a-lawyer-website/"
+					}
+				}
+			}
+		},
+		"615b53e917f5d1001e31e8fa": {
+			"id": "615b53e917f5d1001e31e8fa",
+			"pageUrl": "create-a-legal-advisor-website",
+			"name": "Create a Legal Advisor Website",
+			"seo": {
+				"title": "Create a Legal Advisor Website — uKit. Website builder for business",
+				"og:title": "Create a Legal Advisor Website — uKit. Website builder for business",
+				"description": "You can build a beautiful, adaptive, and functional website yourself. All you need to do is go for uKit. You don’t need to be a programmer or have any other special skills: the platform provides ready-made templates, widgets, and other elements, plus a convenient online builder and a lot of additional services",
+				"og:description": "You can build a beautiful, adaptive, and functional website yourself. All you need to do is go for uKit. You don’t need to be a programmer or have any other special skills: the platform provides ready-made templates, widgets, and other elements, plus a convenient online builder and a lot of additional services"
+			},
+			"customCode": {
+				"615c6a7964d240d94e4df747": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/en/create-a-legal-advisor-website/",
+						"rel": "canonical"
+					}
+				}
+			}
+		},
+		"615c6adb17f5d1001e31e9de": {
+			"id": "615c6adb17f5d1001e31e9de",
+			"pageUrl": "create-a-real-estate-development-company-website",
+			"name": "Create a Real Estate Development Company Website",
+			"seo": {
+				"title": "Create a Real Estate Development Company Website — uKit. Website builder for business",
+				"og:title": "Create a Real Estate Development Company Website — uKit. Website builder for business",
+				"description": "High-quality portfolio blocks, ready-made templates, price list sections, feedback forms, SMS notifications, and other thematic design elements. No programming skills are required. Building a site yourself is quick and easy",
+				"og:description": "High-quality portfolio blocks, ready-made templates, price list sections, feedback forms, SMS notifications, and other thematic design elements. No programming skills are required. Building a site yourself is quick and easy"
+			},
+			"customCode": {
+				"615c7608df089181a52fdb0a": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/create-a-real-estate-development-company-website/"
+					}
+				}
+			}
+		},
+		"615d4fac35c5c8001f77562d": {
+			"id": "615d4fac35c5c8001f77562d",
+			"pageUrl": "create-a-real-estate-agency-website",
+			"name": "Create a Real Estate Agency Website",
+			"seo": {
+				"title": "Create a Real Estate Agency Website — uKit. Website builder for business",
+				"og:title": "Create a Real Estate Agency Website — uKit. Website builder for business",
+				"description": "Unlimited hosting and an unlimited number of pages, ready-made designs, user-friendly visual editor, integration with CRM, SMS notifications. No coding skills are required. You can make your own website in one go",
+				"og:description": "Unlimited hosting and an unlimited number of pages, ready-made designs, user-friendly visual editor, integration with CRM, SMS notifications. No coding skills are required. You can make your own website in one go"
+			},
+			"customCode": {
+				"615d5350c3297f01fde1b758": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/en/create-a-real-estate-agency-website/"
+					}
+				}
 			}
 		}
 	},
@@ -706,7 +798,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

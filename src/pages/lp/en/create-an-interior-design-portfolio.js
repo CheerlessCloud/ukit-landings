@@ -1298,7 +1298,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/ru/create-an-interior-design-portfolio/"} place={"endOfHead"} rawKey={"6159dd49eca9df435759a9f6"} />
+			<link rel={"canonical"} href={"/lp/en/create-an-interior-design-portfolio/"} place={"endOfHead"} rawKey={"6159dd49eca9df435759a9f6"} />
 		</RawHtml>
 	</Theme>;
 });

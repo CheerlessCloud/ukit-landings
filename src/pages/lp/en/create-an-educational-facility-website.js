@@ -1371,7 +1371,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/ru/create-an-educational-facility-website/"} place={"endOfHead"} rawKey={"6159e1df2c3a9db666910452"} />
+			<link rel={"canonical"} href={"/lp/en/create-an-educational-facility-website/"} place={"endOfHead"} rawKey={"6159e1df2c3a9db666910452"} />
 		</RawHtml>
 	</Theme>;
 });

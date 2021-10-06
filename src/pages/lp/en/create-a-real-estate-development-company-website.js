@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsGrid, BsCheckBox, BsToggles, BsCreditCard, BsBarChart, BsColumnsGutters, BsTablet, BsChat, BsStopwatch } from "react-icons/bs";
+import { BsColumnsGutters, BsWindow, BsListUl, BsBell, BsPhone, BsAt, BsBarChart, BsGraphUp, BsCheckBox } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/en/create-a-landing-page"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/en/create-a-real-estate-development-company-website"} />
 		<Helmet>
 			<title>
-				Create a Landing Page — uKit. Website builder for business
+				Create a Real Estate Development Company Website — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.Create a landing page yourself in a few hours"} />
-			<meta property={"og:title"} content={"Create a Landing Page — uKit. Website builder for business"} />
-			<meta property={"og:description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.Create a landing page yourself in a few hours"} />
+			<meta name={"description"} content={"High-quality portfolio blocks, ready-made templates, price list sections, feedback forms, SMS notifications, and other thematic design elements. No programming skills are required. Building a site yourself is quick and easy"} />
+			<meta property={"og:title"} content={"Create a Real Estate Development Company Website — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"High-quality portfolio blocks, ready-made templates, price list sections, feedback forms, SMS notifications, and other thematic design elements. No programming skills are required. Building a site yourself is quick and easy"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
@@ -50,12 +50,12 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Create a Landing Page
+					Create a Real Estate Development Company Website
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.
+				<Text margin="0px 0px 50px 0px" font="--base" color="--dark">
+					High-quality portfolio blocks, ready-made templates, price list sections, feedback forms, SMS notifications, and other thematic design elements.{" "}
 					<br />
-					Create a landing page yourself in a few hours
+					No programming skills are required. Building a site yourself is quick and easy
 				</Text>
 				<Link
 					href="https://ukit.com/signup"
@@ -72,7 +72,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Create a Landing Page
+					Create a Website
 				</Link>
 			</Box>
 			<Box
@@ -116,153 +116,132 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
 					border-color="#6c757d2f"
 					border-radius="18px"
 					lg-width="100%"
+					loading="lazy"
 				/>
 			</Box>
 		</Section>
-		<Section padding="40px 0 80px 0">
+		<Section padding="40px 0 80px 0" lg-flex-wrap="wrap-reverse">
 			<Override
 				slot="SectionContent"
-				max-width="1056px"
 				flex-direction="row"
 				justify-content="space-between"
 				align-items="center"
 				lg-flex-wrap="wrap"
 				lg-align-items="center"
-				lg-justify-content="center"
-				display="flex"
-				align-self="auto"
-				flex="0 1 auto"
+				lg-justify-content="flex-start"
+				max-width="1056px"
+				display="block"
 			/>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				order="0"
-				align-self="flex-start"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsGrid}
-					size="63px"
-					margin="0 0 18px 0"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Stylish designs
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				order="0"
-				align-self="flex-start"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsCheckBox}
-					size="63px"
-					margin="0 0 18px 0"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Great opportunities
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				lg-margin="0px 0px 30px 0px"
-				md-width="50%"
-				order="0"
-				align-self="flex-start"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsToggles}
-					size="63px"
-					margin="0 0 18px 0"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					User-friendly interface
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				md-width="50%"
-				md-margin="0px 0px 30px 0px"
-				order="0"
-				align-self="flex-start"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsCreditCard}
-					size="63px"
-					margin="0 0 18px 0"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Online payments
-				</Text>
-			</Box>
-			<Box
-				width="20%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
-				padding="0px 20px 0px 0px"
-				lg-width="33.33333%"
-				lg-flex-direction="column"
-				md-width="50%"
-				order="0"
-				align-self="flex-start"
-				sm-width="100%"
-			>
-				<Icon
-					category="bs"
-					icon={BsBarChart}
-					size="63px"
-					margin="0 0 18px 0"
-					color="#4773ff"
-				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Advanced analytics
-				</Text>
+			<Box lg-display="flex" lg-justify-content="center" display="flex" flex-wrap="wrap">
+				<Box
+					width="25%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsColumnsGutters}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--darkL1"
+						font="--lead"
+						align-self="auto"
+						position="static"
+					>
+						User-friendly online builder
+					</Text>
+				</Box>
+				<Box
+					width="25%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsWindow}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+						Thematic templates
+					</Text>
+				</Box>
+				<Box
+					width="25%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					md-width="100%"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsListUl}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+						Feedback forms
+					</Text>
+				</Box>
+				<Box
+					width="25%"
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					lg-width="50%"
+					lg-flex-direction="column"
+					md-width="100%"
+					md-margin="0px 0px 30px 0px"
+					align-self="flex-start"
+				>
+					<Icon
+						category="bs"
+						icon={BsBell}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#4773ff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
+						Automatic notifications
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0">
@@ -278,7 +257,7 @@ export default (() => {
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
-				padding="0px 20px 0px 0px"
+				padding="0px 20px 50px 0px"
 				lg-width="100%"
 				lg-padding="0px 0px 0px 0px"
 			>
@@ -290,10 +269,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Examples of Landing Page Designs
+					Examples of Real Estate Development Company Website Templates
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Choose any of the templates from the library. Customize its content or replace the template with another one later on if needed. Unlimited hosting and free SSL certificates on all plans
+					You only need to buy or connect your domain. Everything else can be found in the builder. You don’t need to be a programmer or a web designer. Easy to start and edit
 				</Text>
 			</Box>
 			<Box
@@ -333,7 +312,7 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_foods_en.webp?v=2021-09-28T16:00:54.401Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 					border-radius="18px"
 					position="absolute"
 					width="198px"
@@ -356,7 +335,7 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_dance_en.webp?v=2021-09-28T16:01:28.155Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_taxi_en.webp?v=2021-10-03T16:49:39.407Z"
 					border-radius="18px"
 					position="absolute"
 					width="321px"
@@ -374,14 +353,14 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
 					border-radius="18px"
 					position="absolute"
-					width="287px"
-					left="230px"
-					right="auto"
-					top="-50px"
-					bottom="auto"
+					width="324.2516153846154px"
+					left="302.46138461538465px"
+					right="77.2861px"
+					top="-82px"
+					bottom="252.27876923076923px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -390,8 +369,9 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="204.71923076923076px"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cat_en.webp?v=2021-09-28T16:00:01.205Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -404,12 +384,19 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/KbUkkIuDvuVPHkeN6OGL.webp?v=2021-08-23T21:27:54.039Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/f3yCqvj8B7pPrPwF2SU4.webp?v=2021-09-04T17:36:56.052Z"
+					border-radius="18px"
+					lg-width="100%"
+					sm-border-radius="6px"
+					loading="lazy"
+				/>
+				<Image
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_exhibition_en.webp?v=2021-10-03T17:22:19.826Z"
 					border-radius="18px"
 					width="300px"
 					position="absolute"
-					top="-100px"
-					right="-90px"
+					top="-127px"
+					right="-76px"
 					bottom="auto"
 					left="auto"
 					lg-bottom="auto"
@@ -425,16 +412,17 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="199.95px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-09-28T15:59:35.774Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_en.webp?v=2021-10-04T19:25:32.838Z"
 					border-radius="18px"
-					width="247px"
+					width="254.14285714285714px"
 					position="absolute"
-					top="auto"
-					right="-50px"
-					bottom="-70px"
-					left="auto"
+					top="344.417px"
+					right="-39px"
+					bottom="-85px"
+					left="136.84014285714287px"
 					lg-bottom="-67px"
 					lg-height="154.625px"
 					lg-left="auto"
@@ -448,6 +436,7 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="166.583px"
 				/>
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
@@ -471,13 +460,6 @@ export default (() => {
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
-				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
-					border-radius="18px"
-					lg-width="100%"
-					sm-border-radius="6px"
-					loading="lazy"
-				/>
 			</Box>
 		</Section>
 		<Section background="--color-secondary" padding="130px 0 130px 0" lg-padding="100px 0 100px 0">
@@ -493,17 +475,17 @@ export default (() => {
 				lg-margin="0px 0px 40px 0px"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 15px 0px"
 					font="--headline1"
 					letter-spacing="-1px"
 					color="--white"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					What You Get for Your Landing Page
+					Key Features for Creating Real Estate Development Company Websites
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					With uKit there’s no need to be a web pro to create high-quality, beautiful landing pages that work like a dream. You don’t need to work with source code either — just ready-made blocks and widgets. Ample design freedom and third-party integrations
+					The built-in SEO wizard means you don’t need to hire web specialists to promote your site. You can build a page from ready-made blocks and widgets. Integration with external services is set up in just a few clicks
 				</Text>
 			</Box>
 			<Box
@@ -515,7 +497,6 @@ export default (() => {
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
-				lg-justify-content="center"
 			>
 				<Box
 					display="flex"
@@ -528,13 +509,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsColumnsGutters}
-						size="63px"
+						icon={BsWindow}
 						margin="0 0 18px 0"
-						color="--white"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Ready-made templates
+						Thematic templates for real estate development companies
 					</Text>
 				</Box>
 				<Box
@@ -548,10 +530,11 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsTablet}
-						size="63px"
+						icon={BsPhone}
 						margin="0 0 18px 0"
-						color="--white"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Adaptive design
@@ -568,13 +551,56 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
+						icon={BsAt}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Multi-page block with contacts
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsBell}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						A set of widgets for creating a portfolio
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
 						icon={BsBarChart}
-						size="63px"
 						margin="0 0 18px 0"
-						color="--white"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						High-quality analytics system
+						Built-in forms for collecting requests
 					</Text>
 				</Box>
 				<Box
@@ -588,13 +614,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsChat}
-						size="63px"
+						icon={BsGraphUp}
 						margin="0 0 18px 0"
-						color="--white"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Chats and callback buttons
+						Online chats, callback buttons
 					</Text>
 				</Box>
 				<Box
@@ -608,29 +635,31 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsStopwatch}
-						size="63px"
+						icon={BsCheckBox}
 						margin="0 0 18px 0"
-						color="--white"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Timers, price lists, timelines
+						Online calculator at uCalc
 					</Text>
 				</Box>
 			</Box>
 			<Box
 				width="58.333%"
 				margin="0px 0px 0px 8.333999999999996%"
-				display="flex"
+				display="inline-block"
 				lg-margin="30px 0px 0px 0px"
 				lg-width="100%"
 			>
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20387%20-%20Home%20-%20yhvyvu.ukit%201%281%29.webp?v=2021-09-28T16:06:26.434Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20394%20-%20Home%20-%20efgrfg.ukit%201%281%29.webp?v=2021-10-05T15:35:39.361Z"
 					width="100%"
 					loading="lazy"
+					display="inline-block"
 				/>
 			</Box>
 		</Section>
@@ -654,10 +683,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					How to Create a Landing Page with uKit
+					How to Create a Real Estate Development Company Website with uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Even if you’re not a web pro and you’re using the uKit builder for the first time, you can craft your first landing page in just a few hours
+					Launching your own site is easy, even if you have no coding skills or other special knowledge. The process will take just a couple of hours. Simply follow the steps below:
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -681,7 +710,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						We have a lot of themed design options for many industries. Just select the one that suits you best and customize it. Add or remove widgets, then set the desired text font and color
+						You’ll be able to choose from hundreds of ready-to-use thematic designs for different types of business websites, no matter if they’re one-page or multi-page. A template comes with meaningful content that illustrates where and what kind of content you should include. You can leave or customize the content, as you prefer. Color schemes and fonts can also be changed in just a few clicks
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -756,7 +785,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						The templates already contain meaningful default texts. But if you want a unique and effective site, you should add custom text. Upload images and add videos where you need them too: uKit has a built-in image editor
+						Add or edit text content, upload photos and videos, and show the quality of your service/product with other site elements: sliders, galleries, timelines, blocks with steps, price lists, etc. Images can be edited directly in the builder
 					</Text>
 				</Box>
 			</Box>
@@ -787,9 +816,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						You can hide any elements or entire blocks and implement an alternative design style for mobile and tablet.
-						<br />
-						Or you can just make sure everything works as it should in the preview mode and leave the site as is
+						uKit adapts websites to all screens without user input. But if you want, you can hide individual elements or entire widgets, and customize the background and design separately for tablets or smartphones
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -832,7 +859,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Connect Your Domain and Publish Your Landing Page
+						Connect Your Domain
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -841,10 +868,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						You can get a new domain on the uKit Dashboard. In this case, the DNS records will be set automatically. SSL certificates are free and also set up automatically.{" "}
-						<br />
-						You don’t have to edit anything manually.
-uKit stores up to 10 backups of your site. Don’t be afraid to edit your site or make mistakes. You can get the backed-up version of your website at any time
+						You can register a new domain name on the uKit Dashboard. The hosting will be configured automatically. The site will support the secure HTTPS protocol, and no extra steps are required to get SSL certificates
 					</Text>
 				</Box>
 			</Box>
@@ -866,7 +890,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Set Up Analytics
+						Publish Your Site
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -875,9 +899,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 						width="84%"
 						lg-width="100%"
 					>
-						You can connect Google Analytics and Facebook Pixel. It’ll only take a few minutes.
-						<br />
-						Track landing page performance in real time or over a specific period of time without leaving the uKit Dashboard
+						As soon as you click the «Publish» button, the site becomes available to site visitors. Feel free to edit its content at any time: uKit allows you to keep up to 10 backups. If you do something wrong, just roll back to the correct version or undo the action in the editor with the «Back» button
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -915,7 +937,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					It’s Almost Done!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Now you need to add the site to search engines and configure your SEO settings. uKit allows you to set meta tags for each page of your site. You can use a special built-in SEO wizard to check if your site is ready for publishing
+					Don’t forget to add the site to search engines and take care of SEO promotion. You can check the site readiness in a special wizard. It will show you exactly what you need to change about your site to make sure you rank high in search results
 				</Text>
 				<Link
 					href="https://ukit.com/signUp"
@@ -932,7 +954,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Create a Landing Page
+					Create a Website
 				</Link>
 			</Box>
 		</Section>
@@ -958,10 +980,10 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					What Else You Can Create with uKit
+					What Else Can You Create with uKit?
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Create any type of website yourself with our builder, even if you’ve never done it before
+					The uKit builder allows you to launch any thematic business projects in just a few hours without any special knowledge or skills
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -974,9 +996,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -986,7 +1008,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Dental Clinic Website
+							Interior Design Portfolio
 						</Text>
 					</Link>
 				</Box>
@@ -999,9 +1021,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-an-educational-facility-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1011,7 +1033,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Educational Facility Website
+							Promo Website for Your Business
 						</Text>
 					</Link>
 				</Box>
@@ -1032,9 +1054,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-a-teacher-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-landing-page" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1044,7 +1066,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Teacher Website
+							{" "}Landing Page
 						</Text>
 					</Link>
 				</Box>
@@ -1057,9 +1079,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-real-estate-development-company-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1069,7 +1091,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Interior Design Portfolio
+							Real Estate Development Company Website
 						</Text>
 					</Link>
 				</Box>
@@ -1090,9 +1112,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-a-tutor-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-lawyer-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1102,8 +1124,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Tutor Website
-							<br />
+							Lawyer Website
 						</Text>
 					</Link>
 				</Box>
@@ -1116,9 +1137,9 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1128,7 +1149,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Promo Website for Your Business
+							Dental Clinic Website
 						</Text>
 					</Link>
 				</Box>
@@ -1156,10 +1177,10 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 					as="h2"
 					text-align="center"
 				>
-					Are You Ready to Create Your Landing Page on uKit?
+					Create a Real Estate Development Company Website with uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Build your own landing page right now from scratch using blocks or a ready-made template. No programming skills or special knowledge required
+					Start using the platform without any obligation or prepayment. Check out the builder templates and functionality right now for free
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
@@ -1247,7 +1268,7 @@ uKit stores up to 10 backups of your site. Don’t be afraid to edit your 
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/en/create-a-landing-page/"} place={"endOfHead"} rawKey={"6153428713a22cefa64c1f19"} />
+			<link rel={"canonical"} href={"/lp/en/create-a-real-estate-development-company-website/"} place={"endOfHead"} rawKey={"615c7608df089181a52fdb0a"} />
 		</RawHtml>
 	</Theme>;
 });

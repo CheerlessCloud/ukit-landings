@@ -243,6 +243,38 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/en/create-a-lawyer-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-legal-advisor-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-real-estate-development-company-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-real-estate-agency-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "experiments": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

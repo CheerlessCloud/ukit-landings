@@ -1255,7 +1255,7 @@ export default (() => {
 				place={"endOfBody"}
 				rawKey={"6154764991dc46bf66521a06"}
 			/>
-			<link rel={"canonical"} href={"/lp/ru/create-a-dental-clinic-website/"} place={"endOfHead"} rawKey={"61545a1ed6362bfde9364ffe"} />
+			<link rel={"canonical"} href={"/lp/en/create-a-dental-clinic-website/"} place={"endOfHead"} rawKey={"61545a1ed6362bfde9364ffe"} />
 		</RawHtml>
 	</Theme>;
 });
