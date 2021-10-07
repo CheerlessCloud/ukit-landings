@@ -28,7 +28,7 @@ export default {
 		"612ba49117f5d1001e31b05d": {
 			"id": "612ba49117f5d1001e31b05d",
 			"pageUrl": "sozdat-sait-vizitku-online",
-			"name": "Создайте сайта-визитки для бизнеса",
+			"name": "Создайте сайт-визитку для бизнеса",
 			"seo": {
 				"title": "Создайте сайт-визитку для бизнеса — uKit. Конструктор сайтов для бизнеса",
 				"hide": false,
@@ -91,7 +91,8 @@ export default {
 				"615d999129a0a1001e6c9c06",
 				"615ddecb90c15f001ede3e2b",
 				"615dd9f27f2b1f001fa0abe9",
-				"615eec507f2b1f001fa0ad41"
+				"615eec507f2b1f001fa0ad41",
+				"615f2edc17f5d1001e31ee34"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -116,7 +117,7 @@ export default {
 		"613213857514e1001f259a1d": {
 			"id": "613213857514e1001f259a1d",
 			"pageUrl": "sozdat-odnostranichnyj-sajt-lending",
-			"name": "Создайте одностраничного сайта — лендинга",
+			"name": "Создайте одностраничный сайт — лендинг",
 			"seo": {
 				"title": "Создайте одностраничный сайт — лендинга — uKit. Конструктор сайтов для бизнеса",
 				"description": "Готовые шаблоны, огромный выбор тематических секций и элементов дизайна, уведомления из форм, интеграции, хостинг без ограничений.\nЛендинг своими руками всего за пару часов",
@@ -139,7 +140,7 @@ export default {
 		"61337d9c52477d001f630619": {
 			"id": "61337d9c52477d001f630619",
 			"pageUrl": "sozdat-sajt-agentstva-nedvizhimosti",
-			"name": "Создайте сайта для агентства недвижимости",
+			"name": "Создайте сайт для агентства недвижимости",
 			"seo": {
 				"title": "Создайте сайт для агентства недвижимости — uKit. Конструктор сайтов для бизнеса",
 				"description": "Безлимитный хостинг и неограниченное количество страниц, готовые шаблоны, удобный визуальный редактор, интеграции с CRM, SMS-уведомления о заявках. И всё без программирования или профильных навыков. Сайт можно сделать своими руками.\n",
@@ -162,7 +163,7 @@ export default {
 		"6134abed29a0a1001e6c6b76": {
 			"id": "6134abed29a0a1001e6c6b76",
 			"pageUrl": "sozdat-sajt-stomatologii",
-			"name": "Создайте сайта для стоматологической клиники",
+			"name": "Создайте сайт для стоматологической клиники",
 			"seo": {
 				"title": "Создайте сайт стоматологической клиники — uKit. Конструктор сайтов для бизнеса",
 				"description": "Своими руками и без программистов, никакого кода. Быстро и качественно, с готовыми шаблонами. Безлимитный хостинг и уведомления с сайта.\nВы точно разберётесь со всеми функциями самостоятельно.\n",
@@ -888,6 +889,28 @@ export default {
 					}
 				}
 			}
+		},
+		"615f2edc17f5d1001e31ee34": {
+			"id": "615f2edc17f5d1001e31ee34",
+			"pageUrl": "sozdat-sayt-vracha",
+			"name": "Создайте сайт врача",
+			"seo": {
+				"title": "Создайте сайт врача — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт врача — uKit. Конструктор сайтов для бизнеса",
+				"description": "Как получать больше выгоды от частной практики? Создать свой сайт. Не важно, какая у вас специализация — педиатр, стоматолог, дерматолог, невролог или ортопед. Важно, что личный сайт частного специалиста вы можете создать полностью своими руками — в онлайн конструкторе uKit, с минимальными усилиями и затратами",
+				"og:description": "Как получать больше выгоды от частной практики? Создать свой сайт. Не важно, какая у вас специализация — педиатр, стоматолог, дерматолог, невролог или ортопед. Важно, что личный сайт частного специалиста вы можете создать полностью своими руками — в онлайн конструкторе uKit, с минимальными усилиями и затратами"
+			},
+			"customCode": {
+				"615f36bcea957904eaa0f709": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-vracha/"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -913,7 +936,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-vracha/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

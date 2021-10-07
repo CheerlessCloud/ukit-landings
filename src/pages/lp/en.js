@@ -25,30 +25,7 @@ export default (() => {
 				Ready-Made Solutions
 			</Text>
 			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
-			<Components.QuarklycommunityKitMenu
-				exact-active-match
-				rootId="6151ac9c29a0a1001e6c8fb1"
-				font="--base"
-				color="--dark"
-				display="flex"
-				flex-wrap="wrap"
-				padding="0 0 0 0"
-			>
-				<Override
-					slot="link"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					hover-color="--primary"
-				/>
-				<Override
-					slot="item"
-					display="flex"
-					width="50%"
-					padding="0 0 0 0"
-					md-width="100%"
-				/>
-			</Components.QuarklycommunityKitMenu>
+			<Components.Mymenu />
 		</Section>
 		<Components.EnFooter />
 		<Link
