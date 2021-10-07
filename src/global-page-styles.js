@@ -179,6 +179,46 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/sozdat-sayt-salona-krasoty": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sayt-kafe-ili-restorana": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sayt-gostinitsy-ili-otelya": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/sozdat-sayt-avtoservisa": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/en": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

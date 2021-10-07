@@ -1335,14 +1335,6 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
-			<script
-				nomodule={false}
-				integrity={""}
-				crossorigin={""}
-				type={""}
-				place={"endOfBody"}
-				rawKey={"6154764991dc46bf66521a06"}
-			/>
 			<link href={"/lp/ru/sozdat-sajt-dezajnera-interjerov/"} rel={"canonical"} place={"endOfHead"} rawKey={"613fa20719035ef3eab74902"} />
 		</RawHtml>
 	</Theme>;

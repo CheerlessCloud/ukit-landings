@@ -86,7 +86,12 @@ export default {
 				"614f23cf90c15f001ede3197",
 				"614f4aba7f2b1f001fa0a026",
 				"6150c8e27514e1001f25bd4c",
-				"615181c729a0a1001e6c8f75"
+				"615181c729a0a1001e6c8f75",
+				"615d8438790876002294d670",
+				"615d999129a0a1001e6c9c06",
+				"615ddecb90c15f001ede3e2b",
+				"615dd9f27f2b1f001fa0abe9",
+				"615eec507f2b1f001fa0ad41"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -773,6 +778,116 @@ export default {
 					}
 				}
 			}
+		},
+		"615d8438790876002294d670": {
+			"id": "615d8438790876002294d670",
+			"pageUrl": "sozdat-sayt-salona-krasoty",
+			"name": "Создайте сайт салона красоты",
+			"seo": {
+				"title": "Создайте сайт салона красоты — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт салона красоты — uKit. Конструктор сайтов для бизнеса",
+				"description": "Сделайте красивый и удобный сайт своими руками. Для этого в uKit есть всё необходимое и даже больше: удобный конструктор, готовые шаблоны, безлимитный хостинг, встроенные формы и уведомления о заявках, специальные инструменты для самостоятельного продвижения и рекламы",
+				"og:description": "Сделайте красивый и удобный сайт своими руками. Для этого в uKit есть всё необходимое и даже больше: удобный конструктор, готовые шаблоны, безлимитный хостинг, встроенные формы и уведомления о заявках, специальные инструменты для самостоятельного продвижения и рекламы"
+			},
+			"customCode": {
+				"615d9127d01214cccfc1be59": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-salona-krasoty/"
+					}
+				}
+			}
+		},
+		"615d999129a0a1001e6c9c06": {
+			"id": "615d999129a0a1001e6c9c06",
+			"pageUrl": "sozdat-sayt-kafe-ili-restorana",
+			"name": "Создайте сайт кафе или ресторана",
+			"seo": {
+				"title": "Создайте сайт кафе или ресторана — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт кафе или ресторана — uKit. Конструктор сайтов для бизнеса",
+				"description": "С помощью uKit вы сможете своими руками сделать презентабельный, красивый и функциональный сайт кафе или ресторана. В комплекте безлимитный хостинг, бесплатные SMS-уведомления о заявках, готовые инструменты для продвижения и рекламы",
+				"og:description": "С помощью uKit вы сможете своими руками сделать презентабельный, красивый и функциональный сайт кафе или ресторана. В комплекте безлимитный хостинг, бесплатные SMS-уведомления о заявках, готовые инструменты для продвижения и рекламы"
+			},
+			"customCode": {
+				"615da0bd36ec2b02325db751": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-kafe-ili-restorana/"
+					}
+				}
+			}
+		},
+		"615dd9f27f2b1f001fa0abe9": {
+			"id": "615dd9f27f2b1f001fa0abe9",
+			"pageUrl": "sozdat-sayt-psikhologa-ili-psikhoterapevta",
+			"name": "Создайте сайт психолога или психотерапевта",
+			"seo": {
+				"title": "Создайте сайт психолога или психотерапевта — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт психолога или психотерапевта — uKit. Конструктор сайтов для бизнеса",
+				"description": "Даже если вы впервые задумались о создании своего сайта, его можно будет сделать в uKit без помощи сторонних специалистов. Это очень просто и быстро: удобный конструктор, готовые шаблоны, полностью безлимитный хостинг. Рекламу и автоматическое продвижение можно запустить прямо из админ-панели",
+				"og:description": "Даже если вы впервые задумались о создании своего сайта, его можно будет сделать в uKit без помощи сторонних специалистов. Это очень просто и быстро: удобный конструктор, готовые шаблоны, полностью безлимитный хостинг. Рекламу и автоматическое продвижение можно запустить прямо из админ-панели"
+			},
+			"customCode": {
+				"615ed5dbe05729cae6ac2158": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/"
+					}
+				}
+			}
+		},
+		"615ddecb90c15f001ede3e2b": {
+			"id": "615ddecb90c15f001ede3e2b",
+			"pageUrl": "sozdat-sayt-gostinitsy-ili-otelya",
+			"name": "Создайте сайт гостиницы или отеля",
+			"seo": {
+				"title": "Создайте сайт гостиницы или отеля — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт гостиницы или отеля — uKit. Конструктор сайтов для бизнеса",
+				"description": "Вам не придётся нанимать исполнителей, чтобы сделать свой сайт гостиницы или отеля. Достаточно выбрать онлайн-конструктор uKit. Здесь уже есть безлимитный хостинг, готовые формы заявок с бесплатными уведомлениями, всё для самостоятельного продвижения и рекламы",
+				"og:description": "Вам не придётся нанимать исполнителей, чтобы сделать свой сайт гостиницы или отеля. Достаточно выбрать онлайн-конструктор uKit. Здесь уже есть безлимитный хостинг, готовые формы заявок с бесплатными уведомлениями, всё для самостоятельного продвижения и рекламы"
+			},
+			"customCode": {
+				"615de88ac23331d25f8966d3": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/"
+					}
+				}
+			}
+		},
+		"615eec507f2b1f001fa0ad41": {
+			"id": "615eec507f2b1f001fa0ad41",
+			"pageUrl": "sozdat-sayt-avtoservisa",
+			"name": "Создайте сайт автосервиса",
+			"seo": {
+				"title": "Создайте сайт автосервиса — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Создайте сайт автосервиса — uKit. Конструктор сайтов для бизнеса",
+				"description": "В онлайн-конструкторе uKit вы сможете не только создать качественный сайт автосервиса или СТО, но и организовать продвижение в поисковых системах, запустить рекламную кампанию только своими руками, без помощников и наёмных специалистов. Экономно, качественно и эффективно",
+				"og:description": "В онлайн-конструкторе uKit вы сможете не только создать качественный сайт автосервиса или СТО, но и организовать продвижение в поисковых системах, запустить рекламную кампанию только своими руками, без помощников и наёмных специалистов. Экономно, качественно и эффективно"
+			},
+			"customCode": {
+				"615efe89ef399feff281ec55": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/sozdat-sayt-avtoservisa/"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -798,7 +913,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n</urlset>"
 		}
 	}
 }

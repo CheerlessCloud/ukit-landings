@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsColumns, BsImages, BsEnvelope, BsGear, BsTablet, BsColumnsGutters, BsImage, BsPencil, BsPhone, BsCloud, BsCheckBox, BsBarChart, BsEnvelopeOpen } from "react-icons/bs";
+import { BsColumnsGutters, BsWindow, BsLock, BsEye, BsCheckBox, BsEnvelopeOpen, BsArrowLeftRight, BsGeo, BsArrowRepeat, BsPhone, BsBuilding, BsCloud, BsBarChart, BsGraphUp, BsChat, BsAt } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sajt-portfolio-hudozhnika"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ru/sozdat-sayt-gostinitsy-ili-otelya"} />
 		<Helmet>
 			<title>
-				Создайте сайт-портфолио художника — uKit. Конструктор сайтов для бизнеса
+				Создайте сайт гостиницы или отеля — uKit. Конструктор сайтов для бизнеса
 			</title>
-			<meta name={"description"} content={"В uKit можно сделать функциональный сайт-портфолио с современным дизайном и мобильной версией без программирования — своими руками, буквально за один вечер"} />
-			<meta property={"og:title"} content={"Создайте сайт-портфолио художника — uKit. Конструктор сайтов для бизнеса"} />
-			<meta property={"og:description"} content={"В uKit можно сделать функциональный сайт-портфолио с современным дизайном и мобильной версией без программирования — своими руками, буквально за один вечер"} />
+			<meta name={"description"} content={"Вам не придётся нанимать исполнителей, чтобы сделать свой сайт гостиницы или отеля. Достаточно выбрать онлайн-конструктор uKit. Здесь уже есть безлимитный хостинг, готовые формы заявок с бесплатными уведомлениями, всё для самостоятельного продвижения и рекламы"} />
+			<meta property={"og:title"} content={"Создайте сайт гостиницы или отеля — uKit. Конструктор сайтов для бизнеса"} />
+			<meta property={"og:description"} content={"Вам не придётся нанимать исполнителей, чтобы сделать свой сайт гостиницы или отеля. Достаточно выбрать онлайн-конструктор uKit. Здесь уже есть безлимитный хостинг, готовые формы заявок с бесплатными уведомлениями, всё для самостоятельного продвижения и рекламы"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
@@ -50,10 +50,11 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Создайте сайт-портфолио художника
+					Создайте 
+сайт гостиницы или отеля{"\n\n"}
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					В uKit можно сделать функциональный сайт-портфолио с современным дизайном и мобильной версией без программирования — своими руками, буквально за один вечер
+				<Text margin="0px 0px 50px 0px" font="--base" color="--dark">
+					Вам не придётся нанимать исполнителей, чтобы сделать свой сайт гостиницы или отеля. Достаточно выбрать онлайн-конструктор uKit. Здесь уже есть безлимитный хостинг, готовые формы заявок с бесплатными уведомлениями, всё для самостоятельного продвижения и рекламы
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -70,7 +71,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-портфолио
+					Создать сайт
 				</Link>
 			</Box>
 			<Box
@@ -99,17 +100,6 @@ export default (() => {
 					lg-top="-42px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_model_ru.webp?v=2021-09-24T11:19:37.079Z"
-					width="112%"
-					border-width="2px"
-					border-style="solid"
-					border-color="#6c757d2f"
-					border-radius="18px"
-					lg-width="100%"
-					loading="lazy"
-					position="static"
-				/>
-				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/zvezda1.svg?v=2021-08-19T12:34:32.396Z"
 					width="150px"
 					height="150px"
@@ -123,6 +113,16 @@ export default (() => {
 					lg-height="100px"
 					lg-bottom="-44px"
 					lg-right="-26px"
+				/>
+				<Image
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_hotel_ru.webp?v=2021-09-08T11:14:49.235Z"
+					width="112%"
+					border-width="2px"
+					border-style="solid"
+					border-color="#6c757d2f"
+					border-radius="18px"
+					lg-width="100%"
+					loading="lazy"
 				/>
 			</Box>
 		</Section>
@@ -151,14 +151,20 @@ export default (() => {
 			>
 				<Icon
 					category="bs"
-					icon={BsColumns}
+					icon={BsColumnsGutters}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="--secondary"
+					color="#4773ff"
 				/>
-				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Красивые шаблоны
+				<Text
+					margin="0px 0px 0px 0px"
+					color="--darkL1"
+					font="--lead"
+					align-self="auto"
+					position="static"
+				>
+					Адаптивные шаблоны
 				</Text>
 			</Box>
 			<Box
@@ -175,14 +181,14 @@ export default (() => {
 			>
 				<Icon
 					category="bs"
-					icon={BsImages}
+					icon={BsWindow}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="--secondary"
+					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Стильные галереи и слайдеры
+					Удобный Drag&Drop конструктор
 				</Text>
 			</Box>
 			<Box
@@ -199,14 +205,14 @@ export default (() => {
 			>
 				<Icon
 					category="bs"
-					icon={BsEnvelope}
+					icon={BsLock}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="--secondary"
+					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Формы обратной связи
+					Формы для сбора заявок
 				</Text>
 			</Box>
 			<Box
@@ -223,14 +229,14 @@ export default (() => {
 			>
 				<Icon
 					category="bs"
-					icon={BsGear}
+					icon={BsEye}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="--secondary"
+					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-					Простой редактор
+					Бесплатные SMS-уведомления
 				</Text>
 			</Box>
 			<Box
@@ -246,14 +252,14 @@ export default (() => {
 			>
 				<Icon
 					category="bs"
-					icon={BsTablet}
+					icon={BsCheckBox}
 					margin="0 0 18px 0"
 					align-items="center"
 					size="63px"
-					color="--secondary"
+					color="#4773ff"
 				/>
 				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-					Адаптивный дизайн
+					Автоматизация SEO и рекламы
 				</Text>
 			</Box>
 		</Section>
@@ -282,10 +288,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Примеры шаблонов сайтов для художников
+					Примеры шаблонов сайтов для гостиниц и отелей{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Вы можете выбрать любой из представленных в каталоге. Шаблоны легко переделываются под ваши требования и задачи. Не нужно редактировать код. Всё максимально просто и понятно
+					Не только тематическое оформление, но и готовое текстовое наполнение, структура и изображения. Контент легко адаптируется под себя без кардинальной переделки. Легко начать и быстро запустить сайт
 				</Text>
 			</Box>
 			<Box
@@ -325,14 +331,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_ru.webp?v=2021-09-08T10:54:09.171Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_marryme_ru.webp?v=2021-10-06T11:56:01.079Z"
 					border-radius="18px"
 					position="absolute"
 					width="198px"
-					left="-184px"
+					left="-200px"
 					right="auto"
-					bottom="75px"
-					top="auto"
+					bottom="auto"
+					top="175px"
 					lg-bottom="30px"
 					lg-height="123.547px"
 					lg-left="-43px"
@@ -346,17 +352,16 @@ export default (() => {
 					sm-top="auto"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="124.75px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_icecream_ru.webp?v=2021-09-08T11:26:04.851Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 					border-radius="18px"
 					position="absolute"
-					width="315.7663333333333px"
-					left="-339px"
-					right="727.2376666666667px"
-					bottom="-93.49177777777777px"
-					top="270.567px"
+					width="321px"
+					left="-355px"
+					right="auto"
+					bottom="-110px"
+					top="auto"
 					lg-bottom="-137px"
 					lg-height="231.375px"
 					lg-left="-92px"
@@ -365,17 +370,16 @@ export default (() => {
 					lg-width="213px"
 					lg-display="none"
 					loading="lazy"
-					height="197.92777777777778px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_band_ru.webp?v=2021-09-08T11:06:05.150Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
 					border-radius="18px"
 					position="absolute"
-					width="304.883px"
-					left="301.119px"
-					right="98px"
-					top="-79px"
-					bottom="265.156px"
+					width="324.717px"
+					left="302px"
+					right="77.2861px"
+					top="-82px"
+					bottom="249.048px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -384,10 +388,9 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="188.833px"
-					border-color="#000000"
+					height="207.95px"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coworking_ru.webp?v=2021-09-07T07:45:42.330Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -400,12 +403,19 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advert_ru.webp?v=2021-09-24T09:05:09.415Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2006-10-2021%2023.31%201.webp?v=2021-10-06T17:32:27.323Z"
 					border-radius="18px"
-					width="236.78972727272728px"
+					lg-width="100%"
+					sm-border-radius="6px"
+					loading="lazy"
+				/>
+				<Image
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_ru%201.webp?v=2021-09-05T12:16:59.810Z"
+					border-radius="18px"
+					width="300px"
 					position="absolute"
-					top="-111px"
-					right="-57px"
+					top="-127px"
+					right="-76px"
 					bottom="auto"
 					left="auto"
 					lg-bottom="auto"
@@ -421,17 +431,17 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="149.03063636363638px"
+					height="199.95px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/female-artist-painting-in-studio%201.webp?v=2021-09-24T11:36:18.693Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/EQ5NUJ2vJkflcZOEukUa.webp?v=2021-09-04T17:36:05.180Z"
 					border-radius="18px"
-					width="242px"
+					width="254.14285714285714px"
 					position="absolute"
-					top="313.617px"
-					right="-53px"
-					bottom="-98px"
-					left="162.983px"
+					top="344.417px"
+					right="-39px"
+					bottom="-85px"
+					left="136.84014285714287px"
 					lg-bottom="-67px"
 					lg-height="154.625px"
 					lg-left="auto"
@@ -445,10 +455,10 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="159.383px"
+					height="166.583px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_ru.webp?v=2021-09-08T10:54:09.171Z"
 					border-radius="18px"
 					width="192px"
 					position="absolute"
@@ -469,59 +479,56 @@ export default (() => {
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
-				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20385%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20hghbed.udo%201.webp?v=2021-09-24T11:37:58.559Z"
-					border-radius="18px"
-					lg-width="100%"
-					sm-border-radius="6px"
-					loading="lazy"
-				/>
 			</Box>
 		</Section>
 		<Section background="--color-secondary" padding="130px 0 130px 0" lg-padding="100px 0 100px 0">
-			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
+			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" max-width="1056px" />
 			<Box
-				width="75%"
 				display="flex"
 				flex-direction="column"
-				align-items="flex-start"
+				align-items="center"
 				padding="0px 0px 0px 0px"
-				margin="0px 25% 40px 0px"
+				margin="0px 15% 40px 15%"
 				lg-width="100%"
 				lg-margin="0px 0px 40px 0px"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
+					margin="0px 0px 15px 0px"
 					font="--headline1"
 					letter-spacing="-1px"
 					color="--white"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
+					width="100%"
+					text-align="center"
 				>
-					Преимущества uKit для самостоятельного создания сайта
+					Преимущества uKit для создания сайта своими руками
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Даже если вы впервые столкнулись с платформой, у вас обязательно получится качественный сайт-портфолио. Никаких специальных навыков не требуется. Страницы собираются из готовых виджетов и элементов — простым перетягиванием
+				<Text margin="0px 0px 30px 0px" font="--base" color="--white" text-align="center">
+					Хватить переплачивать за сопровождение сайта сторонними специалистами, в uKit всё можно сделать самостоятельно. Многие задачи автоматизированы и даже не требуют вашего участия. Вам не потребуются никакие профильные знания, всё максимально просто и понятно
 				</Text>
 			</Box>
 			<Box
-				width="33.333%"
 				padding="0px 15px 0px 15px"
 				display="flex"
-				flex-direction="column"
+				flex-direction="row"
 				justify-content="center"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
+				width="100%"
+				flex="0 1 auto"
+				align-self="auto"
+				flex-wrap="wrap"
 			>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					width="33%"
 				>
 					<Icon
 						category="bs"
@@ -530,166 +537,20 @@ export default (() => {
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						align-self="center"
 					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Тематические шаблоны для портфолио
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Готовые шаблоны для быстрого старта{"\n\n"}
 					</Text>
 				</Box>
 				<Box
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsImage}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Красивые слайдеры и галереи
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsPencil}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Встроенный редактор изображений (с готовыми эффектами)
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsEnvelope}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Формы обратной связи, заказ звонка и чаты
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsPhone}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Адаптивный дизайн (работает на мобильных)
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsCloud}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Безлимитный хостинг
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsCheckBox}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Модуль ведения рекламных кампаний
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsBarChart}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Всё для SEO
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
+					width="33%"
 				>
 					<Icon
 						category="bs"
@@ -698,28 +559,232 @@ export default (() => {
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						align-self="center"
 					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Бесплатные SMS о заявках
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Всплывающие окна и формы для сбора заявок
 					</Text>
 				</Box>
-			</Box>
-			<Box
-				width="58.333%"
-				margin="0px 0px 0px 8.333999999999996%"
-				display="flex"
-				lg-margin="30px 0px 0px 0px"
-				lg-width="100%"
-			>
-				<Image
-					border-radius="18px"
-					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20385%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20-%20hghbed.udo%201%283%29.webp?v=2021-09-24T11:43:10.968Z"
-					width="100%"
-					loading="lazy"
-					align-self="auto"
-					display="inline-block"
-				/>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsArrowLeftRight}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Интеграция с платёжными сервисами, CRM и рассылками
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGeo}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Интеграция с Google и Яндекс картами
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsArrowRepeat}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Виджеты соцсетей
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsPhone}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Автоматическая поддержка мобильных
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsBuilding}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Всё для презентации вашего отеля и номеров
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsCloud}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Безлимитный хостинг (∞ трафик, ∞ страницы, ∞ диск)
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsBarChart}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Встроенный рекламный модуль
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsGraphUp}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						SEO-визард и аналитика
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsChat}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Круглосуточная техподдержка
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+					width="33%"
+				>
+					<Icon
+						category="bs"
+						icon={BsAt}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+						align-self="center"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead" text-align="center">
+						Бесплатная почта на домене
+					</Text>
+				</Box>
 			</Box>
 		</Section>
 		<Section padding="130px 0 40px 0" color="--darkL1" md-padding="100px 0 20px 0">
@@ -742,10 +807,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Как самостоятельно создать сайт художника в uKit
+					Как самостоятельно создать сайт гостиницы/отеля в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Достаточно пройти по основным шагам, описанным ниже, и вы получите портфолио уже через несколько часов. И не стоит переживать, что что-то пойдет не так. Конструктор подходит даже для новичков
+					Алгоритм запуска любого сайта в uKit максимально прост. Понадобится только немного вашего времени на актуализацию контента и контактов. Вам нужно будет пройти по стандартным шагам. Всё легко сделать своими руками
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -760,7 +825,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/one.svg?v=2021-08-19T23:41:55.506Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Начните с шаблона
+						Выберите дизайн
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -769,7 +834,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						В нашем каталоге множество тематических и универсальных вариантов дизайна. Вы можете использовать любой понравившийся. Плюс, под себя можно настроить цвета, шрифты, фон и другие параметры оформления
+						Запуск сайта будет быстрее, если начинать не с чистого листа. В нашем каталоге огромное количество готовых шаблонов — просто подберите наиболее подходящий по стилю и структуре. У многих шаблонов по несколько вариантов цветовых схем. Шрифты, фон и другие параметры оформления меняются в пару кликов
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -835,7 +900,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Позаботьтесь о контенте
+						Опишите услуги и отель, покажите цены
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -844,7 +909,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Расскажите о себе и о своих работах. А ещё лучше — покажите примеры. Вы можете оформить портфолио одной страницей, а можете создать сложную структуру — никаких ограничений по количеству материалов нет. Плюс, uKit никак не лимитирует занимаемое пространство на хостинге, поэтому вы точно сможете загрузить сюда все свои картины. А чтобы работы выглядели эффектнее, можно воспользоваться виджетами слайдеров и галерей
+						Вы никак не ограничиваетесь по типу контента: добавляйте фото отеля или гостиницы, своих номеров, бара, детского уголка. Загружайте любое количество фотографий, вставляйте видео, встраивайте интерактивные карты Google или Яндекс, распределяйте текстовые описания по вкладкам. Хостинг безлимитный на любом тарифе. Новые элементы страниц добавляются в виде готовых блоков и виджетов в удобном конструкторе
 					</Text>
 				</Box>
 			</Box>
@@ -866,7 +931,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/three.svg?v=2021-08-19T23:48:35.499Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Настройте мобильную версию
+						Организуйте бронирование и приём оплаты
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -875,12 +940,12 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						В uKit все шаблоны и блоки — адаптивные, поэтому сайт отлично смотрится на любых типах устройств. При этом возможно скрытие отдельных элементов или целых секций дизайна, настройка альтернативного оформления блоков для смартфонов или планшетов: цвет, фон, количество колонок
+						Показывайте цены на аренду номеров, прайс-лист на дополнительные услуги, организовывайте формы для бронирования, принимайте оплату онлайн. Для этого есть модуль магазина и интеграции с популярными платёжными инструментами, CRM-системами и системами рассылки. SMS и email-уведомления из форм будут приходить вам бесплатно
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/JyMuPVgRgDIWC4tESuu2.webp?v=2021-08-23T21:27:54.052Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%202651%281%29.webp?v=2021-10-06T18:13:30.180Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -898,7 +963,7 @@ export default (() => {
 					md-order="1"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/CsTt7bKyG2eVypJO3i4v.webp?v=2021-08-23T21:27:54.009Z"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/JyMuPVgRgDIWC4tESuu2.webp?v=2021-08-23T21:27:54.052Z"
 						width="100%"
 						display="flex"
 						align-items="center"
@@ -918,7 +983,7 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
-						Подключите свой домен
+						Настройте мобильную версию
 					</Text>
 					<Text
 						margin="0px 0px 24px 0px"
@@ -927,7 +992,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Купить доменное имя можно прямо внутри админ-панели, DNS-записи автоматически будут настроены на наш хостинг. Все сайты по умолчанию работают на защищённом HTTPS-протоколе, сертификаты шифрования генерируются и настраиваются без участия пользователя
+						Все сайты, созданные в uKit, правильно отображаются на экранах мобильных устройств. Для этого не нужно ничего делать. Но вы можете детально настроить видимость и параметры оформления отдельных блоков, скрыть их на определённых категориях устройств, поменять вариант сетки для планшетов (в одну или в две колонки)
 					</Text>
 				</Box>
 			</Box>
@@ -949,6 +1014,58 @@ export default (() => {
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
+						Добавьте домен
+					</Text>
+					<Text
+						margin="0px 0px 24px 0px"
+						color="--dark"
+						font="--base"
+						width="84%"
+						lg-width="100%"
+					>
+						Адрес сайта гостиницы или отеля должен быть узнаваемым, легко читаться и запоминаться. Вы можете зарегистрировать новый домен, не покидая панели управления uKit. Сайт автоматически заработает на защищённом протоколе HTTPS (SSL-сертификат будет предоставлен бесплатно)
+					</Text>
+				</Box>
+				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
+					<Image
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/CsTt7bKyG2eVypJO3i4v.webp?v=2021-08-23T21:27:54.009Z"
+						width="100%"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						loading="lazy"
+					/>
+				</Box>
+			</Box>
+			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
+				<Box
+					width="50%"
+					margin="0px 0px 0px 0px"
+					display="flex"
+					md-width="100%"
+					md-order="1"
+				>
+					<Image
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/publish.png?v=2021-08-19T23:52:07.703Z"
+						width="100%"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						loading="lazy"
+					/>
+				</Box>
+				<Box
+					width="50%"
+					padding="0px 15px 0px 60px"
+					display="flex"
+					flex-direction="column"
+					justify-content="center"
+					align-items="flex-start"
+					md-width="100%"
+					md-padding="0px 15px 0px 15px"
+				>
+					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/6.svg?v=2021-09-28T20:17:25.803Z" margin="0px 0px 24px 0px" />
+					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Опубликуйте сайт
 					</Text>
 					<Text
@@ -958,18 +1075,8 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Нет ничего проще — достаточно нажать кнопку «Публикация» и все внесённые вами изменения станут доступны на основной версии сайта. Чтобы вы не боялись экспериментов, система умеет делать автоматические бэкапы и хранит до 10 версий сайта. Откатиться можно в один клик
+						Когда сайт наполнен и полностью настроен, остаётся показать его потенциальным клиентам. Для этого просто нажмите кнопку «Опубликовать». Вы можете и дальше менять контент, добавлять новые страницы, удалять неактуальные. Чтобы не потерять важную информацию или быстро откатиться в случае ошибок — создавайте резервные копии. Функционал бэкапов полностью бесплатный
 					</Text>
-				</Box>
-				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
-					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/IkVK6AHJ5ffoEWmHhfxR.webp?v=2021-08-23T21:27:54.049Z"
-						width="100%"
-						align-items="center"
-						display="flex"
-						justify-content="center"
-						loading="lazy"
-					/>
 				</Box>
 			</Box>
 		</Section>
@@ -993,10 +1100,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Почти у цели!
+					Не останавливайтесь!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Добавьте сайт в поисковые системы о позаботьтесь о продвижении. Если не готовы ждать естественного трафика из поиска — запустите рекламу. А чтобы правильно контролировать развитие своего сайта — подключите системы аналитики. Всё это можно сделать, не покидая панели управления сайтом. Множество инструментов автоматизированы, например, SEO-визард и рекламный модуль
+					Чтобы сайт работал и приводил клиентов, его нужно продвигать в поиске. Для облегчения задачи в uKit есть специальный SEO-визард. Для самостоятельного подбора ключевых запросов и ведения рекламных кампаний у нас есть оригинальный рекламный модуль. Чтобы держать руку на пульсе и отслеживать все ключевые показатели сайта, его можно добавить в панели вебмастера и подключить аналитику. Всё делается в пару кликов
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -1013,7 +1120,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Создать сайт-портфолио
+					Создать сайт
 				</Link>
 			</Box>
 		</Section>
@@ -1039,10 +1146,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Какие ещё сайты можно создать в uKit
+					Что ещё можно сделать в uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Платформа отлично подходит для запуска различных сайтов, рассчитанных на бизнес-сегмент: лендинги, визитки, каталоги, магазины и сайты компаний
+					Любые виды бизнес-сайтов в uKit создаются без опыта и специальных знаний. Вы справитесь с задачей, даже если занимаетесь ею впервые. В uKit легко сделать визитки, каталоги, лендинги, корпоративные блоги и даже интернет-магазины
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -1055,9 +1162,10 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
+					{" "}
 					<Link href="/lp/ru/sozdat-sait-vizitku-online" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advert_ru.webp?v=2021-09-24T09:05:09.415Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_icecream_ru.webp?v=2021-09-08T11:26:04.851Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1069,6 +1177,7 @@ export default (() => {
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
 							Сайт-визитка для бизнеса
 						</Text>
+						{" "}
 					</Link>
 				</Box>
 				<Box
@@ -1080,9 +1189,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ru/sozdat-sajt-agentstva-nedvizhimosti" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_icecream_ru.webp?v=2021-09-08T11:26:04.851Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1092,7 +1201,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Одностраничный сайт
+							Сайт агентства недвижимости
 						</Text>
 					</Link>
 				</Box>
@@ -1113,9 +1222,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_advokat_ru.webp?v=2021-09-07T08:55:43.180Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1125,7 +1234,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Сайт образовательного учреждения
+							Сайт юриста
 						</Text>
 					</Link>
 				</Box>
@@ -1138,9 +1247,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-yurista" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_ru.webp?v=2021-09-15T11:02:51.691Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1150,7 +1259,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Сайт юриста
+							Сайт строительной компании
 						</Text>
 					</Link>
 				</Box>
@@ -1171,9 +1280,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ru/sozdat-sajt-uchitelja" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_chess_ru.webp?v=2021-09-10T14:19:00.120Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_ru.webp?v=2021-09-08T10:55:07.717Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1183,7 +1292,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Сайт для продажи онлайн курсов
+							Сайт учителя, педагога или преподавателя
 						</Text>
 					</Link>
 				</Box>
@@ -1196,9 +1305,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ru/sozdat-sajt-stroitelnoj-kompanii" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ru/sozdat-odnostranichnyj-sajt-lending" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_complex_ru.webp?v=2021-09-05T17:11:42.996Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_ru.webp?v=2021-09-08T10:54:09.171Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1208,7 +1317,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
-							Сайт строительной компании
+							Одностраничный сайт
 						</Text>
 					</Link>
 				</Box>
@@ -1236,10 +1345,21 @@ export default (() => {
 					as="h2"
 					text-align="center"
 				>
-					Создать сайт-портфолио художника в uKit
+					Создать сайт отеля или гостиницы в uKit{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Довольно разговоров. Просто проверьте uKit в деле — целых 14 дней бесплатного тестирования для каждого нового сайта. Никаких данных карт и прочих обязательств
+					Пора попробовать uKit в действии. И вам это ничего не будет стоить. Тестовый период — 14 дней без каких-либо обязательств
+					<Link
+						href="https://ukit.com/ru/signup"
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						<br />
+					</Link>
 				</Text>
 				<Link
 					href="https://ukit.com/ru/signup"
@@ -1256,7 +1376,7 @@ export default (() => {
 					background="--color-white"
 					hover-background="--color-lightD1"
 				>
-					Попробовать бесплатно
+					Начать бесплатно{"\n\n"}
 				</Link>
 			</Box>
 		</Section>
@@ -1308,7 +1428,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
-			<link rel={"canonical"} href={"/lp/ru/sozdat-sajt-portfolio-hudozhnika/"} place={"endOfHead"} rawKey={"614dbe9319ad667c13967be2"} />
+			<link rel={"canonical"} href={"/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/"} place={"endOfHead"} rawKey={"615de88ac23331d25f8966d3"} />
 		</RawHtml>
 	</Theme>;
 });
