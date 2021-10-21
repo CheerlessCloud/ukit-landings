@@ -20,6 +20,20 @@ export default (() => {
 			<Override slot="link4" />
 		</Components.RuHeader>
 		<Components.EnHeader />
+		<Components.RoHeader>
+			<Override slot="link1">
+				De ce noi?
+			</Override>
+			<Override slot="link2">
+				Tarife
+			</Override>
+			<Override slot="link3">
+				Autentificare
+			</Override>
+			<Override slot="link4">
+				Începeți acum!
+			</Override>
+		</Components.RoHeader>
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
@@ -1086,6 +1100,7 @@ export default (() => {
 		<Components.EnFooter>
 			<Override slot="link8" />
 		</Components.EnFooter>
+		<Components.RoFooter />
 		<Components.Perelink />
 		<Link
 			font={"--capture"}

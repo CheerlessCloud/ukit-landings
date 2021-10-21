@@ -54,7 +54,8 @@ export default {
 			"name": "lp",
 			"children": [
 				"6130a3c652477d001f6301c4",
-				"6151ac9c29a0a1001e6c8fb1"
+				"6151ac9c29a0a1001e6c8fb1",
+				"6169b4e117f5d1001e31fb3e"
 			],
 			"seo": {
 				"title": "uKit",
@@ -911,6 +912,11 @@ export default {
 					}
 				}
 			}
+		},
+		"6169b4e117f5d1001e31fb3e": {
+			"id": "6169b4e117f5d1001e31fb3e",
+			"pageUrl": "ro",
+			"name": "ro"
 		}
 	},
 	"mode": "production",

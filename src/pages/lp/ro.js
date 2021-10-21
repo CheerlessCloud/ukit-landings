@@ -3,24 +3,31 @@ import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/en"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ro"} />
 		<Helmet>
 			<title>
-				Ready-Made Solutions — uKit. Website builder for business
+				Quarkly export
 			</title>
-			<meta name={"description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
-			<meta property={"og:title"} content={"Ready-Made Solutions — uKit. Website builder for business"} />
-			<meta property={"og:description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
+			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
-		<Components.EnHeader />
-		<Components.SitemapPageContent />
-		<Components.EnFooter />
+		<Components.RoHeader />
+		<Components.SitemapPageContent>
+			<Override slot="text">
+				Soluții predefinite
+			</Override>
+			<Override slot="mymenu" rootId="6130a3c652477d001f6301c4" />
+		</Components.SitemapPageContent>
+		<Components.RoFooter>
+			<Override slot="link8">
+				Soluții predefinite
+			</Override>
+		</Components.RoFooter>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -68,7 +75,6 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
-			<link rel={"canonical"} href={"/lp/en/"} place={"endOfHead"} rawKey={"61546f3aca10a484b1004a13"} />
 		</RawHtml>
 	</Theme>;
 });
