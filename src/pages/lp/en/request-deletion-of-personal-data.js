@@ -12,14 +12,15 @@ export default (() => {
 			<title>
 				Request deletion of personal data — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"If you have provided your personal data or had your personal data provided to uKit, but you do not want us to keep it, you may initiate a request for deletion using the form below."} />
 			<meta property={"og:title"} content={"Request deletion of personal data — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"If you have provided your personal data or had your personal data provided to uKit, but you do not want us to keep it, you may initiate a request for deletion using the form below."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
 		<Components.EnHeader />
-		<Section min-height="100vh">
+		<Section min-height="85vh">
 			<Override slot="SectionContent" max-width="1056px" />
 			<Text font="--headline3">
 				Request deletion of personal data{"\n\n"}

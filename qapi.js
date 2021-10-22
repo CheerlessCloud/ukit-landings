@@ -974,7 +974,9 @@ export default {
 			"seo": {
 				"title": "Request deletion of personal data — uKit. Website builder for business",
 				"og:title": "Request deletion of personal data — uKit. Website builder for business",
-				"hide": true
+				"hide": true,
+				"description": "If you have provided your personal data or had your personal data provided to uKit, but you do not want us to keep it, you may initiate a request for deletion using the form below.",
+				"og:description": "If you have provided your personal data or had your personal data provided to uKit, but you do not want us to keep it, you may initiate a request for deletion using the form below."
 			},
 			"customCode": {
 				"6172a014589f249d331ba8d0": {
