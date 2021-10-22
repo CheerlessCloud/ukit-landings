@@ -926,7 +926,7 @@ export default {
 		"6171457b790876002294eb2c": {
 			"id": "6171457b790876002294eb2c",
 			"pageUrl": "creati-un-website-pentru-o-clinica-dentara",
-			"name": "Create a Dental Clinic Website",
+			"name": "Creați un website pentru o clinică dentară",
 			"seo": {
 				"title": "Creați un website pentru o clinică dentară - uKit. Constructor de site-uri pentru afaceri",
 				"og:title": "Creați un website pentru o clinică dentară - uKit. Constructor de site-uri pentru afaceri",
