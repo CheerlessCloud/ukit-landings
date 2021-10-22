@@ -2,7 +2,9 @@ import React from "react";
 import { useOverrides, Override } from "@quarkly/components";
 import { Text, Hr, Section } from "@quarkly/widgets";
 import Mymenu from "./Mymenu";
-const defaultProps = {};
+const defaultProps = {
+	"min-height": "100vh"
+};
 const overrides = {
 	"text": {
 		"kind": "Text",

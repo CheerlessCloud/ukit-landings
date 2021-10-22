@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Hr, Box, Section } from "@quarkly/widgets";
+import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -19,94 +19,12 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
 		<Components.RuHeader />
-		<Section>
-			<Override slot="SectionContent" max-width="1056px" />
-			<Text font="--headline3">
-				Готовые решения
-			</Text>
-			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
-			<Components.Mymenu rootId="6130a3c652477d001f6301c4" />
-			<Box display="flex" flex-wrap="wrap" sm-flex-direction="column">
-				<Link
-					href="https://ukit.com/ru/lp/alt-vk"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					uKit Alt: сделать сайт из страницы ВКонтакте
-				</Link>
-				<Link
-					href="https://ukit.com/ru/lp/convert"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					uKit Alt: сделать сайт из Facebook
-				</Link>
-				<Link
-					href="https://ukit.com/ru/lp/infosite/"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Создать сайт-визитку за час
-				</Link>
-				<Link
-					href="https://ukit.com/ru/lp/logistics/"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Как создать сайт для транспортной компании
-				</Link>
-				<Link
-					href="https://ukit.com/ru/lp/self/"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Создать сайт самостоятельно
-				</Link>
-				<Link
-					href="https://ukit.com/ru/lp/photo/"
-					font="--base"
-					color="--dark"
-					text-decoration-line="initial"
-					display="flex"
-					flex-direction="row"
-					width="50%"
-					hover-color="--primary"
-					md-width="100%"
-				>
-					Создать сайт фотографа за вечер
-				</Link>
-			</Box>
-		</Section>
+		<Components.SitemapPageContent min-height="100vh">
+			<Override slot="text">
+				Готовые решения{"\n\n"}
+			</Override>
+			<Override slot="mymenu" rootId="6130a3c652477d001f6301c4" />
+		</Components.SitemapPageContent>
 		<Components.RuFooter />
 		<Link
 			font={"--capture"}

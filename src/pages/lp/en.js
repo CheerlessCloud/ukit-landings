@@ -19,7 +19,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
 		<Components.EnHeader />
-		<Components.SitemapPageContent />
+		<Components.SitemapPageContent min-height="100vh" />
 		<Components.EnFooter />
 		<Link
 			font={"--capture"}

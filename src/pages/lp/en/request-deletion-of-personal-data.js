@@ -1,33 +1,65 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Input, Button, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ro"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/en/request-deletion-of-personal-data"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Request deletion of personal data — uKit. Website builder for business
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta property={"og:title"} content={"Request deletion of personal data — uKit. Website builder for business"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
+			<meta name={"robots"} content={"noindex,nofollow"} />
 		</Helmet>
-		<Components.RoHeader />
-		<Components.SitemapPageContent min-height="100vh">
-			<Override slot="text">
-				Soluții predefinite
-			</Override>
-			<Override slot="mymenu" rootId="6169b4e117f5d1001e31fb3e" />
-		</Components.SitemapPageContent>
-		<Components.RoFooter>
-			<Override slot="link8">
-				Soluții predefinite
-			</Override>
-		</Components.RoFooter>
+		<Components.EnHeader />
+		<Section min-height="100vh">
+			<Override slot="SectionContent" max-width="1056px" />
+			<Text font="--headline3">
+				Request deletion of personal data{"\n\n"}
+			</Text>
+			<Hr width="100%" display="flex" color="--grey" border-color="--color-grey" />
+			<Text font="--base">
+				If you have provided your personal data or had your personal data provided to uKit, but you do not want us to keep it, you may initiate a request for deletion using the form below.{"\n\n"}
+			</Text>
+			<Formspree endpoint="https://formspree.io/f/mayazdke">
+				<Stack gap="16px">
+					<StackItem width="50%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text font="--base" margin="0 0 4px 0">
+							Name
+						</Text>
+						<Input max-width="400px" width="100%" name="name" />
+					</StackItem>
+					<StackItem width="50%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text font="--base" margin="0 0 4px 0">
+							Email
+						</Text>
+						<Input max-width="400px" width="100%" type="email" name="email" />
+					</StackItem>
+					<StackItem width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text font="--base" margin="0 0 4px 0">
+							Message
+						</Text>
+						<Input as="textarea" rows="4" width="100%" name="message" />
+					</StackItem>
+					<StackItem width="100%">
+						<Button>
+							Send
+						</Button>
+					</StackItem>
+				</Stack>
+			</Formspree>
+		</Section>
+		<Components.EnFooter />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -75,6 +107,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
+			<link rel={"canonical"} href={"/lp/en/request-deletion-of-personal-data/"} place={"endOfHead"} rawKey={"6172a014589f249d331ba8d0"} />
 		</RawHtml>
 	</Theme>;
 });

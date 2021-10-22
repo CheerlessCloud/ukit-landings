@@ -227,6 +227,14 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/konstruktor-odnostranichnyh-sajtov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/en": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -323,7 +331,23 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/en/request-deletion-of-personal-data": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/ro": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-o-clinica-dentara": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
