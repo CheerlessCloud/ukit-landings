@@ -22,6 +22,7 @@ export default (() => {
 				Soluții predefinite
 			</Override>
 			<Override slot="mymenu" rootId="6169b4e117f5d1001e31fb3e" />
+			<Override slot="SectionContent" min-height="calc(100vh - 300px)" />
 		</Components.SitemapPageContent>
 		<Components.RoFooter>
 			<Override slot="link8">

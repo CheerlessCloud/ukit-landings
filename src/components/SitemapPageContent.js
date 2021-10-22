@@ -3,7 +3,7 @@ import { useOverrides, Override } from "@quarkly/components";
 import { Text, Hr, Section } from "@quarkly/widgets";
 import Mymenu from "./Mymenu";
 const defaultProps = {
-	"min-height": "100vh"
+	"min-height": "100%"
 };
 const overrides = {
 	"text": {
@@ -25,6 +25,11 @@ const overrides = {
 	"mymenu": {
 		"kind": "Mymenu",
 		"props": {}
+	},
+	"SectionContent": {
+		"props": {
+			"min-height": "100%"
+		}
 	}
 };
 

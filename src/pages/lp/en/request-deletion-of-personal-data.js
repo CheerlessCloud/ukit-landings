@@ -21,7 +21,7 @@ export default (() => {
 		</Helmet>
 		<Components.EnHeader />
 		<Section min-height="85vh">
-			<Override slot="SectionContent" max-width="1056px" />
+			<Override slot="SectionContent" max-width="1056px" min-height="calc(100vh - 300px)" />
 			<Text font="--headline3">
 				Request deletion of personal data{"\n\n"}
 			</Text>
@@ -43,14 +43,26 @@ export default (() => {
 						<Text font="--base" margin="0 0 4px 0">
 							Email
 						</Text>
-						<Input max-width="400px" width="100%" type="email" name="email" />
+						<Input
+							max-width="400px"
+							width="100%"
+							type="email"
+							name="email"
+							required={false}
+						/>
 					</StackItem>
 					<StackItem width="100%">
 						<Override slot="StackItemContent" flex-direction="column" />
 						<Text font="--base" margin="0 0 4px 0">
 							Message
 						</Text>
-						<Input as="textarea" rows="4" width="100%" name="message" />
+						<Input
+							as="textarea"
+							rows="4"
+							width="100%"
+							name="message"
+							max-width="100%"
+						/>
 					</StackItem>
 					<StackItem width="100%">
 						<Button>

@@ -24,6 +24,7 @@ export default (() => {
 				Готовые решения{"\n\n"}
 			</Override>
 			<Override slot="mymenu" rootId="6130a3c652477d001f6301c4" />
+			<Override slot="SectionContent" min-height="calc(100vh - 300px)" />
 		</Components.SitemapPageContent>
 		<Components.RuFooter />
 		<Link

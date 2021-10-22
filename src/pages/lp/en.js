@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -19,7 +19,9 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
 		<Components.EnHeader />
-		<Components.SitemapPageContent min-height="100vh" />
+		<Components.SitemapPageContent>
+			<Override slot="SectionContent" min-height="calc(100vh - 300px)" />
+		</Components.SitemapPageContent>
 		<Components.EnFooter />
 		<Link
 			font={"--capture"}
