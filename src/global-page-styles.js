@@ -235,6 +235,30 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ru/konstruktor-sajtov-vizitok": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/konstruktor-lendingov": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ru/konstruktor-sajtov-portfolio": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/en": {
         "overflow-x": "hidden",
         "overflow-y": "visible",

@@ -94,7 +94,10 @@ export default {
 				"615dd9f27f2b1f001fa0abe9",
 				"615eec507f2b1f001fa0ad41",
 				"615f2edc17f5d1001e31ee34",
-				"6172877235c5c8001f7770db"
+				"6172877235c5c8001f7770db",
+				"6172f2ee90c15f001ede5526",
+				"6175b97d1f4350001e45d329",
+				"617670a37514e1001f25e484"
 			],
 			"seo": {
 				"title": "Готовые решения — uKit. Конструктор сайтов для бизнеса",
@@ -950,8 +953,8 @@ export default {
 			"pageUrl": "konstruktor-odnostranichnyh-sajtov",
 			"name": "Конструктор одностраничных сайтов",
 			"seo": {
-				"title": "uKit – конструктор одностраничных сайтов",
-				"og:title": "uKit – конструктор одностраничных сайтов",
+				"title": "Конструктор одностраничных сайтов — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Конструктор одностраничных сайтов — uKit. Конструктор сайтов для бизнеса",
 				"description": "Когда вам нужно сделать одностраничный сайт быстро, качественно и без привлечения сторонних специалистов, выручит конструктор uKit. Здесь огромный выбор готовых шаблонов для лендингов и визиток, все необходимые блоки и инструменты, а также дополнительные возможности для SEO и рекламы",
 				"og:description": "Когда вам нужно сделать одностраничный сайт быстро, качественно и без привлечения сторонних специалистов, выручит конструктор uKit. Здесь огромный выбор готовых шаблонов для лендингов и визиток, все необходимые блоки и инструменты, а также дополнительные возможности для SEO и рекламы"
 			},
@@ -989,6 +992,72 @@ export default {
 					}
 				}
 			}
+		},
+		"6172f2ee90c15f001ede5526": {
+			"id": "6172f2ee90c15f001ede5526",
+			"pageUrl": "konstruktor-sajtov-vizitok",
+			"name": "Конструктор сайтов-визиток",
+			"seo": {
+				"title": "Конструктор сайтов-визиток — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Конструктор сайтов-визиток — uKit. Конструктор сайтов для бизнеса",
+				"description": "Создайте красивую и функциональную онлайн-визитку в конструкторе uKit. Здесь большое количество готовых шаблонов в разных тематиках, полная поддержка адаптивного дизайна и бесплатные уведомления о заявках из форм обратной связи. Вы сможете сделать сайт самостоятельно, без помощи каких-либо специалистов",
+				"og:description": "Создайте красивую и функциональную онлайн-визитку в конструкторе uKit. Здесь большое количество готовых шаблонов в разных тематиках, полная поддержка адаптивного дизайна и бесплатные уведомления о заявках из форм обратной связи. Вы сможете сделать сайт самостоятельно, без помощи каких-либо специалистов"
+			},
+			"customCode": {
+				"6172f61c090214973880705b": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/konstruktor-sajtov-vizitok/"
+					}
+				}
+			}
+		},
+		"6175b97d1f4350001e45d329": {
+			"id": "6175b97d1f4350001e45d329",
+			"pageUrl": "konstruktor-lendingov",
+			"name": "Конструктор лендингов",
+			"seo": {
+				"title": "Конструктор лендингов — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Конструктор лендингов — uKit. Конструктор сайтов для бизнеса",
+				"description": "Нужен эффективный лендинг без разработчиков, дизайнеров и других специалистов, со сбором заявок, возможностью приёма онлайн-оплаты и другими функциями? uKit – идеальный конструктор продающих сайтов и посадочных страниц. Максимально простой и понятный редактор, все необходимые сервисы для рекламы и продвижения в одном месте",
+				"og:description": "Нужен эффективный лендинг без разработчиков, дизайнеров и других специалистов, со сбором заявок, возможностью приёма онлайн-оплаты и другими функциями? uKit – идеальный конструктор продающих сайтов и посадочных страниц. Максимально простой и понятный редактор, все необходимые сервисы для рекламы и продвижения в одном месте"
+			},
+			"customCode": {
+				"6175bd8c9a4614335db50adb": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/konstruktor-lendingov/"
+					}
+				}
+			}
+		},
+		"617670a37514e1001f25e484": {
+			"id": "617670a37514e1001f25e484",
+			"pageUrl": "konstruktor-sajtov-portfolio",
+			"name": "Конструктор сайтов-портфолио",
+			"seo": {
+				"title": "Конструктор сайтов-портфолио — uKit. Конструктор сайтов для бизнеса",
+				"og:title": "Конструктор сайтов-портфолио — uKit. Конструктор сайтов для бизнеса",
+				"description": "Расскажите о себе потенциальным клиентам и покажите им свои лучшие работы на своём собственном сайте – с помощью конструктора uKit. Быстро запустить сайт вам помогут сотни тематических шаблонов, готовые интеграции и полностью безлимитный хостинг, чтобы разместить все ваши медиафайлы и страницы.",
+				"og:description": "Расскажите о себе потенциальным клиентам и покажите им свои лучшие работы на своём собственном сайте – с помощью конструктора uKit. Быстро запустить сайт вам помогут сотни тематических шаблонов, готовые интеграции и полностью безлимитный хостинг, чтобы разместить все ваши медиафайлы и страницы."
+			},
+			"customCode": {
+				"6176819f0a8d1dbdd2983598": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ru/konstruktor-sajtov-portfolio/"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",
@@ -1014,7 +1083,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-vracha/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-o-clinica-dentara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-odnostranichnyh-sajtov/</loc>\n</url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-vracha/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-o-clinica-dentara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-odnostranichnyh-sajtov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-vizitok/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-lendingov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-portfolio/</loc>\n</url>\n</urlset>"
 		}
 	}
 }
