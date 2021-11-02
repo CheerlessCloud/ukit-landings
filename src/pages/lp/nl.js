@@ -7,71 +7,30 @@ import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/nl"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Ready-Made Solutions — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
+			<meta property={"og:title"} content={"Ready-Made Solutions — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
-		<Components.RuHeader lazy-load>
-			<Override slot="link4" />
-		</Components.RuHeader>
-		<Components.EnHeader />
 		<Components.HeaderNl />
-		<Components.HeaderPl>
-			<Override slot="link1">
-				Dlaczego warto nas wybrać?
+		<Components.SitemapPageContent min-height="100vh">
+			<Override slot="text">
+				Ready-Made Solutions
 			</Override>
-			<Override slot="link" />
-			<Override slot="link2">
-				Cennik
-			</Override>
-			<Override slot="link3">
-				Zaloguj się
-			</Override>
-			<Override slot="link4">
-				Stwórz witrynę
-			</Override>
-		</Components.HeaderPl>
-		<Components.RoHeader>
-			<Override slot="link1">
-				De ce noi?
-			</Override>
-			<Override slot="link2">
-				Tarife
-			</Override>
-			<Override slot="link3">
-				Autentificare
-			</Override>
-			<Override slot="link4">
-				Începeți acum!
-			</Override>
-		</Components.RoHeader>
-		<Components.RuFooter>
-			<Override slot="link8" />
-		</Components.RuFooter>
-		<Components.EnFooter>
-			<Override slot="link8" />
-		</Components.EnFooter>
+			<Override slot="mymenu" rootId="617bd0167514e1001f25eb39" />
+			<Override slot="SectionContent" min-height="calc(100vh - 300px)" />
+		</Components.SitemapPageContent>
 		<Components.FooterNl>
-			<Override slot="link8" />
+			<Override slot="link8">
+				Ready-Made Solutions
+			</Override>
 		</Components.FooterNl>
-		<Components.FooterPl>
-			<Override slot="link4" />
-			<Override slot="link5" />
-			<Override slot="link6" />
-			<Override slot="link7" />
-			<Override slot="link8" />
-			<Override slot="link" />
-			<Override slot="link1" />
-			<Override slot="link2" />
-			<Override slot="link3" />
-		</Components.FooterPl>
-		<Components.RoFooter />
-		<Components.Perelink />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -119,6 +78,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
+			<link rel={"canonical"} href={"/lp/nl/"} place={"endOfHead"} rawKey={"617bd2ee57fb999aed206149"} />
 		</RawHtml>
 	</Theme>;
 });

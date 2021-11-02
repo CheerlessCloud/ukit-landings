@@ -363,6 +363,38 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/en/create-a-developer-portfolio": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-healthcare-professional-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-an-automobile-repair-shop-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-an-artist-portfolio": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/ro": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -372,6 +404,70 @@ const pageStyles = {
         "font": "--headline1"
     },
     "lp/ro/creati-un-website-pentru-o-clinica-dentara": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-o-pagina-de-prezentare": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-site-pentru-avocat": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-un-consilier-juridic": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-agentie-imobiliara": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/nl": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
