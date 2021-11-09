@@ -53,7 +53,7 @@ export default (() => {
 					Creați un website pentru un consilier juridic
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Puteți crea, chiar dvs., un website atrăgător, adaptiv și complet funcțional. Tot ce trebuie să faceți este să alegeți uKit. Nu trebuie să fiți programator sau să aveți cunoștințe speciale: platforma oferă șabloane predefinite, widget-uri și alte elemente, plus un constructor online ușor de utilizat și numeroase servicii suplimentare.
+					Puteți crea, chiar dvs., un website atrăgător, adaptiv și complet funcțional. Tot ce trebuie să faceți este să alegeți uKit. Nu trebuie să fiți programator sau să aveți cunoștințe speciale: platforma oferă șabloane predefinite, widget-uri și alte elemente, plus un constructor online ușor de utilizat și numeroase servicii suplimentare
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -308,7 +308,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						350+ șabloane{" "}
+						șabloane{" "}
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="40%">
@@ -316,8 +316,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						40+ categorii
-						<br />
+						categorii
 					</Text>
 				</Box>
 			</Box>
@@ -505,7 +504,7 @@ export default (() => {
 					{"\n\n"}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Site-ul poate conține una (o pagină de prezentare/promovare) sau mai multe pagini, cu o structură complexă. Toate elementele sunt conectate în doar câteva click-uri: butoane de apelare, chat-uri online și formulare de feedback. Nu aveți nevoie de cunoștințe de programare pentru a lucra cu platforma noastră — puteți face orice, pe cont propriu, în doar câteva ore.
+					Site-ul poate conține una (o pagină de prezentare/promovare) sau mai multe pagini, cu o structură complexă. Toate elementele sunt conectate în doar câteva click-uri: butoane de apelare, chat-uri online și formulare de feedback. Nu aveți nevoie de cunoștințe de programare pentru a lucra cu platforma noastră — puteți face orice, pe cont propriu, în doar câteva ore
 				</Text>
 			</Box>
 			<Box
@@ -683,7 +682,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Catalogul nostru de șabloane conține sute de design-uri predefinite, cu tematice din diferite tipuri de categorii, inclusiv juridic. Alegeți unul și adaptați-l în funcție de nevoile dvs. Scheme de culori, fonturi, efecte de animație - toate pot fi modificate prin doar câteva click-uri. Toate setările sunt realizate în editorul vizual. Nu sunt necesare cunoștințe de programare.
+						Catalogul nostru de șabloane conține sute de design-uri predefinite, cu tematice din diferite tipuri de categorii, inclusiv juridic. Alegeți unul și adaptați-l în funcție de nevoile dvs. Scheme de culori, fonturi, efecte de animație - toate pot fi modificate prin doar câteva click-uri. Toate setările sunt realizate în editorul vizual. Nu sunt necesare cunoștințe de programare
 					</Text>
 					<Link
 						href="https://ukit.com/ro/signUp"
@@ -758,7 +757,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Un conținut original este indexat mai bine de motoarele de căutare, așa că, este de preferat, să personalizați conținutul standard. În plus, veți putea descrie punctele dvs. forte cât mai în detaliu. În cadrul constructorului, puteți adăuga poze și să le editați online (utilizând filtre), adăuga video-uri, formulare de feedback, fișiere și alt tip de conținut, precum și să creați numărul dorit de pagini. Interfața vizuală este extrem de convenabilă și ușor de navigat.
+						Un conținut original este indexat mai bine de motoarele de căutare, așa că, este de preferat, să personalizați conținutul standard. În plus, veți putea descrie punctele dvs. forte cât mai în detaliu. În cadrul constructorului, puteți adăuga poze și să le editați online (utilizând filtre), adăuga video-uri, formulare de feedback, fișiere și alt tip de conținut, precum și să creați numărul dorit de pagini. Interfața vizuală este extrem de convenabilă și ușor de navigat
 					</Text>
 				</Box>
 			</Box>
@@ -789,7 +788,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Nu trebuie să creați o versiune separată a site-ului, pentru mobil — toate secțiunile și elementele sunt adaptive pe toate dispozitivele. Trebuie doar să vă asigurați că totul funcționează și este afișat așa cum vă doriți. Pentru personalizare, puteți ascunde secțiuni individuale sau să modificați culoarea/fundalul anumitor secțiuni.
+						Nu trebuie să creați o versiune separată a site-ului, pentru mobil — toate secțiunile și elementele sunt adaptive pe toate dispozitivele. Trebuie doar să vă asigurați că totul funcționează și este afișat așa cum vă doriți. Pentru personalizare, puteți ascunde secțiuni individuale sau să modificați culoarea/fundalul anumitor secțiuni
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -841,7 +840,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Puteți achiziționa un domeniu personalizat direct din Panoul Administrativ uKit. Înregistrările DNS și certificatele SSL sunt configurate automat pentru crearea versiunii HTTPS a site-ului dvs.
+						Puteți achiziționa un domeniu personalizat direct din Panoul Administrativ uKit. Înregistrările DNS și certificatele SSL sunt configurate automat pentru crearea versiunii HTTPS a site-ului dvs
 					</Text>
 				</Box>
 			</Box>
@@ -872,7 +871,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Când decideți că site-ul este pregătit pentru primii vizitatori, doar dați click pe butonul “Publică”. Puteți continua să editați conținutul site-ului, să adăugați pagini noi și să ștergeți unele vechi. uKit are un sistem automat de creare a copiilor de rezervă, așadar nu veți pierde nicio informație.
+						Când decideți că site-ul este pregătit pentru primii vizitatori, doar dați click pe butonul “Publică”. Puteți continua să editați conținutul site-ului, să adăugați pagini noi și să ștergeți unele vechi. uKit are un sistem automat de creare a copiilor de rezervă, așadar nu veți pierde nicio informație
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -910,7 +909,7 @@ export default (() => {
 					Detaliile finale
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Nu uitați să adăugați site-ul în cadrul motoarelor de căutare, astfel încât să se înceapă indexarea acestuia. Puteți face asta direct din Panoul Administrativ. Dacă doriți să știți mai multe despre vizitatorii dvs., conectați un sistem de analiză precum Google Analytics. În plus, puteți utiliza opțiunea SEO încorporată, pentru a verifica dacă site-ul este pregătit pentru promovare.
+					Nu uitați să adăugați site-ul în cadrul motoarelor de căutare, astfel încât să se înceapă indexarea acestuia. Puteți face asta direct din Panoul Administrativ. Dacă doriți să știți mai multe despre vizitatorii dvs., conectați un sistem de analiză precum Google Analytics. În plus, puteți utiliza opțiunea SEO încorporată, pentru a verifica dacă site-ul este pregătit pentru promovare
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -1154,7 +1153,7 @@ export default (() => {
 					Cum să creați un site pentru consiliere juridică cu uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Lansați-vă website-ul chiar acum, fără a face vreo plată. Acces gratuit timp de 14 zile. Veți putea explora toate opțiunile uKit și afla dacă platforma este potrivită pentru dvs.
+					Lansați-vă website-ul chiar acum, fără a face vreo plată. Acces gratuit timp de 14 zile. Veți putea explora toate opțiunile uKit și afla dacă platforma este potrivită pentru dvs
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"

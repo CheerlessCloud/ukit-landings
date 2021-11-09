@@ -291,7 +291,7 @@ export default (() => {
 					Exemple de design-uri pentru website-uri de promovare
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Tot ce aveți nevoie pentru a crea un website este un domeniu personalizat, host și un constructor bun pentru website. Cu uKit, aveți toate acestea într-un singur loc.
+					Tot ce aveți nevoie pentru a crea un website este un domeniu personalizat, host și un constructor bun pentru website. Cu uKit, aveți toate acestea într-un singur loc
 				</Text>
 			</Box>
 			<Box
@@ -308,7 +308,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						350+ șabloane{" "}
+						șabloane{" "}
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="40%">
@@ -316,8 +316,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						40+ categorii
-						<br />
+						categorii
 					</Text>
 				</Box>
 			</Box>
@@ -502,7 +501,7 @@ export default (() => {
 					Ce primiți pentru site-ul dvs.
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Oricine își poate crea propriul site — fără editare de coduri, doar widget-uri și secțiuni prestabilite. Ghiduri vizuale și tutoriale detaliate, dar și numeroase șabloane. Nu sunt necesare abilități de programare sau de design pentru a vă crea propriul website promoțional.
+					Oricine își poate crea propriul site — fără editare de coduri, doar widget-uri și secțiuni prestabilite. Ghiduri vizuale și tutoriale detaliate, dar și numeroase șabloane. Nu sunt necesare abilități de programare sau de design pentru a vă crea propriul website promoțional
 				</Text>
 			</Box>
 			<Box
@@ -680,7 +679,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Sunteți fotograf, avocat sau organizator de nunți? Avem numeroase opțiuni de design deja pregătite pentru diferite tipuri de industrii și mici afaceri.
+						Sunteți fotograf, avocat sau organizator de nunți? Avem numeroase opțiuni de design deja pregătite pentru diferite tipuri de industrii și mici afaceri
 					</Text>
 					<Link
 						href="https://ukit.com/ro/signUp"
@@ -755,7 +754,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Puteți păstra design-ul șablonului și doar să înlocuiți conținutul standard al acestuia. Sau, puteți adăuga noi secțiuni prin intermediul Editorului. Sau să recreați complet întregul design al paginii. Constructorul vă permite să adăugați, eliminați, mutați sau duplicați toate elementele. Adăugați text personalizat și imagini pentru a vă asigura că site-ul obține un rank bun în rezultatele motoarelor de căutare.
+						Puteți păstra design-ul șablonului și doar să înlocuiți conținutul standard al acestuia. Sau, puteți adăuga noi secțiuni prin intermediul Editorului. Sau să recreați complet întregul design al paginii. Constructorul vă permite să adăugați, eliminați, mutați sau duplicați toate elementele. Adăugați text personalizat și imagini pentru a vă asigura că site-ul obține un rank bun în rezultatele motoarelor de căutare
 					</Text>
 				</Box>
 			</Box>
@@ -786,7 +785,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Constructorul nostru poate face aproape orice pentru dvs. Trebuie doar să verificați versiunile pentru mobil și tabletă și să le modificați după preferințe.
+						Constructorul nostru poate face aproape orice pentru dvs. Trebuie doar să verificați versiunile pentru mobil și tabletă și să le modificați după preferințe
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -840,7 +839,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Puteți obține un domeniu nou direct din Panoul Administrativ sau să conectați unul deja înregistrat. Certificatele SSL pentru versiunea HTTPS a site-ului sunt gratuite și configurate în mod automat. Dvs. nu trebuie să modificați absolut nimic.
+						Puteți obține un domeniu nou direct din Panoul Administrativ sau să conectați unul deja înregistrat. Certificatele SSL pentru versiunea HTTPS a site-ului sunt gratuite și configurate în mod automat. Dvs. nu trebuie să modificați absolut nimic
 					</Text>
 				</Box>
 			</Box>
@@ -871,7 +870,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Nu vă temeți că ați putea greși ceva. Pot fi create până la 10 copii de rezervă automate sau manuale. Astfel, puteți reveni oricând la o versiune anterioară.
+						Nu vă temeți că ați putea greși ceva. Pot fi create până la 10 copii de rezervă automate sau manuale. Astfel, puteți reveni oricând la o versiune anterioară
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -909,7 +908,7 @@ export default (() => {
 					Este aproape gata!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Acum trebuie doar să adăugați site-ul în cadrul motoarelor de căutare și să configurați setările SEO. uKit vă permite să stabiliți meta tag-uri pentru fiecare pagină a site-ului. De asemenea, vă puteți adăuga site-ul în cadrul motoarelor de căutare și pe Google Maps.
+					Acum trebuie doar să adăugați site-ul în cadrul motoarelor de căutare și să configurați setările SEO. uKit vă permite să stabiliți meta tag-uri pentru fiecare pagină a site-ului. De asemenea, vă puteți adăuga site-ul în cadrul motoarelor de căutare și pe Google Maps
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"

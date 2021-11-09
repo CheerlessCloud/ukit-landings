@@ -53,7 +53,7 @@ export default (() => {
 					Creați un website pentru agenție imobiliară{" "}
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Host și un număr de pagini nelimitat, design-uri predefinite, editor vizual ușor de folosit, integrare cu CRM, notificări SMS. Cunoștințele de programare nu sunt necesare. Vă puteți crea, rapid, propriul website.
+					Host și un număr de pagini nelimitat, design-uri predefinite, editor vizual ușor de folosit, integrare cu CRM, notificări SMS. Cunoștințele de programare nu sunt necesare. Vă puteți crea, rapid, propriul website
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -291,7 +291,7 @@ export default (() => {
 					Exemple de șabloane pentru website-ul unei agenții imobiliare
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Orice aveți nevoie pentru un website, veți găsi în cadrul uKit: achiziționarea propriului domeniu, integrări cu CRM și chat-uri live, e-mail personalizat, certificat SSL gratuit, host nelimitat, etc. Trebuie doar să alegeți una dintre opțiunile de design sau să începeți să creați website-ul de la zero.
+					Orice aveți nevoie pentru un website, veți găsi în cadrul uKit: achiziționarea propriului domeniu, integrări cu CRM și chat-uri live, e-mail personalizat, certificat SSL gratuit, host nelimitat, etc. Trebuie doar să alegeți una dintre opțiunile de design sau să începeți să creați website-ul de la zero
 				</Text>
 			</Box>
 			<Box
@@ -308,7 +308,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						350+ șabloane{" "}
+						șabloane{" "}
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="40%">
@@ -316,8 +316,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						40+ categorii
-						<br />
+						categorii
 					</Text>
 				</Box>
 			</Box>
@@ -502,7 +501,7 @@ export default (() => {
 					Opțiuni esențiale pentru crearea unui site pentru agenție imobiliară
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Nu este necesar să angajați profesioniști sau să învățați bazele web design-ului pentru a crea website-uri de calitate pentru agenți imobiliari, prin uKit. Puteți crea un website, cu ajutorul unui constructor de site-uri special, utilizând widget-uri și secțiuni predefinite, într-un timp foarte scurt.
+					Nu este necesar să angajați profesioniști sau să învățați bazele web design-ului pentru a crea website-uri de calitate pentru agenți imobiliari, prin uKit. Puteți crea un website, cu ajutorul unui constructor de site-uri special, utilizând widget-uri și secțiuni predefinite, într-un timp foarte scurt
 				</Text>
 			</Box>
 			<Box
@@ -656,7 +655,7 @@ export default (() => {
 					Cum să creați website-ul unei agenții imobiliare cu uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Chiar dacă sunteți pentru prima dată pe platformă și nu aveți cunoștințe tehnice de realizare de website-uri, tot vă puteți crea ce aveți nevoie. Veți avea acces la o platformă online funcțională, unde puteți adăuga descrierea produselor/serviciilor dvs., liste de prețuri, formulare de feedback și alte elemente.
+					Chiar dacă sunteți pentru prima dată pe platformă și nu aveți cunoștințe tehnice de realizare de website-uri, tot vă puteți crea ce aveți nevoie. Veți avea acces la o platformă online funcțională, unde puteți adăuga descrierea produselor/serviciilor dvs., liste de prețuri, formulare de feedback și alte elemente
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -680,7 +679,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Puteți începe cu un design tematic sau orice alt șablon din catalog — avem peste 300 de variante. Puteți schimba fontul sau schema de culori cu doar un singur click. De asemenea, puteți adăuga, modifica sau elimina orice elemente sau widget-uri aveți nevoie. În orice moment, un șablon poate fi modificat, iar conținutul acestuia va rămâne neschimbat.
+						Puteți începe cu un design tematic sau orice alt șablon din catalog — avem peste 300 de variante. Puteți schimba fontul sau schema de culori cu doar un singur click. De asemenea, puteți adăuga, modifica sau elimina orice elemente sau widget-uri aveți nevoie. În orice moment, un șablon poate fi modificat, iar conținutul acestuia va rămâne neschimbat
 					</Text>
 					<Link
 						href="https://ukit.com/ro/signUp"
@@ -755,7 +754,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Puteți păstra textul și imaginile care vin la pachet cu șablonul. Dar, dacă vă doriți un website profesionist, adăugați conținut personalizat: texte, imagini și video-uri. Puteți, de asemenea, edita imagini direct în cadrul editorului: utilizați filtre, tăiați imagini, adăugați forme și multe altele.
+						Puteți păstra textul și imaginile care vin la pachet cu șablonul. Dar, dacă vă doriți un website profesionist, adăugați conținut personalizat: texte, imagini și video-uri. Puteți, de asemenea, edita imagini direct în cadrul editorului: utilizați filtre, tăiați imagini, adăugați forme și multe altele
 					</Text>
 				</Box>
 			</Box>
@@ -786,7 +785,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Toate elementele din interfață se adaptează automat la rezoluția ecranului tuturor dispozitivelor. Dacă nu vă place cum arată un anumit element, puteți să-l ascundeți pentru un anumit tip de dispozitiv sau să creați un aspect alternativ, de exemplu prin schimbarea fundalului și numărului de coloane.
+						Toate elementele din interfață se adaptează automat la rezoluția ecranului tuturor dispozitivelor. Dacă nu vă place cum arată un anumit element, puteți să-l ascundeți pentru un anumit tip de dispozitiv sau să creați un aspect alternativ, de exemplu prin schimbarea fundalului și numărului de coloane
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -838,7 +837,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Creați-vă propriul domeniu și înregistrați-l direct prin intermediul Panoului Administrativ uKit, sau conectați un domeniul existent. Nici nu trebuie să modificați manual înregistrările DNS pentru a-l redirecționa către host. Certificatele gratuite SSL care permit versiunea HTTPS a site-ului sunt generate și configurate automat.
+						Creați-vă propriul domeniu și înregistrați-l direct prin intermediul Panoului Administrativ uKit, sau conectați un domeniul existent. Nici nu trebuie să modificați manual înregistrările DNS pentru a-l redirecționa către host. Certificatele gratuite SSL care permit versiunea HTTPS a site-ului sunt generate și configurate automat
 					</Text>
 				</Box>
 			</Box>
@@ -869,7 +868,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Dați click pe "Publică" și site-ul dvs. va fi gata pentru a întâmpina primii vizitatori. Puteți experimenta și schimba conținutul paginii: uKit stochează până la 10 copii de rezervă manuale sau automate. Ceva a mers greșit? Doar restaurați versiunea corectă a site-ului din copiile de rezervă.
+						Dați click pe "Publică" și site-ul dvs. va fi gata pentru a întâmpina primii vizitatori. Puteți experimenta și schimba conținutul paginii: uKit stochează până la 10 copii de rezervă manuale sau automate. Ceva a mers greșit? Doar restaurați versiunea corectă a site-ului din copiile de rezervă
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -907,7 +906,7 @@ export default (() => {
 					Este aproape gata!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Pentru ca vizitatorii să vă găsească mai ușor site-ul, acordați atenție meta tag-urilor SEO pentru fiecare pagină. Pentru a vă asigura că site-ul este gata pentru publicare, utilizați instrumentul SEO încorporat pentru a vă îmbunătăți paginile.
+					Pentru ca vizitatorii să vă găsească mai ușor site-ul, acordați atenție meta tag-urilor SEO pentru fiecare pagină. Pentru a vă asigura că site-ul este gata pentru publicare, utilizați instrumentul SEO încorporat pentru a vă îmbunătăți paginile
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -953,7 +952,7 @@ export default (() => {
 					Ce altceva mai puteți crea cu uKit?
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					uKit este un constructor online ușor de folosit și extrem de eficient pentru crearea website-ului unei afaceri. Nu sunt necesare cunoștințe sau experiență specială. Puteți crea, pe cont propriu, orice tip de proiect, în doar câteva ore.
+					uKit este un constructor online ușor de folosit și extrem de eficient pentru crearea website-ului unei afaceri. Nu sunt necesare cunoștințe sau experiență specială. Puteți crea, pe cont propriu, orice tip de proiect, în doar câteva ore
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">

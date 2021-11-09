@@ -52,7 +52,7 @@ export default (() => {
 					Creați un site pentru avocat
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Fără deranj, fără aprobări inutile, fără așteptare — cu uKit vă puteți crea, chiar dvs., un website, fără a fi nevoie de intermediari. Șabloane predefinite, host nelimitat și notificări SMS.
+					Fără deranj, fără aprobări inutile, fără așteptare — cu uKit vă puteți crea, chiar dvs., un website, fără a fi nevoie de intermediari. Șabloane predefinite, host nelimitat și notificări SMS
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -290,7 +290,7 @@ export default (() => {
 					Exemple de șabloane pentru website-ul unui avocat
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Structură de pagină predefinită și un conținut dedicat în fiecare șablon. Tot ce trebuie să faceți este să modificați datele de contact și să vă conectați propriul domeniu. Toate șabloanele sunt ușor de personalizat.
+					Structură de pagină predefinită și un conținut dedicat în fiecare șablon. Tot ce trebuie să faceți este să modificați datele de contact și să vă conectați propriul domeniu. Toate șabloanele sunt ușor de personalizat
 				</Text>
 			</Box>
 			<Box
@@ -307,7 +307,7 @@ export default (() => {
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						350+ șabloane{" "}
+						șabloane{" "}
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="40%">
@@ -315,8 +315,7 @@ export default (() => {
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
-						40+ categorii
-						<br />
+						categorii
 					</Text>
 				</Box>
 			</Box>
@@ -501,7 +500,7 @@ export default (() => {
 					Ce primiți pentru site-ul dvs.
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Un website complet, cu un conținut original, într-o structură simplă sau complexă. Secțiuni pentru portofoliu, recenziile clienților, chat online, formulare de apelare, toate se pot adăuga prin doar câteva click-uri. Totul poate fi configurat direct de dvs., fără a apela la specialiști terți.
+					Un website complet, cu un conținut original, într-o structură simplă sau complexă. Secțiuni pentru portofoliu, recenziile clienților, chat online, formulare de apelare, toate se pot adăuga prin doar câteva click-uri. Totul poate fi configurat direct de dvs., fără a apela la specialiști terți
 				</Text>
 			</Box>
 			<Box
@@ -655,7 +654,7 @@ export default (() => {
 					Cum să creați un site pentru avocați cu uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Modul de lucru este perfect pentru toți utilizatorii, atât începători cât și profesioniști. Durează doar câteva ore să vă obișnuiți cu modul de lucru al constructorului.
+					Modul de lucru este perfect pentru toți utilizatorii, atât începători cât și profesioniști. Durează doar câteva ore să vă obișnuiți cu modul de lucru al constructorului
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -679,7 +678,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Avem o bibliotecă bogată cu design-uri dedicate pentru avocați, deși puteți alege oricare altă variantă din catalogul de șabloane. Culori, fonturi, structuri de secțiuni, efecte de animație, fundaluri, toate sunt personalizabile. În plus, puteți chiar și activa sau dezactiva versiunea site-ului pentru cei cu deficiențe de vedere. Fără editare de coduri HTML sau programare. Totul se realizează cu ajutorul widget-urilor și elementelor predefinite.
+						Avem o bibliotecă bogată cu design-uri dedicate pentru avocați, deși puteți alege oricare altă variantă din catalogul de șabloane. Culori, fonturi, structuri de secțiuni, efecte de animație, fundaluri, toate sunt personalizabile. În plus, puteți chiar și activa sau dezactiva versiunea site-ului pentru cei cu deficiențe de vedere. Fără editare de coduri HTML sau programare. Totul se realizează cu ajutorul widget-urilor și elementelor predefinite
 					</Text>
 					<Link
 						href="https://ukit.com/ro/signUp"
@@ -754,7 +753,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Dacă vă place conținutul cu care vine șablonul la pachet, îl puteți păstra. Dar nu uitați să adaptați conținutul nevoilor dvs. și să modificați datele de contact. Dacă doriți să abordați un conținut complet original, puteți edita orice element: text, imagini, video și altele. Puteți chiar să vă încărcați propriile fișiere. Cu uKit, nu există restricții vizavi de numărul de pagini sau spațiul pe disc — acestea sunt nelimitate.
+						Dacă vă place conținutul cu care vine șablonul la pachet, îl puteți păstra. Dar nu uitați să adaptați conținutul nevoilor dvs. și să modificați datele de contact. Dacă doriți să abordați un conținut complet original, puteți edita orice element: text, imagini, video și altele. Puteți chiar să vă încărcați propriile fișiere. Cu uKit, nu există restricții vizavi de numărul de pagini sau spațiul pe disc — acestea sunt nelimitate
 					</Text>
 				</Box>
 			</Box>
@@ -785,7 +784,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						De fapt, nici nu trebuie să ajustați ceva. Toate elementele site-ului sunt deja adaptive. Trebuie doar să vă asigurați că totul arată exact așa cum doriți. Dar, dacă este necesar, puteți ascunde anumite secțiuni și să modificați setările de fundal. Elementele paginii pot fi, de asemenea, aranjate pe două coloane pentru tablete.
+						De fapt, nici nu trebuie să ajustați ceva. Toate elementele site-ului sunt deja adaptive. Trebuie doar să vă asigurați că totul arată exact așa cum doriți. Dar, dacă este necesar, puteți ascunde anumite secțiuni și să modificați setările de fundal. Elementele paginii pot fi, de asemenea, aranjate pe două coloane pentru tablete
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -837,7 +836,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Pentru ca site-ul să fie bine indexat de motoarele de căutare, este preferabil să achiziționați un domeniu personalizat. Puteți selecta un domeniu și să-l conectați la website-ul dvs. uKit direct din Panoul Administrativ. Certificatele SSL și protocoalele HTTPS sunt configurate în mod automat.
+						Pentru ca site-ul să fie bine indexat de motoarele de căutare, este preferabil să achiziționați un domeniu personalizat. Puteți selecta un domeniu și să-l conectați la website-ul dvs. uKit direct din Panoul Administrativ. Certificatele SSL și protocoalele HTTPS sunt configurate în mod automat
 					</Text>
 				</Box>
 			</Box>
@@ -868,7 +867,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Un singur click și toate modificările pe care le-ați realizat vor fi disponibile și vizitatorilor site-ului dvs. Așadar, să nu va fie frică de eventuale greșeli - uKit creează copii de rezervă automate și vă permite să creați și dvs. unele manuale. Astfel puteți reveni, oricând, la o versiune anterioară.
+						Un singur click și toate modificările pe care le-ați realizat vor fi disponibile și vizitatorilor site-ului dvs. Așadar, să nu va fie frică de eventuale greșeli - uKit creează copii de rezervă automate și vă permite să creați și dvs. unele manuale. Astfel puteți reveni, oricând, la o versiune anterioară
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -906,7 +905,7 @@ export default (() => {
 					Este aproape gata!
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Adăugați-vă site-ul în motoarele de căutare pentru a începe indexarea. Dacă aveți nevoie, puteți conecta Analytics și utiliza instrumentele încorporate SEO, pentru a verifica dacă site-ul este pregătit pentru promovare.
+					Adăugați-vă site-ul în motoarele de căutare pentru a începe indexarea. Dacă aveți nevoie, puteți conecta Analytics și utiliza instrumentele încorporate SEO, pentru a verifica dacă site-ul este pregătit pentru promovare
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -1150,7 +1149,7 @@ export default (() => {
 					Creați un website pentru un avocat cu uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Pentru a vedea toate opțiunile uKit și testa platforma, oferim gratuit o perioadă de probă de 14 zile. Doar înregistrați-vă în cadrul sistemului și începeți să creați site-ul dorit.
+					Pentru a vedea toate opțiunile uKit și testa platforma, oferim gratuit o perioadă de probă de 14 zile. Doar înregistrați-vă în cadrul sistemului și începeți să creați site-ul dorit
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
