@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -31,28 +31,6 @@ export default (() => {
 				Ready-Made Solutions
 			</Override>
 		</Components.FooterNl>
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"611e3e5f17f5d1001e31a361"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}

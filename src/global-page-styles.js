@@ -195,7 +195,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sayt-gostinitsy-ili-otelya": {
+    "lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
@@ -203,7 +203,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta": {
+    "lp/ru/sozdat-sayt-gostinitsy-ili-otelya": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
@@ -443,6 +443,54 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/en/how-much-does-it-cost-to-create-a-site": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/website-builder-software": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/portfolio-website-builder": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/web-page-builder": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/landing-page-builder": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/promo-site-builder": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/ro": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -475,14 +523,6 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ro/creati-un-website-pentru-un-consilier-juridic": {
-        "overflow-x": "hidden",
-        "overflow-y": "visible",
-        "height": "",
-        "min-height": "",
-        "width": "",
-        "font": "--headline1"
-    },
     "lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -491,15 +531,7 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/ro/creati-un-website-pentru-agentie-imobiliara": {
-        "overflow-x": "hidden",
-        "overflow-y": "visible",
-        "height": "",
-        "min-height": "",
-        "width": "",
-        "font": "--headline1"
-    },
-    "lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar": {
+    "lp/ro/creati-un-website-pentru-un-consilier-juridic": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
