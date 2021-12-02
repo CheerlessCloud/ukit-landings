@@ -945,7 +945,11 @@ export default {
 				"617a99e290c15f001ede5c9e",
 				"61a614022eacc1001ffe0f37",
 				"61a61ea22eacc1001ffe0fce",
-				"61a61856c65ba10020428f42"
+				"61a61856c65ba10020428f42",
+				"61a6b641556c980023d0e485",
+				"61a6bb3d7a55ce001f14eb47",
+				"61a6c13f556c980023d0e5f0",
+				"61a77cca556c980023d0eb14"
 			]
 		},
 		"6171457b790876002294eb2c": {
@@ -1565,6 +1569,94 @@ export default {
 			},
 			"id": "61a61ea22eacc1001ffe0fce",
 			"name": "Creați un site de promovare pentru afacerea dvs"
+		},
+		"61a6b641556c980023d0e485": {
+			"pageUrl": "creati-un-website-pentru-agentie-imobiliara",
+			"seo": {
+				"title": "Creați un website pentru agenție imobiliară — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru agenție imobiliară — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Host și un număr de pagini nelimitat, design-uri predefinite, editor vizual ușor de folosit, integrare cu CRM, notificări SMS. Cunoștințele de programare nu sunt necesare. Vă puteți crea, rapid, propriul website.",
+				"og:description": "Host și un număr de pagini nelimitat, design-uri predefinite, editor vizual ușor de folosit, integrare cu CRM, notificări SMS. Cunoștințele de programare nu sunt necesare. Vă puteți crea, rapid, propriul website."
+			},
+			"customCode": {
+				"615d5350c3297f01fde1b758": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-agentie-imobiliara/"
+					}
+				}
+			},
+			"id": "61a6b641556c980023d0e485",
+			"name": "Creați un website pentru agenție imobiliară"
+		},
+		"61a6bb3d7a55ce001f14eb47": {
+			"pageUrl": "creati-un-website-pentru-un-dezvoltator-imobiliar",
+			"seo": {
+				"title": "Creați un website pentru un dezvoltator imobiliar — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru un dezvoltator imobiliar — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Secțiuni portofoliu de înaltă calitate, șabloane predefinite, secțiuni cu liste de prețuri, formulare de feedback, notificări tip SMS și alte elemente de design tematic.\n\nNu sunt necesare cunoștințe de programare. Să vă creați singuri un website este ușor și rapid.",
+				"og:description": "Secțiuni portofoliu de înaltă calitate, șabloane predefinite, secțiuni cu liste de prețuri, formulare de feedback, notificări tip SMS și alte elemente de design tematic.\n\nNu sunt necesare cunoștințe de programare. Să vă creați singuri un website este ușor și rapid."
+			},
+			"customCode": {
+				"615c7608df089181a52fdb0a": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar/"
+					}
+				}
+			},
+			"id": "61a6bb3d7a55ce001f14eb47",
+			"name": "Creați un website pentru un dezvoltator imobiliar"
+		},
+		"61a6c13f556c980023d0e5f0": {
+			"pageUrl": "creati-un-website-pentru-un-profesor",
+			"seo": {
+				"title": "Creați un website pentru un profesor — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru un profesor — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Puteți crea un site tip portofoliu, chiar dvs., în doar o singură noapte. Fără coduri, cu respectarea deplină a cerințelor legale, șabloane tematice predefinite, interfață intuitivă și host nelimitat. Toate opțiunile de care aveți nevoie, la doar o apăsare de buton.",
+				"og:description": "Puteți crea un site tip portofoliu, chiar dvs., în doar o singură noapte. Fără coduri, cu respectarea deplină a cerințelor legale, șabloane tematice predefinite, interfață intuitivă și host nelimitat. Toate opțiunile de care aveți nevoie, la doar o apăsare de buton."
+			},
+			"customCode": {
+				"6159e77568a321c9b0ac57c1": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-un-profesor/"
+					}
+				}
+			},
+			"id": "61a6c13f556c980023d0e5f0",
+			"name": "Creați un website pentru un profesor"
+		},
+		"61a77cca556c980023d0eb14": {
+			"pageUrl": "creati-un-website-pentru-meditator",
+			"customCode": {
+				"615b1bf9e0da58b40567450a": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-meditator/"
+					}
+				}
+			},
+			"seo": {
+				"title": "Creați un website pentru meditator — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Șabloane tematice predefinite, protocol HTTPS gratuit, un set complet de atribute SEO, host nelimitat, notificări SMS despre solicitările de pe site, precum și o interfață vizuală ușor de navigat",
+				"og:title": "Creați un website pentru meditator — uKit. Constructor de site-uri pentru afaceri",
+				"og:description": "Șabloane tematice predefinite, protocol HTTPS gratuit, un set complet de atribute SEO, host nelimitat, notificări SMS despre solicitările de pe site, precum și o interfață vizuală ușor de navigat"
+			},
+			"id": "61a77cca556c980023d0eb14",
+			"name": "Creați un website pentru meditator"
 		}
 	},
 	"mode": "production",

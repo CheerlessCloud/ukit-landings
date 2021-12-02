@@ -5,17 +5,17 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { BsColumnsGutters, BsWindow, BsListUl, BsBell, BsPhone, BsAt, BsBarChart, BsGraphUp, BsCheckBox } from "react-icons/bs";
+import { BsColumns, BsGrid, BsEye, BsCheckBox, BsTablet, BsWindow, BsLock, BsColumnsGutters, BsBookmark, BsPhone, BsXSquare } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar"} />
+		<GlobalQuarklyPageStyles pageUrl={"lp/ro/creati-un-website-pentru-un-profesor"} />
 		<Helmet>
 			<title>
-				Creați un website pentru un dezvoltator imobiliar — uKit. Constructor de site-uri pentru afaceri
+				Creați un website pentru un profesor — uKit. Constructor de site-uri pentru afaceri
 			</title>
-			<meta name={"description"} content={"Secțiuni portofoliu de înaltă calitate, șabloane predefinite, secțiuni cu liste de prețuri, formulare de feedback, notificări tip SMS și alte elemente de design tematic.\n\nNu sunt necesare cunoștințe de programare. Să vă creați singuri un website este ușor și rapid."} />
-			<meta property={"og:title"} content={"Creați un website pentru un dezvoltator imobiliar — uKit. Constructor de site-uri pentru afaceri"} />
-			<meta property={"og:description"} content={"Secțiuni portofoliu de înaltă calitate, șabloane predefinite, secțiuni cu liste de prețuri, formulare de feedback, notificări tip SMS și alte elemente de design tematic.\n\nNu sunt necesare cunoștințe de programare. Să vă creați singuri un website este ușor și rapid."} />
+			<meta name={"description"} content={"Puteți crea un site tip portofoliu, chiar dvs., în doar o singură noapte. Fără coduri, cu respectarea deplină a cerințelor legale, șabloane tematice predefinite, interfață intuitivă și host nelimitat. Toate opțiunile de care aveți nevoie, la doar o apăsare de buton."} />
+			<meta property={"og:title"} content={"Creați un website pentru un profesor — uKit. Constructor de site-uri pentru afaceri"} />
+			<meta property={"og:description"} content={"Puteți crea un site tip portofoliu, chiar dvs., în doar o singură noapte. Fără coduri, cu respectarea deplină a cerințelor legale, șabloane tematice predefinite, interfață intuitivă și host nelimitat. Toate opțiunile de care aveți nevoie, la doar o apăsare de buton."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
@@ -50,12 +50,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h1"
 				>
-					Creați un website pentru un dezvoltator imobiliar
+					Creați un website pentru un profesor
 				</Text>
-				<Text margin="0px 0px 50px 0px" font="--base" color="--dark">
-					Secțiuni portofoliu de înaltă calitate, șabloane predefinite, secțiuni cu liste de prețuri, formulare de feedback, notificări tip SMS și alte elemente de design tematic.
-					<br />
-					Nu sunt necesare cunoștințe de programare. Să vă creați singuri un website este ușor și rapid
+				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
+					Puteți crea un site tip portofoliu, chiar dvs., în doar o singură noapte. Fără coduri, cu respectarea deplină a cerințelor legale, șabloane tematice predefinite, interfață intuitivă și host nelimitat. Toate opțiunile de care aveți nevoie, la doar o apăsare de buton
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -72,7 +70,7 @@ export default (() => {
 					display="inline"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
-					Creați un website
+					Creare website
 				</Link>
 			</Box>
 			<Box
@@ -116,7 +114,7 @@ export default (() => {
 					lg-right="-26px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
 					width="112%"
 					border-width="2px"
 					border-style="solid"
@@ -127,121 +125,135 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="40px 0 80px 0" lg-flex-wrap="wrap-reverse">
+		<Section padding="40px 0 80px 0">
 			<Override
 				slot="SectionContent"
+				max-width="1056px"
 				flex-direction="row"
 				justify-content="space-between"
 				align-items="center"
 				lg-flex-wrap="wrap"
 				lg-align-items="center"
 				lg-justify-content="flex-start"
-				max-width="1056px"
-				display="block"
 			/>
-			<Box lg-display="flex" lg-justify-content="center" display="flex" flex-wrap="wrap">
-				<Box
-					width="25%"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
-					lg-margin="0px 0px 30px 0px"
-					md-width="100%"
-					align-self="flex-start"
-				>
-					<Icon
-						category="bs"
-						icon={BsColumnsGutters}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#4773ff"
-					/>
-					<Text
-						margin="0px 0px 0px 0px"
-						color="--darkL1"
-						font="--lead"
-						align-self="auto"
-						position="static"
-					>
-						Constructor online ușor de folosit
-					</Text>
-				</Box>
-				<Box
-					width="25%"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
-					lg-margin="0px 0px 30px 0px"
-					md-width="100%"
-					align-self="flex-start"
-				>
-					<Icon
-						category="bs"
-						icon={BsWindow}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#4773ff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-						Șabloane tematice
-					</Text>
-				</Box>
-				<Box
-					width="25%"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
-					lg-margin="0px 0px 30px 0px"
-					md-width="100%"
-					align-self="flex-start"
-				>
-					<Icon
-						category="bs"
-						icon={BsListUl}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#4773ff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
-						Formulare de feedback
-					</Text>
-				</Box>
-				<Box
-					width="25%"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
-					md-width="100%"
-					md-margin="0px 0px 30px 0px"
-					align-self="flex-start"
-				>
-					<Icon
-						category="bs"
-						icon={BsBell}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#4773ff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
-						Notificări automate
-					</Text>
-				</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				lg-margin="0px 0px 30px 0px"
+				md-width="100%"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsColumns}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Constructor online
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				lg-margin="0px 0px 30px 0px"
+				md-width="100%"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsGrid}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Șabloane și secțiuni predefinite
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				lg-margin="0px 0px 30px 0px"
+				md-width="100%"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsEye}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Versiune pentru cei cu deficiențe de vedere
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				md-width="100%"
+				md-margin="0px 0px 30px 0px"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsCheckBox}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
+					Respectarea cerințelor legale
+				</Text>
+			</Box>
+			<Box
+				width="20%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
+				padding="0px 20px 0px 0px"
+				lg-width="33.33333%"
+				lg-flex-direction="column"
+				md-width="100%"
+				align-self="flex-start"
+			>
+				<Icon
+					category="bs"
+					icon={BsTablet}
+					margin="0 0 18px 0"
+					align-items="center"
+					size="63px"
+					color="--secondary"
+				/>
+				<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
+					Design adaptiv
+				</Text>
 			</Box>
 		</Section>
 		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0">
@@ -269,10 +281,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Exemple de șabloane pentru website-ul unei companii de dezvoltare imobiliară
+					Exemple de șabloane pentru website-ul unui profesor
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--dark">
-					Trebuie doar să achiziționați sau să vă conectați propriul domeniu. Orice altceva poate fi găsit în cadrul constructorului. Nu trebuie să fiți programator sau web designer. Ușor de creat și modificat
+					O structură predefinită și conținut standard care necesită doar un minim de modificări. Chiar și așa, însă, puteți modifica orice doriți: design-ul, conținutul și structura
 				</Text>
 			</Box>
 			<Box
@@ -312,14 +324,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
 					border-radius="18px"
 					position="absolute"
 					width="198px"
-					left="-200px"
+					left="-184px"
 					right="auto"
-					bottom="auto"
-					top="175px"
+					bottom="75px"
+					top="auto"
 					lg-bottom="30px"
 					lg-height="123.547px"
 					lg-left="-43px"
@@ -333,16 +345,17 @@ export default (() => {
 					sm-top="auto"
 					sm-border-radius="6px"
 					loading="lazy"
+					height="124.75px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_taxi_en.webp?v=2021-10-03T16:49:39.407Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_banking_en.webp?v=2021-09-28T16:11:24.736Z"
 					border-radius="18px"
 					position="absolute"
-					width="321px"
-					left="-355px"
-					right="auto"
-					bottom="-110px"
-					top="auto"
+					width="315.7663333333333px"
+					left="-339px"
+					right="727.2376666666667px"
+					bottom="-93.49177777777777px"
+					top="270.567px"
 					lg-bottom="-137px"
 					lg-height="231.375px"
 					lg-left="-92px"
@@ -351,16 +364,17 @@ export default (() => {
 					lg-width="213px"
 					lg-display="none"
 					loading="lazy"
+					height="197.92777777777778px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 					border-radius="18px"
 					position="absolute"
-					width="324.2516153846154px"
-					left="302.46138461538465px"
-					right="77.2861px"
-					top="-82px"
-					bottom="252.27876923076923px"
+					width="297.5218888888889px"
+					left="291.4831111111111px"
+					right="115px"
+					top="-79px"
+					bottom="267.6111111111111px"
 					sm-width="170px"
 					sm-bottom="auto"
 					sm-height="107.766px"
@@ -369,9 +383,10 @@ export default (() => {
 					sm-top="-44px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="204.71923076923076px"
+					height="186.38888888888889px"
+					border-color="#000000"
 				/>
-				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cat_en.webp?v=2021-09-28T16:00:01.205Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
+				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
 				width="33.333%"
@@ -384,21 +399,14 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/f3yCqvj8B7pPrPwF2SU4.webp?v=2021-09-04T17:36:56.052Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/teamwork-over-the-teacher-s-laptop.webp?v=2021-09-10T08:40:27.803Z"
 					border-radius="18px"
-					lg-width="100%"
-					sm-border-radius="6px"
-					loading="lazy"
-				/>
-				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_exhibition_en.webp?v=2021-10-03T17:22:19.826Z"
-					border-radius="18px"
-					width="300px"
+					width="229.51666666666665px"
 					position="absolute"
-					top="-127px"
-					right="-76px"
-					bottom="auto"
-					left="auto"
+					top="-111px"
+					right="-74px"
+					bottom="333.3277777777778px"
+					left="196.46633333333335px"
 					lg-bottom="auto"
 					lg-height="187.5px"
 					lg-left="auto"
@@ -412,17 +420,17 @@ export default (() => {
 					sm-height="96.25px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="199.95px"
+					height="152.67222222222222px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_en.webp?v=2021-10-04T19:25:32.838Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 					border-radius="18px"
-					width="254.14285714285714px"
+					width="247px"
 					position="absolute"
-					top="344.417px"
-					right="-39px"
-					bottom="-85px"
-					left="136.84014285714287px"
+					top="auto"
+					right="-53px"
+					bottom="-93px"
+					left="auto"
 					lg-bottom="-67px"
 					lg-height="154.625px"
 					lg-left="auto"
@@ -436,10 +444,10 @@ export default (() => {
 					sm-width="132px"
 					sm-border-radius="6px"
 					loading="lazy"
-					height="166.583px"
+					height="154.383px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 					border-radius="18px"
 					width="192px"
 					position="absolute"
@@ -460,6 +468,13 @@ export default (() => {
 					sm-border-radius="6px"
 					loading="lazy"
 				/>
+				<Image
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_coaching_en.webp?v=2021-09-28T16:15:54.080Z"
+					border-radius="18px"
+					lg-width="100%"
+					sm-border-radius="6px"
+					loading="lazy"
+				/>
 			</Box>
 		</Section>
 		<Section background="--color-secondary" padding="130px 0 130px 0" lg-padding="100px 0 100px 0">
@@ -475,17 +490,17 @@ export default (() => {
 				lg-margin="0px 0px 40px 0px"
 			>
 				<Text
-					margin="0px 0px 15px 0px"
+					margin="0px 0px 24px 0px"
 					font="--headline1"
 					letter-spacing="-1px"
 					color="--white"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Opțiuni esențiale pentru crearea de website-uri pentru un dezvoltator imobiliar
+					Opțiuni esențiale pentru un website eficient pentru profesori
 				</Text>
 				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
-					Instrumentul încorporat SEO înseamnă că nu este nevoie să angajați specialiști în web pentru a vă promova site-ul. Puteți crea o pagină utilizând secțiunile și widget-urile predefinite. Integrarea cu servicii externe se realizează prin doar câteva click-uri
+					Puteți pleca de la o anumită temă sau de la un șablon din orice altă categorie. Există atât opțiuni multi-pagină cât și pagini unice. Un subdomeniu este oferit, în mod gratuit, dar puteți achiziționa un domeniu personalizat sau conecta unul deja existent. Puteți configura și modifica toate elementele prin doar câteva click-uri fără a avea experiență pe partea de coduri
 				</Text>
 			</Box>
 			<Box
@@ -516,7 +531,91 @@ export default (() => {
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Șabloane tematice pentru companii de dezvoltare imobiliară
+						Șabloane pentru website-uri educaționale
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsLock}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Respectarea reglementărilor legale
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsCheckBox}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Editor simplu și ușor de folosit
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsColumnsGutters}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Secțiuni predefinite
+					</Text>
+				</Box>
+				<Box
+					display="flex"
+					flex-direction="column"
+					align-items="flex-start"
+					padding="0px 20px 0px 0px"
+					margin="0px 0px 42px 0px"
+					lg-width="50%"
+					md-width="100%"
+				>
+					<Icon
+						category="bs"
+						icon={BsBookmark}
+						margin="0 0 18px 0"
+						align-items="center"
+						size="63px"
+						color="#ffffff"
+					/>
+					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
+						Protocol HTTPS gratuit
 					</Text>
 				</Box>
 				<Box
@@ -551,14 +650,14 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsAt}
+						icon={BsEye}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Secțiune multi-pagină pentru contacte
+						Versiune pentru cei cu deficiențe de vedere
 					</Text>
 				</Box>
 				<Box
@@ -572,94 +671,30 @@ export default (() => {
 				>
 					<Icon
 						category="bs"
-						icon={BsBell}
+						icon={BsXSquare}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Un set de widget-uri pentru crearea unui portofoliu
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsBarChart}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Formulare încorporate pentru colectarea solicitărilor
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsGraphUp}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Chat-uri online, butoane pentru reapelare
-					</Text>
-				</Box>
-				<Box
-					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
-					padding="0px 20px 0px 0px"
-					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
-				>
-					<Icon
-						category="bs"
-						icon={BsCheckBox}
-						margin="0 0 18px 0"
-						align-items="center"
-						size="63px"
-						color="#ffffff"
-					/>
-					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
-						Calculator online cu uCalc
+						Fără reclame terțe
 					</Text>
 				</Box>
 			</Box>
 			<Box
 				width="58.333%"
 				margin="0px 0px 0px 8.333999999999996%"
-				display="inline-block"
+				display="flex"
 				lg-margin="30px 0px 0px 0px"
 				lg-width="100%"
 			>
 				<Image
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20394%20-%20Home%20-%20efgrfg.ukit%201%281%29.webp?v=2021-10-05T15:35:39.361Z"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20393%20-%20Home%20-%20gcvhojo.ukit%201.webp?v=2021-10-03T17:15:24.391Z"
 					width="100%"
 					loading="lazy"
-					display="inline-block"
 				/>
 			</Box>
 		</Section>
@@ -683,10 +718,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Cum să creați website-ul unui dezvoltator imobiliar
+					Cum să creați un website pentru un profesor cu uKit
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
-					Lansarea propriului site este ușoară, chiar dacă nu aveți cunoștințe de programare sau alte cunoștințe speciale. Întregul proces va dura numai câteva ore. Trebuie doar să urmați pașii de mai jos:
+					Puteți crea un site rapid cu tehnologia drag ’n drop — nu aveți nevoie de ajutor profesionist. Dar dacă vă blocați și nu puteți înțelege ceva, puteți utiliza informațiile din cadrul FAQ sau să apelați la asistența tehnică
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
@@ -710,7 +745,7 @@ export default (() => {
 						width="84%"
 						md-width="100%"
 					>
-						Veți putea alege din sute de design-uri tematice pentru diferite variante de website-uri de afaceri, indiferent că este vorba despre un site tip pagină unică sau multi-pagină. Un șablon vine la pachet cu un conținut dedicat, care ilustrează unde și ce fel de conținut ar trebui să includă. Puteți păstra sau personaliza conținutul, în funcție de preferințe. Schemele de culori și fonturile pot fi, de asemenea, modificate prin doar câteva click-uri
+						Puteți utiliza șabloane predefinite pentru implementarea de anumite funcții și pentru secțiunile tematice de care aveți nevoie. În cele mai multe cazuri, conținutul poate fi lăsat așa cum este, dar îl puteți adapta după preferințe. Totul este foarte ușor de folosit. În plus, puteți activa o versiune pentru persoanele cu deficiențe de vedere, pentru orice șablon
 					</Text>
 					<Link
 						href="https://ukit.com/neowizard#templates/all"
@@ -785,7 +820,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Adăugați sau modificați conținutul, încărcați poze și videoclipuri, arătați calitatea serviciilor/produselor cu alte elemente din site: slider, galerii, cronologie, secțiuni cu etape, liste de prețuri, etc. Imaginile pot fi modificate direct în cadrul constructorului
+						Adăugați-vă propriile imagini, texte, video, recenzii, galerii, certificate, documente sau orice alt tip de conținut. Imaginile pot fi modificate direct în cadrul constructorului. uKit nu are limitări în ceea ce privește host-ul sau numărul de pagini. Structura este ușor de adus la nivelul legislației actuale
 					</Text>
 				</Box>
 			</Box>
@@ -816,7 +851,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						uKit adaptează automat website-urile pentru toate tipurile de ecrane, fără acțiuni din partea utilizatorului. Dacă doriți, puteți ascunde elemente individuale sau widget-uri întregi, precum și personaliza fundalul sau design-ul separat pentru tablete și smartphone-uri
+						Deoarece uKit creează automat o versiune mobilă pentru site, tot ce trebuie să faceți este să vă asigurați că paginile site-ului sunt afișate corect pe toate dispozitivele. Puteți modifica setările individuale, dacă este necesar: ascundeți/afișați secțiunile selectate, schema de culori și meniul mobil
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -868,7 +903,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Puteți înregistra un domeniu personalizat direct prin intermediul Panoului Administrativ. Host-ul va fi configurat în mod automat. Site-ul va permite protocolul de securitate HTTPS, fără a fi nevoie de pași suplimentari pentru a obține certificatul SSL
+						Puteți utiliza subdomeniul gratuit oferit de uKit sau să înregistrați/conectați propriul domeniu. Dacă achiziționați un domeniu prin uKit, nu va fi necesară configurarea acestuia: toate înregistrările DNS sunt modificate automat. În orice situație, versiunea HTTPS a site-ului este creată automat, gratuit
 					</Text>
 				</Box>
 			</Box>
@@ -899,7 +934,7 @@ export default (() => {
 						width="84%"
 						lg-width="100%"
 					>
-						Imediat ce dați click pe butonul «Publică», site-ul va deveni disponibil tuturor vizitatorilor. Puteți edita conținutul în orice moment: uKit vă permite să aveți până la 10 copii de rezervă. Dacă apar greșeli, doar reveniți la versiunea corectă sau anulați modificarea din editor cu ajutorul butonului «Înapoi»
+						Puteți edita conținutul site-ului după preferințe, dar toate modificările vor intra în efect doar după publicarea site-ului. Testați cât aveți nevoie. Puteți sta fără griji — uKit oferă copii de rezervă manuale și automate, în caz că apar greșeli, așadar veți putea oricând reveni la o versiune anterioară printr-un singur click
 					</Text>
 				</Box>
 				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
@@ -934,10 +969,10 @@ export default (() => {
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
 				>
-					Este aproape gata!
+					Detaliile finale
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--base" color="--darkL1" text-align="center">
-					Nu uitați să adăugați site-ul în cadrul motoarelor de căutare și să vă ocupați de promovarea SEO. Puteți verifica dacă site-ul este pregătit cu ajutorul unui instrument special. Vă va arăta exact ce trebuie să modificați la site, pentru a vă asigura un rang mai înalt în rezultatele căutărilor
+					Pentru a începe indexarea site-ului, adăugați-l în cadrul motoarelor de căutare. Puteți face acest lucru în cadrul Panoului Administrativ uKit. În plus, puteți verifica dacă site-ul este pregătit pentru promovare cu un instrument special SEO
 				</Text>
 				<Link
 					href="https://ukit.com/ro/signUp"
@@ -983,7 +1018,7 @@ export default (() => {
 					Ce altceva mai puteți crea cu uKit?
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1" text-align="center">
-					Constructorul uKit vă permite să lansați orice tip de proiect de afaceri în doar câteva ore, fără a fi necesare cunoștințe sau abilități speciale
+					Constructorul nostru de website-uri este pregătit pentru orice provocare: utilizând secțiunile și design-urile predefinite, puteți crea diferite tipuri de proiecte fără cunoștințe de programare
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
@@ -996,9 +1031,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ro/creati-un-website-pentru-agentie-imobiliara" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1008,7 +1043,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Creați un website pentru agenție imobiliară
+							Creați un site de promovare pentru afacerea dvs
 						</Text>
 					</Link>
 				</Box>
@@ -1023,7 +1058,7 @@ export default (() => {
 				>
 					<Link href="/lp/ro/creati-o-pagina-de-prezentare" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cleaning_en.webp?v=2021-09-28T16:25:14.701Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1054,9 +1089,9 @@ export default (() => {
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link href="/lp/ro/creati-un-website-pentru-meditator" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
 							width="100%"
 							display="flex"
 							align-items="center"
@@ -1066,65 +1101,7 @@ export default (() => {
 							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							{" "}Creați un site de promovare pentru afacerea dvs
-						</Text>
-					</Link>
-				</Box>
-				<Box
-					width="50%"
-					margin="0px 0px 0px 0px"
-					display="flex"
-					flex-direction="column"
-					padding="0px 0px 0px 15px"
-					md-width="100%"
-					md-padding="0px 0px 0px 0px"
-				>
-					<Link href="/lp/ro/creati-un-site-pentru-avocat" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
-						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_education_en.webp?v=2021-10-03T17:06:03.939Z"
-							width="100%"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							border-radius="18px"
-							margin="0px 0px 18px 0px"
-							loading="lazy"
-						/>
-						<Text margin="0px 0px 0px 0px" font="--lead">
-							Creați un site pentru avocat
-						</Text>
-					</Link>
-				</Box>
-			</Box>
-			<Box
-				width="100%"
-				display="flex"
-				flex-wrap="wrap"
-				margin="36px 0px 30px 0px"
-				md-margin="0px 0px 0px 0px"
-			>
-				<Box
-					width="50%"
-					margin="0px 0px 0px 0px"
-					display="flex"
-					flex-direction="column"
-					padding="0px 15px 0px 0px"
-					md-width="100%"
-					md-padding="0px 0px 0px 0px"
-				>
-					<Link href="/lp/ro/creati-un-website-pentru-un-consilier-juridic" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
-						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
-							width="100%"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							border-radius="18px"
-							margin="0px 0px 18px 0px"
-							loading="lazy"
-						/>
-						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
-							Creați un website pentru un consilier juridic
+							Creați un website pentru meditator
 						</Text>
 					</Link>
 				</Box>
@@ -1154,6 +1131,64 @@ export default (() => {
 					</Link>
 				</Box>
 			</Box>
+			<Box
+				width="100%"
+				display="flex"
+				flex-wrap="wrap"
+				margin="36px 0px 30px 0px"
+				md-margin="0px 0px 0px 0px"
+			>
+				<Box
+					width="50%"
+					margin="0px 0px 0px 0px"
+					display="flex"
+					flex-direction="column"
+					padding="0px 15px 0px 0px"
+					md-width="100%"
+					md-padding="0px 0px 0px 0px"
+				>
+					<Link href="/lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+							Creați un website pentru un dezvoltator imobiliar
+						</Text>
+					</Link>
+				</Box>
+				<Box
+					width="50%"
+					margin="0px 0px 0px 0px"
+					display="flex"
+					flex-direction="column"
+					padding="0px 0px 0px 15px"
+					md-width="100%"
+					md-padding="0px 0px 0px 0px"
+				>
+					<Link href="/lp/ro/creati-un-website-pentru-un-consilier-juridic" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+						<Image
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
+							width="100%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							border-radius="18px"
+							margin="0px 0px 18px 0px"
+							loading="lazy"
+						/>
+						<Text margin="0px 0px 0px 0px" font="--lead">
+							Creați un website pentru un consilier juridic
+						</Text>
+					</Link>
+				</Box>
+			</Box>
 		</Section>
 		<Section padding="130px 0 130px 0" color="--darkL1" background="--color-secondary" lg-padding="100px 0 100px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
@@ -1177,10 +1212,10 @@ export default (() => {
 					as="h2"
 					text-align="center"
 				>
-					Creați un website pentru un dezvoltator imobiliar cu uKit
+					Cum să creați un website pentru un profesor cu uKit
 				</Text>
 				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
-					Puteți începe să utilizați platforma fără obligații sau plată anticipată. Răsfoiți șabloanele din cadrul constructorului, precum și funcționalitățile sale, chiar acum, în mod gratuit
+					Puteți începe să utilizați platforma uKit, în mod gratuit. Perioada de probă este de 14 zile
 					<Link
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
@@ -1238,7 +1273,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
-			<link rel={"canonical"} href={"/lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar/"} place={"endOfHead"} rawKey={"615c7608df089181a52fdb0a"} />
+			<link rel={"canonical"} href={"/lp/ro/creati-un-website-pentru-un-profesor/"} place={"endOfHead"} rawKey={"6159e77568a321c9b0ac57c1"} />
 		</RawHtml>
 	</Theme>;
 });

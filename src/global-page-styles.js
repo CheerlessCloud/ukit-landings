@@ -539,6 +539,38 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ro/creati-un-website-pentru-agentie-imobiliara": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-un-profesor": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creati-un-website-pentru-meditator": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/pl": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
