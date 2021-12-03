@@ -10,9 +10,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"lp/ro"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Ready-Made Solutions — uKit. Website builder for business
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
+			<meta property={"og:title"} content={"Ready-Made Solutions — uKit. Website builder for business"} />
+			<meta property={"og:description"} content={"Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>

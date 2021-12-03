@@ -961,6 +961,12 @@ export default {
 						"href": "/lp/ro/"
 					}
 				}
+			},
+			"seo": {
+				"title": "Ready-Made Solutions — uKit. Website builder for business",
+				"og:title": "Ready-Made Solutions — uKit. Website builder for business",
+				"description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.",
+				"og:description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."
 			}
 		},
 		"6171457b790876002294eb2c": {
