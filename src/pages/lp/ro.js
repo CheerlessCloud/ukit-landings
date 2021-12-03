@@ -54,6 +54,7 @@ export default (() => {
 			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
 				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
+			<link rel={"canonical"} href={"/lp/ro/"} place={"endOfHead"} rawKey={"61a9f16011fb7a8ddc6d72bb"} />
 		</RawHtml>
 	</Theme>;
 });
