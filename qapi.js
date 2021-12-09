@@ -949,7 +949,19 @@ export default {
 				"61a6b641556c980023d0e485",
 				"61a6bb3d7a55ce001f14eb47",
 				"61a6c13f556c980023d0e5f0",
-				"61a77cca556c980023d0eb14"
+				"61a77cca556c980023d0eb14",
+				"61af2000f1118d001f06a013",
+				"61af254ba22b33001eec58bf",
+				"61af33aff1118d001f06a0ff",
+				"61af8aafa22b33001eec5cb6",
+				"61af8e5dc65ba1002042c125",
+				"61af91e1c65ba1002042c183",
+				"61af959e2eacc1001ffe3e18",
+				"61afc04da22b33001eec5e24",
+				"61afc83a3f23fe001e93dbe0",
+				"61afcc362eacc1001ffe3ff5",
+				"61b079a1141a5b001ee65c95",
+				"61b07d843f23fe001e93dd28"
 			],
 			"customCode": {
 				"61a9f16011fb7a8ddc6d72bb": {
@@ -1145,7 +1157,16 @@ export default {
 						"href": "/lp/pl/"
 					}
 				}
-			}
+			},
+			"children": [
+				"61b117bf77608c001e446d00",
+				"61b1d94073e4880020a6e809",
+				"61b1e02d57f261001eb89a90",
+				"61b1e3313e6bba001ed1e65d",
+				"61b1e6d276285d001f9775fc",
+				"61b1e90e1805d0001e1d6612",
+				"61b1ec0076285d001f977721"
+			]
 		},
 		"617bd0167514e1001f25eb39": {
 			"id": "617bd0167514e1001f25eb39",
@@ -1674,6 +1695,424 @@ export default {
 			},
 			"id": "61a77cca556c980023d0eb14",
 			"name": "Creați un website pentru meditator"
+		},
+		"61af2000f1118d001f06a013": {
+			"pageUrl": "creati-un-website-pentru-un-centru-educational",
+			"seo": {
+				"title": "Creați un website pentru un centru educațional — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru un centru educațional — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Constructorul de website-uri uKit este perfect pentru numeroase tipuri de proiecte, inclusiv crearea de site-uri pentru centre educaționale: grădinițe, școli, școli pregătitoare, școli profesionale, colegii, cursuri online etc. Acestea pot fi atât instituții comerciale cât și necomerciale.",
+				"og:description": "Constructorul de website-uri uKit este perfect pentru numeroase tipuri de proiecte, inclusiv crearea de site-uri pentru centre educaționale: grădinițe, școli, școli pregătitoare, școli profesionale, colegii, cursuri online etc. Acestea pot fi atât instituții comerciale cât și necomerciale."
+			},
+			"customCode": {
+				"6159e1df2c3a9db666910452": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-un-centru-educational/"
+					}
+				}
+			},
+			"id": "61af2000f1118d001f06a013",
+			"name": "Creați un website pentru un centru educațional"
+		},
+		"61af254ba22b33001eec58bf": {
+			"pageUrl": "creati-un-portofoliu-de-design-interior",
+			"seo": {
+				"title": "Creați un portofoliu de design interior — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un portofoliu de design interior — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Acum este mai ușor ca niciodată, doar folosiți uKit. Host nelimitat, șabloane predefinite și un editor ușor de utilizat. Puteți face totul chiar dvs., fără a fi necesar să angajați specialiști web.",
+				"og:description": "Acum este mai ușor ca niciodată, doar folosiți uKit. Host nelimitat, șabloane predefinite și un editor ușor de utilizat. Puteți face totul chiar dvs., fără a fi necesar să angajați specialiști web."
+			},
+			"customCode": {
+				"6159dd49eca9df435759a9f6": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-portofoliu-de-design-interior/"
+					}
+				}
+			},
+			"id": "61af254ba22b33001eec58bf",
+			"name": "Creați un portofoliu de design interior"
+		},
+		"61af33aff1118d001f06a0ff": {
+			"pageUrl": "creati-un-website-pentru-un-salon-de-infrumusetare",
+			"seo": {
+				"title": "Creați un website pentru un salon de înfrumusețare — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru un salon de înfrumusețare — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Creați un website deosebit și ușor de utilizat, pe cont propriu. uKit oferă tot ce aveți nevoie pentru asta și chiar și în plus: un constructor convenabil, șabloane predefinite, host nelimitat, formulare încorporate și notificări, instrumente speciale SEO",
+				"og:description": "Creați un website deosebit și ușor de utilizat, pe cont propriu. uKit oferă tot ce aveți nevoie pentru asta și chiar și în plus: un constructor convenabil, șabloane predefinite, host nelimitat, formulare încorporate și notificări, instrumente speciale SEO"
+			},
+			"customCode": {
+				"618a5613ac17c117460a630e": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-un-salon-de-infrumusetare/"
+					}
+				}
+			},
+			"id": "61af33aff1118d001f06a0ff",
+			"name": "Creați un website pentru un salon de înfrumusețare"
+		},
+		"61af8aafa22b33001eec5cb6": {
+			"pageUrl": "creati-website-ul-unei-cafenele-sau-a-unui-restaurant",
+			"seo": {
+				"title": "Creați website-ul unei cafenele sau a unui restaurant — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați website-ul unei cafenele sau a unui restaurant — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Cu uKit, puteți crea un website profesional, aspectuos și complet funcțional pentru o cafenea sau un restaurant, pe cont propriu. Vine cu host nelimitat, notificări SMS gratuite și instrumente SEO predefinite",
+				"og:description": "Cu uKit, puteți crea un website profesional, aspectuos și complet funcțional pentru o cafenea sau un restaurant, pe cont propriu. Vine cu host nelimitat, notificări SMS gratuite și instrumente SEO predefinite"
+			},
+			"customCode": {
+				"618a4c41e658bd023e2315b2": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-website-ul-unei-cafenele-sau-a-unui-restaurant/"
+					}
+				}
+			},
+			"id": "61af8aafa22b33001eec5cb6",
+			"name": "Creați website-ul unei cafenele sau a unui restaurant"
+		},
+		"61af8e5dc65ba1002042c125": {
+			"pageUrl": "creati-portofoliul-unui-developer",
+			"seo": {
+				"title": "Creați portofoliul unui developer — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați portofoliul unui developer — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Nu aveți timp pentru programare? Nu aveți idei pentru design? Nicio problemă – puteți crea rapid un portofoliu prin intermediul uKit: o bibliotecă bogată în șabloane predefinite, un editor vizual simplu și convenabil, precum și host nelimitat",
+				"og:description": "Nu aveți timp pentru programare? Nu aveți idei pentru design? Nicio problemă – puteți crea rapid un portofoliu prin intermediul uKit: o bibliotecă bogată în șabloane predefinite, un editor vizual simplu și convenabil, precum și host nelimitat"
+			},
+			"customCode": {
+				"617ea5961822ad90071748f2": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-portofoliul-unui-developer/"
+					}
+				}
+			},
+			"id": "61af8e5dc65ba1002042c125",
+			"name": "Creați portofoliul unui developer"
+		},
+		"61af91e1c65ba1002042c183": {
+			"pageUrl": "creati-un-website-pentru-profesionisti-din-domeniul-sanatatii",
+			"seo": {
+				"title": "Creați un website pentru profesioniști din domeniul sănătății — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru profesioniști din domeniul sănătății — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Doriți să obțineți mai multe beneficii pentru cabinetul dvs. privat? Creați-vă propriul website. Nu contează specializarea dvs. – medic pediatru, stomatolog, dermatolog, neurolog sau ortoped. Cu doar puțin timp și efort, vă puteți crea propriul website utilizând constructorul uKit",
+				"og:description": "Doriți să obțineți mai multe beneficii pentru cabinetul dvs. privat? Creați-vă propriul website. Nu contează specializarea dvs. – medic pediatru, stomatolog, dermatolog, neurolog sau ortoped. Cu doar puțin timp și efort, vă puteți crea propriul website utilizând constructorul uKit"
+			},
+			"customCode": {
+				"617eba7e1dae00ee7c0ca860": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-profesionisti-din-domeniul-sanatatii/"
+					}
+				}
+			},
+			"id": "61af91e1c65ba1002042c183",
+			"name": "Creați un website pentru profesioniști din domeniul sănătății"
+		},
+		"61af959e2eacc1001ffe3e18": {
+			"pageUrl": "creati-website-ul-unui-hotel",
+			"seo": {
+				"title": "Creați website-ul unui hotel — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați website-ul unui hotel — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Nu trebuie să angajați un profesionist pentru a crea un website pentru hotelul dvs. Tot ce aveți nevoie este uKit — un constructor de website-uri online. Deja oferă hosting nelimitat, formulare predefinite cu notificări gratuite și instrumente SEO",
+				"og:description": "Nu trebuie să angajați un profesionist pentru a crea un website pentru hotelul dvs. Tot ce aveți nevoie este uKit — un constructor de website-uri online. Deja oferă hosting nelimitat, formulare predefinite cu notificări gratuite și instrumente SEO"
+			},
+			"customCode": {
+				"61897d782873826dd66e6182": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-website-ul-unui-hotel/"
+					}
+				}
+			},
+			"id": "61af959e2eacc1001ffe3e18",
+			"name": "Creați website-ul unui hotel"
+		},
+		"61afc04da22b33001eec5e24": {
+			"pageUrl": "host-cu-un-constructor-de-website",
+			"seo": {
+				"title": "Host cu un constructor de website — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Host cu un constructor de website — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Majoritatea constructorilor online de site-uri și serviciilor de host limitează resursele de server pe care acestea le consumă. Dar nu și uKit. Cu uKit, primiți găzduire, trafic nelimitat, dar și un număr nelimitat de pagini, în cadrul oricărui abonament",
+				"og:description": "Majoritatea constructorilor online de site-uri și serviciilor de host limitează resursele de server pe care acestea le consumă. Dar nu și uKit. Cu uKit, primiți găzduire, trafic nelimitat, dar și un număr nelimitat de pagini, în cadrul oricărui abonament"
+			},
+			"customCode": {
+				"618949d47201cf80544b2a0f": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/host-cu-un-constructor-de-website/"
+					}
+				}
+			},
+			"id": "61afc04da22b33001eec5e24",
+			"name": "Host cu un constructor de website"
+		},
+		"61afc83a3f23fe001e93dbe0": {
+			"pageUrl": "creati-website-ului-unui-psiholog-sau-psihoterapeut",
+			"seo": {
+				"title": "Creați website-ului unui psiholog sau psihoterapeut — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați website-ului unui psiholog sau psihoterapeut — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Dacă vă gândiți să vă creați propriul website, alegeți uKit și nu va mai trebui să angajați diverși specialiști. Este rapid: un constructor ușor de folosit, șabloane predefinite și host nelimitat",
+				"og:description": "Dacă vă gândiți să vă creați propriul website, alegeți uKit și nu va mai trebui să angajați diverși specialiști. Este rapid: un constructor ușor de folosit, șabloane predefinite și host nelimitat"
+			},
+			"customCode": {
+				"618967ad06ff7e3a61cc6158": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-website-ului-unui-psiholog-sau-psihoterapeut/"
+					}
+				}
+			},
+			"id": "61afc83a3f23fe001e93dbe0",
+			"name": "Creați website-ului unui psiholog sau psihoterapeut"
+		},
+		"61afcc362eacc1001ffe3ff5": {
+			"pageUrl": "creati-portofoliul-unui-artist",
+			"seo": {
+				"title": "Creați portofoliul unui artist — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați portofoliul unui artist — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Cu uKit, puteți construi un portofoliu funcțional cu un design modern și o versiune mobilă fără cunoștințe de programare – tot ce aveți nevoie este de o noapte și de imaginația dvs.",
+				"og:description": "Cu uKit, puteți construi un portofoliu funcțional cu un design modern și o versiune mobilă fără cunoștințe de programare – tot ce aveți nevoie este de o noapte și de imaginația dvs."
+			},
+			"customCode": {
+				"617ef3d341516409870de2fa": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-portofoliul-unui-artist/"
+					}
+				}
+			},
+			"id": "61afcc362eacc1001ffe3ff5",
+			"name": "Creați portofoliul unui artist"
+		},
+		"61b079a1141a5b001ee65c95": {
+			"pageUrl": "creati-website-ul-unui-service-auto",
+			"seo": {
+				"title": "Creați website-ul unui service auto — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați website-ul unui service auto — uKit. Constructor de site-uri pentru afaceri",
+				"description": "În cadrul constructorul de website-uri uKit, nu doar că puteți crea un site de înaltă calitate pentru un atelier de reparații auto, ci îl și puteți promova fără profesioniști web sau SEO. Rapid, accesibil și eficient",
+				"og:description": "În cadrul constructorul de website-uri uKit, nu doar că puteți crea un site de înaltă calitate pentru un atelier de reparații auto, ci îl și puteți promova fără profesioniști web sau SEO. Rapid, accesibil și eficient"
+			},
+			"customCode": {
+				"617ed74ef97a2047fe807c68": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-website-ul-unui-service-auto/"
+					}
+				}
+			},
+			"id": "61b079a1141a5b001ee65c95",
+			"name": "Creați website-ul unui service auto"
+		},
+		"61b07d843f23fe001e93dd28": {
+			"pageUrl": "creati-un-website-pentru-cursuri-online",
+			"seo": {
+				"title": "Creați un website pentru cursuri online — uKit. Constructor de site-uri pentru afaceri",
+				"og:title": "Creați un website pentru cursuri online — uKit. Constructor de site-uri pentru afaceri",
+				"description": "Creați-vă site-ul cu sisteme de plată online integrate – nu vă trebuie specialiști în web, puteți să o faceți chiar dvs. Un număr nelimitat de pagini și host, notificări SMS gratuite",
+				"og:description": "Creați-vă site-ul cu sisteme de plată online integrate – nu vă trebuie specialiști în web, puteți să o faceți chiar dvs. Un număr nelimitat de pagini și host, notificări SMS gratuite"
+			},
+			"customCode": {
+				"6189577c5780a3b1ef1386aa": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/ro/creati-un-website-pentru-cursuri-online/"
+					}
+				}
+			},
+			"id": "61b07d843f23fe001e93dd28",
+			"name": "Creați un website pentru cursuri online"
+		},
+		"61b117bf77608c001e446d00": {
+			"pageUrl": "stworz-portfolio-projektanta-wnetrz",
+			"seo": {
+				"title": "Stwórz portfolio projektanta wnętrz — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Stwórz portfolio projektanta wnętrz — uKit. Kreator stron internetowych dla firm",
+				"description": "To nigdy nie było prostsze, po prostu użyj uKit. Nieograniczony hosting, gotowe szablony i przyjazny dla użytkownika edytor. Możesz obsłużyć wszystko bez zatrudniania zewnętrznych specjalistów internetowych.",
+				"og:description": "To nigdy nie było prostsze, po prostu użyj uKit. Nieograniczony hosting, gotowe szablony i przyjazny dla użytkownika edytor. Możesz obsłużyć wszystko bez zatrudniania zewnętrznych specjalistów internetowych."
+			},
+			"customCode": {
+				"6159dd49eca9df435759a9f6": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/stworz-portfolio-projektanta-wnetrz/"
+					}
+				}
+			},
+			"id": "61b117bf77608c001e446d00",
+			"name": "Stwórz portfolio projektanta wnętrz"
+		},
+		"61b1d94073e4880020a6e809": {
+			"pageUrl": "stworz-strone-internetowa-agencji-nieruchomosci",
+			"seo": {
+				"title": "Stwórz stronę internetową agencji nieruchomości — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Stwórz stronę internetową agencji nieruchomości — uKit. Kreator stron internetowych dla firm",
+				"description": "Nieograniczony hosting i nieograniczona ilość stron, gotowe projekty, przyjazny edytor wizualny, integracja z CRM, powiadomienia SMS. Nie są wymagane żadne umiejętności programowania. Możesz stworzyć własną stronę internetową za jednym razem.",
+				"og:description": "Nieograniczony hosting i nieograniczona ilość stron, gotowe projekty, przyjazny edytor wizualny, integracja z CRM, powiadomienia SMS. Nie są wymagane żadne umiejętności programowania. Możesz stworzyć własną stronę internetową za jednym razem."
+			},
+			"customCode": {
+				"615d5350c3297f01fde1b758": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/stworz-strone-internetowa-agencji-nieruchomosci/"
+					}
+				}
+			},
+			"id": "61b1d94073e4880020a6e809",
+			"name": "Stwórz stronę internetową agencji nieruchomości"
+		},
+		"61b1e02d57f261001eb89a90": {
+			"pageUrl": "stworz-strone-internetowa-kliniki-stomatologicznej",
+			"seo": {
+				"title": "Stwórz stronę internetową kliniki stomatologicznej — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Stwórz stronę internetową kliniki stomatologicznej — uKit. Kreator stron internetowych dla firm",
+				"description": "Bez programistów, bez kodu. Stwórz atrakcyjną stronę internetową w mgnieniu oka, korzystając z naszych szablonów. Nieograniczony hosting i powiadomienia o witrynie.\n\nDzięki intuicyjnej funkcjonalności, nie zajmie Ci to dużo czasu.",
+				"og:description": "Bez programistów, bez kodu. Stwórz atrakcyjną stronę internetową w mgnieniu oka, korzystając z naszych szablonów. Nieograniczony hosting i powiadomienia o witrynie.\n\nDzięki intuicyjnej funkcjonalności, nie zajmie Ci to dużo czasu."
+			},
+			"customCode": {
+				"61545a1ed6362bfde9364ffe": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/stworz-strone-internetowa-kliniki-stomatologicznej/"
+					}
+				}
+			},
+			"id": "61b1e02d57f261001eb89a90",
+			"name": "Stwórz stronę internetową kliniki stomatologicznej"
+		},
+		"61b1e3313e6bba001ed1e65d": {
+			"pageUrl": "stworz-strone-internetowa-placowki-edukacyjnej",
+			"seo": {
+				"title": "Stwórz stronę internetową placówki edukacyjnej — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Stwórz stronę internetową placówki edukacyjnej — uKit. Kreator stron internetowych dla firm",
+				"description": "Kreator stron internetowych uKit jest idealny do wielu zadań, w tym do budowania stron internetowych dla placówek oświatowych: przedszkoli, szkół, szkół przygotowawczych, szkół zawodowych, uczelni wyższych, szkół internetowych, itp. Mogą to być zarówno instytucje komercyjne, jak i niekomercyjne.",
+				"og:description": "Kreator stron internetowych uKit jest idealny do wielu zadań, w tym do budowania stron internetowych dla placówek oświatowych: przedszkoli, szkół, szkół przygotowawczych, szkół zawodowych, uczelni wyższych, szkół internetowych, itp. Mogą to być zarówno instytucje komercyjne, jak i niekomercyjne."
+			},
+			"customCode": {
+				"6159e1df2c3a9db666910452": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/stworz-strone-internetowa-placowki-edukacyjnej/"
+					}
+				}
+			},
+			"id": "61b1e3313e6bba001ed1e65d",
+			"name": "Stwórz stronę internetową placówki edukacyjnej"
+		},
+		"61b1e6d276285d001f9775fc": {
+			"pageUrl": "stworz-strone-promocyjna-dla-swojej-firmy",
+			"seo": {
+				"title": "Stwórz stronę promocyjną dla swojej firmy — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Stwórz stronę promocyjną dla swojej firmy — uKit. Kreator stron internetowych dla firm",
+				"description": "Bez kodu, mnóstwo gotowych szablonów, darmowe powiadomienia SMS i zamówienia, nielimitowany hosting. Stwórz stronę w jedną noc!",
+				"og:description": "Bez kodu, mnóstwo gotowych szablonów, darmowe powiadomienia SMS i zamówienia, nielimitowany hosting. Stwórz stronę w jedną noc!"
+			},
+			"customCode": {
+				"6151b0f4ee4b201a3694f548": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/stworz-strone-promocyjna-dla-swojej-firmy/"
+					}
+				}
+			},
+			"id": "61b1e6d276285d001f9775fc",
+			"name": "Stwórz stronę promocyjną dla swojej firmy"
+		},
+		"61b1e90e1805d0001e1d6612": {
+			"pageUrl": "utworz-strone-docelowa",
+			"seo": {
+				"title": "Utwórz stronę docelową — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Utwórz stronę docelową — uKit. Kreator stron internetowych dla firm",
+				"description": "Gotowe szablony, szeroka gama kategorii tematycznych i elementów projektu, powiadomienia z formularzy, integracje, nielimitowany hosting.\nStwórz sam stronę docelową w kilka godzin",
+				"og:description": "Gotowe szablony, szeroka gama kategorii tematycznych i elementów projektu, powiadomienia z formularzy, integracje, nielimitowany hosting.\nStwórz sam stronę docelową w kilka godzin"
+			},
+			"customCode": {
+				"6153428713a22cefa64c1f19": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/utworz-strone-docelowa/"
+					}
+				}
+			},
+			"id": "61b1e90e1805d0001e1d6612",
+			"name": "Utwórz stronę docelową"
+		},
+		"61b1ec0076285d001f977721": {
+			"pageUrl": "utworz-strone-internetowa-dla-prawnika",
+			"seo": {
+				"title": "Utwórz stronę internetową dla prawnika — uKit. Kreator stron internetowych dla firm",
+				"og:title": "Utwórz stronę internetową dla prawnika — uKit. Kreator stron internetowych dla firm",
+				"description": "Bez briefów, bez żmudnych zatwierdzeń, bez czekania - dzięki uKit możesz samodzielnie stworzyć stronę bez pośredników. Gotowe do użycia szablony tematyczne, nieograniczony hosting i powiadomienia SMS.",
+				"og:description": "Bez briefów, bez żmudnych zatwierdzeń, bez czekania - dzięki uKit możesz samodzielnie stworzyć stronę bez pośredników. Gotowe do użycia szablony tematyczne, nieograniczony hosting i powiadomienia SMS."
+			},
+			"customCode": {
+				"615b3f42fb549cd81aefa1fc": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/pl/utworz-strone-internetowa-dla-prawnika/"
+					}
+				}
+			},
+			"id": "61b1ec0076285d001f977721",
+			"name": "Utwórz stronę internetową dla prawnika"
 		}
 	},
 	"mode": "production",
@@ -1699,7 +2138,7 @@ export default {
 			"sitemapFileType": "custom",
 			"robotsFileType": "custom",
 			"customSitemapDomain": "",
-			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-vracha/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-o-clinica-dentara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-odnostranichnyh-sajtov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-vizitok/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-lendingov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-o-pagina-de-prezentare/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-site-pentru-avocat/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-consilier-juridic/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-developer-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-healthcare-professional-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-automobile-repair-shop-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-artist-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-agentie-imobiliara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/hosting-with-a-website-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-online-courses-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-psychologist-or-psychotherapist-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-hotel-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-cafe-or-restaurant-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-beauty-studio-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-profesor/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-meditator/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/how-much-does-it-cost-to-create-a-site/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/website-builder-software/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/portfolio-website-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/promo-site-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/web-page-builder/</loc>\n</url>\n<url><loc>https://ukit.com/lp/en/landing-page-builder/</loc></url>\n</urlset>"
+			"customSitemapXml": "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n<url>\n<loc>https://ukit.com/lp/ru/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/</loc>\n</url>\n<url><loc>https://ukit.com/lp/pl/</loc></url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sait-vizitku-online/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-odnostranichnyj-sajt-lending/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-agentstva-nedvizhimosti/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stomatologii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-stroitelnoj-kompanii/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dezajnera-interjerov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-yurista/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-obrazovatelnogo-uchrezhdeniya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-uchitelja/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-repetitora/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-advokata/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-dlya-prodazhi-onlajn-kursov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-razrabotchika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sajt-portfolio-hudozhnika/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/skolko-stoit-sdelat-sayt/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sayt-pod-klyuch/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/hosting-s-konstruktorom-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/programma-dlya-sozdaniya-saytov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-salona-krasoty/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-kafe-ili-restorana/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-gostinitsy-ili-otelya/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-psikhologa-ili-psikhoterapevta/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-avtoservisa/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-promo-website-for-your-business/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-landing-page/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-dental-clinic-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-interior-design-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-educational-facility-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-teacher-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-tutor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-lawyer-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-legal-advisor-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-development-company-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-real-estate-agency-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/sozdat-sayt-vracha/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-o-clinica-dentara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-odnostranichnyh-sajtov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-vizitok/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-lendingov/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ru/konstruktor-sajtov-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-o-pagina-de-prezentare/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-site-pentru-avocat/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-consilier-juridic/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-site-de-promovare-pentru-afacerea-dvs/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-developer-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-healthcare-professional-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-automobile-repair-shop-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-artist-portfolio/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-agentie-imobiliara/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-dezvoltator-imobiliar/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/hosting-with-a-website-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-an-online-courses-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-psychologist-or-psychotherapist-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-hotel-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-cafe-or-restaurant-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/create-a-beauty-studio-website/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-profesor/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/ro/creati-un-website-pentru-meditator/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/how-much-does-it-cost-to-create-a-site/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/website-builder-software/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/portfolio-website-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/promo-site-builder/</loc>\n</url>\n<url>\n<loc>https://ukit.com/lp/en/web-page-builder/</loc>\n</url>\n<url><loc>https://ukit.com/lp/en/landing-page-builder/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-centru-educational/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-un-portofoliu-de-design-interior/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-un-website-pentru-un-salon-de-infrumusetare/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-website-ul-unei-cafenele-sau-a-unui-restaurant/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-portofoliul-unui-developer/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-un-website-pentru-profesionisti-din-domeniul-sanatatii/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-website-ul-unui-hotel/</loc></url>\n<url><loc>https://ukit.com/lp/ro/host-cu-un-constructor-de-website/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-website-ului-unui-psiholog-sau-psihoterapeut/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-portofoliul-unui-artist/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-website-ul-unui-service-auto/</loc></url>\n<url><loc>https://ukit.com/lp/ro/creati-un-website-pentru-cursuri-online/</loc></url>\n<url><loc>https://ukit.com/lp/pl/stworz-portfolio-projektanta-wnetrz/</loc></url>\n<url><loc>https://ukit.com/lp/pl/stworz-strone-internetowa-agencji-nieruchomosci/</loc></url>\n<url><loc>https://ukit.com/lp/pl/stworz-strone-internetowa-kliniki-stomatologicznej/</loc></url>\n<url><loc>https://ukit.com/lp/pl/stworz-strone-internetowa-placowki-edukacyjnej/</loc></url>\n<url><loc>https://ukit.com/lp/pl/stworz-strone-promocyjna-dla-swojej-firmy/</loc></url>\n<url><loc>https://ukit.com/lp/pl/utworz-strone-docelowa/</loc></url>\n<url><loc>https://ukit.com/lp/pl/utworz-strone-internetowa-dla-prawnika/</loc></url>\n</urlset>"
 		}
 	}
 }
