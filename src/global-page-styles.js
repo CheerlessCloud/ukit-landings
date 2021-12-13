@@ -731,6 +731,86 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/pl/utworz-strone-internetowa-firmy-deweloperskiej": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-strone-internetowa-radcy-prawnego": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-witryne-korepetytora": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-witryne-nauczyciela": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/stworz-strone-studia-urody": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-strone-internetowa-hotelu": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-portfolio-deweloperskie": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/stworz-witryne-kawiarni-lub-restauracji": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-witryne-internetowa-dla-pracownikow-ochrony-zdrowia": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-strone-internetowa-psychologa-lub-psychoterapeuty": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/nl": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
