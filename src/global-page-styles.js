@@ -435,14 +435,6 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
-    "lp/en/create-a-beauty-studio-website": {
-        "overflow-x": "hidden",
-        "overflow-y": "visible",
-        "height": "",
-        "min-height": "",
-        "width": "",
-        "font": "--headline1"
-    },
     "lp/en/how-much-does-it-cost-to-create-a-site": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -476,6 +468,14 @@ const pageStyles = {
         "font": "--headline1"
     },
     "lp/en/landing-page-builder": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/en/create-a-beauty-studio-website": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
@@ -667,6 +667,46 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ro/constructor-de-site-uri-promotionale": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creator-de-portofoliu": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/constructor-de-pagini-web": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/software-pentru-creare-de-website-uri": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/stworz-strone-internetowa-z-kursami-online": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/pl": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -804,6 +844,38 @@ const pageStyles = {
         "font": "--headline1"
     },
     "lp/pl/utworz-strone-internetowa-psychologa-lub-psychoterapeuty": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-portfolio-artysty": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/utworz-witryne-warsztatu-samochodowego": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/hosting-z-kreatorem-stron": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/ile-kosztuje-utworzenie-witryny": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
