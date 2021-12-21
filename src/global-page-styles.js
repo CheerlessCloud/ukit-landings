@@ -707,6 +707,22 @@ const pageStyles = {
         "width": "",
         "font": "--headline1"
     },
+    "lp/ro/cat-costa-sa-creati-un-website": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/ro/creator-de-pagini-de-destinatie": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
     "lp/pl": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
@@ -876,6 +892,46 @@ const pageStyles = {
         "font": "--headline1"
     },
     "lp/pl/ile-kosztuje-utworzenie-witryny": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/kreator-stron-promocyjnych": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/kreator-portfolio": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/kreator-strony-promocyjnej": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/kreator-stron-internetowych": {
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": "",
+        "font": "--headline1"
+    },
+    "lp/pl/oprogramowanie-do-tworzenia-stron-internetowych": {
         "overflow-x": "hidden",
         "overflow-y": "visible",
         "height": "",
