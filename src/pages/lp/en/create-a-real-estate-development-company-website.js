@@ -23,24 +23,24 @@ export default (() => {
 		<Section padding="84px 0 100px 0" lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px">
 			<Override
 				slot="SectionContent"
-				max-width="1056px"
-				flex-direction="row"
-				justify-content="space-between"
 				align-items="center"
 				lg-width="100%"
 				lg-flex-wrap="wrap"
 				lg-align-items="center"
 				lg-justify-content="center"
+				max-width="1056px"
+				flex-direction="row"
+				justify-content="space-between"
 			/>
 			<Box
-				width="50%"
-				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
 				padding="0px 20px 0px 0px"
 				lg-width="100%"
 				lg-margin="0px 0px 90px 0px"
 				lg-padding="0px 20px 0px 20px"
+				width="50%"
+				display="flex"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -58,79 +58,78 @@ export default (() => {
 					No programming skills are required. Building a site yourself is quick and easy
 				</Text>
 				<Link
-					href="https://ukit.com/signup"
-					color="--white"
-					text-decoration-line="initial"
-					font="--lead"
-					padding="15px 25px 16px 25px"
 					margin="0px 0px 0px 0px"
 					border-width="1px"
 					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="100px"
 					background="#4773ff"
 					display="inline"
+					href="https://ukit.com/signup"
+					color="--white"
+					padding="15px 25px 16px 25px"
+					border-radius="100px"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
+					text-decoration-line="initial"
+					font="--lead"
+					border-color="--color-secondary"
 				>
 					Create a Website
 				</Link>
 			</Box>
 			<Box
 				width="50%"
+				lg-left="0px"
+				lg-padding="0px 20px 0px 20px"
 				display="flex"
 				position="relative"
 				left="20px"
 				flex-direction="column"
 				lg-width="100%"
 				lg-position="relative"
-				lg-left="0px"
-				lg-padding="0px 20px 0px 20px"
 			>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/zvezda1.svg?v=2021-08-19T12:34:32.396Z"
-					width="150px"
-					height="150px"
-					position="absolute"
-					left="-70px"
 					right="auto"
-					top="-70px"
 					bottom="auto"
 					lg-width="100px"
-					lg-height="100px"
 					lg-left="-24px"
-					lg-top="-42px"
-				/>
-				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/zvezda1.svg?v=2021-08-19T12:34:32.396Z"
 					width="150px"
 					height="150px"
 					position="absolute"
+					lg-top="-42px"
+					left="-70px"
+					top="-70px"
+					lg-height="100px"
+				/>
+				<Image
+					bottom="-80px"
+					lg-width="100px"
+					position="absolute"
+					width="150px"
+					height="150px"
 					left="auto"
 					right="-135px"
 					top="auto"
-					bottom="-80px"
 					transform="rotate(180deg)"
-					lg-width="100px"
 					lg-height="100px"
-					lg-bottom="-44px"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/zvezda1.svg?v=2021-08-19T12:34:32.396Z"
 					lg-right="-26px"
+					lg-bottom="-44px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
-					width="112%"
-					border-width="2px"
-					border-style="solid"
 					border-color="#6c757d2f"
 					border-radius="18px"
 					lg-width="100%"
 					loading="lazy"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_building_en.webp?v=2021-09-28T15:58:39.331Z"
+					width="112%"
+					border-width="2px"
+					border-style="solid"
 				/>
 			</Box>
 		</Section>
 		<Section padding="40px 0 80px 0" lg-flex-wrap="wrap-reverse">
 			<Override
 				slot="SectionContent"
-				flex-direction="row"
 				justify-content="space-between"
 				align-items="center"
 				lg-flex-wrap="wrap"
@@ -138,27 +137,28 @@ export default (() => {
 				lg-justify-content="flex-start"
 				max-width="1056px"
 				display="block"
+				flex-direction="row"
 			/>
-			<Box lg-display="flex" lg-justify-content="center" display="flex" flex-wrap="wrap">
+			<Box flex-wrap="wrap" lg-display="flex" lg-justify-content="center" display="flex">
 				<Box
+					lg-width="50%"
+					lg-flex-direction="column"
+					align-self="flex-start"
 					width="25%"
 					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
 					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
 					lg-margin="0px 0px 30px 0px"
 					md-width="100%"
-					align-self="flex-start"
 				>
 					<Icon
-						category="bs"
 						icon={BsColumnsGutters}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#4773ff"
+						category="bs"
 					/>
 					<Text
 						margin="0px 0px 0px 0px"
@@ -171,40 +171,40 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box
-					width="25%"
+					lg-width="50%"
 					display="flex"
 					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
-					lg-width="50%"
-					lg-flex-direction="column"
 					lg-margin="0px 0px 30px 0px"
 					md-width="100%"
 					align-self="flex-start"
+					width="25%"
+					align-items="flex-start"
+					lg-flex-direction="column"
 				>
 					<Icon
-						category="bs"
-						icon={BsWindow}
-						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#4773ff"
+						category="bs"
+						icon={BsWindow}
+						margin="0 0 18px 0"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead">
 						Thematic templates
 					</Text>
 				</Box>
 				<Box
+					padding="0px 20px 0px 0px"
+					lg-flex-direction="column"
+					lg-margin="0px 0px 30px 0px"
+					align-self="flex-start"
 					width="25%"
 					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
-					padding="0px 20px 0px 0px"
 					lg-width="50%"
-					lg-flex-direction="column"
-					lg-margin="0px 0px 30px 0px"
 					md-width="100%"
-					align-self="flex-start"
 				>
 					<Icon
 						category="bs"
@@ -219,24 +219,24 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box
-					width="25%"
 					display="flex"
-					flex-direction="column"
-					align-items="flex-start"
 					padding="0px 20px 0px 0px"
-					lg-width="50%"
 					lg-flex-direction="column"
-					md-width="100%"
 					md-margin="0px 0px 30px 0px"
 					align-self="flex-start"
+					width="25%"
+					align-items="flex-start"
+					lg-width="50%"
+					md-width="100%"
+					flex-direction="column"
 				>
 					<Icon
+						color="#4773ff"
 						category="bs"
 						icon={BsBell}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
-						color="#4773ff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--darkL1" font="--lead" width="95%">
 						Automatic notifications
@@ -247,10 +247,10 @@ export default (() => {
 		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0">
 			<Override
 				slot="SectionContent"
-				max-width="1056px"
 				flex-direction="row"
 				justify-content="space-between"
 				flex-wrap="wrap"
+				max-width="1056px"
 			/>
 			<Box
 				width="58.333%"
@@ -285,7 +285,7 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Box display="flex" flex-direction="column" margin="0px 60px 0px 0px">
-					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
+					<Text color="--darkL1" margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px">
 						350+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
@@ -293,7 +293,7 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" width="30%">
-					<Text margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px" color="--darkL1">
+					<Text color="--darkL1" margin="0px 0px 0px 0px" font="--headline1" letter-spacing="-1px">
 						40+
 					</Text>
 					<Text margin="0px 0px 0px 0px" font="--base" color="--dark">
@@ -302,86 +302,86 @@ export default (() => {
 				</Box>
 			</Box>
 			<Box
+				justify-content="center"
+				lg-width="100%"
 				width="66.667%"
 				margin="60px 0px 0px 0px"
 				display="flex"
 				padding="0px 15px 0px 15px"
 				position="relative"
 				align-items="center"
-				justify-content="center"
-				lg-width="100%"
 			>
 				<Image
+					lg-left="-43px"
+					sm-border-radius="6px"
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
+					left="-200px"
+					lg-bottom="30px"
+					top="175px"
+					sm-top="auto"
 					border-radius="18px"
 					position="absolute"
-					width="198px"
-					left="-200px"
 					right="auto"
+					sm-height="62.4062px"
+					sm-right="auto"
+					loading="lazy"
+					width="198px"
 					bottom="auto"
-					top="175px"
-					lg-bottom="30px"
+					sm-bottom="20px"
+					sm-width="100px"
+					sm-left="-11px"
 					lg-height="123.547px"
-					lg-left="-43px"
 					lg-right="auto"
 					lg-top="auto"
-					sm-width="100px"
-					sm-bottom="20px"
-					sm-height="62.4062px"
-					sm-left="-11px"
-					sm-right="auto"
-					sm-top="auto"
-					sm-border-radius="6px"
-					loading="lazy"
 				/>
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_taxi_en.webp?v=2021-10-03T16:49:39.407Z"
-					border-radius="18px"
-					position="absolute"
-					width="321px"
-					left="-355px"
 					right="auto"
-					bottom="-110px"
-					top="auto"
-					lg-bottom="-137px"
-					lg-height="231.375px"
 					lg-left="-92px"
 					lg-right="auto"
-					lg-top="auto"
-					lg-width="213px"
 					lg-display="none"
+					width="321px"
+					bottom="-110px"
+					lg-bottom="-137px"
+					lg-width="213px"
+					lg-top="auto"
 					loading="lazy"
+					border-radius="18px"
+					position="absolute"
+					left="-355px"
+					top="auto"
+					lg-height="231.375px"
 				/>
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Rv4eQizc8WwsricgTJGH.webp?v=2021-08-23T21:27:54.077Z"
-					border-radius="18px"
-					position="absolute"
-					width="324.2516153846154px"
-					left="302.46138461538465px"
-					right="77.2861px"
-					top="-82px"
 					bottom="252.27876923076923px"
-					sm-width="170px"
-					sm-bottom="auto"
-					sm-height="107.766px"
-					sm-left="auto"
-					sm-right="-11px"
 					sm-top="-44px"
-					sm-border-radius="6px"
 					loading="lazy"
 					height="204.71923076923076px"
+					border-radius="18px"
+					width="324.2516153846154px"
+					sm-bottom="auto"
+					left="302.46138461538465px"
+					top="-82px"
+					sm-height="107.766px"
+					position="absolute"
+					right="77.2861px"
+					sm-width="170px"
+					sm-left="auto"
+					sm-right="-11px"
+					sm-border-radius="6px"
 				/>
 				<Image src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_cat_en.webp?v=2021-09-28T16:00:01.205Z" border-radius="18px" sm-border-radius="6px" loading="lazy" />
 			</Box>
 			<Box
+				position="relative"
+				lg-width="100%"
 				width="33.333%"
 				margin="60px 0px 0px 0px"
 				display="flex"
 				padding="0px 15px 0px 15px"
 				justify-content="center"
 				align-items="center"
-				position="relative"
-				lg-width="100%"
 			>
 				<Image
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/f3yCqvj8B7pPrPwF2SU4.webp?v=2021-09-04T17:36:56.052Z"
@@ -391,88 +391,88 @@ export default (() => {
 					loading="lazy"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_exhibition_en.webp?v=2021-10-03T17:22:19.826Z"
-					border-radius="18px"
+					sm-right="auto"
+					bottom="auto"
 					width="300px"
 					position="absolute"
 					top="-127px"
-					right="-76px"
-					bottom="auto"
-					left="auto"
-					lg-bottom="auto"
-					lg-height="187.5px"
-					lg-left="auto"
 					lg-right="-42px"
-					lg-top="-45px"
+					sm-left="31px"
+					sm-height="96.25px"
+					loading="lazy"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_exhibition_en.webp?v=2021-10-03T17:22:19.826Z"
+					height="199.95px"
+					right="-76px"
+					lg-height="187.5px"
 					sm-width="154px"
 					sm-bottom="auto"
-					sm-left="31px"
-					sm-right="auto"
 					sm-top="-51px"
-					sm-height="96.25px"
 					sm-border-radius="6px"
-					loading="lazy"
-					height="199.95px"
+					border-radius="18px"
+					lg-bottom="auto"
+					lg-left="auto"
+					lg-top="-45px"
+					left="auto"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_en.webp?v=2021-10-04T19:25:32.838Z"
-					border-radius="18px"
+					sm-left="auto"
+					sm-border-radius="6px"
 					width="254.14285714285714px"
 					position="absolute"
+					lg-right="-11px"
+					lg-top="auto"
+					sm-height="auto"
+					sm-right="72px"
+					sm-width="132px"
 					top="344.417px"
 					right="-39px"
+					sm-bottom="-27px"
+					sm-top="auto"
+					loading="lazy"
 					bottom="-85px"
 					left="136.84014285714287px"
 					lg-bottom="-67px"
 					lg-height="154.625px"
 					lg-left="auto"
-					lg-right="-11px"
-					lg-top="auto"
-					sm-bottom="-27px"
-					sm-height="auto"
-					sm-left="auto"
-					sm-right="72px"
-					sm-top="auto"
-					sm-width="132px"
-					sm-border-radius="6px"
-					loading="lazy"
 					height="166.583px"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_service_en.webp?v=2021-10-04T19:25:32.838Z"
+					border-radius="18px"
 				/>
 				<Image
-					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
-					border-radius="18px"
-					width="192px"
-					position="absolute"
+					sm-border-radius="6px"
+					bottom="auto"
+					lg-left="200px"
+					sm-height="119.047px"
+					sm-right="-66px"
 					top="120px"
 					right="-200px"
-					bottom="auto"
-					left="auto"
-					lg-right="auto"
 					lg-bottom="auto"
-					lg-height="119.047px"
-					lg-left="200px"
 					lg-top="-46px"
 					sm-bottom="auto"
-					sm-height="119.047px"
 					sm-left="auto"
-					sm-right="-66px"
-					sm-top="-38px"
-					sm-border-radius="6px"
+					border-radius="18px"
+					position="absolute"
+					left="auto"
+					lg-right="auto"
 					loading="lazy"
+					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_psychologist_en.webp?v=2021-09-28T16:00:29.898Z"
+					width="192px"
+					lg-height="119.047px"
+					sm-top="-38px"
 				/>
 			</Box>
 		</Section>
 		<Section background="--color-secondary" padding="130px 0 130px 0" lg-padding="100px 0 100px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
+				margin="0px 25% 40px 0px"
+				lg-width="100%"
+				lg-margin="0px 0px 40px 0px"
 				width="75%"
 				display="flex"
 				flex-direction="column"
 				align-items="flex-start"
 				padding="0px 0px 0px 0px"
-				margin="0px 25% 40px 0px"
-				lg-width="100%"
-				lg-margin="0px 0px 40px 0px"
 			>
 				<Text
 					margin="0px 0px 15px 0px"
@@ -484,36 +484,36 @@ export default (() => {
 				>
 					Key Features for Creating Real Estate Development Company Websites
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="--base" color="--white">
+				<Text color="--white" margin="0px 0px 30px 0px" font="--base">
 					The built-in SEO wizard means you don’t need to hire web specialists to promote your site. You can build a page from ready-made blocks and widgets. Integration with external services is set up in just a few clicks
 				</Text>
 			</Box>
 			<Box
-				width="33.333%"
-				padding="0px 15px 0px 15px"
 				display="flex"
 				flex-direction="column"
 				justify-content="center"
 				lg-width="100%"
 				lg-flex-direction="row"
 				lg-flex-wrap="wrap"
+				width="33.333%"
+				padding="0px 15px 0px 15px"
 			>
 				<Box
-					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
 					lg-width="50%"
 					md-width="100%"
+					display="flex"
 				>
 					<Icon
-						category="bs"
-						icon={BsWindow}
-						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						category="bs"
+						icon={BsWindow}
+						margin="0 0 18px 0"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Thematic templates for real estate development companies
@@ -529,12 +529,12 @@ export default (() => {
 					md-width="100%"
 				>
 					<Icon
-						category="bs"
-						icon={BsPhone}
-						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						category="bs"
+						icon={BsPhone}
+						margin="0 0 18px 0"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Adaptive design
@@ -550,12 +550,12 @@ export default (() => {
 					md-width="100%"
 				>
 					<Icon
+						size="63px"
+						color="#ffffff"
 						category="bs"
 						icon={BsAt}
 						margin="0 0 18px 0"
 						align-items="center"
-						size="63px"
-						color="#ffffff"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Multi-page block with contacts
@@ -583,42 +583,42 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box
+					lg-width="50%"
+					md-width="100%"
 					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
 				>
 					<Icon
-						category="bs"
 						icon={BsBarChart}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						category="bs"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Built-in forms for collecting requests
 					</Text>
 				</Box>
 				<Box
+					lg-width="50%"
+					md-width="100%"
 					display="flex"
 					flex-direction="column"
 					align-items="flex-start"
 					padding="0px 20px 0px 0px"
 					margin="0px 0px 42px 0px"
-					lg-width="50%"
-					md-width="100%"
 				>
 					<Icon
-						category="bs"
 						icon={BsGraphUp}
 						margin="0 0 18px 0"
 						align-items="center"
 						size="63px"
 						color="#ffffff"
+						category="bs"
 					/>
 					<Text margin="0px 0px 0px 0px" color="--white" font="--lead">
 						Online chats, callback buttons
@@ -654,26 +654,26 @@ export default (() => {
 				lg-width="100%"
 			>
 				<Image
+					display="inline-block"
 					border-radius="18px"
 					box-shadow="0px 0px 35px 0px #00000040"
 					src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/FireShot%20Capture%20394%20-%20Home%20-%20efgrfg.ukit%201%281%29.webp?v=2021-10-05T15:35:39.361Z"
 					width="100%"
 					loading="lazy"
-					display="inline-block"
 				/>
 			</Box>
 		</Section>
 		<Section padding="130px 0 40px 0" color="--darkL1" md-padding="100px 0 20px 0">
-			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
+			<Override slot="SectionContent" flex-direction="row" max-width="1056px" flex-wrap="wrap" />
 			<Box
-				width="66.667%"
-				display="flex"
-				flex-direction="column"
-				align-items="flex-start"
 				padding="0px 15px 0px 15px"
 				margin="0px 33.333% 22px 0px"
 				lg-margin="0px 0px 22px 0px"
 				lg-width="100%"
+				width="66.667%"
+				display="flex"
+				flex-direction="column"
+				align-items="flex-start"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -685,47 +685,47 @@ export default (() => {
 				>
 					How to Create a Real Estate Development Company Website with uKit
 				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--darkL1">
+				<Text font="--base" color="--darkL1" margin="0px 0px 0px 0px">
 					Launching your own site is easy, even if you have no coding skills or other special knowledge. The process will take just a couple of hours. Simply follow the steps below:
 				</Text>
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
 				<Box
-					width="50%"
-					padding="0px 15px 0px 15px"
-					display="flex"
 					flex-direction="column"
 					justify-content="center"
 					align-items="flex-start"
 					md-width="100%"
+					width="50%"
+					padding="0px 15px 0px 15px"
+					display="flex"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/one.svg?v=2021-08-19T23:41:55.506Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Select a Template
 					</Text>
 					<Text
-						margin="0px 0px 24px 0px"
-						color="--dark"
 						font="--base"
 						width="84%"
 						md-width="100%"
+						margin="0px 0px 24px 0px"
+						color="--dark"
 					>
 						You’ll be able to choose from hundreds of ready-to-use thematic designs for different types of business websites, no matter if they’re one-page or multi-page. A template comes with meaningful content that illustrates where and what kind of content you should include. You can leave or customize the content, as you prefer. Color schemes and fonts can also be changed in just a few clicks
 					</Text>
 					<Link
-						href="https://ukit.com/neowizard#templates/all"
 						color="--white"
-						text-decoration-line="initial"
-						font="--lead"
-						padding="15px 25px 16px 25px"
 						margin="0px 0px 0px 0px"
-						border-width="1px"
-						border-style="solid"
-						border-color="--color-secondary"
 						border-radius="100px"
 						background="--color-secondary"
 						display="inline"
 						hover-background="linear-gradient(to right,#537cff,#537cff)"
+						border-color="--color-secondary"
+						href="https://ukit.com/neowizard#templates/all"
+						text-decoration-line="initial"
+						font="--lead"
+						padding="15px 25px 16px 25px"
+						border-width="1px"
+						border-style="solid"
 					>
 						See Templates
 					</Link>
@@ -742,18 +742,18 @@ export default (() => {
 				</Box>
 			</Box>
 			<Box
-				width="100%"
 				display="flex"
 				flex-wrap="wrap"
 				margin="40px 0px 40px 0px"
 				md-margin="0px 0px 40px 0px"
+				width="100%"
 			>
 				<Box
-					width="50%"
-					margin="0px 0px 0px 0px"
 					display="flex"
 					md-width="100%"
 					md-order="1"
+					width="50%"
+					margin="0px 0px 0px 0px"
 				>
 					<Image
 						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%2059.webp?v=2021-10-03T18:56:02.706Z"
@@ -765,7 +765,6 @@ export default (() => {
 					/>
 				</Box>
 				<Box
-					width="50%"
 					padding="0px 15px 0px 60px"
 					display="flex"
 					flex-direction="column"
@@ -773,6 +772,7 @@ export default (() => {
 					align-items="flex-start"
 					md-width="100%"
 					md-padding="0px 15px 0px 15px"
+					width="50%"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/two.svg?v=2021-08-19T23:46:45.698Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
@@ -806,15 +806,15 @@ export default (() => {
 					md-width="100%"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/three.svg?v=2021-08-19T23:48:35.499Z" margin="0px 0px 24px 0px" />
-					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
+					<Text font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif" margin="0px 0px 24px 0px" color="--darkL1">
 						Set Up Mobile and Tablet Versions
 					</Text>
 					<Text
-						margin="0px 0px 24px 0px"
-						color="--dark"
 						font="--base"
 						width="84%"
 						lg-width="100%"
+						margin="0px 0px 24px 0px"
+						color="--dark"
 					>
 						uKit adapts websites to all screens without user input. But if you want, you can hide individual elements or entire widgets, and customize the background and design separately for tablets or smartphones
 					</Text>
@@ -832,30 +832,30 @@ export default (() => {
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="40px 0px 40px 0px">
 				<Box
-					width="50%"
 					margin="0px 0px 0px 0px"
 					display="flex"
 					md-width="100%"
 					md-order="1"
+					width="50%"
 				>
 					<Image
-						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/domain_popup.webp?v=2021-10-22T13:51:39.652Z"
 						width="100%"
 						display="flex"
 						align-items="center"
 						justify-content="center"
 						loading="lazy"
+						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/domain_popup.webp?v=2021-10-22T13:51:39.652Z"
 					/>
 				</Box>
 				<Box
+					md-width="100%"
+					md-padding="0px 15px 0px 15px"
 					width="50%"
 					padding="0px 15px 0px 60px"
 					display="flex"
 					flex-direction="column"
 					justify-content="center"
 					align-items="flex-start"
-					md-width="100%"
-					md-padding="0px 15px 0px 15px"
 				>
 					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/four.svg?v=2021-08-19T23:50:40.052Z" margin="0px 0px 24px 0px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
@@ -880,29 +880,29 @@ export default (() => {
 				md-margin="0px 0px 0px 0px"
 			>
 				<Box
-					width="50%"
 					padding="0px 15px 0px 15px"
 					display="flex"
 					flex-direction="column"
 					justify-content="center"
 					align-items="flex-start"
 					md-width="100%"
+					width="50%"
 				>
-					<Image width="48px" height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" />
+					<Image height="48px" src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/five.svg?v=2021-08-19T23:51:49.573Z" margin="0px 0px 24px 0px" width="48px" />
 					<Text margin="0px 0px 24px 0px" color="--darkL1" font="--headline3" md-font="normal 500 26px/32px &quot;Inter&quot;, sans-serif">
 						Publish Your Site
 					</Text>
 					<Text
+						width="84%"
+						lg-width="100%"
 						margin="0px 0px 24px 0px"
 						color="--dark"
 						font="--base"
-						width="84%"
-						lg-width="100%"
 					>
 						As soon as you click the «Publish» button, the site becomes available to site visitors. Feel free to edit its content at any time: uKit allows you to keep up to 10 backups. If you do something wrong, just roll back to the correct version or undo the action in the editor with the «Back» button
 					</Text>
 				</Box>
-				<Box width="50%" margin="0px 0px 0px 0px" display="flex" md-width="100%">
+				<Box md-width="100%" width="50%" margin="0px 0px 0px 0px" display="flex">
 					<Image
 						src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/Group%2076.webp?v=2021-09-28T16:38:49.156Z"
 						width="100%"
@@ -914,17 +914,17 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="40px 0 130px 0" color="--darkL1" lg-padding="40px 0 100px 0" md-padding="40px 0 60px 0">
+		<Section md-padding="40px 0 60px 0" padding="40px 0 130px 0" color="--darkL1" lg-padding="40px 0 100px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
+				margin="0px 0px 22px 0px"
+				justify-content="center"
+				lg-padding="0px 0px 0px 0px"
 				width="100%"
 				display="flex"
 				flex-direction="column"
 				align-items="center"
 				padding="0px 190px 0px 190px"
-				margin="0px 0px 22px 0px"
-				justify-content="center"
-				lg-padding="0px 0px 0px 0px"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -940,45 +940,45 @@ export default (() => {
 					Don’t forget to add the site to search engines and take care of SEO promotion. You can check the site readiness in a special wizard. It will show you exactly what you need to change about your site to make sure you rank high in search results
 				</Text>
 				<Link
-					href="https://ukit.com/signUp"
+					border-color="--color-secondary"
+					border-radius="100px"
 					color="--white"
 					text-decoration-line="initial"
-					font="--lead"
 					padding="15px 25px 16px 25px"
 					margin="0px 0px 0px 0px"
 					border-width="1px"
 					border-style="solid"
-					border-color="--color-secondary"
-					border-radius="100px"
-					background="--color-secondary"
 					display="inline"
+					href="https://ukit.com/signUp"
+					font="--lead"
+					background="--color-secondary"
 					hover-background="linear-gradient(to right,#537cff,#537cff)"
 				>
 					Create a Website
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="130px 0 100px 0" background="--color-lightD1" lg-padding="100px 0 100px 0" md-padding="80px 0 100px 0">
+		<Section md-padding="80px 0 100px 0" padding="130px 0 100px 0" background="--color-lightD1" lg-padding="100px 0 100px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
-				width="100%"
-				display="flex"
 				flex-direction="column"
 				align-items="center"
 				padding="0px 190px 0px 190px"
+				width="100%"
+				display="flex"
 				margin="0px 0px 30px 0px"
 				justify-content="center"
 				lg-padding="0px 0px 0px 0px"
 				md-margin="0px 0px 20px 0px"
 			>
 				<Text
-					margin="0px 0px 24px 0px"
 					font="--headline1"
 					letter-spacing="-1px"
 					color="--darkL1"
 					text-align="center"
 					md-font="normal 700 36px/42px &quot;Inter&quot;, sans-serif"
 					as="h2"
+					margin="0px 0px 24px 0px"
 				>
 					What Else Can You Create with uKit?
 				</Text>
@@ -988,24 +988,24 @@ export default (() => {
 			</Box>
 			<Box width="100%" display="flex" flex-wrap="wrap" margin="36px 0px 30px 0px">
 				<Box
-					width="50%"
-					margin="0px 0px 0px 0px"
-					display="flex"
 					flex-direction="column"
 					padding="0px 15px 0px 0px"
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
+					width="50%"
+					margin="0px 0px 0px 0px"
+					display="flex"
 				>
-					<Link href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link text-decoration-line="initial" href="/lp/en/create-an-interior-design-portfolio" color="--darkL1" hover-color="--primary">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
-							width="100%"
 							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
 							margin="0px 0px 18px 0px"
 							loading="lazy"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_design_en.webp?v=2021-09-30T15:03:24.717Z"
+							width="100%"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
 							Interior Design Portfolio
@@ -1013,26 +1013,26 @@ export default (() => {
 					</Link>
 				</Box>
 				<Box
-					width="50%"
 					margin="0px 0px 0px 0px"
 					display="flex"
 					flex-direction="column"
 					padding="0px 0px 0px 15px"
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
+					width="50%"
 				>
-					<Link href="/lp/en/create-a-promo-website-for-your-business" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link color="--darkL1" hover-color="--primary" text-decoration-line="initial" href="/lp/en/create-a-promo-website-for-your-business">
 						<Image
+							margin="0px 0px 18px 0px"
+							loading="lazy"
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_abstract_en.webp?v=2021-09-28T15:59:44.719Z"
 							width="100%"
 							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
-							margin="0px 0px 18px 0px"
-							loading="lazy"
 						/>
-						<Text margin="0px 0px 0px 0px" font="--lead">
+						<Text font="--lead" margin="0px 0px 0px 0px">
 							Promo Website for Your Business
 						</Text>
 					</Link>
@@ -1056,41 +1056,41 @@ export default (() => {
 				>
 					<Link href="/lp/en/create-a-landing-page" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
-							width="100%"
-							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
 							margin="0px 0px 18px 0px"
 							loading="lazy"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_fastfood_en.webp?v=2021-10-03T16:49:03.527Z"
+							width="100%"
+							display="flex"
 						/>
-						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
+						<Text font="--lead" md-margin="0px 0px 30px 0px" margin="0px 0px 0px 0px">
 							{" "}Landing Page
 						</Text>
 					</Link>
 				</Box>
 				<Box
-					width="50%"
-					margin="0px 0px 0px 0px"
-					display="flex"
 					flex-direction="column"
 					padding="0px 0px 0px 15px"
 					md-width="100%"
 					md-padding="0px 0px 0px 0px"
+					width="50%"
+					margin="0px 0px 0px 0px"
+					display="flex"
 				>
-					<Link href="/lp/en/create-a-real-estate-development-company-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link hover-color="--primary" text-decoration-line="initial" href="/lp/en/create-a-real-estate-development-company-website" color="--darkL1">
 						<Image
-							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
-							width="100%"
-							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
 							margin="0px 0px 18px 0px"
 							loading="lazy"
+							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_decor_en.webp?v=2021-09-28T16:08:13.810Z"
+							width="100%"
+							display="flex"
 						/>
-						<Text margin="0px 0px 0px 0px" font="--lead">
+						<Text font="--lead" margin="0px 0px 0px 0px">
 							Real Estate Development Company Website
 						</Text>
 					</Link>
@@ -1114,14 +1114,14 @@ export default (() => {
 				>
 					<Link href="/lp/en/create-a-lawyer-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
 						<Image
+							margin="0px 0px 18px 0px"
+							loading="lazy"
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_autolaw_en.webp?v=2021-09-29T12:17:58.595Z"
 							width="100%"
 							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
-							margin="0px 0px 18px 0px"
-							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead" md-margin="0px 0px 30px 0px">
 							Lawyer Website
@@ -1129,24 +1129,24 @@ export default (() => {
 					</Link>
 				</Box>
 				<Box
+					md-width="100%"
+					md-padding="0px 0px 0px 0px"
 					width="50%"
 					margin="0px 0px 0px 0px"
 					display="flex"
 					flex-direction="column"
 					padding="0px 0px 0px 15px"
-					md-width="100%"
-					md-padding="0px 0px 0px 0px"
 				>
-					<Link href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary" text-decoration-line="initial">
+					<Link text-decoration-line="initial" href="/lp/en/create-a-dental-clinic-website" color="--darkL1" hover-color="--primary">
 						<Image
+							margin="0px 0px 18px 0px"
+							loading="lazy"
 							src="https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/new_medicine_en.webp?v=2021-09-28T16:16:02.493Z"
 							width="100%"
 							display="flex"
 							align-items="center"
 							justify-content="center"
 							border-radius="18px"
-							margin="0px 0px 18px 0px"
-							loading="lazy"
 						/>
 						<Text margin="0px 0px 0px 0px" font="--lead">
 							Dental Clinic Website
@@ -1158,14 +1158,14 @@ export default (() => {
 		<Section padding="130px 0 130px 0" color="--darkL1" background="--color-secondary" lg-padding="100px 0 100px 0">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
-				width="100%"
-				display="flex"
-				flex-direction="column"
 				align-items="center"
 				padding="0px 190px 0px 190px"
 				margin="0px 0px 22px 0px"
 				justify-content="center"
 				lg-padding="0px 0px 0px 0px"
+				width="100%"
+				display="flex"
+				flex-direction="column"
 			>
 				<Text
 					margin="0px 0px 24px 0px"
@@ -1179,34 +1179,34 @@ export default (() => {
 				>
 					Create a Real Estate Development Company Website with uKit
 				</Text>
-				<Text margin="0px 0px 36px 0px" font="--lead" color="--lightD1" text-align="center">
+				<Text text-align="center" margin="0px 0px 36px 0px" font="--lead" color="--lightD1">
 					Start using the platform without any obligation or prepayment. Check out the builder templates and functionality right now for free
 					<Link
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
 						href="https://ukit.com/ru/signup"
 						overflow-wrap="normal"
 						word-break="normal"
 						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
 					>
 						<br />
 					</Link>
 				</Text>
 				<Link
-					href="https://ukit.com/signUp"
 					color="--secondary"
-					text-decoration-line="initial"
-					font="--lead"
-					padding="15px 25px 16px 25px"
-					margin="0px 0px 0px 0px"
-					border-width="1px"
-					border-style="solid"
 					border-color="--color-secondary"
 					border-radius="100px"
 					display="inline"
 					background="--color-white"
 					hover-background="--color-lightD1"
+					border-style="solid"
+					href="https://ukit.com/signUp"
+					text-decoration-line="initial"
+					font="--lead"
+					padding="15px 25px 16px 25px"
+					margin="0px 0px 0px 0px"
+					border-width="1px"
 				>
 					Try for Free
 				</Link>
@@ -1214,6 +1214,12 @@ export default (() => {
 		</Section>
 		<Components.EnFooter />
 		<RawHtml>
+			<script async={true} place={"endOfHead"} rawKey={"61546ad90ff1ad7e45a80d2c"}>
+				{"(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N7L44LR');"}
+			</script>
+			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
+				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
+			</script>
 			<style place={"endOfHead"} rawKey={"611e3e5f17f5d1001e31a361"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
@@ -1224,19 +1230,13 @@ export default (() => {
 				{"/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 100;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 200;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 600;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 700;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 800;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 900;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}"}
 			</style>
 			<script
+				type={""}
 				async={true}
 				src={""}
-				type={""}
 				place={"endOfHead"}
 				rawKey={"61433fb2d64a419fdbb2bf13"}
 			>
 				{"var uKitAnalytics = (function() {\n\tvar uKitAnalyticsClass = function () {\n\t\tthis.urlAPI = 'https://ukit.com/api/ukitanalitics.gif';\n\t\tthis.guestId = '60789dbe42133a76c73b4fff';\n\t\tthis.historyId = '61433f88d23fb3200498f32d';\n\t\t\n\t\tthis.setCookie = function (name, value, ms) {\n\t\t\tvar expires = '';\n\t\t\tif (ms) {\n\t\t\t\tvar dt = new Date();\n\t\t\t\tdt.setDate(dt.getTime() + ms);\n\t\t\t\texpires = '; expires=' + dt.toUTCString();\n\t\t\t}\n\t\t\t\n\t\t\tdocument.cookie = name + '=' + value + expires + '; path=/';\n\t\t};\n\t\t\n\t\tthis.getCookie = function (name) {\n\t\t\tvar nameEQ = name + '=';\n\t\t\tvar ca = document.cookie.split(';');\n\t\t\tfor (var i = 0; i < ca.length; i++) {\n\t\t\t\tvar c = ca[i];\n\t\t\t\twhile (c.charAt(0) == ' ') c = c.substring(1, c.length);\n\t\t\t\tif (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);\n\t\t\t}\n\t\t\t\n\t\t\treturn null;\n\t\t};\n\t\t\n\t\tthis.updateVisit = function () {\n\t\t\tvar self = this;\n\t\t\t\n\t\t\tvar anticache = Date.now();\n\t\t\t\n\t\t\tvar uKitAnaliticsGif = new Image();\n\t\t\tuKitAnaliticsGif.onload = function () {\n\t\t\t\t\n\t\t\t};\n\t\t\t\n\t\t\tuKitAnaliticsGif.src = self.urlAPI + '?guestId=' + self.guestId + '&historyId=' + self.historyId + '&anticache=' + anticache;\n\t\t};\n\t\t\n\t\tthis.addVisit = function () {\n\t\t\tvar self = this;\n\t\t\t\n\t\t\tvar anticache = Date.now();\n\t\t\t\n\t\t\tvar uKitAnaliticsGif = new Image();\n\t\t\tuKitAnaliticsGif.onload = function () {\n\t\t\t\t\n\t\t\t};\n\t\t\t\n\t\t\tvar referer = encodeURIComponent(document.referrer + (document.location.search.length > 1 ? ('?' + document.location.search.substr(1)) : ''));\n\t\t\tvar location = encodeURIComponent(window.location.href);\n\t\t\tvar landing = encodeURIComponent(window.location.hostname + window.location.pathname);\n\t\t\t\n\t\t\tuKitAnaliticsGif.src = self.urlAPI + '?guestId=' + self.guestId + '&historyId=' + self.historyId + '&referer=' + referer + '&location=' + location + '&landing=' + landing + '&anticache=' + anticache;\n\t\t};\n\t\t\n\t\tthis.init = function () {\n\t\t\tvar self = this;\n\t\t\t\n\t\t\tif (self.getCookie('uKitAnalyticsSO') != null) {\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t\n\t\t\tself.setCookie('uKitAnalytics', '@' + self.guestId);\n\t\t\tself.setCookie('uKitAnalyticsSO', true);\n\t\t\t\n\t\t\tself.addVisit();\n\t\t\t\n\t\t\t/*\n\t\t\twindow.addEventListener('focus', function (event) {\n\t\t\t\tself.updateVisit();\n\t\t\t}, false);\n\t\t\t*/\n\t\t};\n\t};\n\t\n\tvar uKitAnalyticsObj = new uKitAnalyticsClass();\n\tuKitAnalyticsObj.init();\n\t\n\treturn uKitAnalyticsObj;\n})();"}
-			</script>
-			<script async={true} place={"endOfHead"} rawKey={"61546ad90ff1ad7e45a80d2c"}>
-				{"(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N7L44LR');"}
-			</script>
-			<script async={true} place={"endOfBody"} rawKey={"61546afc558d30d91557a10e"}>
-				{"<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7L44LR\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"}
 			</script>
 			<link rel={"canonical"} href={"/lp/en/create-a-real-estate-development-company-website/"} place={"endOfHead"} rawKey={"615c7608df089181a52fdb0a"} />
 		</RawHtml>
