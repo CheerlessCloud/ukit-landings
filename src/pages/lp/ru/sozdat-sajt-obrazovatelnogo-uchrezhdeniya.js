@@ -20,7 +20,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
 		<Components.RuHeader />
-		<Section lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px" padding="84px 0 100px 0">
+		<Section lg-padding="48px 15px 100px 15px" md-padding="60px 15px 50px 15px" padding="84px 0 100px 0" lg-overflow-x="hidden">
 			<Override
 				slot="SectionContent"
 				align-items="center"
@@ -125,7 +125,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="40px 0 80px 0">
+		<Section padding="40px 0 80px 0" lg-overflow-x="hidden">
 			<Override
 				slot="SectionContent"
 				lg-justify-content="flex-start"
@@ -262,7 +262,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0">
+		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0" lg-overflow-x="hidden">
 			<Override
 				slot="SectionContent"
 				flex-direction="row"
@@ -480,7 +480,7 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section padding="130px 0 130px 0" lg-padding="100px 0 100px 0" background="--color-secondary">
+		<Section padding="130px 0 130px 0" lg-padding="100px 0 100px 0" background="--color-secondary" lg-overflow-x="hidden">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
 				margin="0px 15% 40px 15%"
@@ -786,7 +786,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="130px 0 40px 0" color="--darkL1" md-padding="100px 0 20px 0">
+		<Section padding="130px 0 40px 0" color="--darkL1" md-padding="100px 0 20px 0" lg-overflow-x="hidden">
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
 				width="66.667%"
@@ -1037,7 +1037,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="40px 0 130px 0" color="--darkL1" lg-padding="40px 0 100px 0" md-padding="40px 0 60px 0">
+		<Section
+			padding="40px 0 130px 0"
+			color="--darkL1"
+			lg-padding="40px 0 100px 0"
+			md-padding="40px 0 60px 0"
+			lg-overflow-x="hidden"
+		>
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
 				align-items="center"
@@ -1081,7 +1087,13 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section padding="130px 0 100px 0" background="--color-lightD1" lg-padding="100px 0 100px 0" md-padding="80px 0 100px 0">
+		<Section
+			padding="130px 0 100px 0"
+			background="--color-lightD1"
+			lg-padding="100px 0 100px 0"
+			md-padding="80px 0 100px 0"
+			lg-overflow-x="hidden"
+		>
 			<Override slot="SectionContent" max-width="1056px" flex-wrap="wrap" flex-direction="row" />
 			<Box
 				width="100%"
@@ -1280,7 +1292,13 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section color="--darkL1" background="--color-secondary" lg-padding="100px 0 100px 0" padding="130px 0 130px 0">
+		<Section
+			color="--darkL1"
+			background="--color-secondary"
+			lg-padding="100px 0 100px 0"
+			padding="130px 0 130px 0"
+			lg-overflow-x="hidden"
+		>
 			<Override slot="SectionContent" flex-wrap="wrap" flex-direction="row" max-width="1056px" />
 			<Box
 				lg-padding="0px 0px 0px 0px"

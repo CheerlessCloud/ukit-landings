@@ -7,7 +7,7 @@ import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"index"} />
+		<GlobalQuarklyPageStyles pageUrl={"pt-br"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -16,79 +16,15 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/611e3e5f17f5d1001e31a363/images/favicon.png?v=2021-08-20T04:41:32.122Z"} type={"image/x-icon"} />
 			<meta name={"msapplication-TileColor"} content={"#4773FF"} />
 		</Helmet>
-		<Components.RuHeader lazy-load>
-			<Override slot="link4" />
-		</Components.RuHeader>
-		<Components.EnHeader />
-		<Components.HeaderNl />
-		<Components.HeaderPl>
-			<Override slot="link" />
-			<Override slot="link2">
-				Cennik
+		<Components.PtBrHeader />
+		<Components.SitemapPageContent>
+			<Override slot="text">
+				Soluções prontas
 			</Override>
-			<Override slot="link3">
-				Zaloguj się
-			</Override>
-			<Override slot="link4">
-				Stwórz witrynę
-			</Override>
-			<Override slot="link1">
-				Dlaczego warto nas wybrać?
-			</Override>
-		</Components.HeaderPl>
-		<Components.RoHeader>
-			<Override slot="link1">
-				De ce noi?
-			</Override>
-			<Override slot="link2">
-				Tarife
-			</Override>
-			<Override slot="link3">
-				Autentificare
-			</Override>
-			<Override slot="link4">
-				Începeți acum!
-			</Override>
-		</Components.RoHeader>
-		<Components.PtBrHeader>
-			<Override slot="link1">
-				Por que nos escolher?
-			</Override>
-			<Override slot="link2">
-				Preços
-			</Override>
-			<Override slot="link3">
-				Entrar
-			</Override>
-			<Override slot="link4">
-				Crie seu site
-			</Override>
-		</Components.PtBrHeader>
-		<Components.RuFooter>
-			<Override slot="link8" />
-		</Components.RuFooter>
-		<Components.EnFooter>
-			<Override slot="link8" />
-		</Components.EnFooter>
-		<Components.FooterNl>
-			<Override slot="link8" />
-		</Components.FooterNl>
-		<Components.FooterPl>
-			<Override slot="link4" />
-			<Override slot="link5" />
-			<Override slot="link6" />
-			<Override slot="link8" />
-			<Override slot="link" />
-			<Override slot="link1" />
-			<Override slot="link3" />
-			<Override slot="link7" />
-			<Override slot="link2" />
-		</Components.FooterPl>
-		<Components.RoFooter />
-		<Components.PtBrFooter>
-			<Override slot="link8" />
-		</Components.PtBrFooter>
-		<Components.Perelink />
+			<Override slot="mymenu" rootId="61e8340e09ae430021b38621" />
+			<Override slot="SectionContent" min-height="calc(100vh - 300px)" />
+		</Components.SitemapPageContent>
+		<Components.PtBrFooter />
 		<RawHtml>
 			<script async={true} place={"endOfHead"} rawKey={"61546ad90ff1ad7e45a80d2c"}>
 				{"(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N7L44LR');"}

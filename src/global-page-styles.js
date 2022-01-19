@@ -1163,6 +1163,14 @@ const pageStyles = {
         "min-height": "",
         "width": ""
     },
+    "pt-br": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
     "experiments": {
         "font": "--headline1",
         "overflow-x": "hidden",

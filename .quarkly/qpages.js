@@ -143,6 +143,7 @@ module.exports = [
 	"/lp/nl/promotiewebsitebouwer/",
 	"/lp/nl/bouwer-voor-landingspaginas/",
 	"/lp/nl/hoeveel-kost-het-om-een-website-te-maken/",
+	"/pt-br/",
 	"/experiments/",
 	"/404/",
 	"/",

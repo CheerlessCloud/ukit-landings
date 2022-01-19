@@ -1,49 +1,5 @@
 export default {
 	"pages": {
-		"61c2f616af1c3b0022f95a0c": {
-			"pageUrl": "creeer-een-website-voor-uw-advocatenbureau",
-			"seo": {
-				"og:description": "Geen briefings, geen vervelende goedkeuringen, geen wachttijden - met uKit kunt u zelf een website maken zonder tussenpersonen. Gebruiksklare thematische sjablonen, onbeperkte hosting en sms-berichten.",
-				"title": "Creëer een website voor uw advocatenbureau — uKit. Website builder for business",
-				"og:title": "Creëer een website voor uw advocatenbureau — uKit. Website builder for business",
-				"description": "Geen briefings, geen vervelende goedkeuringen, geen wachttijden - met uKit kunt u zelf een website maken zonder tussenpersonen. Gebruiksklare thematische sjablonen, onbeperkte hosting en sms-berichten."
-			},
-			"customCode": {
-				"615b3f42fb549cd81aefa1fc": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"href": "/lp/nl/creeer-een-website-voor-uw-advocatenbureau/",
-						"rel": "canonical"
-					}
-				}
-			},
-			"id": "61c2f616af1c3b0022f95a0c",
-			"name": "Creëer een website voor uw advocatenbureau"
-		},
-		"61c33586d67aa7001e20f38c": {
-			"pageUrl": "creeer-een-website-voor-online-cursussen",
-			"seo": {
-				"og:description": "Maak uw site met geïntegreerde online betaling - u heeft geen web profs nodig, u kunt het zelf doen. Een onbeperkt aantal pagina's en hosting, gratis sms-berichten",
-				"title": "Creëer een website voor online cursussen — uKit. Website builder for business",
-				"og:title": "Creëer een website voor online cursussen — uKit. Website builder for business",
-				"description": "Maak uw site met geïntegreerde online betaling - u heeft geen web profs nodig, u kunt het zelf doen. Een onbeperkt aantal pagina's en hosting, gratis sms-berichten"
-			},
-			"customCode": {
-				"6189577c5780a3b1ef1386aa": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-online-cursussen/"
-					}
-				}
-			},
-			"id": "61c33586d67aa7001e20f38c",
-			"name": "Creëer een website voor online cursussen"
-		},
 		"6175b97d1f4350001e45d329": {
 			"id": "6175b97d1f4350001e45d329",
 			"pageUrl": "konstruktor-lendingov",
@@ -131,28 +87,6 @@ export default {
 			},
 			"id": "61b892203e6bba001ed240f6",
 			"name": "Constructor de pagini web"
-		},
-		"61c33d379ff3b4001e2bc39c": {
-			"pageUrl": "creeer-een-website-voor-onderwijsinstellingen",
-			"seo": {
-				"og:description": "De uKit websitebouwer is perfect voor vele taken, waaronder het bouwen van websites voor onderwijsinstellingen: kleuterscholen, scholen, voorbereidende scholen, beroepsscholen, hogescholen, online scholen, enz. Dit kunnen zowel commerciële als niet-commerciële instellingen zijn.",
-				"title": "Creëer een website voor onderwijsinstellingen — uKit. Website builder for business",
-				"og:title": "Creëer een website voor onderwijsinstellingen — uKit. Website builder for business",
-				"description": "De uKit websitebouwer is perfect voor vele taken, waaronder het bouwen van websites voor onderwijsinstellingen: kleuterscholen, scholen, voorbereidende scholen, beroepsscholen, hogescholen, online scholen, enz. Dit kunnen zowel commerciële als niet-commerciële instellingen zijn."
-			},
-			"customCode": {
-				"6159e1df2c3a9db666910452": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"href": "/lp/nl/creeer-een-website-voor-onderwijsinstellingen/",
-						"rel": "canonical"
-					}
-				}
-			},
-			"id": "61c33d379ff3b4001e2bc39c",
-			"name": "Creëer een website voor onderwijsinstellingen"
 		},
 		"615b3b4c7514e1001f25c593": {
 			"id": "615b3b4c7514e1001f25c593",
@@ -285,28 +219,6 @@ export default {
 			},
 			"id": "61b6648c57f261001eb8da64",
 			"name": "Utwórz witrynę nauczyciela"
-		},
-		"61c38307526954001ed09a95": {
-			"pageUrl": "websitebouwer-software",
-			"seo": {
-				"title": "Websitebouwer software — uKit. Website builder for business",
-				"og:title": "Websitebouwer software — uKit. Website builder for business",
-				"description": "De uKit bouwer is veel handiger en gebruiksvriendelijker dan de klassieke programma's voor het bouwen van websites. Je hoeft het niet op je PC te installeren of updates bij te houden. De editor werkt in elke moderne browser. Je maakt pagina's door standaardblocks erin te slepen. Er worden gratis onbeperkte hosting en een heleboel extra tools voor promotie aangeboden. Er zijn ook integraties met externe diensten zoals mailingsystemen, en ook sms-berichten over de formulieren.",
-				"og:description": "De uKit bouwer is veel handiger en gebruiksvriendelijker dan de klassieke programma's voor het bouwen van websites. Je hoeft het niet op je PC te installeren of updates bij te houden. De editor werkt in elke moderne browser. Je maakt pagina's door standaardblocks erin te slepen. Er worden gratis onbeperkte hosting en een heleboel extra tools voor promotie aangeboden. Er zijn ook integraties met externe diensten zoals mailingsystemen, en ook sms-berichten over de formulieren."
-			},
-			"customCode": {
-				"619eaf31ebfccf160983001e": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/websitebouwer-software/"
-					}
-				}
-			},
-			"id": "61c38307526954001ed09a95",
-			"name": "Websitebouwer software"
 		},
 		"6137084517f5d1001e31c03a": {
 			"customCode": {
@@ -464,50 +376,6 @@ export default {
 			"id": "61b65a16c23b4f001e5d3363",
 			"name": "Utwórz stronę internetową firmy deweloperskiej"
 		},
-		"61c3255eaf1c3b0022f95d31": {
-			"name": "Creëer een website voor tutors",
-			"pageUrl": "creeer-een-website-voor-tutors",
-			"customCode": {
-				"615b1bf9e0da58b40567450a": {
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-tutors/"
-					},
-					"name": "canonical"
-				}
-			},
-			"seo": {
-				"title": "Creëer een website voor tutors — uKit. Website builder for business",
-				"description": "Gebruiksklare thematische ontwerpen, gratis HTTPS-protocollen, volledige set SEO-attributen, onbeperkte hosting, sms-berichten over verzoeken van uw site, en een gemakkelijk te navigeren visuele interface",
-				"og:title": "Creëer een website voor tutors — uKit. Website builder for business",
-				"og:description": "Gebruiksklare thematische ontwerpen, gratis HTTPS-protocollen, volledige set SEO-attributen, onbeperkte hosting, sms-berichten over verzoeken van uw site, en een gemakkelijk te navigeren visuele interface"
-			},
-			"id": "61c3255eaf1c3b0022f95d31"
-		},
-		"61c388aed67aa7001e20f9f4": {
-			"pageUrl": "creeer-een-ontwikkelaarsportefeuille",
-			"seo": {
-				"og:description": "Geen tijd om te programmeren? Geen ontwerpideeën? Geen probleem - u kunt uw portfolio snel opbouwen met uKit: een rijke kant-en-klare sjabloonbibliotheek, een eenvoudige en handige visuele editor, en volledig onbeperkte hosting",
-				"title": "Creëer een ontwikkelaarsportefeuille — uKit. Website builder for business",
-				"og:title": "Creëer een ontwikkelaarsportefeuille — uKit. Website builder for business",
-				"description": "Geen tijd om te programmeren? Geen ontwerpideeën? Geen probleem - u kunt uw portfolio snel opbouwen met uKit: een rijke kant-en-klare sjabloonbibliotheek, een eenvoudige en handige visuele editor, en volledig onbeperkte hosting"
-			},
-			"customCode": {
-				"617ea5961822ad90071748f2": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-ontwikkelaarsportefeuille/"
-					}
-				}
-			},
-			"id": "61c388aed67aa7001e20f9f4",
-			"name": "Creëer een ontwikkelaarsportefeuille"
-		},
 		"611e3e5f17f5d1001e31a366": {
 			"id": "611e3e5f17f5d1001e31a366",
 			"name": "404",
@@ -600,50 +468,6 @@ export default {
 			},
 			"id": "61b88e283e6bba001ed2407f",
 			"name": "Creator de portofoliu"
-		},
-		"61c354eafac617001f347b36": {
-			"id": "61c354eafac617001f347b36",
-			"name": "Hosting met een websitebouwer",
-			"pageUrl": "hosting-met-een-websitebouwer",
-			"seo": {
-				"og:description": "De meeste online sitebouwers en hostingdiensten beperken de serverresources die ze verbruiken. Maar uKit niet. Met uKit krijgt u onbeperkte hosting, netwerkverkeer, en een onbeperkt aantal pagina's op elk plan",
-				"title": "Hosting met een websitebouwer— uKit. Website builder for business",
-				"og:title": "Hosting met een websitebouwer — uKit. Website builder for business",
-				"description": "De meeste online sitebouwers en hostingdiensten beperken de serverresources die ze verbruiken. Maar uKit niet. Met uKit krijgt u onbeperkte hosting, netwerkverkeer, en een onbeperkt aantal pagina's op elk plan"
-			},
-			"customCode": {
-				"618949d47201cf80544b2a0f": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/hosting-met-een-websitebouwer/"
-					}
-				}
-			}
-		},
-		"61c39bb6fac617001f348265": {
-			"pageUrl": "bouwer-voor-landingspaginas",
-			"seo": {
-				"title": "uKit - Editor voor landingspagina's",
-				"og:title": "uKit - Editor voor landingspagina's",
-				"description": "Heb je een doeltreffende landingspagina nodig met online betaalmogelijkheden, inzameling van formulieren, of andere functies? Maar wil je liever geen geld uitgeven aan ontwikkelaars, designers, en andere specialisten? uKit is een uitstekend platform om websites en landingspagina's te maken. Een visuele, intuïtieve editor en SEO-tools voor promotie, en dat alles op één plaats. ",
-				"og:description": "Heb je een doeltreffende landingspagina nodig met online betaalmogelijkheden, inzameling van formulieren, of andere functies? Maar wil je liever geen geld uitgeven aan ontwikkelaars, designers, en andere specialisten? uKit is een uitstekend platform om websites en landingspagina's te maken. Een visuele, intuïtieve editor en SEO-tools voor promotie, en dat alles op één plaats. "
-			},
-			"customCode": {
-				"6175bd8c9a4614335db50adb": {
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/bouwer-voor-landingspaginas/"
-					},
-					"name": "canonical",
-					"place": "endOfHead"
-				}
-			},
-			"id": "61c39bb6fac617001f348265",
-			"name": "Bouwer voor landingspagina's"
 		},
 		"6151ac9c29a0a1001e6c8fb1": {
 			"id": "6151ac9c29a0a1001e6c8fb1",
@@ -785,28 +609,6 @@ export default {
 			},
 			"id": "61b7b542c23b4f001e5d4501",
 			"name": "Hosting z Kreatorem Stron"
-		},
-		"61c2fe86f6137a001eb343ce": {
-			"name": "Creëer een website voor juridische adviseurs",
-			"pageUrl": "creeer-een-website-voor-juridische-adviseurs",
-			"seo": {
-				"og:description": "U kunt zelf een mooie, aanpasbare en functionele website bouwen. Alles wat u hiervoor nodig heeft is uKit. U hoeft geen programmeur te zijn of over andere speciale vaardigheden te beschikken: het platform biedt kant-en-klare sjablonen, widgets en andere elementen, plus een handige online bouwer en een heleboel extra diensten.",
-				"title": "Creëer een website voor juridische adviseurs — uKit. Website builder for business",
-				"og:title": "Creëer een website voor juridische adviseurs — uKit. Website builder for business",
-				"description": "U kunt zelf een mooie, aanpasbare en functionele website bouwen. Alles wat u hiervoor nodig heeft is uKit. U hoeft geen programmeur te zijn of over andere speciale vaardigheden te beschikken: het platform biedt kant-en-klare sjablonen, widgets en andere elementen, plus een handige online bouwer en een heleboel extra diensten."
-			},
-			"customCode": {
-				"615c6a7964d240d94e4df747": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-juridische-adviseurs/"
-					}
-				}
-			},
-			"id": "61c2fe86f6137a001eb343ce"
 		},
 		"615dd9f27f2b1f001fa0abe9": {
 			"id": "615dd9f27f2b1f001fa0abe9",
@@ -1153,50 +955,6 @@ export default {
 			},
 			"id": "618951ff29a0a1001e6cc35c"
 		},
-		"61c3155feb532f001e06ca2d": {
-			"pageUrl": "creeer-een-portfolio-voor-interieurontwerp",
-			"seo": {
-				"title": "Creëer een portfolio voor interieurontwerp — uKit. Website builder for business",
-				"og:title": "Creëer een portfolio voor interieurontwerp — uKit. Website builder for business",
-				"description": "Het is nog nooit zo makkelijk geweest, gebruik gewoon uKit. Onbeperkte hosting, kant-en-klare sjablonen, en een gebruiksvriendelijke editor. U kunt alles zelf doen zonder externe webspecialisten in te huren.",
-				"og:description": "Het is nog nooit zo makkelijk geweest, gebruik gewoon uKit. Onbeperkte hosting, kant-en-klare sjablonen, en een gebruiksvriendelijke editor. U kunt alles zelf doen zonder externe webspecialisten in te huren."
-			},
-			"customCode": {
-				"6159dd49eca9df435759a9f6": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"href": "/lp/nl/creeer-een-portfolio-voor-interieurontwerp/",
-						"rel": "canonical"
-					}
-				}
-			},
-			"id": "61c3155feb532f001e06ca2d",
-			"name": "Creëer een portfolio voor interieurontwerp"
-		},
-		"61c364c39ff3b4001e2bc78c": {
-			"pageUrl": "creeer-een-website-voor-psychologen-of-psychotherapeuten",
-			"seo": {
-				"title": "Creëer een website voor psychologen of psychotherapeuten — uKit. Website builder for business",
-				"og:title": "Creëer een website voor psychologen of psychotherapeuten — uKit. Website builder for business",
-				"description": "Als u overweegt uw eigen site te maken, kies dan uKit, en u zult geen specialisten van derden hoeven in te huren. Het is snel en gemakkelijk te gebruiken: een gebruikersvriendelijke bouwer, kant-en-klare sjablonen, en onbeperkte hosting",
-				"og:description": "Als u overweegt uw eigen site te maken, kies dan uKit, en u zult geen specialisten van derden hoeven in te huren. Het is snel en gemakkelijk te gebruiken: een gebruikersvriendelijke bouwer, kant-en-klare sjablonen, en onbeperkte hosting"
-			},
-			"customCode": {
-				"618967ad06ff7e3a61cc6158": {
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-psychologen-of-psychotherapeuten/"
-					},
-					"name": "canonical",
-					"place": "endOfHead"
-				}
-			},
-			"id": "61c364c39ff3b4001e2bc78c",
-			"name": "Creëer een website voor psychologen of psychotherapeuten"
-		},
 		"6140529929a0a1001e6c7f0e": {
 			"id": "6140529929a0a1001e6c7f0e",
 			"pageUrl": "sozdat-sajt-advokata",
@@ -1242,50 +1000,6 @@ export default {
 				}
 			}
 		},
-		"61c2ec81f6137a001eb34219": {
-			"seo": {
-				"og:title": "Creëer een landingspagina — uKit. Website builder for business",
-				"description": "Kant-en-klare templates, een breed scala aan thematische categorieën en ontwerpelementen, meldingen van formulieren, integraties, onbeperkte hosting.\nCreëer zelf een landingspagina in een paar uur",
-				"og:description": "Kant-en-klare templates, een breed scala aan thematische categorieën en ontwerpelementen, meldingen van formulieren, integraties, onbeperkte hosting.\nCreëer zelf een landingspagina in een paar uur",
-				"title": "Creëer een landingspagina — uKit. Website builder for business"
-			},
-			"customCode": {
-				"6153428713a22cefa64c1f19": {
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-landingspagina/"
-					},
-					"name": "canonical",
-					"place": "endOfHead"
-				}
-			},
-			"id": "61c2ec81f6137a001eb34219",
-			"name": "Creëer een landingspagina",
-			"pageUrl": "creeer-een-landingspagina"
-		},
-		"61c39897af1c3b0022f9687f": {
-			"pageUrl": "promotiewebsitebouwer",
-			"seo": {
-				"title": "uKit - Promotiewebsitebouwer",
-				"og:title": "uKit - Promotiewebsitebouwer",
-				"description": "Maak een mooie en functionele online promotiewebsite met de uKit-bouwer. Hij biedt een groot aantal responsieve, kant-en-klare themasjablonen en gratis meldingen van feedbackformulieren. Je kunt zelf een website samenstellen zonder dat je hiervoor beroep hoeft te doen op specialisten. ",
-				"og:description": "Maak een mooie en functionele online promotiewebsite met de uKit-bouwer. Hij biedt een groot aantal responsieve, kant-en-klare themasjablonen en gratis meldingen van feedbackformulieren. Je kunt zelf een website samenstellen zonder dat je hiervoor beroep hoeft te doen op specialisten. "
-			},
-			"customCode": {
-				"6172f61c090214973880705b": {
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/promotiewebsitebouwer/"
-					},
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link"
-				}
-			},
-			"id": "61c39897af1c3b0022f9687f",
-			"name": "Promotiewebsitebouwer"
-		},
 		"61b65db839d4b9001e8d1906": {
 			"pageUrl": "utworz-strone-internetowa-radcy-prawnego",
 			"seo": {
@@ -1307,28 +1021,6 @@ export default {
 			},
 			"id": "61b65db839d4b9001e8d1906",
 			"name": "Utwórz stronę internetową radcy prawnego"
-		},
-		"61c3044beb532f001e06c877": {
-			"name": "Creëer een website voor makelaars",
-			"pageUrl": "creeer-een-website-voor-makelaars",
-			"seo": {
-				"title": "Creëer een website voor makelaars — uKit. Website builder for business",
-				"og:title": "Creëer een website voor makelaars — uKit. Website builder for business",
-				"description": "Onbeperkte hosting en een onbeperkt aantal pagina's, kant-en-klare ontwerpen, gebruiksvriendelijke visuele editor, integratie met CRM, sms-berichten. Geen programmeervaardigheden vereist. U kunt uw eigen website in één keer maken.",
-				"og:description": "Onbeperkte hosting en een onbeperkt aantal pagina's, kant-en-klare ontwerpen, gebruiksvriendelijke visuele editor, integratie met CRM, sms-berichten. Geen programmeervaardigheden vereist. U kunt uw eigen website in één keer maken."
-			},
-			"customCode": {
-				"615d5350c3297f01fde1b758": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-makelaars/"
-					}
-				}
-			},
-			"id": "61c3044beb532f001e06c877"
 		},
 		"615d4fac35c5c8001f77562d": {
 			"id": "615d4fac35c5c8001f77562d",
@@ -1934,28 +1626,6 @@ export default {
 			"id": "61c1c521fac617001f34692f",
 			"name": "Cât costă să creați un website?"
 		},
-		"61c38c41526954001ed09b2e": {
-			"seo": {
-				"og:title": "Creëer een professionele website voor de gezondheidszorg — uKit. Website builder for business",
-				"description": "Wilt u meer voordeel halen uit uw privépraktijk? Creëer uw eigen website. Het maakt niet uit wat voor soort zorgverlener u bent - kinderarts, tandarts, dermatoloog, neuroloog of orthopeed. Met een beetje tijd en inzet kunt u uw eigen website voor zorgverleners maken met de uKit-bouwer",
-				"og:description": "Wilt u meer voordeel halen uit uw privépraktijk? Creëer uw eigen website. Het maakt niet uit wat voor soort zorgverlener u bent - kinderarts, tandarts, dermatoloog, neuroloog of orthopeed. Met een beetje tijd en inzet kunt u uw eigen website voor zorgverleners maken met de uKit-bouwer",
-				"title": "Creëer een professionele website voor de gezondheidszorg — uKit. Website builder for business"
-			},
-			"customCode": {
-				"617eba7e1dae00ee7c0ca860": {
-					"tag": "link",
-					"data": {
-						"href": "/lp/nl/creeer-een-professionele-website-voor-de-gezondheidszorg/",
-						"rel": "canonical"
-					},
-					"name": "canonical",
-					"place": "endOfHead"
-				}
-			},
-			"id": "61c38c41526954001ed09b2e",
-			"name": "Creëer een professionele website voor de gezondheidszorg",
-			"pageUrl": "creeer-een-professionele-website-voor-de-gezondheidszorg"
-		},
 		"61337d9c52477d001f630619": {
 			"id": "61337d9c52477d001f630619",
 			"pageUrl": "sozdat-sajt-agentstva-nedvizhimosti",
@@ -2046,50 +1716,6 @@ export default {
 			"id": "617a99e290c15f001ede5c9e",
 			"pageUrl": "creati-o-pagina-de-prezentare"
 		},
-		"61c368ab2ef8c7001f83b713": {
-			"id": "61c368ab2ef8c7001f83b713",
-			"name": "Creëer een website voor een schoonheidsstudio",
-			"pageUrl": "creeer-een-website-voor-een-schoonheidsstudio",
-			"seo": {
-				"title": "Creëer een website voor een schoonheidsstudio — uKit. Website builder for business",
-				"og:title": "Creëer een website voor een schoonheidsstudio — uKit. Website builder for business",
-				"description": "Maak zelf een mooie en gebruiksvriendelijke website. uKit heeft alles wat u nodig hebt voor dit en meer: een handige bouwer, kant-en-klare sjablonen, onbeperkte hosting, ingebouwde formulieren en meldingen, speciale SEO-tools",
-				"og:description": "Maak zelf een mooie en gebruiksvriendelijke website. uKit heeft alles wat u nodig hebt voor dit en meer: een handige bouwer, kant-en-klare sjablonen, onbeperkte hosting, ingebouwde formulieren en meldingen, speciale SEO-tools"
-			},
-			"customCode": {
-				"618a5613ac17c117460a630e": {
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-een-schoonheidsstudio/"
-					},
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link"
-				}
-			}
-		},
-		"61c3797a526954001ed099fc": {
-			"pageUrl": "creeer-een-website-voor-hotels",
-			"seo": {
-				"title": "Creëer een website voor hotels — uKit. Website builder for business",
-				"og:title": "Creëer een website voor hotels — uKit. Website builder for business",
-				"description": "U hoeft geen professionele ontwikkelaars in te huren om een site voor uw hotel te maken. Alles wat u nodig hebt is uKit - een online websitebouwer. Het heeft al onbeperkte hosting, kant-en-klare formulieren met gratis meldingen, en SEO tools",
-				"og:description": "U hoeft geen professionele ontwikkelaars in te huren om een site voor uw hotel te maken. Alles wat u nodig hebt is uKit - een online websitebouwer. Het heeft al onbeperkte hosting, kant-en-klare formulieren met gratis meldingen, en SEO tools"
-			},
-			"customCode": {
-				"61897d782873826dd66e6182": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-hotels/"
-					}
-				}
-			},
-			"id": "61c3797a526954001ed099fc",
-			"name": "Creëer een website voor hotels"
-		},
 		"61372655957019001e285d8f": {
 			"id": "61372655957019001e285d8f",
 			"pageUrl": "sozdat-sajt-yurista",
@@ -2179,28 +1805,6 @@ export default {
 			"id": "61b735f91805d0001e1daed7",
 			"name": "Utwórz portfolio deweloperskie",
 			"pageUrl": "utworz-portfolio-deweloperskie"
-		},
-		"61c30726526954001ed0901b": {
-			"pageUrl": "creeer-een-website-voor-vastgoedontwikkelaars",
-			"seo": {
-				"title": "Creëer een website voor vastgoedontwikkelaars — uKit. Website builder for business",
-				"og:title": "Creëer een website voor vastgoedontwikkelaars — uKit. Website builder for business",
-				"description": "Portfolioblokken van hoge kwaliteit, kant-en-klare sjablonen, prijslijstsecties, feedbackformulieren, sms-berichten en andere thematische ontwerpelementen.\nGeen programmeervaardigheden vereist. Zelf een site bouwen is snel en eenvoudig.",
-				"og:description": "Portfolioblokken van hoge kwaliteit, kant-en-klare sjablonen, prijslijstsecties, feedbackformulieren, sms-berichten en andere thematische ontwerpelementen.\nGeen programmeervaardigheden vereist. Zelf een site bouwen is snel en eenvoudig."
-			},
-			"customCode": {
-				"615c7608df089181a52fdb0a": {
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-vastgoedontwikkelaars/"
-					},
-					"name": "canonical"
-				}
-			},
-			"id": "61c30726526954001ed0901b",
-			"name": "Creëer een website voor vastgoedontwikkelaars"
 		},
 		"613dce481f4350001e459827": {
 			"id": "613dce481f4350001e459827",
@@ -2360,28 +1964,6 @@ export default {
 			},
 			"id": "61b89a162ef8c7001f836544",
 			"name": "Stwórz stronę internetową z kursami online"
-		},
-		"61c321e6d67aa7001e20eec1": {
-			"customCode": {
-				"6159e77568a321c9b0ac57c1": {
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-docenten/"
-					},
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link"
-				}
-			},
-			"id": "61c321e6d67aa7001e20eec1",
-			"name": "Creëer een website voor docenten",
-			"pageUrl": "creeer-een-website-voor-docenten",
-			"seo": {
-				"title": "Creëer een website voor docenten — uKit. Website builder for business",
-				"og:title": "Creëer een website voor docenten — uKit. Website builder for business",
-				"description": "U kunt zelf een portfoliosite maken in slechts één avond. Geen codering, volledige naleving van wettelijke voorschriften, gebruiksklare thematische sjablonen, intuïtieve interface, en onbeperkte hosting. Alle functies die u nodig hebt binnen handbereik.",
-				"og:description": "U kunt zelf een portfoliosite maken in slechts één avond. Geen codering, volledige naleving van wettelijke voorschriften, gebruiksklare thematische sjablonen, intuïtieve interface, en onbeperkte hosting. Alle functies die u nodig hebt binnen handbereik."
-			}
 		},
 		"613f156a466b8c001e9b0043": {
 			"id": "613f156a466b8c001e9b0043",
@@ -2605,28 +2187,6 @@ export default {
 			"id": "61b73a3557f261001eb8e29b",
 			"name": "Stwórz witrynę kawiarni lub restauracji"
 		},
-		"61c35905eb532f001e06d03c": {
-			"seo": {
-				"title": "Creëer een website voor een auto-reparatiebedrijf — uKit. Website builder for business",
-				"og:title": "Creëer een website voor een auto-reparatiebedrijf — uKit. Website builder for business",
-				"description": "In de uKit-websitebouwer, kunt u niet alleen een kwalitatief hoogwaardige site voor een auto-reparatiewerkplaats maken, maar deze ook promoten zonder enige web of SEO professionals. Snel, voordelig en effectief",
-				"og:description": "In de uKit-websitebouwer, kunt u niet alleen een kwalitatief hoogwaardige site voor een auto-reparatiewerkplaats maken, maar deze ook promoten zonder enige web of SEO professionals. Snel, voordelig en effectief"
-			},
-			"customCode": {
-				"617ed74ef97a2047fe807c68": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-een-auto-reparatiebedrijf/"
-					}
-				}
-			},
-			"id": "61c35905eb532f001e06d03c",
-			"name": "Creëer een website voor een auto-reparatiebedrijf",
-			"pageUrl": "creeer-een-website-voor-een-auto-reparatiebedrijf"
-		},
 		"611e3e5f17f5d1001e31a368": {
 			"pageUrl": "index",
 			"styles": {},
@@ -2795,28 +2355,6 @@ export default {
 				}
 			},
 			"id": "61b742713e6bba001ed232bb"
-		},
-		"61c456c09ff3b4001e2bcda6": {
-			"seo": {
-				"og:title": "Hoeveel kost het om een website te maken? — uKit. Website builder for business",
-				"description": "Maak zelf een website met uKit - vanaf $2.5/maand. Hiervoor heb je geen speciale kennis of vaardigheden nodig. Al het nodige om je site te bewerken en te promoten is reeds op het platform aanwezig! Bovendien ontvang je onbeperkte hosting. Wil je een kant-en-klare website maar heb je geen tijd om deze zelf te ontwerpen? Vanaf $100 kunnen wij dat voor je doen.",
-				"og:description": "Maak zelf een website met uKit - vanaf $2.5/maand. Hiervoor heb je geen speciale kennis of vaardigheden nodig. Al het nodige om je site te bewerken en te promoten is reeds op het platform aanwezig! Bovendien ontvang je onbeperkte hosting. Wil je een kant-en-klare website maar heb je geen tijd om deze zelf te ontwerpen? Vanaf $100 kunnen wij dat voor je doen.",
-				"title": "Hoeveel kost het om een website te maken? — uKit. Website builder for business"
-			},
-			"customCode": {
-				"619e9e36d6eb73a50d0f5c51": {
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/hoeveel-kost-het-om-een-website-te-maken/"
-					},
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link"
-				}
-			},
-			"id": "61c456c09ff3b4001e2bcda6",
-			"name": "Hoeveel kost het om een website te maken?",
-			"pageUrl": "hoeveel-kost-het-om-een-website-te-maken"
 		},
 		"615d8438790876002294d670": {
 			"customCode": {
@@ -3038,50 +2576,6 @@ export default {
 				}
 			}
 		},
-		"61c35ee4fac617001f347cea": {
-			"customCode": {
-				"617ef3d341516409870de2fa": {
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-kunstenaarsportfolio/"
-					},
-					"name": "canonical",
-					"place": "endOfHead"
-				}
-			},
-			"id": "61c35ee4fac617001f347cea",
-			"name": "Creëer een kunstenaarsportfolio",
-			"pageUrl": "creeer-een-kunstenaarsportfolio",
-			"seo": {
-				"title": "Creëer een kunstenaarsportfolio — uKit. Website builder for business",
-				"og:title": "Creëer een kunstenaarsportfolio — uKit. Website builder for business",
-				"description": "Met uKit kunt u een functionele portfolio met een modern ontwerp en een mobiele versie bouwen zonder te programmeren - alles wat u nodig hebt is een avond en uw verbeelding",
-				"og:description": "Met uKit kunt u een functionele portfolio met een modern ontwerp en een mobiele versie bouwen zonder te programmeren - alles wat u nodig hebt is een avond en uw verbeelding"
-			}
-		},
-		"61c3941cfac617001f34811a": {
-			"pageUrl": "portfoliobouwer",
-			"seo": {
-				"title": "uKit - Portfoliobouwer",
-				"og:title": "uKit - Portfoliobouwer",
-				"description": "Informeer potentiële klanten over jezelf en laat ze je beste werk zien op je website - gemaakt met uKit. Dankzij honderden themasjablonen, integraties en onbeperkte hosting kun je met een gerust hart je site lanceren. ",
-				"og:description": "Informeer potentiële klanten over jezelf en laat ze je beste werk zien op je website - gemaakt met uKit. Dankzij honderden themasjablonen, integraties en onbeperkte hosting kun je met een gerust hart je site lanceren. "
-			},
-			"customCode": {
-				"6176819f0a8d1dbdd2983598": {
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/portfoliobouwer/"
-					},
-					"name": "canonical"
-				}
-			},
-			"id": "61c3941cfac617001f34811a",
-			"name": "Portfoliobouwer"
-		},
 		"root": {
 			"id": "root",
 			"pageUrl": "root",
@@ -3090,6 +2584,7 @@ export default {
 				"611e3e5f17f5d1001e31a366",
 				"611e3e5f17f5d1001e31a368",
 				"6130a3ad52477d001f6301c0",
+				"61e8340e09ae430021b38621",
 				"613dce481f4350001e459827"
 			]
 		},
@@ -3136,72 +2631,6 @@ export default {
 				"description": "Stwórz piękną i funkcjonalną witrynę promocyjną online za pomocą kreatora uKit. Zapewnia dużą liczbę responsywnych gotowych szablonów tematycznych oraz bezpłatne powiadomienia z formularzy opinii. Możesz stworzyć witrynę samodzielnie, bez żadnych specjalistów ",
 				"og:description": "Stwórz piękną i funkcjonalną witrynę promocyjną online za pomocą kreatora uKit. Zapewnia dużą liczbę responsywnych gotowych szablonów tematycznych oraz bezpłatne powiadomienia z formularzy opinii. Możesz stworzyć witrynę samodzielnie, bez żadnych specjalistów "
 			}
-		},
-		"61c2f400f6137a001eb342cd": {
-			"pageUrl": "creeer-een-website-voor-uw-tandheelkundige-kliniek",
-			"seo": {
-				"title": "Creëer een website voor uw tandheelkundige kliniek — uKit. Website builder for business",
-				"og:title": "Creëer een website voor uw tandheelkundige kliniek — uKit. Website builder for business",
-				"description": "Geen developers, geen code. Creëer in een mum van tijd een mooie website met onze templates. Onbeperkte hosting en sitemeldingen.\nDankzij de intuïtieve functionaliteit zult u niet lang nodig hebben om alles te begrijpen.",
-				"og:description": "Geen developers, geen code. Creëer in een mum van tijd een mooie website met onze templates. Onbeperkte hosting en sitemeldingen.\nDankzij de intuïtieve functionaliteit zult u niet lang nodig hebben om alles te begrijpen."
-			},
-			"customCode": {
-				"61545a1ed6362bfde9364ffe": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-uw-tandheelkundige-kliniek/"
-					}
-				}
-			},
-			"id": "61c2f400f6137a001eb342cd",
-			"name": "Creëer een website voor uw tandheelkundige kliniek"
-		},
-		"61c39110eb532f001e06d441": {
-			"id": "61c39110eb532f001e06d441",
-			"name": "Webpaginabouwer",
-			"pageUrl": "webpaginabouwer",
-			"seo": {
-				"title": "uKit - Webpaginabouwer",
-				"og:title": "uKit - Webpaginabouwer",
-				"description": "Wil je snel een enkele webpagina maken zonder hiervoor externe specialisten in te schakelen? uKit kan je hierbij helpen! uKit beschikt over een uitgebreide bibliotheek van kant-en-klare sjablonen voor landingspagina's en promotiewebsites, alle nodige blocks en tools, én extra SEO-mogelijkheden. ",
-				"og:description": "Wil je snel een enkele webpagina maken zonder hiervoor externe specialisten in te schakelen? uKit kan je hierbij helpen! uKit beschikt over een uitgebreide bibliotheek van kant-en-klare sjablonen voor landingspagina's en promotiewebsites, alle nodige blocks en tools, én extra SEO-mogelijkheden. "
-			},
-			"customCode": {
-				"61728b2456c65c1a397047dd": {
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/webpaginabouwer/"
-					},
-					"name": "canonical"
-				}
-			}
-		},
-		"61c37d72fac617001f347f21": {
-			"pageUrl": "creeer-een-website-voor-een-cafe-of-restaurant",
-			"seo": {
-				"title": "Creëer een website voor een café- of restaurant — uKit. Website builder for business",
-				"og:title": "Creëer een website voor een café- of restaurant — uKit. Website builder for business",
-				"description": "Met uKit, kunt u zelf een professionele, goed uitziende, en functionele website voor een café of restaurant maken. Het wordt geleverd met onbeperkte hosting, gratis sms-berichten, en kant-en-klare SEO-tools",
-				"og:description": "Met uKit, kunt u zelf een professionele, goed uitziende, en functionele website voor een café of restaurant maken. Het wordt geleverd met onbeperkte hosting, gratis sms-berichten, en kant-en-klare SEO-tools"
-			},
-			"customCode": {
-				"618a4c41e658bd023e2315b2": {
-					"name": "canonical",
-					"place": "endOfHead",
-					"tag": "link",
-					"data": {
-						"rel": "canonical",
-						"href": "/lp/nl/creeer-een-website-voor-een-cafe-of-restaurant/"
-					}
-				}
-			},
-			"id": "61c37d72fac617001f347f21",
-			"name": "Creëer een website voor een café- of restaurant"
 		},
 		"614f4aba7f2b1f001fa0a026": {
 			"id": "614f4aba7f2b1f001fa0a026",
@@ -3313,6 +2742,72 @@ export default {
 			"id": "61b66a5757f261001eb8dacd",
 			"name": "Stwórz Stronę Studia Urody"
 		},
+		"61c2f400f6137a001eb342cd": {
+			"pageUrl": "creeer-een-website-voor-uw-tandheelkundige-kliniek",
+			"seo": {
+				"title": "Creëer een website voor uw tandheelkundige kliniek — uKit. Website builder for business",
+				"og:title": "Creëer een website voor uw tandheelkundige kliniek — uKit. Website builder for business",
+				"description": "Geen developers, geen code. Creëer in een mum van tijd een mooie website met onze templates. Onbeperkte hosting en sitemeldingen.\nDankzij de intuïtieve functionaliteit zult u niet lang nodig hebben om alles te begrijpen.",
+				"og:description": "Geen developers, geen code. Creëer in een mum van tijd een mooie website met onze templates. Onbeperkte hosting en sitemeldingen.\nDankzij de intuïtieve functionaliteit zult u niet lang nodig hebben om alles te begrijpen."
+			},
+			"customCode": {
+				"61545a1ed6362bfde9364ffe": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-uw-tandheelkundige-kliniek/"
+					}
+				}
+			},
+			"id": "61c2f400f6137a001eb342cd",
+			"name": "Creëer een website voor uw tandheelkundige kliniek"
+		},
+		"61c2f616af1c3b0022f95a0c": {
+			"pageUrl": "creeer-een-website-voor-uw-advocatenbureau",
+			"seo": {
+				"og:description": "Geen briefings, geen vervelende goedkeuringen, geen wachttijden - met uKit kunt u zelf een website maken zonder tussenpersonen. Gebruiksklare thematische sjablonen, onbeperkte hosting en sms-berichten.",
+				"title": "Creëer een website voor uw advocatenbureau — uKit. Website builder for business",
+				"og:title": "Creëer een website voor uw advocatenbureau — uKit. Website builder for business",
+				"description": "Geen briefings, geen vervelende goedkeuringen, geen wachttijden - met uKit kunt u zelf een website maken zonder tussenpersonen. Gebruiksklare thematische sjablonen, onbeperkte hosting en sms-berichten."
+			},
+			"customCode": {
+				"615b3f42fb549cd81aefa1fc": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/nl/creeer-een-website-voor-uw-advocatenbureau/",
+						"rel": "canonical"
+					}
+				}
+			},
+			"id": "61c2f616af1c3b0022f95a0c",
+			"name": "Creëer een website voor uw advocatenbureau"
+		},
+		"61c2fe86f6137a001eb343ce": {
+			"name": "Creëer een website voor juridische adviseurs",
+			"pageUrl": "creeer-een-website-voor-juridische-adviseurs",
+			"seo": {
+				"og:description": "U kunt zelf een mooie, aanpasbare en functionele website bouwen. Alles wat u hiervoor nodig heeft is uKit. U hoeft geen programmeur te zijn of over andere speciale vaardigheden te beschikken: het platform biedt kant-en-klare sjablonen, widgets en andere elementen, plus een handige online bouwer en een heleboel extra diensten.",
+				"title": "Creëer een website voor juridische adviseurs — uKit. Website builder for business",
+				"og:title": "Creëer een website voor juridische adviseurs — uKit. Website builder for business",
+				"description": "U kunt zelf een mooie, aanpasbare en functionele website bouwen. Alles wat u hiervoor nodig heeft is uKit. U hoeft geen programmeur te zijn of over andere speciale vaardigheden te beschikken: het platform biedt kant-en-klare sjablonen, widgets en andere elementen, plus een handige online bouwer en een heleboel extra diensten."
+			},
+			"customCode": {
+				"615c6a7964d240d94e4df747": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-juridische-adviseurs/"
+					}
+				}
+			},
+			"id": "61c2fe86f6137a001eb343ce"
+		},
 		"61c30094d67aa7001e20ec48": {
 			"seo": {
 				"title": "Creëer een promo-website voor uw bedrijf — uKit. Website builder for business",
@@ -3334,6 +2829,517 @@ export default {
 			"id": "61c30094d67aa7001e20ec48",
 			"name": "Creëer een promo-website voor uw bedrijf",
 			"pageUrl": "creeer-een-promo-website-voor-uw-bedrijf"
+		},
+		"61c3044beb532f001e06c877": {
+			"name": "Creëer een website voor makelaars",
+			"pageUrl": "creeer-een-website-voor-makelaars",
+			"seo": {
+				"title": "Creëer een website voor makelaars — uKit. Website builder for business",
+				"og:title": "Creëer een website voor makelaars — uKit. Website builder for business",
+				"description": "Onbeperkte hosting en een onbeperkt aantal pagina's, kant-en-klare ontwerpen, gebruiksvriendelijke visuele editor, integratie met CRM, sms-berichten. Geen programmeervaardigheden vereist. U kunt uw eigen website in één keer maken.",
+				"og:description": "Onbeperkte hosting en een onbeperkt aantal pagina's, kant-en-klare ontwerpen, gebruiksvriendelijke visuele editor, integratie met CRM, sms-berichten. Geen programmeervaardigheden vereist. U kunt uw eigen website in één keer maken."
+			},
+			"customCode": {
+				"615d5350c3297f01fde1b758": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-makelaars/"
+					}
+				}
+			},
+			"id": "61c3044beb532f001e06c877"
+		},
+		"61c30726526954001ed0901b": {
+			"pageUrl": "creeer-een-website-voor-vastgoedontwikkelaars",
+			"seo": {
+				"title": "Creëer een website voor vastgoedontwikkelaars — uKit. Website builder for business",
+				"og:title": "Creëer een website voor vastgoedontwikkelaars — uKit. Website builder for business",
+				"description": "Portfolioblokken van hoge kwaliteit, kant-en-klare sjablonen, prijslijstsecties, feedbackformulieren, sms-berichten en andere thematische ontwerpelementen.\nGeen programmeervaardigheden vereist. Zelf een site bouwen is snel en eenvoudig.",
+				"og:description": "Portfolioblokken van hoge kwaliteit, kant-en-klare sjablonen, prijslijstsecties, feedbackformulieren, sms-berichten en andere thematische ontwerpelementen.\nGeen programmeervaardigheden vereist. Zelf een site bouwen is snel en eenvoudig."
+			},
+			"customCode": {
+				"615c7608df089181a52fdb0a": {
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-vastgoedontwikkelaars/"
+					},
+					"name": "canonical"
+				}
+			},
+			"id": "61c30726526954001ed0901b",
+			"name": "Creëer een website voor vastgoedontwikkelaars"
+		},
+		"61c3155feb532f001e06ca2d": {
+			"pageUrl": "creeer-een-portfolio-voor-interieurontwerp",
+			"seo": {
+				"title": "Creëer een portfolio voor interieurontwerp — uKit. Website builder for business",
+				"og:title": "Creëer een portfolio voor interieurontwerp — uKit. Website builder for business",
+				"description": "Het is nog nooit zo makkelijk geweest, gebruik gewoon uKit. Onbeperkte hosting, kant-en-klare sjablonen, en een gebruiksvriendelijke editor. U kunt alles zelf doen zonder externe webspecialisten in te huren.",
+				"og:description": "Het is nog nooit zo makkelijk geweest, gebruik gewoon uKit. Onbeperkte hosting, kant-en-klare sjablonen, en een gebruiksvriendelijke editor. U kunt alles zelf doen zonder externe webspecialisten in te huren."
+			},
+			"customCode": {
+				"6159dd49eca9df435759a9f6": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/nl/creeer-een-portfolio-voor-interieurontwerp/",
+						"rel": "canonical"
+					}
+				}
+			},
+			"id": "61c3155feb532f001e06ca2d",
+			"name": "Creëer een portfolio voor interieurontwerp"
+		},
+		"61c321e6d67aa7001e20eec1": {
+			"customCode": {
+				"6159e77568a321c9b0ac57c1": {
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-docenten/"
+					},
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link"
+				}
+			},
+			"id": "61c321e6d67aa7001e20eec1",
+			"name": "Creëer een website voor docenten",
+			"pageUrl": "creeer-een-website-voor-docenten",
+			"seo": {
+				"title": "Creëer een website voor docenten — uKit. Website builder for business",
+				"og:title": "Creëer een website voor docenten — uKit. Website builder for business",
+				"description": "U kunt zelf een portfoliosite maken in slechts één avond. Geen codering, volledige naleving van wettelijke voorschriften, gebruiksklare thematische sjablonen, intuïtieve interface, en onbeperkte hosting. Alle functies die u nodig hebt binnen handbereik.",
+				"og:description": "U kunt zelf een portfoliosite maken in slechts één avond. Geen codering, volledige naleving van wettelijke voorschriften, gebruiksklare thematische sjablonen, intuïtieve interface, en onbeperkte hosting. Alle functies die u nodig hebt binnen handbereik."
+			}
+		},
+		"61c3255eaf1c3b0022f95d31": {
+			"name": "Creëer een website voor tutors",
+			"pageUrl": "creeer-een-website-voor-tutors",
+			"customCode": {
+				"615b1bf9e0da58b40567450a": {
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-tutors/"
+					},
+					"name": "canonical"
+				}
+			},
+			"seo": {
+				"title": "Creëer een website voor tutors — uKit. Website builder for business",
+				"description": "Gebruiksklare thematische ontwerpen, gratis HTTPS-protocollen, volledige set SEO-attributen, onbeperkte hosting, sms-berichten over verzoeken van uw site, en een gemakkelijk te navigeren visuele interface",
+				"og:title": "Creëer een website voor tutors — uKit. Website builder for business",
+				"og:description": "Gebruiksklare thematische ontwerpen, gratis HTTPS-protocollen, volledige set SEO-attributen, onbeperkte hosting, sms-berichten over verzoeken van uw site, en een gemakkelijk te navigeren visuele interface"
+			},
+			"id": "61c3255eaf1c3b0022f95d31"
+		},
+		"61c33586d67aa7001e20f38c": {
+			"pageUrl": "creeer-een-website-voor-online-cursussen",
+			"seo": {
+				"og:description": "Maak uw site met geïntegreerde online betaling - u heeft geen web profs nodig, u kunt het zelf doen. Een onbeperkt aantal pagina's en hosting, gratis sms-berichten",
+				"title": "Creëer een website voor online cursussen — uKit. Website builder for business",
+				"og:title": "Creëer een website voor online cursussen — uKit. Website builder for business",
+				"description": "Maak uw site met geïntegreerde online betaling - u heeft geen web profs nodig, u kunt het zelf doen. Een onbeperkt aantal pagina's en hosting, gratis sms-berichten"
+			},
+			"customCode": {
+				"6189577c5780a3b1ef1386aa": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-online-cursussen/"
+					}
+				}
+			},
+			"id": "61c33586d67aa7001e20f38c",
+			"name": "Creëer een website voor online cursussen"
+		},
+		"61c33d379ff3b4001e2bc39c": {
+			"pageUrl": "creeer-een-website-voor-onderwijsinstellingen",
+			"seo": {
+				"og:description": "De uKit websitebouwer is perfect voor vele taken, waaronder het bouwen van websites voor onderwijsinstellingen: kleuterscholen, scholen, voorbereidende scholen, beroepsscholen, hogescholen, online scholen, enz. Dit kunnen zowel commerciële als niet-commerciële instellingen zijn.",
+				"title": "Creëer een website voor onderwijsinstellingen — uKit. Website builder for business",
+				"og:title": "Creëer een website voor onderwijsinstellingen — uKit. Website builder for business",
+				"description": "De uKit websitebouwer is perfect voor vele taken, waaronder het bouwen van websites voor onderwijsinstellingen: kleuterscholen, scholen, voorbereidende scholen, beroepsscholen, hogescholen, online scholen, enz. Dit kunnen zowel commerciële als niet-commerciële instellingen zijn."
+			},
+			"customCode": {
+				"6159e1df2c3a9db666910452": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"href": "/lp/nl/creeer-een-website-voor-onderwijsinstellingen/",
+						"rel": "canonical"
+					}
+				}
+			},
+			"id": "61c33d379ff3b4001e2bc39c",
+			"name": "Creëer een website voor onderwijsinstellingen"
+		},
+		"61c354eafac617001f347b36": {
+			"id": "61c354eafac617001f347b36",
+			"name": "Hosting met een websitebouwer",
+			"pageUrl": "hosting-met-een-websitebouwer",
+			"seo": {
+				"og:description": "De meeste online sitebouwers en hostingdiensten beperken de serverresources die ze verbruiken. Maar uKit niet. Met uKit krijgt u onbeperkte hosting, netwerkverkeer, en een onbeperkt aantal pagina's op elk plan",
+				"title": "Hosting met een websitebouwer— uKit. Website builder for business",
+				"og:title": "Hosting met een websitebouwer — uKit. Website builder for business",
+				"description": "De meeste online sitebouwers en hostingdiensten beperken de serverresources die ze verbruiken. Maar uKit niet. Met uKit krijgt u onbeperkte hosting, netwerkverkeer, en een onbeperkt aantal pagina's op elk plan"
+			},
+			"customCode": {
+				"618949d47201cf80544b2a0f": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/hosting-met-een-websitebouwer/"
+					}
+				}
+			}
+		},
+		"61c35905eb532f001e06d03c": {
+			"seo": {
+				"title": "Creëer een website voor een auto-reparatiebedrijf — uKit. Website builder for business",
+				"og:title": "Creëer een website voor een auto-reparatiebedrijf — uKit. Website builder for business",
+				"description": "In de uKit-websitebouwer, kunt u niet alleen een kwalitatief hoogwaardige site voor een auto-reparatiewerkplaats maken, maar deze ook promoten zonder enige web of SEO professionals. Snel, voordelig en effectief",
+				"og:description": "In de uKit-websitebouwer, kunt u niet alleen een kwalitatief hoogwaardige site voor een auto-reparatiewerkplaats maken, maar deze ook promoten zonder enige web of SEO professionals. Snel, voordelig en effectief"
+			},
+			"customCode": {
+				"617ed74ef97a2047fe807c68": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-een-auto-reparatiebedrijf/"
+					}
+				}
+			},
+			"id": "61c35905eb532f001e06d03c",
+			"name": "Creëer een website voor een auto-reparatiebedrijf",
+			"pageUrl": "creeer-een-website-voor-een-auto-reparatiebedrijf"
+		},
+		"61c35ee4fac617001f347cea": {
+			"customCode": {
+				"617ef3d341516409870de2fa": {
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-kunstenaarsportfolio/"
+					},
+					"name": "canonical",
+					"place": "endOfHead"
+				}
+			},
+			"id": "61c35ee4fac617001f347cea",
+			"name": "Creëer een kunstenaarsportfolio",
+			"pageUrl": "creeer-een-kunstenaarsportfolio",
+			"seo": {
+				"title": "Creëer een kunstenaarsportfolio — uKit. Website builder for business",
+				"og:title": "Creëer een kunstenaarsportfolio — uKit. Website builder for business",
+				"description": "Met uKit kunt u een functionele portfolio met een modern ontwerp en een mobiele versie bouwen zonder te programmeren - alles wat u nodig hebt is een avond en uw verbeelding",
+				"og:description": "Met uKit kunt u een functionele portfolio met een modern ontwerp en een mobiele versie bouwen zonder te programmeren - alles wat u nodig hebt is een avond en uw verbeelding"
+			}
+		},
+		"61c364c39ff3b4001e2bc78c": {
+			"pageUrl": "creeer-een-website-voor-psychologen-of-psychotherapeuten",
+			"seo": {
+				"title": "Creëer een website voor psychologen of psychotherapeuten — uKit. Website builder for business",
+				"og:title": "Creëer een website voor psychologen of psychotherapeuten — uKit. Website builder for business",
+				"description": "Als u overweegt uw eigen site te maken, kies dan uKit, en u zult geen specialisten van derden hoeven in te huren. Het is snel en gemakkelijk te gebruiken: een gebruikersvriendelijke bouwer, kant-en-klare sjablonen, en onbeperkte hosting",
+				"og:description": "Als u overweegt uw eigen site te maken, kies dan uKit, en u zult geen specialisten van derden hoeven in te huren. Het is snel en gemakkelijk te gebruiken: een gebruikersvriendelijke bouwer, kant-en-klare sjablonen, en onbeperkte hosting"
+			},
+			"customCode": {
+				"618967ad06ff7e3a61cc6158": {
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-psychologen-of-psychotherapeuten/"
+					},
+					"name": "canonical",
+					"place": "endOfHead"
+				}
+			},
+			"id": "61c364c39ff3b4001e2bc78c",
+			"name": "Creëer een website voor psychologen of psychotherapeuten"
+		},
+		"61c368ab2ef8c7001f83b713": {
+			"id": "61c368ab2ef8c7001f83b713",
+			"name": "Creëer een website voor een schoonheidsstudio",
+			"pageUrl": "creeer-een-website-voor-een-schoonheidsstudio",
+			"seo": {
+				"title": "Creëer een website voor een schoonheidsstudio — uKit. Website builder for business",
+				"og:title": "Creëer een website voor een schoonheidsstudio — uKit. Website builder for business",
+				"description": "Maak zelf een mooie en gebruiksvriendelijke website. uKit heeft alles wat u nodig hebt voor dit en meer: een handige bouwer, kant-en-klare sjablonen, onbeperkte hosting, ingebouwde formulieren en meldingen, speciale SEO-tools",
+				"og:description": "Maak zelf een mooie en gebruiksvriendelijke website. uKit heeft alles wat u nodig hebt voor dit en meer: een handige bouwer, kant-en-klare sjablonen, onbeperkte hosting, ingebouwde formulieren en meldingen, speciale SEO-tools"
+			},
+			"customCode": {
+				"618a5613ac17c117460a630e": {
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-een-schoonheidsstudio/"
+					},
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link"
+				}
+			}
+		},
+		"61c3797a526954001ed099fc": {
+			"pageUrl": "creeer-een-website-voor-hotels",
+			"seo": {
+				"title": "Creëer een website voor hotels — uKit. Website builder for business",
+				"og:title": "Creëer een website voor hotels — uKit. Website builder for business",
+				"description": "U hoeft geen professionele ontwikkelaars in te huren om een site voor uw hotel te maken. Alles wat u nodig hebt is uKit - een online websitebouwer. Het heeft al onbeperkte hosting, kant-en-klare formulieren met gratis meldingen, en SEO tools",
+				"og:description": "U hoeft geen professionele ontwikkelaars in te huren om een site voor uw hotel te maken. Alles wat u nodig hebt is uKit - een online websitebouwer. Het heeft al onbeperkte hosting, kant-en-klare formulieren met gratis meldingen, en SEO tools"
+			},
+			"customCode": {
+				"61897d782873826dd66e6182": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-hotels/"
+					}
+				}
+			},
+			"id": "61c3797a526954001ed099fc",
+			"name": "Creëer een website voor hotels"
+		},
+		"61c37d72fac617001f347f21": {
+			"pageUrl": "creeer-een-website-voor-een-cafe-of-restaurant",
+			"seo": {
+				"title": "Creëer een website voor een café- of restaurant — uKit. Website builder for business",
+				"og:title": "Creëer een website voor een café- of restaurant — uKit. Website builder for business",
+				"description": "Met uKit, kunt u zelf een professionele, goed uitziende, en functionele website voor een café of restaurant maken. Het wordt geleverd met onbeperkte hosting, gratis sms-berichten, en kant-en-klare SEO-tools",
+				"og:description": "Met uKit, kunt u zelf een professionele, goed uitziende, en functionele website voor een café of restaurant maken. Het wordt geleverd met onbeperkte hosting, gratis sms-berichten, en kant-en-klare SEO-tools"
+			},
+			"customCode": {
+				"618a4c41e658bd023e2315b2": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-website-voor-een-cafe-of-restaurant/"
+					}
+				}
+			},
+			"id": "61c37d72fac617001f347f21",
+			"name": "Creëer een website voor een café- of restaurant"
+		},
+		"61c38307526954001ed09a95": {
+			"pageUrl": "websitebouwer-software",
+			"seo": {
+				"title": "Websitebouwer software — uKit. Website builder for business",
+				"og:title": "Websitebouwer software — uKit. Website builder for business",
+				"description": "De uKit bouwer is veel handiger en gebruiksvriendelijker dan de klassieke programma's voor het bouwen van websites. Je hoeft het niet op je PC te installeren of updates bij te houden. De editor werkt in elke moderne browser. Je maakt pagina's door standaardblocks erin te slepen. Er worden gratis onbeperkte hosting en een heleboel extra tools voor promotie aangeboden. Er zijn ook integraties met externe diensten zoals mailingsystemen, en ook sms-berichten over de formulieren.",
+				"og:description": "De uKit bouwer is veel handiger en gebruiksvriendelijker dan de klassieke programma's voor het bouwen van websites. Je hoeft het niet op je PC te installeren of updates bij te houden. De editor werkt in elke moderne browser. Je maakt pagina's door standaardblocks erin te slepen. Er worden gratis onbeperkte hosting en een heleboel extra tools voor promotie aangeboden. Er zijn ook integraties met externe diensten zoals mailingsystemen, en ook sms-berichten over de formulieren."
+			},
+			"customCode": {
+				"619eaf31ebfccf160983001e": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/websitebouwer-software/"
+					}
+				}
+			},
+			"id": "61c38307526954001ed09a95",
+			"name": "Websitebouwer software"
+		},
+		"61c388aed67aa7001e20f9f4": {
+			"pageUrl": "creeer-een-ontwikkelaarsportefeuille",
+			"seo": {
+				"og:description": "Geen tijd om te programmeren? Geen ontwerpideeën? Geen probleem - u kunt uw portfolio snel opbouwen met uKit: een rijke kant-en-klare sjabloonbibliotheek, een eenvoudige en handige visuele editor, en volledig onbeperkte hosting",
+				"title": "Creëer een ontwikkelaarsportefeuille — uKit. Website builder for business",
+				"og:title": "Creëer een ontwikkelaarsportefeuille — uKit. Website builder for business",
+				"description": "Geen tijd om te programmeren? Geen ontwerpideeën? Geen probleem - u kunt uw portfolio snel opbouwen met uKit: een rijke kant-en-klare sjabloonbibliotheek, een eenvoudige en handige visuele editor, en volledig onbeperkte hosting"
+			},
+			"customCode": {
+				"617ea5961822ad90071748f2": {
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-ontwikkelaarsportefeuille/"
+					}
+				}
+			},
+			"id": "61c388aed67aa7001e20f9f4",
+			"name": "Creëer een ontwikkelaarsportefeuille"
+		},
+		"61c38c41526954001ed09b2e": {
+			"seo": {
+				"og:title": "Creëer een professionele website voor de gezondheidszorg — uKit. Website builder for business",
+				"description": "Wilt u meer voordeel halen uit uw privépraktijk? Creëer uw eigen website. Het maakt niet uit wat voor soort zorgverlener u bent - kinderarts, tandarts, dermatoloog, neuroloog of orthopeed. Met een beetje tijd en inzet kunt u uw eigen website voor zorgverleners maken met de uKit-bouwer",
+				"og:description": "Wilt u meer voordeel halen uit uw privépraktijk? Creëer uw eigen website. Het maakt niet uit wat voor soort zorgverlener u bent - kinderarts, tandarts, dermatoloog, neuroloog of orthopeed. Met een beetje tijd en inzet kunt u uw eigen website voor zorgverleners maken met de uKit-bouwer",
+				"title": "Creëer een professionele website voor de gezondheidszorg — uKit. Website builder for business"
+			},
+			"customCode": {
+				"617eba7e1dae00ee7c0ca860": {
+					"tag": "link",
+					"data": {
+						"href": "/lp/nl/creeer-een-professionele-website-voor-de-gezondheidszorg/",
+						"rel": "canonical"
+					},
+					"name": "canonical",
+					"place": "endOfHead"
+				}
+			},
+			"id": "61c38c41526954001ed09b2e",
+			"name": "Creëer een professionele website voor de gezondheidszorg",
+			"pageUrl": "creeer-een-professionele-website-voor-de-gezondheidszorg"
+		},
+		"61c39110eb532f001e06d441": {
+			"id": "61c39110eb532f001e06d441",
+			"name": "Webpaginabouwer",
+			"pageUrl": "webpaginabouwer",
+			"seo": {
+				"title": "uKit - Webpaginabouwer",
+				"og:title": "uKit - Webpaginabouwer",
+				"description": "Wil je snel een enkele webpagina maken zonder hiervoor externe specialisten in te schakelen? uKit kan je hierbij helpen! uKit beschikt over een uitgebreide bibliotheek van kant-en-klare sjablonen voor landingspagina's en promotiewebsites, alle nodige blocks en tools, én extra SEO-mogelijkheden. ",
+				"og:description": "Wil je snel een enkele webpagina maken zonder hiervoor externe specialisten in te schakelen? uKit kan je hierbij helpen! uKit beschikt over een uitgebreide bibliotheek van kant-en-klare sjablonen voor landingspagina's en promotiewebsites, alle nodige blocks en tools, én extra SEO-mogelijkheden. "
+			},
+			"customCode": {
+				"61728b2456c65c1a397047dd": {
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/webpaginabouwer/"
+					},
+					"name": "canonical"
+				}
+			}
+		},
+		"61c3941cfac617001f34811a": {
+			"pageUrl": "portfoliobouwer",
+			"seo": {
+				"title": "uKit - Portfoliobouwer",
+				"og:title": "uKit - Portfoliobouwer",
+				"description": "Informeer potentiële klanten over jezelf en laat ze je beste werk zien op je website - gemaakt met uKit. Dankzij honderden themasjablonen, integraties en onbeperkte hosting kun je met een gerust hart je site lanceren. ",
+				"og:description": "Informeer potentiële klanten over jezelf en laat ze je beste werk zien op je website - gemaakt met uKit. Dankzij honderden themasjablonen, integraties en onbeperkte hosting kun je met een gerust hart je site lanceren. "
+			},
+			"customCode": {
+				"6176819f0a8d1dbdd2983598": {
+					"place": "endOfHead",
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/portfoliobouwer/"
+					},
+					"name": "canonical"
+				}
+			},
+			"id": "61c3941cfac617001f34811a",
+			"name": "Portfoliobouwer"
+		},
+		"61c39897af1c3b0022f9687f": {
+			"pageUrl": "promotiewebsitebouwer",
+			"seo": {
+				"title": "uKit - Promotiewebsitebouwer",
+				"og:title": "uKit - Promotiewebsitebouwer",
+				"description": "Maak een mooie en functionele online promotiewebsite met de uKit-bouwer. Hij biedt een groot aantal responsieve, kant-en-klare themasjablonen en gratis meldingen van feedbackformulieren. Je kunt zelf een website samenstellen zonder dat je hiervoor beroep hoeft te doen op specialisten. ",
+				"og:description": "Maak een mooie en functionele online promotiewebsite met de uKit-bouwer. Hij biedt een groot aantal responsieve, kant-en-klare themasjablonen en gratis meldingen van feedbackformulieren. Je kunt zelf een website samenstellen zonder dat je hiervoor beroep hoeft te doen op specialisten. "
+			},
+			"customCode": {
+				"6172f61c090214973880705b": {
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/promotiewebsitebouwer/"
+					},
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link"
+				}
+			},
+			"id": "61c39897af1c3b0022f9687f",
+			"name": "Promotiewebsitebouwer"
+		},
+		"61c39bb6fac617001f348265": {
+			"pageUrl": "bouwer-voor-landingspaginas",
+			"seo": {
+				"title": "uKit - Editor voor landingspagina's",
+				"og:title": "uKit - Editor voor landingspagina's",
+				"description": "Heb je een doeltreffende landingspagina nodig met online betaalmogelijkheden, inzameling van formulieren, of andere functies? Maar wil je liever geen geld uitgeven aan ontwikkelaars, designers, en andere specialisten? uKit is een uitstekend platform om websites en landingspagina's te maken. Een visuele, intuïtieve editor en SEO-tools voor promotie, en dat alles op één plaats. ",
+				"og:description": "Heb je een doeltreffende landingspagina nodig met online betaalmogelijkheden, inzameling van formulieren, of andere functies? Maar wil je liever geen geld uitgeven aan ontwikkelaars, designers, en andere specialisten? uKit is een uitstekend platform om websites en landingspagina's te maken. Een visuele, intuïtieve editor en SEO-tools voor promotie, en dat alles op één plaats. "
+			},
+			"customCode": {
+				"6175bd8c9a4614335db50adb": {
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/bouwer-voor-landingspaginas/"
+					},
+					"name": "canonical",
+					"place": "endOfHead"
+				}
+			},
+			"id": "61c39bb6fac617001f348265",
+			"name": "Bouwer voor landingspagina's"
+		},
+		"61c456c09ff3b4001e2bcda6": {
+			"seo": {
+				"og:title": "Hoeveel kost het om een website te maken? — uKit. Website builder for business",
+				"description": "Maak zelf een website met uKit - vanaf $2.5/maand. Hiervoor heb je geen speciale kennis of vaardigheden nodig. Al het nodige om je site te bewerken en te promoten is reeds op het platform aanwezig! Bovendien ontvang je onbeperkte hosting. Wil je een kant-en-klare website maar heb je geen tijd om deze zelf te ontwerpen? Vanaf $100 kunnen wij dat voor je doen.",
+				"og:description": "Maak zelf een website met uKit - vanaf $2.5/maand. Hiervoor heb je geen speciale kennis of vaardigheden nodig. Al het nodige om je site te bewerken en te promoten is reeds op het platform aanwezig! Bovendien ontvang je onbeperkte hosting. Wil je een kant-en-klare website maar heb je geen tijd om deze zelf te ontwerpen? Vanaf $100 kunnen wij dat voor je doen.",
+				"title": "Hoeveel kost het om een website te maken? — uKit. Website builder for business"
+			},
+			"customCode": {
+				"619e9e36d6eb73a50d0f5c51": {
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/hoeveel-kost-het-om-een-website-te-maken/"
+					},
+					"name": "canonical",
+					"place": "endOfHead",
+					"tag": "link"
+				}
+			},
+			"id": "61c456c09ff3b4001e2bcda6",
+			"name": "Hoeveel kost het om een website te maken?",
+			"pageUrl": "hoeveel-kost-het-om-een-website-te-maken"
+		},
+		"61c2ec81f6137a001eb34219": {
+			"seo": {
+				"og:title": "Creëer een landingspagina — uKit. Website builder for business",
+				"description": "Kant-en-klare templates, een breed scala aan thematische categorieën en ontwerpelementen, meldingen van formulieren, integraties, onbeperkte hosting.\nCreëer zelf een landingspagina in een paar uur",
+				"og:description": "Kant-en-klare templates, een breed scala aan thematische categorieën en ontwerpelementen, meldingen van formulieren, integraties, onbeperkte hosting.\nCreëer zelf een landingspagina in een paar uur",
+				"title": "Creëer een landingspagina — uKit. Website builder for business"
+			},
+			"customCode": {
+				"6153428713a22cefa64c1f19": {
+					"tag": "link",
+					"data": {
+						"rel": "canonical",
+						"href": "/lp/nl/creeer-een-landingspagina/"
+					},
+					"name": "canonical",
+					"place": "endOfHead"
+				}
+			},
+			"id": "61c2ec81f6137a001eb34219",
+			"name": "Creëer een landingspagina",
+			"pageUrl": "creeer-een-landingspagina"
+		},
+		"61e8340e09ae430021b38621": {
+			"id": "61e8340e09ae430021b38621",
+			"pageUrl": "pt-br",
+			"name": "pt-br"
 		}
 	},
 	"mode": "production",
