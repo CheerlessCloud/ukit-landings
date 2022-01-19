@@ -250,7 +250,13 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section padding="80px 0 183px 0" lg-padding="80px 0 100px 0" md-padding="40px 0 100px 0" sm-overflow-x="hidden">
+		<Section
+			padding="80px 0 183px 0"
+			lg-padding="80px 0 100px 0"
+			md-padding="40px 0 100px 0"
+			sm-overflow-x="hidden"
+			overflow-x="hidden"
+		>
 			<Override
 				slot="SectionContent"
 				max-width="1056px"
