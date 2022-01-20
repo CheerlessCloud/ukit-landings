@@ -869,7 +869,8 @@ export default {
 				"6151ac9c29a0a1001e6c8fb1",
 				"6169b4e117f5d1001e31fb3e",
 				"617bcff4790876002294f630",
-				"617bd0167514e1001f25eb39"
+				"617bd0167514e1001f25eb39",
+				"61e8340e09ae430021b38621"
 			],
 			"seo": {
 				"description": "uKit",
@@ -2584,7 +2585,6 @@ export default {
 				"611e3e5f17f5d1001e31a366",
 				"611e3e5f17f5d1001e31a368",
 				"6130a3ad52477d001f6301c0",
-				"61e8340e09ae430021b38621",
 				"613dce481f4350001e459827"
 			]
 		},
@@ -3339,7 +3339,13 @@ export default {
 		"61e8340e09ae430021b38621": {
 			"id": "61e8340e09ae430021b38621",
 			"pageUrl": "pt-br",
-			"name": "pt-br"
+			"name": "pt-br",
+			"seo": {
+				"title": "Ready-Made Solutions — uKit. Website builder for business",
+				"og:title": "Ready-Made Solutions — uKit. Website builder for business",
+				"description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting.",
+				"og:description": "Ready-made templates, a wide range of thematic categories and design elements, notifications from forms, integrations, unlimited hosting."
+			}
 		}
 	},
 	"mode": "production",
