@@ -1171,6 +1171,166 @@ const pageStyles = {
         "min-height": "",
         "width": ""
     },
+    "lp/pt-br/crie-uma-landing-page": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-sites-para-advogados": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-promocional-para-o-seu-negocio": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/software-para-a-criacao-de-sites": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/construtor-de-paginas-da-web": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/construtor-de-sites-promocionais": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/construtor-de-portfolio": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/construtor-de-landing-pages": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/quanto-custa-criar-um-site": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-seu-hotel": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-de-profissional-de-saude": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-portfolio-de-desenvolvedor": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-de-clinica-odontologica": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-seu-bar-ou-restaurante": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-sites-para-saloes-de-beleza": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-sites-para-professores": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-seu-site-de-consultor-juridico": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-psicologos-ou-psiquiatras-com-o-ukit": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-sua-empreiteira": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-sua-imobiliaria": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
     "experiments": {
         "font": "--headline1",
         "overflow-x": "hidden",
