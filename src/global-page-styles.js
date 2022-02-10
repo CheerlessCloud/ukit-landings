@@ -1331,6 +1331,62 @@ const pageStyles = {
         "min-height": "",
         "width": ""
     },
+    "lp/pt-br/crie-seu-site-de-coaching-ou-mentoria": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-sua-instituicao-de-ensino": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-seu-portfolio-de-design-de-interiores": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-portfolio-de-artista": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-sua-oficina-mecanica": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/crie-um-site-para-seu-curso-online": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
+    "lp/pt-br/hospedagem-com-construtor-de-sites": {
+        "font": "--headline1",
+        "overflow-x": "hidden",
+        "overflow-y": "visible",
+        "height": "",
+        "min-height": "",
+        "width": ""
+    },
     "experiments": {
         "font": "--headline1",
         "overflow-x": "hidden",
